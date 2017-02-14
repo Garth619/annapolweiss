@@ -23,6 +23,7 @@ body {
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+line-height: 1;
 }
 
 
@@ -35,14 +36,36 @@ header, section, nav, footer {
 
 
 $blue: #0c3f59;
+$bluedark: #17303f;
 $orange: #cf622d;
-$helvetica: "Helvetica Neue LT W01_77 Bd Cn";
+$greydark: #5e696b;
 
 
 /* Fonts */
 
 
 $butlermedium: 'Butler-Medium';
+$helvetica: "Helvetica Neue LT W01_77 Bd Cn";
+
+
+/* Buttons */
+
+.white_button {
+	background: #fff;
+	color:$orange;
+	font-family: $helvetica;
+	text-transform: uppercase;
+	font-size:20px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	padding:20px 40px;
+	display: inline-block;
+	transition: all .2s ease-in-out;
+	&:hover {
+		background: $orange;
+		color:#fff;
+	}
+}
 
 
 header {
@@ -52,7 +75,6 @@ header {
 		max-width:1800px;
 		margin:0 auto;
 		overflow: hidden;
-		
 	}
 }
 
@@ -76,7 +98,7 @@ header {
 			font-weight:300;
 			font-style: normal;
 			text-align: right;
-			padding-top:55px;
+			padding-top:42px;
 			ul {
 				list-style: none;
 				margin:0;
@@ -119,7 +141,7 @@ header {
 			background-size: cover;
 			width:100%;
 			
-			padding:130px 0;
+			padding:130px 0 130px;
 			.inner_main_content {
 				text-align:center;
 				a.play_button {
@@ -153,10 +175,120 @@ header {
 					font-family: $helvetica;
 					letter-spacing: 11px;
 					display: block;
-					margin-top:-5px;
+					line-height: 1;
+					margin-top:18px;
+					margin-bottom:43px;
+					
+					
 				}
 			}
 		}
 		
 		
-	
+		.mouse_scroll_wrapper {
+			text-align: center;
+			.mouse_inner_wrapper {
+				width:35px;
+				display: inline-block;
+				margin-top:175px;
+				position: relative;
+				img.outer {
+					width:35px;
+					position: absolute;
+					top:0;
+					left:0;
+				}
+				img.inner {
+					width:5px;
+					-webkit-animation: 2s ease 0s normal none infinite running myscroll;
+					-moz-animation: 2s ease 0s normal none infinite running myscroll;
+					animation: 2s ease 0s normal none infinite running myscroll;
+					margin-top:3px;
+				}
+			}
+		}
+		
+		
+		
+		
+@-webkit-keyframes myscroll {
+  0% {opacity: 0;}
+	50% {opacity: 1;}
+	100% {opacity: 0;transform: translateY(10px);}
+}
+@-moz-keyframes myscroll {
+  0% {opacity: 0;}
+	50% {opacity: 1;}
+	100% {opacity: 0;transform: translateY(10px);}
+}
+@keyframes myscroll {
+  0% {opacity: 0;}
+	50% {opacity: 1;}
+	100% {opacity: 0;transform: translateY(10px);}
+}
+
+
+/* Stats */
+
+
+.stats {
+	.inner_stats {
+		.single_stat {
+			position: relative;
+			width:25%;
+			height:430px;
+			padding:0px 0;
+			.svg_icon {
+				position: absolute;
+				top:0;
+				left:0;
+				width:100%;
+				height:100%;
+				img {
+					width:100%;
+					height:100%;
+				}
+			}
+			.stats_content {
+				position: relative;
+				z-index:5px;
+				text-align: center;
+				margin-top:115px;
+				span.number {
+					color:$bluedark;
+					font-size:25px;
+					font-family: $butlermedium; 
+					font-size:170px;
+					display: block;
+					line-height: 1;
+				}
+				span.orange_line {
+					width:45px;
+					height:2px;
+					background:$orange;
+					display: block;
+					margin:5px auto 0;
+				}
+				span.sub_header {
+					font-size:16.65px;
+					font-family: $helvetica;
+					color:$greydark;
+					text-transform: uppercase;
+					letter-spacing: 0.8px;
+					display: block;
+					margin:40px 0 0;
+				}
+				span.large_header {
+					color:$orange;
+					font-size:35px;
+					line-height: 34px;
+					display: block;
+					margin-top:13px;
+				}
+			}
+		}
+	}
+}
+
+		
+		
