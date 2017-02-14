@@ -18,16 +18,17 @@ function my_jquery_enqueue() {
 -------------------------------------------------------------- */
 
 
-add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
- 
+
  function load_my_styles_scripts() {
      // Load my stylesheet
-     wp_enqueue_style( 'custom-styles', get_stylesheet_uri(), '', 1, ‘all’ ); 
+     wp_enqueue_style( 'styles', get_stylesheet_uri(), '', 1, 'all' ); 
 
      // Load my javascripts
      wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom.js',
      array('jquery'), '', true );
  }
+ 
+ add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
 
 
 

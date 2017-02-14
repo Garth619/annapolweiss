@@ -21,6 +21,12 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/anapol.sql.gz": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/anapol.sql.gz",
+		"oF": 0
+		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -4499,11 +4505,450 @@
 		"oAP": "\/wp-content\/themes\/anapolweiss\/header.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/anapolweiss\/images\/about_logo_1.png": {
+		"ft": 32768,
+		"iS": 30585,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/about_logo_1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/about_logo_2.png": {
+		"ft": 32768,
+		"iS": 17330,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/about_logo_2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/about_logo_3.png": {
+		"ft": 32768,
+		"iS": 30263,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/about_logo_3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/about_logo_4.png": {
+		"ft": 32768,
+		"iS": 42602,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/about_logo_4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/blog_waves_1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/blog_waves_1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/blog_white_arrow.png": {
+		"ft": 32768,
+		"iS": 1709,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/blog_white_arrow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/content_img_1.jpg": {
+		"ft": 16384,
+		"iS": 551089,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/content_img_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/content_left_arrow.png": {
+		"ft": 32768,
+		"iS": 1260,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/content_left_arrow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/content_right_arrow.png": {
+		"ft": 32768,
+		"iS": 1200,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/content_right_arrow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/content_slide_1.jpg": {
+		"ft": 16384,
+		"iS": 267196,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/content_slide_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/content_slide_2.jpg": {
+		"ft": 16384,
+		"iS": 251933,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/content_slide_2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/content_slide_3.jpg": {
+		"ft": 16384,
+		"iS": 260971,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/content_slide_3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/content_slide_4.jpg": {
+		"ft": 16384,
+		"iS": 255013,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/content_slide_4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/content_slide_5.jpg": {
+		"ft": 16384,
+		"iS": 201124,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/content_slide_5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/content_slide_6.jpg": {
+		"ft": 16384,
+		"iS": 248581,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/content_slide_6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/content_waves_1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/content_waves_1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/foundation_header.jpg": {
+		"ft": 16384,
+		"iS": 675686,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/foundation_header.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/foundation_slide_1.jpg": {
+		"ft": 16384,
+		"iS": 171326,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/foundation_slide_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/foundation_slide_2.jpg": {
+		"ft": 16384,
+		"iS": 156598,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/foundation_slide_2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/header_down_arrow_blue.png": {
+		"ft": 32768,
+		"iS": 1166,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/header_down_arrow_blue.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/header_down_arrow_orange.png": {
+		"ft": 32768,
+		"iS": 1166,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/header_down_arrow_orange.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/header_logo.png": {
+		"ft": 32768,
+		"iS": 3780,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/header_logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/header_scroll.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/header_scroll.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/ilawyer_logo.png": {
+		"ft": 32768,
+		"iS": 2607,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/ilawyer_logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/internal_header_img.jpg": {
+		"ft": 16384,
+		"iS": 408731,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/internal_header_img.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/main-banner.jpg": {
+		"ft": 16384,
+		"iS": 283085,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/main-banner.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/mobile_header_bg.jpg": {
+		"ft": 16384,
+		"iS": 101143,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/mobile_header_bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/mobile_header_logo.png": {
+		"ft": 32768,
+		"iS": 3332,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/mobile_header_logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/mobile_test_bg.jpg": {
+		"ft": 16384,
+		"iS": 383736,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/mobile_test_bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/mobile_video_play_button.png": {
+		"ft": 32768,
+		"iS": 13076,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/mobile_video_play_button.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/mobile_video_play_button_hover.png": {
+		"ft": 32768,
+		"iS": 13760,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/mobile_video_play_button_hover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/profile_lt_gray_arrow.png": {
+		"ft": 32768,
+		"iS": 1177,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/profile_lt_gray_arrow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/profile_lt_orange_arrow.png": {
+		"ft": 32768,
+		"iS": 1159,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/profile_lt_orange_arrow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/profile_rt_gray_arrow.png": {
+		"ft": 32768,
+		"iS": 1131,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/profile_rt_gray_arrow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/profile_rt_orange_arrow.png": {
+		"ft": 32768,
+		"iS": 1130,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/profile_rt_orange_arrow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/profile_tom.jpg": {
+		"ft": 16384,
+		"iS": 281709,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/profile_tom.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/results_ahp.jpg": {
+		"ft": 16384,
+		"iS": 7238,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/results_ahp.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/results_gm.jpg": {
+		"ft": 16384,
+		"iS": 7269,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/results_gm.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/results_merck.jpg": {
+		"ft": 16384,
+		"iS": 8544,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/results_merck.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/results_orange_arrow.png": {
+		"ft": 32768,
+		"iS": 1206,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/results_orange_arrow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/results_pfizer.jpg": {
+		"ft": 16384,
+		"iS": 15429,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/results_pfizer.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/results_stryker.jpg": {
+		"ft": 16384,
+		"iS": 6011,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/results_stryker.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/results_vw.jpg": {
+		"ft": 16384,
+		"iS": 15688,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/results_vw.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/sp_icon_1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/sp_icon_1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/sp_icon_2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/sp_icon_2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/sp_icon_3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/sp_icon_3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/sp_icon_4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/sp_icon_4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/tablet_header_bg.jpg": {
+		"ft": 16384,
+		"iS": 375484,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/tablet_header_bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/test_bg.jpg": {
+		"ft": 16384,
+		"iS": 756947,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/test_bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/test_logo.png": {
+		"ft": 32768,
+		"iS": 7546,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/test_logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/video_play_button.png": {
+		"ft": 32768,
+		"iS": 14518,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/video_play_button.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/video_play_button_hover.png": {
+		"ft": 32768,
+		"iS": 15370,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/video_play_button_hover.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/themes\/anapolweiss\/index.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/index.php",
 		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/js\/custom-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/js\/min\/custom-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/wp-content\/themes\/anapolweiss\/js\/custom.js": {
 		"ft": 64,

@@ -43,5 +43,39 @@
 <body <?php body_class(); ?>>
 	
 	
-	<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+	
+	<header>
+		
+		<div class="inner_header">
+			
+			<div class="logo_wrapper">
+				
+				<a href="<?php bloginfo('url');?>">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/header_logo.png"/>
+				
+				</a>
+				
+			</div><!-- logo_wrapper -->
+			
+			<nav class="desktop">
+				
+				
+				
+				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+				
+				
+				
+			
+			
+			</nav>
+			
+		
+			
+		</div><!-- inner_header -->
+		
+	</header>
+	
+	
+	
 			
