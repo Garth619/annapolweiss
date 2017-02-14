@@ -108,8 +108,9 @@ get_header(); ?>
 				
 				<span class="orange_line"></span><!-- orange_line -->
 				
-				<span class="sub_header">Tier 1 Ranking in</span><!-- sub_header -->
-				<span class="large_header">best law firms</span><!-- large_header -->
+				<span class="sub_header">Attorneys Voted</span><!-- sub_header -->
+				<span class="large_header">“philadelphia lawyer<br/>of the year”</span><!-- large_header -->
+				<span class="additional_header">by best lawyers</span>
 			
 			</div><!-- stats_content -->
 			
@@ -126,12 +127,12 @@ get_header(); ?>
 			
 			<div class="stats_content">
 				
-				<span class="number">40+</span><!-- number -->
+				<span class="number">40<span class="plus">+</span></span><!-- number -->
 				
 				<span class="orange_line"></span><!-- orange_line -->
 				
-				<span class="sub_header">Tier 1 Ranking in</span><!-- sub_header -->
-				<span class="large_header">best law firms</span><!-- large_header -->
+				<span class="sub_header">years of</span><!-- sub_header -->
+				<span class="large_header">experience</span><!-- large_header -->
 			
 			</div><!-- stats_content -->
 			

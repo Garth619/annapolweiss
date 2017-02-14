@@ -46,6 +46,7 @@ $greydark: #5e696b;
 
 $butlermedium: 'Butler-Medium';
 $helvetica: "Helvetica Neue LT W01_77 Bd Cn";
+$butler: 'Butler';
 
 
 /* Buttons */
@@ -261,6 +262,19 @@ header {
 					}
 				}
 			}
+			&:nth-of-type(4) {
+				.svg_icon {
+					img {
+						margin-top:170px;
+						max-width:195px;
+					}
+				}
+				.stats_content {
+					span.number {
+						margin-right:-40px;
+					}
+				}
+			}
 			.svg_icon {
 				position: absolute;
 				top:0;
@@ -282,6 +296,7 @@ header {
 				z-index:5px;
 				text-align: center;
 				margin-top:115px;
+				
 				span.number {
 					color:$bluedark;
 					font-size:25px;
@@ -289,6 +304,14 @@ header {
 					font-size:170px;
 					display: block;
 					line-height: 1;
+					position: relative;
+					span.plus {
+						font-size:76px;
+						font-family: $butler;
+						position: relative;
+						left:-22px;
+						top:-65px;
+					}
 				}
 				span.orange_line {
 					width:45px;
@@ -312,6 +335,16 @@ header {
 					line-height: 34px;
 					display: block;
 					margin-top:13px;
+					
+				}
+				span.additional_header {
+					font-size:16.65px;
+					font-family: $helvetica;
+					color:$greydark;
+					text-transform: uppercase;
+					letter-spacing: 0.8px;
+					display: block;
+					margin:13px 0 0;
 				}
 			}
 		}
