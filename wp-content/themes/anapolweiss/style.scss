@@ -233,21 +233,49 @@ header {
 
 .stats {
 	.inner_stats {
+		overflow: hidden;
 		.single_stat {
 			position: relative;
 			width:25%;
-			height:430px;
+			height:530px;
 			padding:0px 0;
+			float:left;
+			&:first-of-type {
+				.svg_icon {
+					img {
+						margin-top:150px;
+					}
+				}
+			}
+			&:nth-of-type(2) {
+				.svg_icon {
+					img {
+						margin-top:180px;
+					}
+				}
+			}
+			&:nth-of-type(3) {
+				.svg_icon {
+					img {
+						margin-top:130px;
+					}
+				}
+			}
 			.svg_icon {
 				position: absolute;
 				top:0;
 				left:0;
 				width:100%;
 				height:100%;
+				text-align: center;
 				img {
 					width:100%;
-					height:100%;
+					max-width:275px;
+					height:auto;
+					display: inline-block;
+					
 				}
+				
 			}
 			.stats_content {
 				position: relative;

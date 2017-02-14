@@ -71,6 +71,72 @@ get_header(); ?>
 			
 		</div><!-- single_stat -->
 		
+		
+		<div class="single_stat">
+			
+			<div class="svg_icon">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/sp_icon_2.svg"/>
+				
+			</div><!-- svg_icon -->
+			
+			<div class="stats_content">
+				
+				<span class="number">6</span><!-- number -->
+				
+				<span class="orange_line"></span><!-- orange_line -->
+				
+				<span class="sub_header">Attorneys Named In</span><!-- sub_header -->
+				<span class="large_header">the best lawyers<br/>in america</span><!-- large_header -->
+			
+			</div><!-- stats_content -->
+			
+		</div><!-- single_stat -->
+		
+		
+		<div class="single_stat">
+			
+			<div class="svg_icon">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/sp_icon_3.svg"/>
+				
+			</div><!-- svg_icon -->
+			
+			<div class="stats_content">
+				
+				<span class="number">3</span><!-- number -->
+				
+				<span class="orange_line"></span><!-- orange_line -->
+				
+				<span class="sub_header">Tier 1 Ranking in</span><!-- sub_header -->
+				<span class="large_header">best law firms</span><!-- large_header -->
+			
+			</div><!-- stats_content -->
+			
+		</div><!-- single_stat -->
+		
+		
+		<div class="single_stat">
+			
+			<div class="svg_icon">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/sp_icon_4.svg"/>
+				
+			</div><!-- svg_icon -->
+			
+			<div class="stats_content">
+				
+				<span class="number">40+</span><!-- number -->
+				
+				<span class="orange_line"></span><!-- orange_line -->
+				
+				<span class="sub_header">Tier 1 Ranking in</span><!-- sub_header -->
+				<span class="large_header">best law firms</span><!-- large_header -->
+			
+			</div><!-- stats_content -->
+			
+		</div><!-- single_stat -->
+		
 	</div><!-- inner_stats -->
 	
 </section><!-- stats -->
