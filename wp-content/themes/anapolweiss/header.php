@@ -37,6 +37,8 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory');?>/fonts/butler-and-newscycle/stylesheet.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory');?>/fonts/helvetica/demo.css" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/js/slick/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/js/slick/slick/slick-theme.css"/>
 <?php wp_head(); ?>
 </head>
 

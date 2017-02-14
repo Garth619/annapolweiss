@@ -234,13 +234,13 @@ header {
 
 .stats {
 	.inner_stats {
-		overflow: hidden;
+		
 		.single_stat {
 			position: relative;
-			width:25%;
-			height:530px;
+// 			width:25%;
+			height:550px;
 			padding:0px 0;
-			float:left;
+			
 			&:first-of-type {
 				.svg_icon {
 					img {

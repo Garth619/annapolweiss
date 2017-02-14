@@ -25,6 +25,52 @@ jQuery('.play_button').mouseleave(function(){
 
 
 
+// Stats
+
+jQuery('.inner_stats').slick({
+  	slidesToShow: 4,
+		slidesToScroll: 4,
+		arrows:false,
+		dots:false //,
+		
+	
+		
+		
+/*
+		responsive: [
+    {
+      breakpoint: 1600,
+      settings: {
+        infinite: true,
+				slidesToShow: 2,
+				slidesToScroll: 2,
+				pauseOnHover: false,
+				arrows:false,
+				dots:true,
+				vertical:false,
+      }
+    },
+    {
+      breakpoint: 1145,
+      settings: {
+        infinite: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				pauseOnHover: false,
+				arrows:false,
+				dots:true,
+				vertical:false,
+      }
+    }
+    
+  ]
+*/
+});
+
+
+
+
+
 
 }); // document ready 
 
