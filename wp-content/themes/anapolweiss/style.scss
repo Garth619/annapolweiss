@@ -42,14 +42,15 @@ $greylight: #f0f1f2;
 $butlermedium: 'Butler-Medium';
 $helvetica: "Helvetica Neue LT W01_77 Bd Cn";
 $butler: 'Butler';
+$newscycle: 'NewsCycle';
 
 
 body {
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
-line-height: 1;
-color:$bluedark;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+	line-height: 1;
+	color:$bluedark;
 }
 
 
@@ -73,6 +74,19 @@ header, section, nav, footer {
 	&:hover {
 		background: $orange;
 		color:#fff;
+	}
+}
+
+
+/* Content */
+
+
+.content {
+	font-family: $newscycle;
+	font-size:18px;
+	line-height: 29px;
+	p, ul {
+		margin-bottom:40px;
 	}
 }
 
@@ -372,17 +386,25 @@ header {
 	background: $greylight;
 	padding:160px 0;
 	.about_inner {
-		overflow: hidden;
+// 		overflow: hidden;
+		display: flex;
 		.about_left {
-			width:48%;
-			float:left;
+			width: 100%;
+			
+			max-width:912px;
 			.about_title {
+				padding-right:2%;
+				position: relative;
+				width:100%;
+				overflow: hidden;
 				h1 {
 					font-family: $butler;
 					font-size:81px;
 					line-height: 87px;
 					font-style: normal;
 					font-weight: 300;
+					width: 715px;
+					float: right;
 					span.h1first, span.h1middle, span.h1end {
 						display: block;
 					}
@@ -390,17 +412,42 @@ header {
 						
 					}
 					span.h1middle {
-						margin-left:200px;
+						margin-left:170px;
+						background: $greylight;
+						position: relative;
+						z-index:5;
+						padding-left:30px;
 					}
 					span.h1end {
 						margin-left:120px;
 					}
 				}
+				span.header_line {
+					display:block;
+					width:80%;
+					height:2px;
+					background: $orange;
+					position:absolute;
+					top:130px;
+					left:0;
+				}
+			}
+			img.content_img {
+				margin-top:227px;
+				max-width: 100%;
+				height:auto;
 			}
 		}
 		.about_right {
 			width:48%;
-			float:right;
+			flex-grow:1;
+			padding-left:7%;
+			padding-right:80px;
+			height:1000px;
+			margin-top:100px;
+			.content {
+				font-size:17px;
+			}
 		}
 	}
 }

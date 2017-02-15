@@ -151,15 +151,35 @@ get_header(); ?>
 			<div class="about_title">
 				
 				<h1>
-					<span class="orange h1first">Philadephia’s</span>
-					<span class="h1middle">personal injury</span>
-					<span class="h1end">law firm</span>
+					<span class="orange h1first">Philadephia’s</span><!-- h1first -->
+					
+					<span class="h1middle">personal injury</span><!-- h1middle -->
+					
+					<span class="h1end">law firm</span><!-- h1end -->
 				</h1>
+				
+				<span class="header_line"></span><!-- header_line -->
 			
 			</div><!-- about_title -->
 			
+			<img class="content_img" src="<?php bloginfo('template_directory');?>/images/content_img_1.jpg"/>
+			
 		</div><!-- about_left -->
-		<div class="about_right"></div><!-- about_right -->
+		<div class="about_right">
+			
+			
+			<div class="content">
+				
+				<p>Since our founding in 1977, the attorneys at Anapol Weiss have become leaders in personal injury, product liability and mass tort litigation. We have successfully represented thousands of clients who were harmed as a result of someone else’s carelessness. We are proud to serve as victims’ voices in the courtroom. In addition to the firm’s leadership roles and legal successes, we have established and support numerous organizations that help people in need and make a positive difference in the lives of others.</p>
+
+				<p>Cras venenatis, massa et imperdiet ultrices, ante nisl imperdiet magna, nec mollis ante nisl vitae eros. Curabitur consequat facilisis lectus a consequat. Aliquam erat volutpat. Sed est lacus, egestas a risus posuere, pharetra elementum risus. Maecenas ullamcorper tortor ac eros adipiscing, ac commodo purus varius. Curabitur placerat nec leo quis porta. Nam pharetra, dui semper imperdiet dictum, ipsum augue auctor nibh, vel porta velit diam eget neque. Nullam fermentum mauris eu massa iaculis, et gravida dolor tincidunt. Duis et pellentesque augue, quis porttitor ligula. Nunc sit amet sem in dolor euismod rutrum.</p>
+				
+				<div class="quote_wrapper"></div><!-- quote_wrapper -->
+				
+			</div><!-- content -->
+			
+			
+		</div><!-- about_right -->
 	
 	</div><!-- about_inner -->
 	
