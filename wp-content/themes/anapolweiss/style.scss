@@ -384,13 +384,13 @@ header {
 
 .about {
 	background: $greylight;
-	padding:160px 0;
+	padding:160px 0 0;
 	.about_inner {
 // 		overflow: hidden;
 		display: flex;
 		.about_left {
 			width: 100%;
-			
+			position: relative;
 			max-width:912px;
 			.about_title {
 				padding-right:2%;
@@ -433,24 +433,69 @@ header {
 				}
 			}
 			img.content_img {
-				margin-top:227px;
+				 top: 485px;
 				max-width: 100%;
 				height:auto;
+				display: block;
+				position: absolute;
+				z-index:5;
 			}
 		}
 		.about_right {
 			width:48%;
 			flex-grow:1;
-			padding-left:7%;
+			padding-left:7.5%;
 			padding-right:80px;
-			height:1000px;
-			margin-top:100px;
+			padding-bottom:210px;
+			margin-top:90px;
 			.content {
 				font-size:17px;
+				.quote_wrapper {
+					padding:0px 0 10px 0;
+					margin-bottom:40px;
+					position: relative;
+					.greyline {
+						position: absolute;
+						top:0;
+						left:0;
+						width:1px;
+						height:100%;
+						background: $bluedark;
+					}
+					span {
+						font-family: $butler;
+						color:$orange;
+						font-size:25px;
+						line-height: 33px;
+						padding:0px 0px 20px 55px;
+						display: block;
+					}
+					.horizontal_greyline {
+						width:35px;
+						height:1px;
+						background: $bluedark;
+						margin-left:55px;
+						margin-bottom:5px;
+					}
+				}
 			}
 		}
 	}
 }
+
+
+
+.wavy {
+	width:100%;
+	position: relative;
+top: -150px
+}
+
+.featured_cases {
+	background: #fff;
+// 	margin-top:-150px;
+}
+
 
 		
 		

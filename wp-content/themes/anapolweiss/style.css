@@ -280,13 +280,14 @@ a.tel {
 /* About */
 .about {
   background: #f0f1f2;
-  padding: 160px 0; }
+  padding: 160px 0 0; }
   .about .about_inner {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
     .about .about_inner .about_left {
       width: 100%;
+      position: relative;
       max-width: 912px; }
       .about .about_inner .about_left .about_title {
         padding-right: 2%;
@@ -320,18 +321,53 @@ a.tel {
           top: 130px;
           left: 0; }
       .about .about_inner .about_left img.content_img {
-        margin-top: 227px;
+        top: 485px;
         max-width: 100%;
-        height: auto; }
+        height: auto;
+        display: block;
+        position: absolute;
+        z-index: 5; }
     .about .about_inner .about_right {
       width: 48%;
       -webkit-box-flex: 1;
           -ms-flex-positive: 1;
               flex-grow: 1;
-      padding-left: 7%;
+      padding-left: 7.5%;
       padding-right: 80px;
-      height: 1000px;
-      margin-top: 100px; }
+      padding-bottom: 210px;
+      margin-top: 90px; }
       .about .about_inner .about_right .content {
         font-size: 17px; }
+        .about .about_inner .about_right .content .quote_wrapper {
+          padding: 0px 0 10px 0;
+          margin-bottom: 40px;
+          position: relative; }
+          .about .about_inner .about_right .content .quote_wrapper .greyline {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1px;
+            height: 100%;
+            background: #17303f; }
+          .about .about_inner .about_right .content .quote_wrapper span {
+            font-family: "Butler";
+            color: #cf622d;
+            font-size: 25px;
+            line-height: 33px;
+            padding: 0px 0px 20px 55px;
+            display: block; }
+          .about .about_inner .about_right .content .quote_wrapper .horizontal_greyline {
+            width: 35px;
+            height: 1px;
+            background: #17303f;
+            margin-left: 55px;
+            margin-bottom: 5px; }
+
+.wavy {
+  width: 100%;
+  position: relative;
+  top: -150px; }
+
+.featured_cases {
+  background: #fff; }
 /*# sourceMappingURL=style.css.map */
