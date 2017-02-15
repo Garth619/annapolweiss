@@ -19,17 +19,7 @@ textarea, input, button {outline: none;}
 html {-webkit-text-size-adjust: 100%;} 
 
 
-body {
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
-line-height: 1;
-}
 
-
-header, section, nav, footer {
-	display: block;
-}
 
 
 /* Colors */
@@ -39,7 +29,12 @@ $blue: #0c3f59;
 $bluedark: #17303f;
 $orange: #cf622d;
 $greydark: #5e696b;
+$greylight: #f0f1f2;
 
+
+.orange {
+	color:$orange;
+}
 
 /* Fonts */
 
@@ -48,6 +43,19 @@ $butlermedium: 'Butler-Medium';
 $helvetica: "Helvetica Neue LT W01_77 Bd Cn";
 $butler: 'Butler';
 
+
+body {
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+line-height: 1;
+color:$bluedark;
+}
+
+
+header, section, nav, footer {
+	display: block;
+}
 
 /* Buttons */
 
@@ -67,6 +75,11 @@ $butler: 'Butler';
 		color:#fff;
 	}
 }
+
+
+
+
+/* Header */
 
 
 header {
@@ -234,7 +247,8 @@ header {
 
 .stats {
 	.inner_stats {
-		
+		max-width:2000px;
+		margin: 0 auto;
 		.single_stat {
 			position: relative;
 // 			width:25%;
@@ -347,6 +361,46 @@ header {
 					margin:13px 0 0;
 				}
 			}
+		}
+	}
+}
+
+
+/* About */
+
+.about {
+	background: $greylight;
+	padding:160px 0;
+	.about_inner {
+		overflow: hidden;
+		.about_left {
+			width:48%;
+			float:left;
+			.about_title {
+				h1 {
+					font-family: $butler;
+					font-size:81px;
+					line-height: 87px;
+					font-style: normal;
+					font-weight: 300;
+					span.h1first, span.h1middle, span.h1end {
+						display: block;
+					}
+					span.h1first {
+						
+					}
+					span.h1middle {
+						margin-left:200px;
+					}
+					span.h1end {
+						margin-left:120px;
+					}
+				}
+			}
+		}
+		.about_right {
+			width:48%;
+			float:right;
 		}
 	}
 }

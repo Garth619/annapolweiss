@@ -142,6 +142,29 @@ get_header(); ?>
 	
 </section><!-- stats -->
 
+<section class="about">
+	
+	<div class="about_inner">
+	
+		<div class="about_left">
+			
+			<div class="about_title">
+				
+				<h1>
+					<span class="orange h1first">Philadephia’s</span>
+					<span class="h1middle">personal injury</span>
+					<span class="h1end">law firm</span>
+				</h1>
+			
+			</div><!-- about_title -->
+			
+		</div><!-- about_left -->
+		<div class="about_right"></div><!-- about_right -->
+	
+	</div><!-- about_inner -->
+	
+</section><!-- about -->
+
 
 
 <?php get_footer(); ?>
