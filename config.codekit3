@@ -33,6 +33,18 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/license.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/license.txt",
+		"oF": 0
+		},
+	"\/readme.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/readme.html",
+		"oF": 0
+		},
 	"\/wp-activate.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -4246,6 +4258,12 @@
 		"oAP": "\/wp-content\/plugins\/akismet\/wrapper.php",
 		"oF": 0
 		},
+	"\/wp-content\/plugins\/hello.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/hello.php",
+		"oF": 0
+		},
 	"\/wp-content\/plugins\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -4375,6 +4393,178 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler-and-newscycle\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_black-demo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_black-demo.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_black-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_black-webfont.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_black-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_black-webfont.woff2",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_bold-demo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_bold-demo.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_bold-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_bold-webfont.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_bold-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_bold-webfont.woff2",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_extrabold-demo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_extrabold-demo.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_extrabold-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_extrabold-webfont.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_extrabold-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_extrabold-webfont.woff2",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_light-demo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_light-demo.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_light-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_light-webfont.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_light-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_light-webfont.woff2",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_medium-demo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_medium-demo.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_medium-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_medium-webfont.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_medium-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_medium-webfont.woff2",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_regular-demo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_regular-demo.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_regular-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_regular-webfont.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_regular-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_regular-webfont.woff2",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_ultra_light-demo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_ultra_light-demo.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_ultra_light-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_ultra_light-webfont.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_ultra_light-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/butler_ultra_light-webfont.woff2",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/generator_config.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/generator_config.txt",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/specimen_files\/grid_12-825-55-15.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/specimen_files\/grid_12-825-55-15-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/specimen_files\/specimen_stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/specimen_files\/specimen_stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/stylesheet-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/stylesheet-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/butler_new\/stylesheet-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -5253,7 +5443,7 @@
 		},
 	"\/wp-content\/themes\/anapolweiss\/screenshot.png": {
 		"ft": 32768,
-		"iS": 613565,
+		"iS": 419383,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/screenshot.png",
 		"oF": 0,

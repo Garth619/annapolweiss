@@ -370,7 +370,7 @@ a.tel {
 
 .featured_cases {
   background: #fff;
-  padding-bottom: 1000px; }
+  padding-bottom: 500px; }
   .featured_cases .featured_title_wrapper {
     float: right;
     margin-top: -120px;
@@ -405,4 +405,158 @@ a.tel {
       top: 100px;
       right: 0;
       z-index: 1; }
+
+.cases_grid {
+  clear: both;
+  width: 100%;
+  margin-top: 155px; }
+  .cases_grid .single_case {
+    text-align: center;
+    position: relative;
+    border-right: 1px #d4d4d4 solid;
+    border-bottom: 1px #d4d4d4 solid;
+    width: 33.333%;
+    padding-top: 130px;
+    float: left;
+    height: 590px; }
+    .cases_grid .single_case:nth-of-type(1):before {
+      content: "";
+      width: 35px;
+      height: 35px;
+      background: #fff;
+      position: absolute;
+      left: -1px;
+      bottom: -1px;
+      z-index: 5; }
+    .cases_grid .single_case:nth-of-type(1):after {
+      content: "";
+      width: 35px;
+      height: 35px;
+      background: #fff;
+      position: absolute;
+      right: -1px;
+      bottom: -1px; }
+    .cases_grid .single_case:nth-of-type(2):before {
+      content: "";
+      width: 35px;
+      height: 35px;
+      background: #fff;
+      margin: -34px 0 0;
+      position: absolute;
+      left: -1px;
+      bottom: -1px;
+      z-index: 5; }
+    .cases_grid .single_case:nth-of-type(2):after {
+      content: "";
+      width: 35px;
+      height: 35px;
+      background: #fff;
+      position: absolute;
+      right: -1px;
+      bottom: -1px; }
+    .cases_grid .single_case:nth-of-type(3):before {
+      content: "";
+      width: 35px;
+      height: 35px;
+      background: #fff;
+      margin: -34px 0 0;
+      position: absolute;
+      left: -1px;
+      bottom: -1px;
+      z-index: 5; }
+    .cases_grid .single_case:nth-of-type(3):after {
+      content: "";
+      width: 35px;
+      height: 35px;
+      background: #fff;
+      position: absolute;
+      right: -1px;
+      bottom: -1px; }
+    .cases_grid .single_case:nth-of-type(4):after {
+      content: "";
+      width: 35px;
+      height: 35px;
+      background: #fff;
+      position: absolute;
+      right: -1px;
+      top: -1px; }
+    .cases_grid .single_case:nth-of-type(4) .hover_case .hover_case_inner {
+      margin-top: 35px; }
+    .cases_grid .single_case:nth-of-type(5):before {
+      content: "";
+      width: 35px;
+      height: 35px;
+      background: #fff;
+      position: absolute;
+      left: -1px;
+      top: -1px;
+      z-index: 5; }
+    .cases_grid .single_case:nth-of-type(5):after {
+      content: "";
+      width: 35px;
+      height: 35px;
+      background: #fff;
+      position: absolute;
+      right: -1px;
+      top: -1px; }
+    .cases_grid .single_case:nth-of-type(5) .hover_case .hover_case_inner {
+      margin-top: 35px; }
+    .cases_grid .single_case:nth-of-type(6):before {
+      content: "";
+      width: 35px;
+      height: 35px;
+      background: #fff;
+      position: absolute;
+      left: -1px;
+      top: -1px;
+      z-index: 5; }
+    .cases_grid .single_case:nth-of-type(6) .hover_case .hover_case_inner {
+      margin-top: 35px; }
+    .cases_grid .single_case a {
+      text-decoration: none; }
+    .cases_grid .single_case .regular_case {
+      position: relative;
+      height: 459px; }
+      .cases_grid .single_case .regular_case span.case_number {
+        font-family: "Butler-Medium";
+        font-size: 90px;
+        color: #17303f;
+        display: block; }
+      .cases_grid .single_case .regular_case span.case_dollar_amount {
+        font-family: "butlerbold";
+        color: #cf622d;
+        font-size: 18px;
+        letter-spacing: 16px;
+        text-transform: uppercase;
+        display: block;
+        margin-top: 5px; }
+      .cases_grid .single_case .regular_case span.case_greyline {
+        width: 2px;
+        height: 50px;
+        margin: 0 auto;
+        background: #d4d4d4;
+        display: block;
+        margin-top: 40px;
+        margin-bottom: 25px; }
+      .cases_grid .single_case .regular_case span.case_category {
+        font-family: "Butler";
+        font-size: 26px;
+        color: #5e696b;
+        display: block; }
+      .cases_grid .single_case .regular_case .img_wrapper {
+        position: absolute;
+        bottom: 81px;
+        z-index: 5;
+        width: 100%; }
+    .cases_grid .single_case .hover_case {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+      .cases_grid .single_case .hover_case .hover_case_inner {
+        background: #f0f1f2;
+        width: 90%;
+        height: 94.3%;
+        margin: 0px auto 0; }
 /*# sourceMappingURL=style.css.map */

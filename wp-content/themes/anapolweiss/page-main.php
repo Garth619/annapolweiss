@@ -220,6 +220,203 @@ get_header(); ?>
 	<span class="featured_orange_line"></span><!-- featured_orange_line -->
 	
 </div><!-- featured_title_wrapper -->
+
+
+<div class="cases_grid">
+	
+	<div class="single_case">
+		
+		<div class="regular_case">
+				
+				<span class="case_number">$4.85</span><!-- case_number -->
+				<span class="case_dollar_amount">billion</span><!-- case_dollar_amount -->
+				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_category">pharmaceutical liability</span><!-- case_category -->
+				
+				<div class="img_wrapper">
+				
+					<img class="case_arrow" src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
+				
+				</div><!-- img_wrapper -->
+				
+			</div><!-- regular_case -->
+		
+		<a href="">
+		
+			<div class="hover_case">
+				
+				<div class="hover_case_inner">
+					
+					
+				</div><!-- hover_case_inner -->
+				
+			</div><!-- hover_case -->
+		
+		</a>
+		
+	</div><!-- single_case -->
+	
+	<div class="single_case">
+		
+		<div class="regular_case">
+				
+				<span class="case_number">$3.75</span><!-- case_number -->
+				<span class="case_dollar_amount">billion</span><!-- case_dollar_amount -->
+				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_category">pharmaceutical liability</span><!-- case_category -->
+				
+				<div class="img_wrapper">
+				
+					<img class="case_arrow" src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
+				
+				</div><!-- img_wrapper -->
+				
+			</div><!-- regular_case -->
+		
+		<a href="">
+		
+			<div class="hover_case">
+				
+				<div class="hover_case_inner">
+					
+					
+				</div><!-- hover_case_inner -->
+				
+			</div><!-- hover_case -->
+		
+		</a>
+		
+	</div><!-- single_case -->
+	
+	<div class="single_case">
+		
+		<div class="regular_case">
+				
+				<span class="case_number">$1.4</span><!-- case_number -->
+				<span class="case_dollar_amount">billion</span><!-- case_dollar_amount -->
+				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_category">medical devices</span><!-- case_category -->
+				
+				<div class="img_wrapper">
+				
+					<img class="case_arrow" src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
+				
+				</div><!-- img_wrapper -->
+				
+			</div><!-- regular_case -->
+		
+		<a href="">
+		
+			<div class="hover_case">
+				
+				<div class="hover_case_inner">
+					
+					
+				</div><!-- hover_case_inner -->
+				
+			</div><!-- hover_case -->
+		
+		</a>
+		
+	</div><!-- single_case -->
+	
+	<div class="single_case">
+		
+		<div class="regular_case">
+				
+				<span class="case_number">$765</span><!-- case_number -->
+				<span class="case_dollar_amount">million</span><!-- case_dollar_amount -->
+				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_category">class actions</span><!-- case_category -->
+				
+				<div class="img_wrapper">
+				
+					<img class="case_arrow" src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
+				
+				</div><!-- img_wrapper -->
+				
+			</div><!-- regular_case -->
+		
+		<a href="">
+		
+			<div class="hover_case">
+				
+				<div class="hover_case_inner">
+					
+					
+				</div><!-- hover_case_inner -->
+				
+			</div><!-- hover_case -->
+		
+		</a>
+		
+	</div><!-- single_case -->
+	
+	<div class="single_case">
+		
+		<div class="regular_case">
+				
+				<span class="case_number">$26</span><!-- case_number -->
+				<span class="case_dollar_amount">million</span><!-- case_dollar_amount -->
+				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_category">products liability</span><!-- case_category -->
+				
+				<div class="img_wrapper">
+				
+					<img class="case_arrow" src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
+				
+				</div><!-- img_wrapper -->
+				
+			</div><!-- regular_case -->
+		
+		<a href="">
+		
+			<div class="hover_case">
+				
+				<div class="hover_case_inner">
+					
+					
+				</div><!-- hover_case_inner -->
+				
+			</div><!-- hover_case -->
+		
+		</a>
+		
+	</div><!-- single_case -->
+	
+	<div class="single_case">
+		
+		<div class="regular_case">
+				
+				<span class="case_number">$10.2</span><!-- case_number -->
+				<span class="case_dollar_amount">million</span><!-- case_dollar_amount -->
+				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_category">products liability</span><!-- case_category -->
+				
+				<div class="img_wrapper">
+				
+					<img class="case_arrow" src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
+				
+				</div><!-- img_wrapper -->
+				
+			</div><!-- regular_case -->
+		
+		<a href="">
+		
+			<div class="hover_case">
+				
+				<div class="hover_case_inner">
+					
+					
+				</div><!-- hover_case_inner -->
+				
+			</div><!-- hover_case -->
+		
+		</a>
+		
+	</div><!-- single_case -->
+	
+</div><!-- cases_grid -->
 	
 	
 </section><!-- featured_cases -->

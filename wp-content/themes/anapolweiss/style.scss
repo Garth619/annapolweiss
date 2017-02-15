@@ -29,6 +29,7 @@ $blue: #0c3f59;
 $bluedark: #17303f;
 $orange: #cf622d;
 $greydark: #5e696b;
+$grey: #d4d4d4;
 $greylight: #f0f1f2;
 
 
@@ -43,6 +44,7 @@ $butlermedium: 'Butler-Medium';
 $helvetica: "Helvetica Neue LT W01_77 Bd Cn";
 $butler: 'Butler';
 $newscycle: 'NewsCycle';
+$butlerbold: 'butlerbold';
 
 
 body {
@@ -493,7 +495,7 @@ header {
 
 .featured_cases {
 	background: #fff;
-	padding-bottom:1000px;
+	padding-bottom:500px;
 	.featured_title_wrapper {
 		float:right;
 		margin-top:-120px;
@@ -532,6 +534,207 @@ header {
 			z-index:1;
 		}
 	}
+}
+
+.cases_grid {
+	clear:both;
+	width:100%;
+	 margin-top: 155px;
+	.single_case {
+		text-align: center;
+		position: relative;
+		border-right:1px $grey solid;
+		border-bottom:1px $grey solid; 
+		width:33.333%;
+		padding-top:130px;
+		float:left;
+		height:590px;
+		&:nth-of-type(1) {
+			&:before {
+				content:"";
+				width:35px;
+				height:35px;
+				background: #fff;
+				position:absolute;
+				left:-1px;
+				bottom:-1px;
+				z-index:5;
+			}
+			&:after {
+				content:"";
+				width:35px;
+				height:35px;
+				background: #fff;
+				position:absolute;
+				right:-1px;
+				bottom:-1px;
+			}
+		}
+		&:nth-of-type(2) {
+			&:before {
+				content:"";
+				width:35px;
+				height:35px;
+				background: #fff;
+				margin: -34px 0 0;
+				position:absolute;
+				left:-1px;
+				bottom:-1px;
+				z-index:5;
+			}
+			&:after {
+				content:"";
+				width:35px;
+				height:35px;
+				background: #fff;
+				position:absolute;
+				right:-1px;
+				bottom:-1px;
+			}
+		}
+		&:nth-of-type(3) {
+			&:before {
+				content:"";
+				width:35px;
+				height:35px;
+				background: #fff;
+				margin: -34px 0 0;
+				position:absolute;
+				left:-1px;
+				bottom:-1px;
+				z-index:5;
+			}
+			&:after {
+				content:"";
+				width:35px;
+				height:35px;
+				background: #fff;
+				position:absolute;
+				right:-1px;
+				bottom:-1px;
+			}
+		}
+		&:nth-of-type(4) {
+			&:after {
+				content:"";
+				width:35px;
+				height:35px;
+				background: #fff;
+				position:absolute;
+				right:-1px;
+				top:-1px;
+			}
+			.hover_case {
+				.hover_case_inner {
+					margin-top:35px;
+				}
+			}
+		}
+		&:nth-of-type(5) {
+			&:before {
+				content:"";
+				width:35px;
+				height:35px;
+				background: #fff;
+				position:absolute;
+				left:-1px;
+				top:-1px;
+				z-index:5;
+			}
+			&:after {
+				content:"";
+				width:35px;
+				height:35px;
+				background: #fff;
+				position:absolute;
+				right:-1px;
+				top:-1px;
+			}
+			.hover_case {
+				.hover_case_inner {
+					margin-top:35px;
+				}
+			}
+		}
+		&:nth-of-type(6) {
+			&:before {
+				content:"";
+				width:35px;
+				height:35px;
+				background: #fff;
+				position:absolute;
+				left:-1px;
+				top:-1px;
+				z-index:5;
+			}
+			.hover_case {
+				.hover_case_inner {
+					margin-top:35px;
+				}
+			}
+		}
+		a {
+			text-decoration: none;
+		}
+			.regular_case {
+				position: relative;
+				height:459px;
+				span.case_number {
+					font-family: $butlermedium;
+					font-size:90px;
+					color:$bluedark;
+					display: block;
+				}
+				span.case_dollar_amount {
+					font-family: $butlerbold;
+					color:$orange;
+					font-size:18px;
+					letter-spacing: 16px;
+					text-transform: uppercase;
+					display: block;
+					margin-top:5px;
+				}
+				span.case_greyline {
+					width:2px;
+					height:50px;
+					margin:0 auto;
+					background: $grey;
+					display: block;
+					margin-top:40px;
+					margin-bottom:25px;
+				}
+				span.case_category {
+					font-family: $butler;
+					font-size:26px;
+					color:$greydark;
+					display: block;
+				}
+				.img_wrapper {
+					position: absolute;
+					bottom: 81px;
+					z-index:5;
+					width:100%;
+					img.case_arrow {
+						
+					}
+				}
+			}
+			.hover_case {
+				position: absolute;
+				top:0;
+				left:0;
+				width:100%;
+				height:100%;
+				
+				.hover_case_inner {
+					background:$greylight;
+					width:90%;
+					height:94.3%;
+					margin:0px auto 0;
+				}
+			}
+		}
+	
 }
 
 
