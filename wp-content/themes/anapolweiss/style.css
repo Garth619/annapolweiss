@@ -370,7 +370,8 @@ a.tel {
 
 .featured_cases {
   background: #fff;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  text-align: center; }
   .featured_cases .featured_title_wrapper {
     float: right;
     margin-top: -120px;
@@ -589,4 +590,22 @@ a.tel {
             font-size: 16px;
             color: #5e696b;
             line-height: 30px; }
+
+a.case_results_button {
+  border: #cf622d 1px solid;
+  margin: 0 auto;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue LT W01_77 Bd Cn";
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  color: #17303f;
+  padding: 23px 66px;
+  margin-top: 75px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out; }
+  a.case_results_button:hover {
+    background: #cf622d;
+    color: #fff; }
 /*# sourceMappingURL=style.css.map */

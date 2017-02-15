@@ -462,6 +462,8 @@ get_header(); ?>
 	
 	<div style="clear:both"></div>
 	
+	<a href="" class="case_results_button">Click Here To View All Case Results</a>
+	
 </section><!-- featured_cases -->
 
 
