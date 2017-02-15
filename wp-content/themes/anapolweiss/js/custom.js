@@ -68,6 +68,17 @@ jQuery('.inner_stats').slick({
 });
 
 
+// In the News
+
+
+jQuery('.blog_posts_wrapper').slick({
+  slidesToShow: 4,
+	slidesToScroll: 1,
+	arrows:false,
+	dots:false
+
+
+});
 
 
 // Case Results Hover

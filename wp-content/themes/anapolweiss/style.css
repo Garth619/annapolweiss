@@ -663,10 +663,8 @@ a.case_results_button {
   width: 85%; }
   .blog_right .blog_posts_wrapper .single_blog_wrapper {
     background: #fff;
-    width: 24%;
     height: 500px;
-    float: left;
-    margin-right: .7%;
+    margin-right: .2%;
     padding: 48px 25px 82px;
     position: relative; }
     .blog_right .blog_posts_wrapper .single_blog_wrapper a {

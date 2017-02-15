@@ -558,6 +558,24 @@ get_header(); ?>
 				
 			</div><!-- single_blog_wrapper -->
 			
+			<div class="single_blog_wrapper">
+				
+				<a href="">
+					
+					<span class="blog_title">17 Anapol Weiss attorneys selected for 2016 Super Lawyers honors</span><!-- blog_title -->
+				
+				<div class="blog_content">
+					
+					<p>Anapol Weiss is proud to announce that 17 of our attorneys have been named 2016 Super Lawyers or Rising Stars.</p>
+					
+				</div><!-- blog_content -->
+				
+				<span class="blog_read_more">Click Here to Read More</span><!-- blog_read_more -->
+					
+				</a>
+				
+			</div><!-- single_blog_wrapper -->
+			
 		</div><!-- blog_posts_wrapper -->
 		
 	</div><!-- blog_right -->
