@@ -485,6 +485,8 @@ header {
 	}
 }
 
+/* Case Results */
+
 
 
 .wavy {
@@ -804,5 +806,77 @@ a.case_results_button {
 }
 
 
-		
+/* Blog */
+
+
+
+.blog {
+	width:100%;
+	
+	background: $bluedark;
+	padding:230px 0;
+	overflow:hidden;
+	position: relative;
+/*
+	display: flex;
+	flex-direction: row;
+*/
+	.blog_left {
+		position: relative;
+		padding-left:5.25%;
+		max-width: 520px;
+		width:100%;
+		float:left;
+		span.blog_orangeline {
+			width:50%;
+			height:3px;
+			background:$orange;
+			position:absolute;
+			left:0;
+			top:5px;
+		}
+		span.sub_header {
+			color:$orange;
+			font-size:16px;
+			text-transform: uppercase;
+			letter-spacing: 9.5px;
+			font-family: $butlermedium;
+			display: block;
+			margin-bottom:40px;
+			background: $bluedark;
+			position: relative;
+			z-index:5;
+			padding-left:20px;
+		}
+		span.large_header {
+			text-transform: lowercase;
+			font-family: $butler;
+			font-size:77px;
+			line-height: 80px;
+			color:#fff;
+			display: block;
+			padding-left:20px;
+		}
+	}
+}
+
+.blog_right {
+	position: absolute;
+	 right: -295px;
+    top: 230px;;
+/*
+margin-right:-301px;
+float:right;
+*/
+width:85%;
+	.blog_posts_wrapper {
+		.single_blog_wrapper {
+			background: #fff;
+			width:24%;
+			height:400px;
+			float:left;
+			margin-right:.7%;
+		}
+	}
+}
 		

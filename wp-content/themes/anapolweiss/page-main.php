@@ -467,5 +467,68 @@ get_header(); ?>
 </section><!-- featured_cases -->
 
 
+<section class="blog">
+	
+	
+	<div class="blog_left">
+		
+		<span class="blog_orangeline"></span><!-- blog_orangeline -->
+		<span class="sub_header">Keep up to date</span><!-- sub_header -->
+		<span class="large_header"><span class="orange">Follow us</span> <br/>in the news</span><!-- sub_header -->
+		
+	</div><!-- blog_left -->
+	
+	<div class="blog_right">
+		
+		<div class="blog_posts_wrapper">
+			
+			<div class="single_blog_wrapper">
+				
+				<a href="">
+					
+					
+					
+				</a>
+				
+			</div><!-- single_blog_wrapper -->
+			
+			<div class="single_blog_wrapper">
+				
+				<a href="">
+					
+					
+					
+				</a>
+				
+			</div><!-- single_blog_wrapper -->
+			
+			<div class="single_blog_wrapper">
+				
+				<a href="">
+					
+					
+					
+				</a>
+				
+			</div><!-- single_blog_wrapper -->
+			
+			<div class="single_blog_wrapper">
+				
+				<a href="">
+					
+					
+					
+				</a>
+				
+			</div><!-- single_blog_wrapper -->
+			
+		</div><!-- blog_posts_wrapper -->
+		
+	</div><!-- blog_right -->
+	
+	
+</section><!-- blog -->
+
+
 
 <?php get_footer(); ?>
