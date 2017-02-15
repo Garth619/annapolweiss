@@ -288,9 +288,9 @@ get_header(); ?>
 					
 					<div class="hover_case_content">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/results_merck.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/results_ahp.jpg"/>
 						
-						<span>Merck & Co., Inc. agreed to pay $4.85 billion to resolve Vioxx-related claims involving heart attack, sudden cardiac death or stroke. Anapol Weiss Partner Sol Weiss served as Co-Liaison Counsel in the New Jersey Vioxx litigation.</span>
+						<span>American Home Products Corporation agreed to compensate thousands of people who used the diet drugs and suffered heart valve disease.</span>
 					
 					</div><!-- hover_case_content -->
 					
@@ -327,9 +327,9 @@ get_header(); ?>
 					
 					<div class="hover_case_content">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/results_merck.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/results_stryker.jpg"/>
 						
-						<span>Merck & Co., Inc. agreed to pay $4.85 billion to resolve Vioxx-related claims involving heart attack, sudden cardiac death or stroke. Anapol Weiss Partner Sol Weiss served as Co-Liaison Counsel in the New Jersey Vioxx litigation.</span>
+						<span>Stryker Rejuvenate and ABG II Hip Implant Settlement: Stryker agreed to pay in excess of $1.4B to people who needed their hip replaced. The settlement negotiated by several lawyers, including Thomas Anapol, in this coordinated litigation, provided for a base award of $300,000 for eligible claimants per case. To date, it is the highest base settlement in any metal-on-metal hip implant litigation.</span>
 					
 					</div><!-- hover_case_content -->
 					
@@ -366,9 +366,9 @@ get_header(); ?>
 					
 					<div class="hover_case_content">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/results_merck.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/results_pfizer.jpg"/>
 						
-						<span>Merck & Co., Inc. agreed to pay $4.85 billion to resolve Vioxx-related claims involving heart attack, sudden cardiac death or stroke. Anapol Weiss Partner Sol Weiss served as Co-Liaison Counsel in the New Jersey Vioxx litigation.</span>
+						<span>Pfizer settled thousands of claims alleging the Rezulin diabetes drug caused severe liver damage and sometimes death.</span>
 					
 					</div><!-- hover_case_content -->
 					
@@ -405,9 +405,9 @@ get_header(); ?>
 					
 					<div class="hover_case_content">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/results_merck.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/results_gm.jpg"/>
 						
-						<span>Merck & Co., Inc. agreed to pay $4.85 billion to resolve Vioxx-related claims involving heart attack, sudden cardiac death or stroke. Anapol Weiss Partner Sol Weiss served as Co-Liaison Counsel in the New Jersey Vioxx litigation.</span>
+						<span>$26 million Verdict Against General Motors: The defective design of a passenger’s seat back failed in a rear-end collision and rendered the passenger a quadriplegic.</span>
 					
 					</div><!-- hover_case_content -->
 					
@@ -444,9 +444,9 @@ get_header(); ?>
 					
 					<div class="hover_case_content">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/results_merck.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/results_vw.jpg"/>
 						
-						<span>Merck & Co., Inc. agreed to pay $4.85 billion to resolve Vioxx-related claims involving heart attack, sudden cardiac death or stroke. Anapol Weiss Partner Sol Weiss served as Co-Liaison Counsel in the New Jersey Vioxx litigation.</span>
+						<span>$10.2 million verdict against Volkswagen in a products liability case for lack of an anti-submarining ramp for a rear-center seated occupant.</span>
 					
 					</div><!-- hover_case_content -->
 					
@@ -460,6 +460,7 @@ get_header(); ?>
 	
 </div><!-- cases_grid -->
 	
+	<div style="clear:both"></div>
 	
 </section><!-- featured_cases -->
 

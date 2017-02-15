@@ -370,7 +370,7 @@ a.tel {
 
 .featured_cases {
   background: #fff;
-  padding-bottom: 500px; }
+  margin-bottom: 100px; }
   .featured_cases .featured_title_wrapper {
     float: right;
     margin-top: -120px;
@@ -454,6 +454,10 @@ a.tel {
       position: absolute;
       right: -1px;
       bottom: -1px; }
+    .cases_grid .single_case:nth-of-type(2) .hover_case .hover_case_inner .hover_case_content {
+      padding-top: 90px; }
+      .cases_grid .single_case:nth-of-type(2) .hover_case .hover_case_inner .hover_case_content span {
+        margin-top: 42px; }
     .cases_grid .single_case:nth-of-type(3):before {
       content: "";
       width: 35px;
@@ -472,46 +476,60 @@ a.tel {
       position: absolute;
       right: -1px;
       bottom: -1px; }
-    .cases_grid .single_case:nth-of-type(4):after {
-      content: "";
-      width: 35px;
-      height: 35px;
-      background: #fff;
-      position: absolute;
-      right: -1px;
-      top: -1px; }
-    .cases_grid .single_case:nth-of-type(4) .hover_case .hover_case_inner {
-      margin-top: 35px; }
-    .cases_grid .single_case:nth-of-type(5):before {
-      content: "";
-      width: 35px;
-      height: 35px;
-      background: #fff;
-      position: absolute;
-      left: -1px;
-      top: -1px;
-      z-index: 5; }
-    .cases_grid .single_case:nth-of-type(5):after {
-      content: "";
-      width: 35px;
-      height: 35px;
-      background: #fff;
-      position: absolute;
-      right: -1px;
-      top: -1px; }
-    .cases_grid .single_case:nth-of-type(5) .hover_case .hover_case_inner {
-      margin-top: 35px; }
-    .cases_grid .single_case:nth-of-type(6):before {
-      content: "";
-      width: 35px;
-      height: 35px;
-      background: #fff;
-      position: absolute;
-      left: -1px;
-      top: -1px;
-      z-index: 5; }
-    .cases_grid .single_case:nth-of-type(6) .hover_case .hover_case_inner {
-      margin-top: 35px; }
+    .cases_grid .single_case:nth-of-type(3) .hover_case .hover_case_inner .hover_case_content {
+      padding-top: 135px; }
+      .cases_grid .single_case:nth-of-type(3) .hover_case .hover_case_inner .hover_case_content span {
+        margin-top: 70px; }
+    .cases_grid .single_case:nth-of-type(4) {
+      border-bottom: none; }
+      .cases_grid .single_case:nth-of-type(4):after {
+        content: "";
+        width: 35px;
+        height: 35px;
+        background: #fff;
+        position: absolute;
+        right: -1px;
+        top: -1px; }
+      .cases_grid .single_case:nth-of-type(4) .hover_case .hover_case_inner {
+        margin-top: 35px; }
+    .cases_grid .single_case:nth-of-type(5) {
+      border-bottom: none; }
+      .cases_grid .single_case:nth-of-type(5):before {
+        content: "";
+        width: 35px;
+        height: 35px;
+        background: #fff;
+        position: absolute;
+        left: -1px;
+        top: -1px;
+        z-index: 5; }
+      .cases_grid .single_case:nth-of-type(5):after {
+        content: "";
+        width: 35px;
+        height: 35px;
+        background: #fff;
+        position: absolute;
+        right: -1px;
+        top: -1px; }
+      .cases_grid .single_case:nth-of-type(5) .hover_case .hover_case_inner {
+        margin-top: 35px; }
+        .cases_grid .single_case:nth-of-type(5) .hover_case .hover_case_inner .hover_case_content span {
+          margin-top: 63px; }
+    .cases_grid .single_case:nth-of-type(6) {
+      border-bottom: none; }
+      .cases_grid .single_case:nth-of-type(6):before {
+        content: "";
+        width: 35px;
+        height: 35px;
+        background: #fff;
+        position: absolute;
+        left: -1px;
+        top: -1px;
+        z-index: 5; }
+      .cases_grid .single_case:nth-of-type(6) .hover_case .hover_case_inner {
+        margin-top: 35px; }
+        .cases_grid .single_case:nth-of-type(6) .hover_case .hover_case_inner .hover_case_content span {
+          margin-top: 57px; }
     .cases_grid .single_case a {
       text-decoration: none; }
     .cases_grid .single_case .regular_case {
