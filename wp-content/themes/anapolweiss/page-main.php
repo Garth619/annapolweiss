@@ -247,6 +247,13 @@ get_header(); ?>
 				
 				<div class="hover_case_inner">
 					
+					<div class="hover_case_content">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/results_merck.jpg"/>
+						
+						<span>Merck & Co., Inc. agreed to pay $4.85 billion to resolve Vioxx-related claims involving heart attack, sudden cardiac death or stroke. Anapol Weiss Partner Sol Weiss served as Co-Liaison Counsel in the New Jersey Vioxx litigation.</span>
+					
+					</div><!-- hover_case_content -->
 					
 				</div><!-- hover_case_inner -->
 				
@@ -279,6 +286,13 @@ get_header(); ?>
 				
 				<div class="hover_case_inner">
 					
+					<div class="hover_case_content">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/results_merck.jpg"/>
+						
+						<span>Merck & Co., Inc. agreed to pay $4.85 billion to resolve Vioxx-related claims involving heart attack, sudden cardiac death or stroke. Anapol Weiss Partner Sol Weiss served as Co-Liaison Counsel in the New Jersey Vioxx litigation.</span>
+					
+					</div><!-- hover_case_content -->
 					
 				</div><!-- hover_case_inner -->
 				
@@ -311,6 +325,13 @@ get_header(); ?>
 				
 				<div class="hover_case_inner">
 					
+					<div class="hover_case_content">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/results_merck.jpg"/>
+						
+						<span>Merck & Co., Inc. agreed to pay $4.85 billion to resolve Vioxx-related claims involving heart attack, sudden cardiac death or stroke. Anapol Weiss Partner Sol Weiss served as Co-Liaison Counsel in the New Jersey Vioxx litigation.</span>
+					
+					</div><!-- hover_case_content -->
 					
 				</div><!-- hover_case_inner -->
 				
@@ -343,6 +364,13 @@ get_header(); ?>
 				
 				<div class="hover_case_inner">
 					
+					<div class="hover_case_content">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/results_merck.jpg"/>
+						
+						<span>Merck & Co., Inc. agreed to pay $4.85 billion to resolve Vioxx-related claims involving heart attack, sudden cardiac death or stroke. Anapol Weiss Partner Sol Weiss served as Co-Liaison Counsel in the New Jersey Vioxx litigation.</span>
+					
+					</div><!-- hover_case_content -->
 					
 				</div><!-- hover_case_inner -->
 				
@@ -375,6 +403,13 @@ get_header(); ?>
 				
 				<div class="hover_case_inner">
 					
+					<div class="hover_case_content">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/results_merck.jpg"/>
+						
+						<span>Merck & Co., Inc. agreed to pay $4.85 billion to resolve Vioxx-related claims involving heart attack, sudden cardiac death or stroke. Anapol Weiss Partner Sol Weiss served as Co-Liaison Counsel in the New Jersey Vioxx litigation.</span>
+					
+					</div><!-- hover_case_content -->
 					
 				</div><!-- hover_case_inner -->
 				
@@ -407,6 +442,13 @@ get_header(); ?>
 				
 				<div class="hover_case_inner">
 					
+					<div class="hover_case_content">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/results_merck.jpg"/>
+						
+						<span>Merck & Co., Inc. agreed to pay $4.85 billion to resolve Vioxx-related claims involving heart attack, sudden cardiac death or stroke. Anapol Weiss Partner Sol Weiss served as Co-Liaison Counsel in the New Jersey Vioxx litigation.</span>
+					
+					</div><!-- hover_case_content -->
 					
 				</div><!-- hover_case_inner -->
 				
