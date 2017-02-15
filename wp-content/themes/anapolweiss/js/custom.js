@@ -71,9 +71,9 @@ jQuery('.inner_stats').slick({
 // In the News
 
 
-jQuery('.blog_posts_wrapper').slick({
+jQuery('.blog_inner_wrapper').slick({
   slidesToShow: 4,
-	slidesToScroll: 1,
+	slidesToScroll: 3,
 	arrows:false,
 	dots:false
 
