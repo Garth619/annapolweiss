@@ -241,7 +241,7 @@ get_header(); ?>
 				
 			</div><!-- regular_case -->
 		
-		<a href="">
+		<a href="http://facebook.com">
 		
 			<div class="hover_case">
 				

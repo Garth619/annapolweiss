@@ -70,6 +70,38 @@ jQuery('.inner_stats').slick({
 
 
 
+// Case Results Hover
+
+
+
+function checkWidth() {
+    
+    if (jQuery(window).width() > 730) {
+        
+       
+       jQuery('.single_case').mouseenter(function(){
+	       
+	      jQuery(this).find('.hover_case').fadeIn();
+	       
+	     });
+	     
+	     jQuery('.single_case').mouseleave(function(){
+	       
+	      jQuery(this).find('.hover_case').fadeOut();
+	       
+	     });
+    		
+    	   		
+    		
+    } else {
+
+    }
+};
+
+
+checkWidth();
+
+
 
 
 }); // document ready 
