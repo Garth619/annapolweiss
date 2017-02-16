@@ -818,7 +818,7 @@ get_header(); ?>
 	</div><!-- team_title -->
 	
 	
-	
+	<div class="team_slider">
 	
 	<div class="slider_thumbs_wrapper">
 		
@@ -853,7 +853,13 @@ get_header(); ?>
 			
 			<div class="thumb_overlay">
 				
-				<span class="">Tom2</span>
+				<div class="thumb_title_wrapper">
+				
+					<span class="thumb_orange_line"></span>
+					<span class="thumb_title">Tom Anapol</span><!-- thumb_title -->
+				
+				
+				</div><!-- thumb_title_wrapper -->
 				
 			</div><!-- thumb_overlay -->
 			
@@ -869,7 +875,12 @@ get_header(); ?>
 			
 			<div class="thumb_overlay">
 				
-				<span class="">Tom3</span>
+				<div class="thumb_title_wrapper">
+				
+					<span class="thumb_orange_line"></span>
+					<span class="thumb_title">Tom Anapol</span><!-- thumb_title -->
+				
+				</div><!-- thumb_title_wrapper -->
 				
 			</div><!-- thumb_overlay -->
 			
@@ -885,7 +896,12 @@ get_header(); ?>
 			
 			<div class="thumb_overlay">
 				
-				<span class="">Tom4</span>
+				<div class="thumb_title_wrapper">
+				
+					<span class="thumb_orange_line"></span>
+					<span class="thumb_title">Tom Anapol</span><!-- thumb_title -->
+				
+				</div><!-- thumb_title_wrapper -->
 				
 			</div><!-- thumb_overlay -->
 			
@@ -901,7 +917,75 @@ get_header(); ?>
 			
 			<div class="thumb_overlay">
 				
-				<span class="">Tom5</span>
+				<div class="thumb_title_wrapper">
+				
+					<span class="thumb_orange_line"></span>
+					<span class="thumb_title">Tom Anapol</span><!-- thumb_title -->
+				
+				</div><!-- thumb_title_wrapper -->
+				
+			</div><!-- thumb_overlay -->
+			
+		</div><!-- single_thumb -->
+		
+		<div class="single_thumb">
+			
+			<div class="img_wrapper">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+				
+			</div><!-- img_wrapper -->
+			
+			<div class="thumb_overlay">
+				
+				<div class="thumb_title_wrapper">
+				
+					<span class="thumb_orange_line"></span>
+					<span class="thumb_title">Tom Anapol</span><!-- thumb_title -->
+				
+				</div><!-- thumb_title_wrapper -->
+				
+			</div><!-- thumb_overlay -->
+			
+		</div><!-- single_thumb -->
+		
+		<div class="single_thumb">
+			
+			<div class="img_wrapper">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+				
+			</div><!-- img_wrapper -->
+			
+			<div class="thumb_overlay">
+				
+				<div class="thumb_title_wrapper">
+				
+					<span class="thumb_orange_line"></span>
+					<span class="thumb_title">Tom Anapol</span><!-- thumb_title -->
+				
+				</div><!-- thumb_title_wrapper -->
+				
+			</div><!-- thumb_overlay -->
+			
+		</div><!-- single_thumb -->
+		
+		<div class="single_thumb">
+			
+			<div class="img_wrapper">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+				
+			</div><!-- img_wrapper -->
+			
+			<div class="thumb_overlay">
+				
+				<div class="thumb_title_wrapper">
+				
+					<span class="thumb_orange_line"></span>
+					<span class="thumb_title">Tom Anapol</span><!-- thumb_title -->
+				
+				</div><!-- thumb_title_wrapper -->
 				
 			</div><!-- thumb_overlay -->
 			
@@ -929,7 +1013,16 @@ get_header(); ?>
 				
 				<div class="main_slide_right">
 					
-					<span class="">Tom1</span>
+					<span class="slide_title">Tom Anapol</span><!-- slide_title -->
+					<span class="slide_position">shareholder</span><!-- slide_position -->
+					
+					<div class="slide_content">
+						
+						<span class="slide_content_title">What’s the best part about the work you do?</span><!-- slide_content_title -->
+						
+						<p>It's extremely gratifying to help people and right wrongs. I concentrate much of my practice on pharmaceutical and medical device litigation. It's a massive industry that over the years has put profits ahead of patient care. I firmly believe I have made a difference in my client's lives. I take tremendous pride in holding industry accountable for their actions.</p>
+						
+					</div><!-- slide_content -->
 					
 				</div><!-- main_slide_right -->
 				
@@ -1003,11 +1096,66 @@ get_header(); ?>
 				</div><!-- main_slide_right -->
 				
 			</div><!-- single_main_slide -->
+			
+			
+			<div class="single_main_slide">
+				
+				<div class="main_slide_left">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+					
+				</div><!-- main_slide_left -->
+				
+				<div class="main_slide_right">
+					
+					<span class="">Tom6</span>
+					
+				</div><!-- main_slide_right -->
+				
+			</div><!-- single_main_slide -->
+			
+			
+			<div class="single_main_slide">
+				
+				<div class="main_slide_left">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+					
+				</div><!-- main_slide_left -->
+				
+				<div class="main_slide_right">
+					
+					<span class="">Tom7</span>
+					
+				</div><!-- main_slide_right -->
+				
+			</div><!-- single_main_slide -->
+			
+			
+			
+			<div class="single_main_slide">
+				
+				<div class="main_slide_left">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+					
+				</div><!-- main_slide_left -->
+				
+				<div class="main_slide_right">
+					
+					<span class="">Tom8</span>
+					
+				</div><!-- main_slide_right -->
+				
+			</div><!-- single_main_slide -->
 		
 		
 		
 		
 		</div><!-- slide_main_inner -->
+		
+		
+		</div><!-- team_slider -->
 		
 		
 	</div><!-- slide_main_wrapper -->

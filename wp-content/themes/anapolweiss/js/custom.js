@@ -107,6 +107,28 @@ jQuery('.slide_main_inner').slick({
 });
 
 
+
+
+jQuery('.single_thumb').mouseenter(function(){
+	
+	
+	jQuery(this).find('.thumb_overlay').fadeIn(200);
+	
+	
+});
+
+
+jQuery('.single_thumb').mouseleave(function(){
+	
+	
+	jQuery(this).find('.thumb_overlay').fadeOut(200);
+	
+	
+});
+
+
+
+
 // Case Results Hover
 
 
