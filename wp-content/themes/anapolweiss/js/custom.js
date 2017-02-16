@@ -73,15 +73,31 @@ jQuery('.inner_stats').slick({
 
 jQuery('.blog_inner_wrapper').slick({
   slidesToShow: 4,
-	slidesToScroll: 3,
-	arrows:false,
-	dots:false
+	slidesToScroll: 1,
+	arrows:true,
+	dots:false,
+	nextArrow:".spacer.next"
 
 
 });
 
 
 // Case Results Hover
+
+
+jQuery('.blog_posts_wrapper').mouseenter(function(){
+	
+	jQuery('.spacer.next').addClass('slideright');
+	
+	
+});
+
+jQuery('.blog_posts_wrapper').mouseleave(function(){
+	
+	jQuery('.spacer.next').removeClass('slideright');
+	
+	
+});
 
 
 
