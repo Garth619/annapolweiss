@@ -818,7 +818,57 @@ get_header(); ?>
 	</div><!-- team_title -->
 	
 	
-	<div class="team_slider">
+	
+	
+	
+<div class="team_slider">
+	
+	<div class="top_slide_row">
+	
+	<div class="team_button_outer">
+		
+		
+	
+		<div class="team_buttons">
+		
+			<div class="team_back">
+			
+				
+				<div class="back_button_arrow">
+					
+					<img class="arrow_reg" src="<?php bloginfo('template_directory');?>/images/profile_lt_gray_arrow.png"/>
+					<img class="arrow_hov" src="<?php bloginfo('template_directory');?>/images/profile_lt_orange_arrow.png"/>
+					
+					
+				
+				</div><!-- button_arrow -->
+				 
+				 Prev
+		
+			</div><!-- team_back -->
+		
+			<span class="divider"></span><!-- divider -->
+		
+			<div class="team_next">
+		
+			Next	
+			
+			
+				<div class="next_button_arrow">
+					
+					<img class="arrow_reg_next" src="<?php bloginfo('template_directory');?>/images/profile_rt_gray_arrow.png"/>
+					<img class="arrow_hov_next" src="<?php bloginfo('template_directory');?>/images/profile_rt_orange_arrow.png"/>
+					
+					
+				
+				</div><!-- button_arrow -->
+		
+			</div><!-- team_next -->
+		
+		</div><!-- team_buttons -->
+	
+	</div><!-- team_button_outer -->
+	
 	
 	<div class="slider_thumbs_wrapper">
 		
@@ -992,6 +1042,10 @@ get_header(); ?>
 		</div><!-- single_thumb -->
 		
 	</div><!-- slider_thumbs_wrapper -->
+	
+	
+	
+	</div><!-- top_slide_row -->
 	
 	
 	

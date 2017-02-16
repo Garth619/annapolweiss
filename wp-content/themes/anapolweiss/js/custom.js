@@ -126,10 +126,56 @@ jQuery('.single_thumb').mouseleave(function(){
 	
 });
 
+// Back Arrows
+
+
+jQuery('.team_back').mouseenter(function(){
+	
+	
+	jQuery(this).find('.arrow_reg').fadeOut(200);
+	jQuery(this).find('.arrow_hov').fadeIn(200);
+	
+	
+});
+
+
+jQuery('.team_back').mouseleave(function(){
+	
+	
+	jQuery(this).find('.arrow_reg').fadeIn(200);
+	jQuery(this).find('.arrow_hov').fadeOut(200);
+	
+	
+});
+
+// Next Arrows
+
+
+jQuery('.team_next').mouseenter(function(){
+	
+	
+	jQuery(this).find('.arrow_reg_next').fadeOut(200);
+	jQuery(this).find('.arrow_hov_next').fadeIn(200);
+	
+	
+});
+
+
+jQuery('.team_next').mouseleave(function(){
+	
+	
+	jQuery(this).find('.arrow_reg_next').fadeIn(200);
+	jQuery(this).find('.arrow_hov_next').fadeOut(200);
+	
+	
+});
+
+
 
 
 
 // Case Results Hover
+
 
 
 jQuery('.blog_posts_wrapper').mouseenter(function(){
@@ -145,6 +191,8 @@ jQuery('.blog_posts_wrapper').mouseleave(function(){
 	
 	
 });
+
+
 
 
 
