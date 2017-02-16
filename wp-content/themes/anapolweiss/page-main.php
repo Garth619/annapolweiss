@@ -1024,6 +1024,8 @@ get_header(); ?>
 						
 					</div><!-- slide_content -->
 					
+					<a href="" class="view_profile">View Profile</a><!-- view_profile -->
+					
 				</div><!-- main_slide_right -->
 				
 			</div><!-- single_main_slide -->
@@ -1039,7 +1041,18 @@ get_header(); ?>
 				
 				<div class="main_slide_right">
 					
-					<span class="">Tom2</span>
+					<span class="slide_title">Other Person</span><!-- slide_title -->
+					<span class="slide_position">shareholder</span><!-- slide_position -->
+					
+					<div class="slide_content">
+						
+						<span class="slide_content_title">What’s the best part about the work you do?</span><!-- slide_content_title -->
+						
+						<p>It's extremely gratifying to help people and right wrongs. I concentrate much of my practice on pharmaceutical and medical device litigation. It's a massive industry that over the years has put profits ahead of patient care. I firmly believe I have made a difference in my client's lives. I take tremendous pride in holding industry accountable for their actions.</p>
+						
+					</div><!-- slide_content -->
+					
+					<a href="" class="view_profile">View Profile</a><!-- view_profile -->
 					
 				</div><!-- main_slide_right -->
 				
@@ -1056,7 +1069,18 @@ get_header(); ?>
 				
 				<div class="main_slide_right">
 					
-					<span class="">Tom3</span>
+					<span class="slide_title">Tom Anapol</span><!-- slide_title -->
+					<span class="slide_position">shareholder</span><!-- slide_position -->
+					
+					<div class="slide_content">
+						
+						<span class="slide_content_title">What’s the best part about the work you do?</span><!-- slide_content_title -->
+						
+						<p>It's extremely gratifying to help people and right wrongs. I concentrate much of my practice on pharmaceutical and medical device litigation. It's a massive industry that over the years has put profits ahead of patient care. I firmly believe I have made a difference in my client's lives. I take tremendous pride in holding industry accountable for their actions.</p>
+						
+					</div><!-- slide_content -->
+					
+					<a href="" class="view_profile">View Profile</a><!-- view_profile -->
 					
 				</div><!-- main_slide_right -->
 				
@@ -1073,59 +1097,18 @@ get_header(); ?>
 				
 				<div class="main_slide_right">
 					
-					<span class="">Tom4</span>
+					<span class="slide_title">Tom Anapol</span><!-- slide_title -->
+					<span class="slide_position">shareholder</span><!-- slide_position -->
 					
-				</div><!-- main_slide_right -->
-				
-			</div><!-- single_main_slide -->
-			
-			
-			
-			<div class="single_main_slide">
-				
-				<div class="main_slide_left">
+					<div class="slide_content">
+						
+						<span class="slide_content_title">What’s the best part about the work you do?</span><!-- slide_content_title -->
+						
+						<p>It's extremely gratifying to help people and right wrongs. I concentrate much of my practice on pharmaceutical and medical device litigation. It's a massive industry that over the years has put profits ahead of patient care. I firmly believe I have made a difference in my client's lives. I take tremendous pride in holding industry accountable for their actions.</p>
+						
+					</div><!-- slide_content -->
 					
-					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-				</div><!-- main_slide_left -->
-				
-				<div class="main_slide_right">
-					
-					<span class="">Tom5</span>
-					
-				</div><!-- main_slide_right -->
-				
-			</div><!-- single_main_slide -->
-			
-			
-			<div class="single_main_slide">
-				
-				<div class="main_slide_left">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-				</div><!-- main_slide_left -->
-				
-				<div class="main_slide_right">
-					
-					<span class="">Tom6</span>
-					
-				</div><!-- main_slide_right -->
-				
-			</div><!-- single_main_slide -->
-			
-			
-			<div class="single_main_slide">
-				
-				<div class="main_slide_left">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-				</div><!-- main_slide_left -->
-				
-				<div class="main_slide_right">
-					
-					<span class="">Tom7</span>
+					<a href="" class="view_profile">View Profile</a><!-- view_profile -->
 					
 				</div><!-- main_slide_right -->
 				
@@ -1143,7 +1126,103 @@ get_header(); ?>
 				
 				<div class="main_slide_right">
 					
-					<span class="">Tom8</span>
+					<span class="slide_title">Tom Anapol</span><!-- slide_title -->
+					<span class="slide_position">shareholder</span><!-- slide_position -->
+					
+					<div class="slide_content">
+						
+						<span class="slide_content_title">What’s the best part about the work you do?</span><!-- slide_content_title -->
+						
+						<p>It's extremely gratifying to help people and right wrongs. I concentrate much of my practice on pharmaceutical and medical device litigation. It's a massive industry that over the years has put profits ahead of patient care. I firmly believe I have made a difference in my client's lives. I take tremendous pride in holding industry accountable for their actions.</p>
+						
+					</div><!-- slide_content -->
+					
+					<a href="" class="view_profile">View Profile</a><!-- view_profile -->
+					
+				</div><!-- main_slide_right -->
+				
+			</div><!-- single_main_slide -->
+			
+			
+			<div class="single_main_slide">
+				
+				<div class="main_slide_left">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+					
+				</div><!-- main_slide_left -->
+				
+			<div class="main_slide_right">
+					
+					<span class="slide_title">Tom Anapol</span><!-- slide_title -->
+					<span class="slide_position">shareholder</span><!-- slide_position -->
+					
+					<div class="slide_content">
+						
+						<span class="slide_content_title">What’s the best part about the work you do?</span><!-- slide_content_title -->
+						
+						<p>It's extremely gratifying to help people and right wrongs. I concentrate much of my practice on pharmaceutical and medical device litigation. It's a massive industry that over the years has put profits ahead of patient care. I firmly believe I have made a difference in my client's lives. I take tremendous pride in holding industry accountable for their actions.</p>
+						
+					</div><!-- slide_content -->
+					
+					<a href="" class="view_profile">View Profile</a><!-- view_profile -->
+					
+				</div><!-- main_slide_right -->
+				
+			</div><!-- single_main_slide -->
+			
+			
+			<div class="single_main_slide">
+				
+				<div class="main_slide_left">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+					
+				</div><!-- main_slide_left -->
+				
+				<div class="main_slide_right">
+					
+					<span class="slide_title">Tom Anapol</span><!-- slide_title -->
+					<span class="slide_position">shareholder</span><!-- slide_position -->
+					
+					<div class="slide_content">
+						
+						<span class="slide_content_title">What’s the best part about the work you do?</span><!-- slide_content_title -->
+						
+						<p>It's extremely gratifying to help people and right wrongs. I concentrate much of my practice on pharmaceutical and medical device litigation. It's a massive industry that over the years has put profits ahead of patient care. I firmly believe I have made a difference in my client's lives. I take tremendous pride in holding industry accountable for their actions.</p>
+						
+					</div><!-- slide_content -->
+					
+					<a href="" class="view_profile">View Profile</a><!-- view_profile -->
+					
+				</div><!-- main_slide_right -->
+				
+			</div><!-- single_main_slide -->
+			
+			
+			
+			<div class="single_main_slide">
+				
+				<div class="main_slide_left">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+					
+				</div><!-- main_slide_left -->
+				
+				<div class="main_slide_right">
+					
+					<span class="slide_title">Tom Anapol</span><!-- slide_title -->
+					<span class="slide_position">shareholder</span><!-- slide_position -->
+					
+					<div class="slide_content">
+						
+						<span class="slide_content_title">What’s the best part about the work you do?</span><!-- slide_content_title -->
+						
+						<p>It's extremely gratifying to help people and right wrongs. I concentrate much of my practice on pharmaceutical and medical device litigation. It's a massive industry that over the years has put profits ahead of patient care. I firmly believe I have made a difference in my client's lives. I take tremendous pride in holding industry accountable for their actions.</p>
+						
+					</div><!-- slide_content -->
+					
+					<a href="" class="view_profile">View Profile</a><!-- view_profile -->
 					
 				</div><!-- main_slide_right -->
 				

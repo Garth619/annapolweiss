@@ -1228,7 +1228,7 @@ a.case_results_button {
 				}
 			}
 			.main_slide_right {
-				padding:105px 120px;
+				padding:99px 120px;
 				width:62%;
 				height:300px;
 				float:right;
@@ -1246,7 +1246,7 @@ a.case_results_button {
 				}
 				.slide_content {
 					border-left:2px solid $grey;
-					margin-top:65px;
+					margin-top:70px;
 					padding-left:35px;
 					span.slide_content_title {
 						color:$orange;
@@ -1255,10 +1255,29 @@ a.case_results_button {
 						font-family: $butlermedium;
 						line-height: 37px;
 						
-						margin-bottom:35px;
+						margin-bottom:25px;
 					}
 					p {
-						
+						font-size:18px;
+						font-family: $newscycle;
+						line-height: 29px;
+					}
+				}
+				.view_profile {
+					border:$orange 1px solid;
+					font-family: $helvetica;
+					font-size:16px;
+					text-transform: uppercase;
+					color:$bluedark;
+					text-decoration: none;
+					letter-spacing: 1.1px;
+					padding:18px 29px;
+					display: inline-block;
+					margin-top:80px;
+					transition: all .2s ease-in-out;
+					&:hover {
+						background: $orange;
+						color:#fff;
 					}
 				}
 			}
