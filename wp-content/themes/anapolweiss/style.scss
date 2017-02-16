@@ -812,9 +812,9 @@ a.case_results_button {
 
 .blog {
 	width:100%;
-	height:2000px;
+	
 	background: $bluedark;
-	padding:230px 0;
+	padding:230px 0 20px;
 	overflow:hidden;
 	position: relative;
 /*
@@ -960,5 +960,9 @@ a.case_results_button {
 		}
 		}
 	}
+}
+
+.wavy_blog {
+	margin-top: 350px;
 }
 		
