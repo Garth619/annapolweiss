@@ -768,10 +768,35 @@ get_header(); ?>
 		<div class="second_about_title">
 			
 			<span class="sub_header">Lorem Ipsum Dolor</span><!-- sub_header -->
-			<span class="large_header"></span><!-- large_header -->
+			<span class="large_header">lorem ipsum<br/><span class="orange">dolor sit amet</span></span><!-- large_header -->
 			<span class="about_content_orangeline"></span><!-- about_content_orangeline -->
 			
 		</div><!-- second_about_title -->
+		
+		<div class="content">
+			
+			
+			<div class="col">
+				
+				<span class="col_title">dolor sit amet lorem</span><!-- col_title -->
+				<span class="col_greyline"></span><!-- col_greyline -->
+				
+				<p>Cras nec elit ac augue pretium commodo non id mi. Proin eleifend consequat purus ac aliquam. Etiam arcu leo, pellentesque ac pharetra et, ultrices bibendum massa. Cras arcu metus, dictum in erat id, semper condimentum ligula. Etiam tempor tortor eu urna rutrum, eu viverra dolor rutrum. Curabitur vel convallis purus. In sit amet viverra augue. Duis tincidunt dolor nec massa fermentum porta. Nullam id congue purus. In semper lacus et blandit laoreet.</p>
+
+				<p>Suspendisse potenti. Quisque at consequat urna. Nam lobortis elementum sapien, a blandit tortor placerat ac. Nam porttitor consectetur dui, sed rhoncus nisl porttitor non. Curabitur eu ornare sapien. Praesent non adipiscing nisi. Aenean adipiscing risus eget feugiat pharetra. Proin malesuada sem lectus, et facilisis ante condimentum a. Phasellus nec tellus tempor, adipiscing orci sit amet, dapibus magna. Phasellus ultricies lacus vitae pharetra pharetra. Nulla eleifend, risus non semper lobortis, massa eros molestie nulla, eget adipiscing felis neque ultrices justo.  Quisque facilisis magna ut erat laoreet adipiscing. Pellentesque non suscipit nisi, vel ultricies tellus. Etiam vel porttitor turpis.</p>
+				
+			</div><!-- col -->
+			
+			<div class="col">
+				
+				<p>Suspendisse potenti. Quisque at consequat urna. Nam lobortis elementum sapien, a blandit tortor placerat ac. Nam porttitor consectetur dui, sed rhoncus nisl porttitor non. Mauris faucibus, urna a pharetra venenatis, velit diam tempor sem, nec ornare felis diam sit amet turpis. Aliquam eget ullamcorper magna. Nam id convallis turpis. Mauris porta diam augue. Sed sit amet nisl nec arcu mollis faucibus tempor id ante.</p>
+
+				<p>Curabitur commodo vestibulum nulla at lacinia. Cras venenatis, massa et imperdiet ultrices, ante nisl imperdiet magna, nec mollis ante nisl vitae eros. Curabitur consequat facilisis lectus a consequat. Aliquam erat volutpat. Sed est lacus, egestas a risus posuere, pharetra elementum risus. Maecenas ullamcorper tortor ac eros adipiscing, ac commodo purus varius. Curabitur placerat nec leo quis porta. Nam pharetra, dui semper imperdiet dictum, ipsum augue auctor nibh, vel porta velit diam eget neque. Nullam fermentum mauris eu massa iaculis, et gravida dolor tincidunt. </p>
+				
+			</div><!-- col -->
+			
+			
+		</div><!-- content -->
 		
 		
 	</div><!-- second_about_right -->

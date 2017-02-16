@@ -973,7 +973,7 @@ a.case_results_button {
 
 .second_about {
 	overflow: hidden;
-	
+	padding-bottom: 280px;
 	.second_about_left {
 		width:39%;
 		float:left;
@@ -1044,11 +1044,23 @@ a.case_results_button {
 			text-transform: uppercase;
 			letter-spacing: 9px;
 			text-align: right;
+			float: right;
 			margin-right:170px;
 			background: #fff;
 			position: relative;
 			z-index:5;
 			padding-right:25px;
+			margin-bottom: 50px;
+		}
+		span.large_header {
+			display: block;
+			text-align: right;
+			margin-right:200px;
+			font-size:85px;
+			color:$greydark;
+			line-height: 89px;
+			clear:right;
+			margin-bottom:134px
 		}
 		span.about_content_orangeline {
 			width:300px;
@@ -1057,6 +1069,42 @@ a.case_results_button {
 			position: absolute;
 			top:5px;
 			right:0;
+		}
+	}
+	.content {
+		
+		width:80%;
+		overflow: hidden;
+		margin: 0px auto;
+		line-height: 27px;
+		font-size:16px;
+		p {
+			margin-bottom: 26px;
+		}
+		.col {
+			width:47%;
+			&:first-of-type {
+				float:left;
+			}
+			&:last-of-type {
+				float:right;
+				padding-top:66px;
+			}
+			span.col_title {
+				color:$orange;
+				font-size: 18px;
+				font-family: $helvetica;
+				letter-spacing: 5.2px;
+				text-transform: uppercase;
+			}
+			span.col_greyline {
+				width:34px;
+				height:1px;
+				background: $greydark;
+				display: block;
+				margin-top:14px;
+				margin-bottom: 24px;
+			}
 		}
 	}
 }
