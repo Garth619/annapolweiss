@@ -1409,4 +1409,77 @@ a.case_results_button {
 		}
 	}
 }
+
+
+
+
+/* Get Started */
+
+
+
+.get_started {
+	width:100%;
+	height:2000px;
+	background: $bluedark;
+	overflow: hidden;
+	display: flex;
+}
+
+.get_started_left {
+	width:530px;
+	height:500px;
+	margin-top:151px;
+	
+	.get_started_title_wrapper {
+		position: relative;
+		padding-left:100px;
+		width:565px;
+		span.sub_header {
+			color:$orange;
+			text-transform: uppercase;
+			font-family: $butlermedium;
+			font-size:16px;
+			letter-spacing: 9.5px;
+			display: block;
+			background: $bluedark;
+			position: relative;
+			z-index: 5;
+			padding-left:20px;
+		}
+		span.large_header {
+			color:#fff;
+			display: block;
+			font-family: $butler;
+			font-size:77px;
+			line-height: 82px;
+			margin-top:33px;
+			margin-left:20px;
+		}
+		span.info_required {
+			color:$orange;
+			display: block;
+			text-transform: lowercase;
+			font-size: 20px;
+			font-family: $bulterlight;
+			letter-spacing: 1.5px;
+			margin-top:47px;
+			margin-left:20px;
+		}
+		span.get_started_orangeline {
+			width:400px;
+			height:3px;
+			background: $orange;
+			display: block;
+			top:4px;
+			left:0;
+			position: absolute;
+		}
+	}
+}
+
+.get_started_right {
+	flex-grow: 1;
+	
+	height:500px;
+}
 		
