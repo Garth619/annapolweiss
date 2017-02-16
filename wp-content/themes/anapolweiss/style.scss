@@ -542,7 +542,8 @@ header {
 .cases_grid {
 	clear:both;
 	width:100%;
-	 margin-top: 155px;
+	max-width:2000px;
+	 margin: 155px auto 0;
 	.single_case {
 		text-align: center;
 		position: relative;
