@@ -805,6 +805,21 @@ get_header(); ?>
 	
 </section><!-- second_about -->
 
+<section class="team">
+	
+	
+	<div class="team_title">
+		
+		<span class="top_header">A team with</span><!-- top_header -->
+		<span class="middle_header"><span class="orange">experience</span></span><!-- middle_header -->
+		<span class="bottom_header">and vision</span><!-- bottom_header -->
+		<span class="team_orangeline"></span><!-- team_orangeline -->
+		
+	</div><!-- team_title -->
+	
+	
+</section><!-- team -->
+
 
 
 <?php get_footer(); ?>
