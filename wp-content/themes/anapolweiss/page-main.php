@@ -582,7 +582,7 @@ get_header(); ?>
 			
 			<div class="blog_post_next">
 			
-			View More
+			View More >
 			
 		</div><!-- blog_post_next -->
 
