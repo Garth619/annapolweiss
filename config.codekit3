@@ -33,6 +33,18 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/license.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/license.txt",
+		"oF": 0
+		},
+	"\/readme.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/readme.html",
+		"oF": 0
+		},
 	"\/wp-activate.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -4246,6 +4258,12 @@
 		"oAP": "\/wp-content\/plugins\/akismet\/wrapper.php",
 		"oF": 0
 		},
+	"\/wp-content\/plugins\/hello.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/hello.php",
+		"oF": 0
+		},
 	"\/wp-content\/plugins\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -4971,7 +4989,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/profile_tom.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/anapolweiss\/images\/results_ahp.jpg": {
 		"ft": 16384,
@@ -5425,7 +5443,7 @@
 		},
 	"\/wp-content\/themes\/anapolweiss\/screenshot.png": {
 		"ft": 32768,
-		"iS": 613565,
+		"iS": 419383,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/screenshot.png",
 		"oF": 0,

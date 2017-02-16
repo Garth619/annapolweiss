@@ -82,6 +82,31 @@ jQuery('.blog_inner_wrapper').slick({
 });
 
 
+
+// Meet the Team
+
+
+
+jQuery('.slider_thumbs_wrapper').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  arrows: true,
+  prevArrow: ".team_back",
+  nextArrow: ".team_next",
+	focusOnSelect: true,
+  asNavFor: '.slide_main_inner'
+});
+
+jQuery('.slide_main_inner').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  asNavFor: '.slider_thumbs_wrapper',
+	fade: true,
+	 arrows: false
+  
+});
+
+
 // Case Results Hover
 
 

@@ -817,6 +817,204 @@ get_header(); ?>
 		
 	</div><!-- team_title -->
 	
+	<div class="team_buttons">
+		
+		<div class="team_back">Back</div><!-- team_back -->
+		<div class="team_next">Next</div><!-- team_back -->
+		
+	</div><!-- team_buttons -->
+	
+	
+	<div class="slider_thumbs_wrapper">
+		
+		<div class="single_thumb">
+			
+			<div class="img_wrapper">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+				
+			</div><!-- img_wrapper -->
+			
+			<div class="thumb_overlay">
+				
+				<span class="">Tom1</span>
+				
+			</div><!-- thumb_overlay -->
+			
+		</div><!-- single_thumb -->
+		
+		<div class="single_thumb">
+			
+			<div class="img_wrapper">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+				
+			</div><!-- img_wrapper -->
+			
+			<div class="thumb_overlay">
+				
+				<span class="">Tom2</span>
+				
+			</div><!-- thumb_overlay -->
+			
+		</div><!-- single_thumb -->
+		
+		<div class="single_thumb">
+			
+			<div class="img_wrapper">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+				
+			</div><!-- img_wrapper -->
+			
+			<div class="thumb_overlay">
+				
+				<span class="">Tom3</span>
+				
+			</div><!-- thumb_overlay -->
+			
+		</div><!-- single_thumb -->
+		
+		<div class="single_thumb">
+			
+			<div class="img_wrapper">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+				
+			</div><!-- img_wrapper -->
+			
+			<div class="thumb_overlay">
+				
+				<span class="">Tom4</span>
+				
+			</div><!-- thumb_overlay -->
+			
+		</div><!-- single_thumb -->
+		
+		<div class="single_thumb">
+			
+			<div class="img_wrapper">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+				
+			</div><!-- img_wrapper -->
+			
+			<div class="thumb_overlay">
+				
+				<span class="">Tom5</span>
+				
+			</div><!-- thumb_overlay -->
+			
+		</div><!-- single_thumb -->
+		
+	</div><!-- slider_thumbs_wrapper -->
+	
+	
+	
+	<div class="slide_main_wrapper">
+		
+		
+		<div class="slide_main_inner">
+			
+			
+			
+			
+			<div class="single_main_slide">
+				
+				<div class="main_slide_left">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+					
+				</div><!-- main_slide_left -->
+				
+				<div class="main_slide_right">
+					
+					<span class="">Tom1</span>
+					
+				</div><!-- main_slide_right -->
+				
+			</div><!-- single_main_slide -->
+			
+		
+			<div class="single_main_slide">
+				
+				<div class="main_slide_left">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+					
+				</div><!-- main_slide_left -->
+				
+				<div class="main_slide_right">
+					
+					<span class="">Tom2</span>
+					
+				</div><!-- main_slide_right -->
+				
+			</div><!-- single_main_slide -->
+			
+			
+			<div class="single_main_slide">
+				
+				<div class="main_slide_left">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+					
+				</div><!-- main_slide_left -->
+				
+				<div class="main_slide_right">
+					
+					<span class="">Tom3</span>
+					
+				</div><!-- main_slide_right -->
+				
+			</div><!-- single_main_slide -->
+			
+			
+			<div class="single_main_slide">
+				
+				<div class="main_slide_left">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+					
+				</div><!-- main_slide_left -->
+				
+				<div class="main_slide_right">
+					
+					<span class="">Tom4</span>
+					
+				</div><!-- main_slide_right -->
+				
+			</div><!-- single_main_slide -->
+			
+			
+			
+			<div class="single_main_slide">
+				
+				<div class="main_slide_left">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+					
+				</div><!-- main_slide_left -->
+				
+				<div class="main_slide_right">
+					
+					<span class="">Tom5</span>
+					
+				</div><!-- main_slide_right -->
+				
+			</div><!-- single_main_slide -->
+		
+		
+		
+		
+		</div><!-- slide_main_inner -->
+		
+		
+	</div><!-- slide_main_wrapper -->
+	
+	
+	
+	
 	
 </section><!-- team -->
 
