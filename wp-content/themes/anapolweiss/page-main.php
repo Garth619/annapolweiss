@@ -721,5 +721,65 @@ get_header(); ?>
 </section><!-- blog -->
 
 
+<section class="second_about">
+	
+	<div class="second_about_left">
+		
+		<div class="about_left_inner">
+			
+			
+			<div class="about_orange_box">
+				
+				
+				
+			</div><!-- about_orange_box -->
+			
+			
+			<div class="about_slider_wrapper">
+				
+				<div class="slider_caption">
+					
+					<span class="slider_caption_title">Lorem Ipsum Dolor</span><!-- slider_caption_title -->
+					<span class="caption_line"></span><!-- caption_line -->
+				
+				</div><!-- slider_caption -->
+				
+				<div class="about_slide_inner">
+				
+					<div class="about_slide">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/content_slide_1.jpg"/>
+					
+					</div><!-- about_slide -->
+				
+				</div><!-- about_slide_inner -->
+				
+				<div class="">Arrows and Captions</div>
+				
+			</div><!-- about_slider_wrapper -->
+			
+		</div><!-- about_left_inner -->
+		
+	</div><!-- second_about_left -->
+	
+	
+	<div class="second_about_right">
+		
+		<div class="second_about_title">
+			
+			<span class="sub_header">Lorem Ipsum Dolor</span><!-- sub_header -->
+			<span class="large_header"></span><!-- large_header -->
+			<span class="about_content_orangeline"></span><!-- about_content_orangeline -->
+			
+		</div><!-- second_about_title -->
+		
+		
+	</div><!-- second_about_right -->
+	
+	
+	
+</section><!-- second_about -->
+
+
 
 <?php get_footer(); ?>

@@ -965,4 +965,101 @@ a.case_results_button {
 .wavy_blog {
 	margin-top: 350px;
 }
+
+
+/* Second About Section */
+
+
+
+.second_about {
+	overflow: hidden;
+	
+	.second_about_left {
+		width:39%;
+		float:left;
+		
+		.about_left_inner {
+			
+			.about_orange_box {
+				background:$orange;
+				height:678px;
+				width:100%;
+			}
+			
+		}
+	}
+}
+
+.about_slider_wrapper {
+	margin-top: -498px;
+	margin-right:68px;
+	float:right;
+	position: relative;
+	.slider_caption {
+		position: absolute;
+		top: 340px;
+		left: -205px;
+		z-index:5;
+		transform: rotate(-90deg);
+		.slider_caption_title {
+			color:#fff;
+			text-transform: uppercase;
+			font-family: $butlermedium;
+			letter-spacing: 2px;
+			margin-left:95px;
+		}
+		.caption_line {
+			width:75px;
+			height:1px;
+			background:#fff;
+			display: block;
+			position: absolute;
+			top:6px;
+			left:0;
+		}
+	}	
+	.about_slide_inner {
+		.about_slide {
+			img {
+				max-width: 100%;
+				height:auto;
+			}
+		}
+	}
+}
+
+
+.second_about_right {
+	width:61%;
+	float:right;
+	height:1000px;
+	padding-top:200px;
+	.second_about_title {
+		float:right;
+		position: relative;
+		span.sub_header {
+			color:$orange;
+			font-family: $butlermedium;
+			font-size:16px;
+			text-transform: uppercase;
+			letter-spacing: 9px;
+			text-align: right;
+			margin-right:170px;
+			background: #fff;
+			position: relative;
+			z-index:5;
+			padding-right:25px;
+		}
+		span.about_content_orangeline {
+			width:300px;
+			height:3px;
+			background: $orange;
+			position: absolute;
+			top:5px;
+			right:0;
+		}
+	}
+}
+
+
 		
