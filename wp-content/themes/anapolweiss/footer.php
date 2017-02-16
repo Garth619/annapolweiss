@@ -19,7 +19,16 @@
 		
 	</div><!-- get_started_left -->
 	
-	<div class="get_started_right"></div><!-- get_started_right -->
+	<div class="get_started_right">
+		
+		
+		<div class="form">
+			
+			<?php gravity_form(1, false, false, false, '', true, 12); ?>
+			
+		</div><!-- form -->
+		
+	</div><!-- get_started_right -->
 	
 	
 </section><!-- get_started -->

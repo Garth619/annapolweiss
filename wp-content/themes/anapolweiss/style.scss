@@ -13,13 +13,12 @@ a img {border:none}
 
 textarea, input, button {outline: none;}
 
+textarea { resize: none;}
+
 *, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 
 
 html {-webkit-text-size-adjust: 100%;} 
-
-
-
 
 
 /* Colors */
@@ -1479,7 +1478,109 @@ a.case_results_button {
 
 .get_started_right {
 	flex-grow: 1;
-	
 	height:500px;
+	margin-top:265px;
+}
+
+.form {
+	padding-left:10%;
+	padding-right:40px;
+	max-width:1270px;
+	margin:0 auto;
+	ul {
+		list-style: none;
+		margin:0;
+		li#field_1_3 {
+			margin-right:0%;
+		}
+		li#field_1_5 {
+			display: none;
+		}
+		li#field_1_4 {
+				width:100%;
+				margin-top:30px;
+				
+			}
+		li {
+			width:32%;
+			float:left;
+			margin-right:2%;
+			label {
+				color:$orange;
+				text-transform: uppercase;
+				font-family: $helvetica;
+				font-size:14px;
+				letter-spacing: 4.5px;
+				.gfield_required {
+					font-size:20px;
+					position: relative;
+					top:4px;
+					left:4px;
+					font-family: $bulterlight;
+				}
+			}
+			input {
+				padding:7px 0 10px;
+				margin-top:19px;
+			}
+			input:focus, textarea:focus {
+				border-bottom:6px solid #fff;
+				padding-bottom:5px;
+			}
+			input, textarea {
+				width:100%;
+				background: transparent;
+				border-bottom: 1px #fff solid;
+				border-left:none;
+				border-right:none;
+				border-top:none;
+				color:#899196;
+				font-family: $helvetica;
+				font-size:16px;
+				letter-spacing:4.5px;
+				text-transform: uppercase;
+			}
+			textarea {
+				padding:7px 0 10px;
+				margin-top:19px;
+				height:132px;
+				width:100% !important;
+			}
+			
+		}
+	}
+	input[type="submit"] {
+		background:$orange;
+		border:none;
+		color:#fff;
+		text-transform: uppercase;
+		font-family: $helvetica;
+		float:right;
+		font-size:16px;
+		letter-spacing: 1.5px;
+		padding:16px 46px;
+		margin:20px 0 0 0;
+		cursor: pointer;
+		transition: all .2s ease-in-out;
+		
+		&:hover {
+			background: #fff;
+			color:$orange;
+		}
+	}
+}
+
+.validation_error {
+	display: none;
+}
+
+.gfield_description, .validation_message {
+	color:#899196;
+	font-family: $helvetica;
+	
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-size:12px;
+	margin-top:5px;
 }
 		
