@@ -817,12 +817,7 @@ get_header(); ?>
 		
 	</div><!-- team_title -->
 	
-	<div class="team_buttons">
-		
-		<div class="team_back">Back</div><!-- team_back -->
-		<div class="team_next">Next</div><!-- team_back -->
-		
-	</div><!-- team_buttons -->
+	
 	
 	
 	<div class="slider_thumbs_wrapper">
@@ -837,7 +832,12 @@ get_header(); ?>
 			
 			<div class="thumb_overlay">
 				
-				<span class="">Tom1</span>
+				<div class="thumb_title_wrapper">
+				
+					<span class="thumb_orange_line"></span>
+					<span class="thumb_title">Tom Anapol</span><!-- thumb_title -->
+				
+				</div><!-- thumb_title_wrapper -->
 				
 			</div><!-- thumb_overlay -->
 			
