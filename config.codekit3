@@ -4933,7 +4933,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/mobile_test_bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/anapolweiss\/images\/mobile_video_play_button.png": {
 		"ft": 32768,
@@ -5101,7 +5101,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/test_bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/anapolweiss\/images\/test_logo.png": {
 		"ft": 32768,

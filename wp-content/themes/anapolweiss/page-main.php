@@ -1294,10 +1294,21 @@ get_header(); ?>
 	</div><!-- slide_main_wrapper -->
 	
 	
-	
-	
-	
 </section><!-- team -->
+
+<section class="large_quote">
+	
+	
+	<div class="inner_test_content">
+		
+		<img class="test_logo" src="<?php bloginfo('template_directory');?>/images/test_logo.png"/>
+		<span class="test_orangeline"></span><!-- test_orangeline -->
+		<span class="testimonial_quote">“The firm goes <span class="orange">the extra mile</span> for their clients”</span><!-- testimonial_quote -->
+		
+	</div><!-- inner_test_content -->
+	
+	
+</section><!-- large_quote -->
 
 
 
