@@ -1435,7 +1435,7 @@ footer {
 	
 	.get_started_title_wrapper {
 		position: relative;
-		padding-left:100px;
+		padding-left:135px;
 		width:565px;
 		span.sub_header {
 			color:$orange;
@@ -1487,10 +1487,11 @@ footer {
 }
 
 .form {
-	padding-left:10%;
-	padding-right:40px;
+	padding-left:7%;
+	padding-right:95px;
 	max-width:1270px;
 	margin:0 auto;
+	overflow:hidden;
 	ul {
 		list-style: none;
 		margin:0;
@@ -1600,12 +1601,15 @@ footer {
 
 
 .extended_footer {
-	padding:0 100px;
+	padding:0 155px;
+	margin-top:55px;
+	overflow: hidden;
 	height:2000px;
 }
 	.locations_wrapper {
+		width:70%;
+		float:left;
 		
-		overflow: hidden;
 		span.location_title {
 			color:$orange;
 			font-family: $helvetica;
@@ -1614,15 +1618,24 @@ footer {
 			letter-spacing: 5px;
 			float:left;
 			margin-top:6px;
+			margin-right:6%;
 		}
 	}
 
 
 	.location_slider_inner {
-		float:left;
+// 		float:left;
+		overflow: hidden;
 		.location_col {
 			float:left;
-			max-width:225px;
+// 			max-width:225px;
+			width:33.33333%;
+/*
+			margin-right:13%;
+			&:last-of-type {
+				margin-right:0%;
+			}
+*/
 			span.state {
 				color:$orange;
 				font-family: $butlermedium;
@@ -1638,6 +1651,7 @@ footer {
 				margin-bottom:25px;
 			}
 			.single_location {
+				max-width:225px;
 				a.address {
 					font-family: $bulterlight;
 					color:#fff;
@@ -1645,6 +1659,10 @@ footer {
 					line-height: 26px;
 					text-decoration: none;
 					display: block;
+					transition: all .2s ease-in-out;
+						&:hover {
+							color:$orange;
+						}
 				}
 				a.location_tel {
 					color:#fff;
@@ -1653,7 +1671,49 @@ footer {
 					margin-top:18px;
 					text-decoration: none;
 					margin-bottom: 30px;
+					transition: all .2s ease-in-out;
+						&:hover {
+							color:$orange;
+						}
 				}
 			}
 		}
 	}	
+	
+	
+	.social_links {
+		float:right;
+		width:30%;
+		.social_inner {
+			padding-left:29%;
+			width:100%;
+			span.social_title {
+				color:$orange;
+				font-family: $helvetica;
+				text-transform: uppercase;
+				font-size:14px;
+				letter-spacing: 5px;
+				float:left;
+				margin-top:6px;
+				margin-right:11%;
+			}
+			ul {
+				list-style: none;
+				margin:0;
+				float:left;
+				li {
+					margin-bottom:15px;
+					a {
+						color:#fff;
+						text-decoration: none;
+						font-family: $butlermedium;
+						font-size:22px;
+						transition: all .2s ease-in-out;
+						&:hover {
+							color:$orange;
+						}
+					}
+				}
+			}
+		}
+	}
