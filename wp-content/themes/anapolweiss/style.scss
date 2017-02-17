@@ -1604,7 +1604,7 @@ footer {
 	padding:0 155px;
 	margin-top:55px;
 	overflow: hidden;
-	height:2000px;
+	padding-bottom: 70px;
 }
 	.locations_wrapper {
 		width:70%;
@@ -1715,5 +1715,32 @@ footer {
 					}
 				}
 			}
+		}
+	}
+	
+	
+	.bottom_footer {
+		overflow: hidden;
+		width:100%;
+		background:#fff;
+		padding:33px 0;
+		.copyright {
+			font-family: $helvetica;
+			text-transform: uppercase;
+			font-size:14px;
+			padding:0 75px;
+			float:left;
+			a {
+				color:$bluedark;
+				text-decoration: none;
+				
+				&:hover {
+					color:$orange;
+				}
+			}
+		}
+		.ilawyer_logo {
+			float:right;
+			
 		}
 	}
