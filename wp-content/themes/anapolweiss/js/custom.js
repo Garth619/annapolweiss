@@ -68,6 +68,22 @@ jQuery('.inner_stats').slick({
 });
 
 
+// About Slider
+
+
+/*
+jQuery('.about_slide_inner').slick({
+  slidesToShow: 1,
+	slidesToScroll: 1,
+	arrows:true,
+	dots:false
+	
+
+
+});
+*/
+
+
 // In the News
 
 
@@ -80,6 +96,7 @@ jQuery('.blog_inner_wrapper').slick({
 
 
 });
+
 
 
 
