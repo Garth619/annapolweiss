@@ -126,7 +126,6 @@ header {
 			font-family: $butlermedium;
 			font-weight:300;
 			font-style: normal;
-			
 			padding-top:42px;
 			ul {
 				list-style: none;
@@ -139,6 +138,7 @@ header {
 						text-transform: lowercase;
 						font-size:20px;
 						transition: all .1s ease-in-out;
+						cursor: pointer;
 						&:hover {
 							color:$orange;
 						}
@@ -148,31 +148,68 @@ header {
 			ul.menu {
 				display: flex;
 				justify-content: space-around;
-				> li.menu-item-has-children {
-					&:after {
-						content:"";
-						background:url(images/header_down_arrow_blue.png) top left no-repeat;
-						width:13px;
-						height:8px;
-						display: inline-block;
-						margin-left:3px;
-					}
-					&:hover {
+				> li.current-menu-ancestor {
+					> a {
+						color:$orange;
 						&:after {
 							content:"";
-						background:url(images/header_down_arrow_orange.png) top left no-repeat;
-						width:13px;
-						height:8px;
-						display: inline-block;
-						margin-left:3px;
+							background:url(images/header_down_arrow_orange.png) top left no-repeat !important;
+							width:13px;
+							height:8px;
+							display: inline-block;
+							margin-left:6px;
 						}
+					}
+				}
+				> li.menu-item-has-children {
+					> a {
+						&:after {
+							content:"";
+							background:url(images/header_down_arrow_blue.png) top left no-repeat;
+							width:13px;
+							height:8px;
+							display: inline-block;
+							margin-left:6px;
+						}
+						&:hover {
+							
+							&:after {
+								content:"";
+								background:url(images/header_down_arrow_orange.png) top left no-repeat;
+								width:13px;
+								height:8px;
+								display: inline-block;
+								margin-left:6px;
+							}
+						}
+					}
+				}
+				> li.menu-item-has-children:hover {
+					> a {
+						&:after {
+							content:"";
+							background:url(images/header_down_arrow_orange.png) top left no-repeat;
+							width:13px;
+							height:8px;
+							display: inline-block;
+							margin-left:6px;;
+						}
+					}
+				}
+				> li:hover {
+					> a {
+						color:$orange
+					}
+					> ul.sub-menu {
+						opacity: 1;
+						visibility: visible;
 					}
 				}
 				> li {
 					flex-grow: 1;
 					position: relative;
 					> a {
-						
+						padding-bottom:50px;
 					}
 					> ul.sub-menu {
 						position: absolute;
@@ -185,9 +222,66 @@ header {
  						min-width:275px;
 						text-align: left;
 						z-index:10;
+						opacity: 0;
+						visibility: hidden;
+						transition: all .2s ease-in-out;
+						> li:hover {
+								ul.sub-menu {
+									opacity: 1;
+									visibility: visible;
+								}
+							}
+						> li.current-menu-parent {
+							> a {
+									color:$orange;
+									&:after {
+										content:"";
+										background:url(images/header_down_arrow_orange.png) top left no-repeat !important;
+										width:13px;
+										height:8px;
+										display: inline-block;
+										margin-left:6px;
+									}
+								}
+							}
+						> li.menu-item-has-children:hover {
+							> a {
+								color:$orange;
+								&:after {
+									content:"";
+									background:url(images/header_down_arrow_orange.png) top left no-repeat;
+									width:13px;
+									height:8px;
+									display: inline-block;
+									margin-left:6px;
+							}
+						}
+						}
+						> li.menu-item-has-children {
+							> a {
+								&:after {
+									content:"";
+									background:url(images/header_down_arrow_blue.png) top left no-repeat;
+									width:13px;
+									height:8px;
+									display: inline-block;
+									margin-left:6px;
+							}
+						}
+					}
+
+						> li.current-menu-item {
+							> a {
+								color:$orange;
+							}
+						}
 						> li {
 							margin-bottom: 37px;
 							position: relative;
+							> a {
+									display:block;
+								
+								}
 							> ul.sub-menu {
 								position: absolute;
 								top:-20px;
@@ -196,10 +290,20 @@ header {
 								min-width:275px;
 								padding-left:25px;
 								padding-top:20px;
+								opacity: 0;
+								visibility: hidden;
+								transition: all .2s ease-in-out;
+								
+								> li.current-menu-item {
+									> a {
+										color:$orange;
+									}
+								}
 								> li {
 									margin-bottom: 37px;
 									> a {
-										
+										display: block;
+										width:100%;
 									}
 								}
 							}
