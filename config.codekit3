@@ -21,22 +21,16 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/anapol-migrate-20170217000100.sql.gz": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/anapol-migrate-20170217000100.sql.gz",
+		"oF": 0
+		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.php",
-		"oF": 0
-		},
-	"\/license.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/license.txt",
-		"oF": 0
-		},
-	"\/readme.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/readme.html",
 		"oF": 0
 		},
 	"\/wp-activate.php": {
@@ -6773,12 +6767,6 @@
 		"oAP": "\/wp-content\/plugins\/gravityforms\/xml.php",
 		"oF": 0
 		},
-	"\/wp-content\/plugins\/hello.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/plugins\/hello.php",
-		"oF": 0
-		},
 	"\/wp-content\/plugins\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -8386,7 +8374,7 @@
 		},
 	"\/wp-content\/themes\/anapolweiss\/screenshot.png": {
 		"ft": 32768,
-		"iS": 419383,
+		"iS": 613565,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/screenshot.png",
 		"oF": 0,
@@ -8455,18 +8443,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/index.php",
-		"oF": 0
-		},
-	"\/wp-content\/uploads\/wp-migrate-db\/.htaccess": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/.htaccess",
-		"oF": 0
-		},
-	"\/wp-content\/uploads\/wp-migrate-db\/index.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/index.php",
 		"oF": 0
 		},
 	"\/wp-cron.php": {
