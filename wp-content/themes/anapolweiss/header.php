@@ -62,20 +62,15 @@
 			</div><!-- logo_wrapper -->
 			
 			<nav class="desktop">
-				
-				
-				
+
 				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
-				
-				
-				
-			
-			
+
 			</nav>
 			
-		
-			
+
 		</div><!-- inner_header -->
+		
+		<div style="clear:both;"></div>
 		
 	</header>
 	
