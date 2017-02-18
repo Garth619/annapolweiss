@@ -784,7 +784,26 @@ get_header(); ?>
 				
 				</div><!-- about_slide_inner -->
 				
-				<div class="">Arrows and Captions</div>
+				<div class="about_arrows_count">
+					
+					<div class="about_arrow_left">
+						
+						<img class="about_arrow_left_img" src="<?php bloginfo('template_directory');?>/images/content_left_arrow.png"/>
+						<img class="about_arrow_left_hover" src="<?php bloginfo('template_directory');?>/images/content_left_arrow_orange.png"/>
+						
+					</div><!-- about_arrow_left -->
+					
+					<div class="about_counter">1/8</div><!-- about_counter -->
+					
+					
+					<div class="about_arrow_right">
+						
+						<img class="about_arrow_right_img" src="<?php bloginfo('template_directory');?>/images/content_right_arrow.png"/>
+						<img class="about_arrow_right_hover" src="<?php bloginfo('template_directory');?>/images/content_right_arrow_orange.png"/>
+						
+					</div><!-- about_arrow_right -->
+					
+				</div><!-- about_arrows_count -->
 				
 			</div><!-- about_slider_wrapper -->
 			

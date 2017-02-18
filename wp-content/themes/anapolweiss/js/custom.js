@@ -71,17 +71,52 @@ jQuery('.inner_stats').slick({
 // About Slider
 
 
-/*
+
 jQuery('.about_slide_inner').slick({
   slidesToShow: 1,
 	slidesToScroll: 1,
 	arrows:true,
-	dots:false
-	
+	dots:false,
+	prevArrow:".about_arrow_left",
+	nextArrow:".about_arrow_right"
 
 
 });
-*/
+
+
+
+jQuery('.about_arrow_left').mouseenter(function(){
+	
+	jQuery('img.about_arrow_left_img').fadeOut(200);
+	jQuery('img.about_arrow_left_hover').fadeIn(200);
+	
+});
+
+jQuery('.about_arrow_left').mouseleave(function(){
+	
+	jQuery('img.about_arrow_left_img').fadeIn(200);
+	jQuery('img.about_arrow_left_hover').fadeOut(200);
+	
+});
+
+
+jQuery('.about_arrow_right').mouseenter(function(){
+	
+	jQuery('img.about_arrow_right_img').fadeOut(200);
+	jQuery('img.about_arrow_right_hover').fadeIn(200);
+	
+});
+
+jQuery('.about_arrow_right').mouseleave(function(){
+	
+	jQuery('img.about_arrow_right_img').fadeIn(200);
+	jQuery('img.about_arrow_right_hover').fadeOut(200);
+	
+});
+
+
+
+
 
 
 // In the News

@@ -1145,7 +1145,7 @@ a.case_results_button {
 		float:left;
 		
 		.about_left_inner {
-			
+			overflow: hidden;
 			.about_orange_box {
 				background:$orange;
 				height:678px;
@@ -1160,6 +1160,7 @@ a.case_results_button {
 	margin-top: -498px;
 	margin-right:68px;
 	float:right;
+	max-width:567px;
 	position: relative;
 	.slider_caption {
 		position: absolute;
@@ -1186,6 +1187,8 @@ a.case_results_button {
 	}	
 	.about_slide_inner {
 		.about_slide {
+			width:100%;
+			display: block;
 			img {
 				max-width: 100%;
 				height:auto;
@@ -1271,6 +1274,56 @@ a.case_results_button {
 				margin-top:14px;
 				margin-bottom: 24px;
 			}
+		}
+	}
+}
+
+
+.about_arrows_count {
+	width:100%;
+	max-width:300px;
+	margin:0 auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top:20px;
+	.about_arrow_left {
+		cursor: pointer;
+		position: relative;
+		
+		width:35px;
+		height:16px;
+		
+		
+		img {
+			position: absolute;
+			top:0;
+			left:0;
+		}
+		img.about_arrow_left_hover {
+			display: none;
+		}
+	}
+	.about_counter {
+		width:100px;
+		height:30px;
+		
+		flex-grow:1;
+		text-align: center;
+	}
+	.about_arrow_right {
+		cursor: pointer;
+		position: relative;
+		
+		width:35px;
+		height:16px;
+		img {
+			position: absolute;
+			top:0;
+			left:0;
+		}
+		img.about_arrow_right_hover {
+			display: none;
 		}
 	}
 }
@@ -1891,9 +1944,8 @@ footer {
 			font-family: $helvetica;
 			text-transform: uppercase;
 			font-size:14px;
-			
 			float:left;
-			a {
+			a.footer_google {
 				color:$bluedark;
 				text-decoration: none;
 				
