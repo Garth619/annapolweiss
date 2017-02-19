@@ -31,23 +31,21 @@ jQuery('.inner_stats').slick({
   	slidesToShow: 4,
 		slidesToScroll: 4,
 		arrows:false,
-		dots:false //,
+		dots:false,
 		
 	
 		
 		
-/*
+
 		responsive: [
     {
-      breakpoint: 1600,
+      breakpoint: 1450,
       settings: {
-        infinite: true,
-				slidesToShow: 2,
+        slidesToShow: 2,
 				slidesToScroll: 2,
-				pauseOnHover: false,
 				arrows:false,
-				dots:true,
-				vertical:false,
+				dots:false,
+				
       }
     },
     {
@@ -64,7 +62,7 @@ jQuery('.inner_stats').slick({
     }
     
   ]
-*/
+
 });
 
 

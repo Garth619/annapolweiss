@@ -50,7 +50,7 @@ get_header(); ?>
 	
 	<div class="inner_stats">
 		
-		<div class="single_stat">
+		<div id="case_1" class="single_stat">
 			
 			<div class="svg_icon">
 				
@@ -72,7 +72,7 @@ get_header(); ?>
 		</div><!-- single_stat -->
 		
 		
-		<div class="single_stat">
+		<div id="case_2" class="single_stat">
 			
 			<div class="svg_icon">
 				
@@ -94,7 +94,7 @@ get_header(); ?>
 		</div><!-- single_stat -->
 		
 		
-		<div class="single_stat">
+		<div id="case_3" class="single_stat">
 			
 			<div class="svg_icon">
 				
@@ -117,7 +117,7 @@ get_header(); ?>
 		</div><!-- single_stat -->
 		
 		
-		<div class="single_stat">
+		<div id="case_4" class="single_stat">
 			
 			<div class="svg_icon">
 				
