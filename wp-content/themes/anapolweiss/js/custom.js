@@ -313,6 +313,20 @@ checkWidth();
 
 
 
+// Mobile Menu 
+
+
+jQuery('.mobile_menu').click(function(){
+	
+	
+	jQuery('nav.desktop').toggleClass('slidein');
+	jQuery('.mobile_bars').toggleClass('open');
+	
+	
+});
+
+
+
 
 }); // document ready 
 
