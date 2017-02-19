@@ -270,7 +270,6 @@ jQuery('.blog_posts_wrapper').mouseleave(function(){
 // Case Results Hover
 
 
-/*
 function checkWidth() {
     
     if (jQuery(window).width() > 730) {
@@ -297,7 +296,6 @@ function checkWidth() {
 
 
 checkWidth();
-*/
 
 
 
