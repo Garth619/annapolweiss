@@ -159,6 +159,15 @@ jQuery('.blog_inner_wrapper').slick({
 				arrows:true,
 				dots:false
       }
+    },
+    {
+      breakpoint: 1145,
+      settings: {
+        slidesToShow: 3,
+				slidesToScroll: 1,
+				arrows:true,
+				dots:false
+      }
     }
     
   ]
