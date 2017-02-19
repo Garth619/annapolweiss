@@ -1568,6 +1568,9 @@ a.case_results_button {
 					border-left:2px solid $grey;
 					margin-top:70px;
 					padding-left:35px;
+					font-size:18px;
+					font-family: $newscycle;
+					line-height: 29px;
 					span.slide_content_title {
 						color:$orange;
 						font-size:30px;
@@ -1578,9 +1581,7 @@ a.case_results_button {
 						margin-bottom:25px;
 					}
 					p {
-						font-size:18px;
-						font-family: $newscycle;
-						line-height: 29px;
+						
 					}
 				}
 				.view_profile {
@@ -4665,7 +4666,9 @@ a.case_results_button {
 .team {
 	
 	.team_title {
-		
+		font-size:66px;
+		line-height: 59px;
+		padding-left: 135px;
 		span.top_header {
 			
 		}
@@ -4676,7 +4679,7 @@ a.case_results_button {
 			
 		}
 		span.team_orangeline {
-			
+			top:90px;
 		}
 	}
 }
@@ -4686,18 +4689,23 @@ a.case_results_button {
 }
 
 .top_slide_row {
-	
-	
+	display: block;
+	margin-top:0;
 }
 
 
 
 .team_button_outer {
-
+	height:auto;
+	width:175px;
+	float:right;
+	margin-top:-30px;
+	margin-right:4%;
 	.team_buttons {
+		margin-top:0;
 		
 		.team_back {
-			
+			font-size:14px;
 			&:hover {
 				
 			}
@@ -4712,10 +4720,10 @@ a.case_results_button {
 			}
 		}
 		span.divider {
-			
+			margin: 0 18px;
 		}
 		.team_next {
-			
+			font-size:14px;
 			&:hover {
 				
 			}
@@ -4737,7 +4745,7 @@ a.case_results_button {
 
 .slider_thumbs_wrapper {
 	
-	
+	display: none;
 	.single_thumb {
 		
 		
@@ -4764,36 +4772,45 @@ a.case_results_button {
 
 
 .slide_main_wrapper {
-
+	padding-top:80px;
+	
 
 	.slide_main_inner {
 		.single_main_slide {
 			
 			.main_slide_left {
-				
+				width:50%;
 				img {
 					
 				}
 			}
 			.main_slide_right {
-				
+				padding:3px 40px;
+				width:50%;
 				span.slide_title {
-					
+					font-size:48px;
+					margin-bottom:4px;
 				}
 				span.slide_position {
-					
+					font-size:16px;
 				}
 				.slide_content {
-					
+					 margin-top: 32px;
+					 padding-left:0;
+					 border-left: none;
+					 font-size:14px;
+					 line-height: 25px;
 					span.slide_content_title {
-						
+						font-size:23px;
+						line-height: 28px;
+						margin-bottom: 3px;
 					}
 					p {
 						
 					}
 				}
 				.view_profile {
-					
+					margin-top:20px;
 					&:hover {
 						
 					}
@@ -4803,6 +4820,29 @@ a.case_results_button {
 	}
 }
 
+
+
+
+/* Large Quote */
+
+
+.large_quote {
+	height: 792px;
+	.inner_test_content {
+		padding-top: 151px;
+		img.test_logo {
+			
+		}
+		span.test_orangeline {
+			
+		}
+		span.testimonial_quote {
+			font-size:78px;
+			line-height: 76px;
+			width: 581px;
+		}
+	}
+}
 
 
 
