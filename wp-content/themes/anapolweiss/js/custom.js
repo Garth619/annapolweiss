@@ -43,27 +43,51 @@ jQuery('.inner_stats').slick({
       settings: {
         slidesToShow: 2,
 				slidesToScroll: 2,
-				arrows:false,
+				arrows:true,
 				dots:false,
-				
-      }
-    },
-    {
-      breakpoint: 1145,
-      settings: {
-        infinite: true,
-				slidesToShow: 1,
-				slidesToScroll: 1,
-				pauseOnHover: false,
-				arrows:false,
-				dots:true,
-				vertical:false,
+				prevArrow:".stat_left",
+				nextArrow:".stat_right"
       }
     }
     
   ]
 
 });
+
+
+jQuery('.stat_left').mouseenter(function(){
+	
+	jQuery('.stat_left_regular').fadeOut();
+	jQuery('.stat_left_hover').fadeIn();
+	
+});
+
+
+jQuery('.stat_left').mouseleave(function(){
+	
+	jQuery('.stat_left_regular').fadeIn();
+	jQuery('.stat_left_hover').fadeOut();
+	
+});
+
+
+
+jQuery('.stat_right').mouseenter(function(){
+	
+	jQuery('.stat_right_regular').fadeOut();
+	jQuery('.stat_right_hover').fadeIn();
+	
+});
+
+
+jQuery('.stat_right').mouseleave(function(){
+	
+	jQuery('.stat_right_regular').fadeIn();
+	jQuery('.stat_right_hover').fadeOut();
+	
+});
+
+
 
 
 // About Slider
@@ -224,8 +248,8 @@ jQuery('.team_next').mouseleave(function(){
 
 
 
-// Case Results Hover
 
+// In the news
 
 
 jQuery('.blog_posts_wrapper').mouseenter(function(){
@@ -243,9 +267,10 @@ jQuery('.blog_posts_wrapper').mouseleave(function(){
 });
 
 
+// Case Results Hover
 
 
-
+/*
 function checkWidth() {
     
     if (jQuery(window).width() > 730) {
@@ -272,6 +297,7 @@ function checkWidth() {
 
 
 checkWidth();
+*/
 
 
 

@@ -140,6 +140,24 @@ get_header(); ?>
 		
 	</div><!-- inner_stats -->
 	
+	<div class="stat_arrows">
+			
+			<div class="stat_left">
+				
+				<img class="stat_left_regular" src="<?php bloginfo('template_directory');?>/images/content_left_arrow.png"/>
+				<img class="stat_left_hover" src="<?php bloginfo('template_directory');?>/images/content_left_arrow_orange.png"/>
+				
+			</div><!-- stat_left -->
+			
+			<div class="stat_right">
+				
+				<img class="stat_right_regular" src="<?php bloginfo('template_directory');?>/images/content_right_arrow.png"/>
+				<img class="stat_right_hover" src="<?php bloginfo('template_directory');?>/images/content_right_arrow_orange.png"/>
+				
+			</div><!-- stat_left -->
+			
+		</div><!-- stat_arrows -->
+	
 </section><!-- stats -->
 
 <section class="about">
