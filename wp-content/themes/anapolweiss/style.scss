@@ -2255,10 +2255,11 @@ a.case_results_button {
 
 
 .blog {
-	
+	padding: 130px 0 0px;
 
 	.blog_left {
-		
+		width:100%;
+		padding-left:3.25%;
 		span.blog_orangeline {
 			
 		}
@@ -2266,13 +2267,19 @@ a.case_results_button {
 			
 		}
 		span.large_header {
-			
+			font-size:64px;
+			line-height: 63px;
 		}
 	}
 }
 
+
+
+
+
 .blog_right {
-	
+	 right: -145px;
+	 top:127px;
 	.blog_posts_wrapper {
 		
 		.blog_inner_wrapper {
@@ -2334,15 +2341,9 @@ a.case_results_button {
 }
 
 .wavy_blog {
-
+	margin-top:325px;
 }
 
-
-	
-	
-	
-	
-	
 	
 	
 	

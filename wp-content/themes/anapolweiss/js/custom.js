@@ -169,6 +169,22 @@ jQuery('.blog_inner_wrapper').slick({
 
 
 
+jQuery('.blog_posts_wrapper').mouseenter(function(){
+	
+	jQuery('.spacer.next').addClass('slideright');
+	
+	
+});
+
+jQuery('.blog_posts_wrapper').mouseleave(function(){
+	
+	jQuery('.spacer.next').removeClass('slideright');
+	
+	
+});
+
+
+
 
 // Meet the Team
 
@@ -262,22 +278,7 @@ jQuery('.team_next').mouseleave(function(){
 
 
 
-// In the news
 
-
-jQuery('.blog_posts_wrapper').mouseenter(function(){
-	
-	jQuery('.spacer.next').addClass('slideright');
-	
-	
-});
-
-jQuery('.blog_posts_wrapper').mouseleave(function(){
-	
-	jQuery('.spacer.next').removeClass('slideright');
-	
-	
-});
 
 
 // Case Results Hover
