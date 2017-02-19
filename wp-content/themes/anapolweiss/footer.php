@@ -108,13 +108,7 @@
 					
 						</div><!-- single_location -->
 						
-						<div class="single_location">
 						
-							<a class="address" href="" target="_blank">One Logan Square 130 N. 18th St. Ste. 1600 Philadelphia, PA 19103</a><!-- address -->
-						
-							<a class="location_tel" href="tel:21573511340">(215) 735-11340</a>
-					
-						</div><!-- single_location -->
 					
 					
 					</div><!-- location_col -->

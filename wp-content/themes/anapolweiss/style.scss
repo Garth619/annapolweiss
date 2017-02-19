@@ -1829,7 +1829,7 @@ footer {
 	padding-bottom: 70px;
 }
 	.locations_wrapper {
-		width:70%;
+		width:72%;
 		float:left;
 		
 		span.location_title {
@@ -1846,18 +1846,14 @@ footer {
 
 
 	.location_slider_inner {
-// 		float:left;
+
 		overflow: hidden;
 		.location_col {
 			float:left;
-// 			max-width:225px;
-			width:33.33333%;
-/*
-			margin-right:13%;
-			&:last-of-type {
-				margin-right:0%;
-			}
-*/
+
+			width:29.33333%;
+			margin-right:4%;
+
 			span.state {
 				color:$orange;
 				font-family: $butlermedium;
@@ -1905,9 +1901,9 @@ footer {
 	
 	.social_links {
 		float:right;
-		width:30%;
+		width:28%;
 		.social_inner {
-			padding-left:29%;
+			padding-left:25%;
 			width:100%;
 			span.social_title {
 				color:$orange;
@@ -1917,7 +1913,7 @@ footer {
 				letter-spacing: 5px;
 				float:left;
 				margin-top:6px;
-				margin-right:11%;
+				margin-right:16%;
 			}
 			ul {
 				list-style: none;
@@ -3409,6 +3405,194 @@ a.case_results_button {
 		}
 
 	
+		
+		
+		/* Get Started */
+
+footer {
+	
+}
+
+.get_started {
+	display: block;
+	
+}
+
+.get_started_left {
+	width:100%;
+	height:auto;
+	.get_started_title_wrapper {
+		 width: 750px;
+		 padding-left: 72px;
+		span.sub_header {
+			
+		}
+		span.large_header {
+			
+		}
+		span.info_required {
+			
+		}
+		span.get_started_orangeline {
+			
+		}
+	}
+}
+
+.get_started_right {
+	margin-top: 115px;
+}
+
+.form {
+	padding-left:95px;
+	padding-right:95px;
+	max-width: 100%;
+	ul {
+		
+		li#field_1_3 {
+			
+		}
+		li#field_1_5 {
+			
+		}
+		li#field_1_4 {
+				
+				
+			}
+		li {
+			
+			label {
+				
+				.gfield_required {
+					
+				}
+			}
+			input {
+				
+			}
+			input:focus, textarea:focus {
+				
+			}
+			input, textarea {
+				
+			}
+			textarea {
+				
+			}
+			
+		}
+	}
+	input[type="submit"] {
+		
+		
+		&:hover {
+			
+		}
+	}
+}
+
+.validation_error {
+	
+}
+
+.gfield_description, .validation_message {
+	
+}
+
+
+.wavy_footer {
+	
+}
+
+
+/* Extended Footer */
+
+
+.extended_footer {
+	padding:0 95px 70px; 
+	
+}
+	.locations_wrapper {
+		width:80%;
+		
+		span.location_title {
+			 margin-right: 4%;
+		}
+	}
+
+
+	.location_slider_inner {
+
+		.location_col {
+			 margin-right: 5%;
+			&:last-of-type {
+				margin-right:0%;
+			}
+			span.state {
+				
+			}
+			span.location_line {
+				
+			}
+			.single_location {
+				
+				a.address {
+					
+						&:hover {
+							
+						}
+				}
+				a.location_tel {
+					
+						&:hover {
+							
+						}
+				}
+			}
+		}
+	}	
+	
+	
+	.social_links {
+		width:20%;
+		.social_inner {
+			padding-left:5%;
+			span.social_title {
+				
+			}
+			ul {
+				
+				li {
+					
+					a {
+						
+						&:hover {
+							
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	
+	.bottom_footer {
+		
+		.copyright {
+			
+			a.footer_google {
+				
+				
+				&:hover {
+					
+				}
+			}
+		}
+		.ilawyer_logo {
+			
+			
+		}
+	}
 
 
 	
@@ -3419,7 +3603,209 @@ a.case_results_button {
 	
 	
 	
+	@media screen and (max-width: 1256px) {
+		
+		
+		
+		
+/* Get Started */
+
+footer {
 	
+}
+
+.get_started {
+	
+	
+}
+
+.get_started_left {
+	
+	.get_started_title_wrapper {
+		
+		span.sub_header {
+			
+		}
+		span.large_header {
+			
+		}
+		span.info_required {
+			
+		}
+		span.get_started_orangeline {
+			
+		}
+	}
+}
+
+.get_started_right {
+	
+}
+
+.form {
+	
+	ul {
+		
+		li#field_1_3 {
+			
+		}
+		li#field_1_5 {
+			
+		}
+		li#field_1_4 {
+				
+				
+			}
+		li {
+			
+			label {
+				
+				.gfield_required {
+					
+				}
+			}
+			input {
+				
+			}
+			input:focus, textarea:focus {
+				
+			}
+			input, textarea {
+				
+			}
+			textarea {
+				
+			}
+			
+		}
+	}
+	input[type="submit"] {
+		
+		
+		&:hover {
+			
+		}
+	}
+}
+
+.validation_error {
+	
+}
+
+.gfield_description, .validation_message {
+	
+}
+
+
+.wavy_footer {
+	
+}
+
+
+/* Extended Footer */
+
+
+.extended_footer {
+	 
+	
+}
+	.locations_wrapper {
+		width:100%;
+		float:none;
+		span.location_title {
+			 margin-right: 50px;
+		}
+	}
+
+
+	.location_slider_inner {
+
+		.location_col {
+			&:last-of-type {
+				margin-right:0;
+			}
+			span.state {
+				
+			}
+			span.location_line {
+				
+			}
+			.single_location {
+				
+				a.address {
+					
+						&:hover {
+							
+						}
+				}
+				a.location_tel {
+					
+						&:hover {
+							
+						}
+				}
+			}
+		}
+	}	
+	
+	
+	.social_links {
+		width:100%;
+		float:none;
+		overflow: hidden;
+		margin-top:20px;
+		.social_inner {
+			padding-left:0%;
+			span.social_title {
+				margin-right: 87px;
+			}
+			ul {
+				width: 76%;
+				li {
+					display: inline-block;
+					margin-right:5%;
+					&:last-of-type {
+						margin-right:0;
+					}
+					a {
+						
+						&:hover {
+							
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	
+	.bottom_footer {
+		padding-left:90px;
+		padding-right:90px;
+		.copyright {
+			
+			a.footer_google {
+				
+				
+				&:hover {
+					
+				}
+			}
+		}
+		.ilawyer_logo {
+			
+			
+		}
+	}
+
+
+		
+		
+		
+		
+		
+		
+	} /* Media Query */
 	
 	
 	
