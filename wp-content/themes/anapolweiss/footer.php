@@ -75,6 +75,8 @@
 					
 					</div><!-- location_col -->
 					
+					<div class="tablet">
+					
 					<div class="location_col">
 					
 					<span class="state">New Jersey</span><!-- state -->
@@ -102,13 +104,13 @@
 						
 						<div class="single_location">
 						
-							<a class="address" href="" target="_blank">8700 E. Vista Bonita Dr, Suite 268<br/>Scottsdale, AZ 852553</a><!-- address -->
+							<a class="address" href="" target="_blank">8700 E. Vista Bonita Dr,<br class="tablet_break"/> Suite 268<br/>Scottsdale, AZ 852553</a><!-- address -->
 						
 							<a class="location_tel" href="tel:4805154745">(480) 515-4745</a>
 					
 						</div><!-- single_location -->
 						
-						
+						</div><!-- tablet -->
 					
 					
 					</div><!-- location_col -->
