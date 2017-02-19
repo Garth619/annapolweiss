@@ -3863,12 +3863,19 @@ header {
 			max-width:500px;
 			padding-left:65px;
 			padding-top: 55px;
+			
 			transition: all .2s ease-in-out;
+			overflow-y: scroll;
+			overflow-x: hidden;
+			.menu-header {
+				padding-bottom:200px;
+			}
 			ul {
 				
 				
 				li {
 					margin-bottom: 49px;
+					
 					a {
 						
 						&:hover {
@@ -3879,6 +3886,7 @@ header {
 			}
 			ul.menu {
 				display: block;
+				
 				> li.current-menu-ancestor {
 					> a {
 						
@@ -3912,19 +3920,36 @@ header {
 						
 					}
 					> ul.sub-menu {
-						
+						top:0;
+						opacity: 0;
+						visibility: hidden;
 					}
 				}
 				> li {
-					
+					margin-bottom: 49px;
 					> a {
 						padding:0;
 					}
+					> ul.sub-menu.openmenu {
+						max-height:3000px;
+						opacity: 1;
+						visibility: visible;
+						margin-top:49px;
+					}
 					> ul.sub-menu {
+						transition: all .2s ease-in-out;
+						top:0;
+						padding:0;
+						left:0;
+						position: relative;
+						max-height: 0;
+						opacity: 0;
+						visibility: hidden;
 						
 						> li:hover {
 								ul.sub-menu {
-									
+									opacity: 0;
+									visibility: hidden;
 								}
 							}
 						> li.current-menu-parent {
@@ -3957,21 +3982,35 @@ header {
 							}
 						}
 						> li {
-							
+							margin-bottom: 49px;
 							> a {
 									
 								
 								}
+								
+							> ul.sub-menu.openmenu {
+									max-height:3000px;
+									opacity: 1;
+									visibility: visible;
+									margin-top:49px;
+							}
 							> ul.sub-menu {
+									transition: all .2s ease-in-out;
+									top:0;
+									padding:0;
+									left:0;
+									position: relative;
+									max-height: 0;
+									opacity: 0;
+									visibility: hidden;
 								
-								
-								> li.current-menu-item {
+							> li.current-menu-item {
 									> a {
 										
 									}
 								}
 								> li {
-									
+									margin-bottom: 49px;
 									> a {
 										
 									}
@@ -4019,6 +4058,7 @@ header {
 				transition: all .2s ease-in-out;
 			}
 			.mobile_bars.open {
+				background: $bluedark;
 				&:first-of-type {
 					transform: rotate(45deg);
 						transform-origin: -7px 21px;

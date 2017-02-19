@@ -328,5 +328,40 @@ jQuery('.mobile_menu').click(function(){
 
 
 
+function checkWidthtwo() {
+    
+    if (jQuery(window).width() < 1145) {
+        
+           	
+           	
+           	
+           	jQuery('nav.desktop li.menu-item-has-children a').click(function(){
+	           	
+	           	
+	           		jQuery(this).next('ul.sub-menu').toggleClass('openmenu');
+	           	
+           	});
+           	
+           	
+           	
+           	
+           	
+           	
+    	   		
+    		
+    } else {
+
+    }
+};
+
+
+checkWidthtwo();
+
+
+
+
+
+
+
 }); // document ready 
 

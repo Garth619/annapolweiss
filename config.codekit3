@@ -15,6 +15,12 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/.htaccess": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.htaccess",
+		"oF": 0
+		},
 	"\/anapol-migrate-20170217000100.sql.gz": {
 		"ft": 8192,
 		"oA": 2,
