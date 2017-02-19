@@ -171,7 +171,7 @@ get_header(); ?>
 				<h1>
 					<span class="orange h1first">Philadephia’s</span><!-- h1first -->
 					
-					<span class="h1middle">personal injury</span><!-- h1middle -->
+					<span class="h1middle"><span class="tablet">personal</span> injury</span><!-- h1middle -->
 					
 					<span class="h1end">law firm</span><!-- h1end -->
 				</h1>

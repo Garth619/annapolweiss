@@ -665,7 +665,8 @@ header {
 .wavy {
 	width:100%;
 	position: relative;
-	top: -150px
+	top: -150px;
+	
 }
 
 .featured_cases {
@@ -2692,6 +2693,7 @@ a.case_results_button {
 
 .wavy {
 	top:-85px;
+	
 }
 
 
@@ -3817,6 +3819,19 @@ footer {
 @media screen and (max-width: 1145px) {
 	
 	
+/* Buttons */
+
+.white_button {
+	
+	font-size:18px;
+	transition: all .2s ease-in-out;
+	padding: 23px 45px;
+	&:hover {
+		background: $orange;
+		color:#fff;
+	}
+}
+
 
 	
 	
@@ -4083,8 +4098,324 @@ header {
 	
 	
 	
+/* Main Banner */
+		
+		
+		
+		
+		
+		
+		.main_banner {
+			background: url(images/tablet_header_bg.jpg) top center no-repeat;
+			margin-top:110px;
+			height:769px;
+			.inner_main_content {
+				
+				a.play_button {
+					
+					img {
+						
+					}
+					img.play_hover {
+						
+					}
+				}
+				span.subheader {
+					font-size:26px;
+					letter-spacing: 42px;
+					margin-top: 67px;
+				}
+				span.largeheader {
+					font-size:100px;
+					letter-spacing: 5px;
+					
+				}
+			}
+		}
+		
+		
+		.mouse_scroll_wrapper {
+			
+			.mouse_inner_wrapper {
+				margin-top: 65px;
+				img.outer {
+					
+				}
+				img.inner {
+					
+				}
+			}
+		}
+		
+		
+		
+		
+	/* About */
 
+.about {
 	
+	.about_inner {
+		
+		.about_left {
+			width:43%;
+			.about_title {
+				padding-right:0;
+				overflow: visible;
+				h1 {
+					float:left;
+					width:350px;
+					margin-left:7%;
+					span.h1first, span.h1middle, span.h1end {
+						
+					}
+					span.h1first {
+						margin-left:20px;
+						
+					}
+					span.h1middle {
+						margin-left: 0px;
+						display: inline;
+						padding-left:0;
+						background: transparent;
+						span.tablet {
+							margin-left:70px;
+							background: $greylight;
+							padding-left:20px;
+						}
+					}
+					span.h1end {
+						display: inline;
+						margin-left:0;
+					}
+				}
+				span.header_line {
+					width:50%;
+				}
+			}
+			img.content_img {
+				
+			}
+		}
+		.about_right {
+			padding-left:50px;
+			padding-right:30px;
+			margin-top:11px;
+			.content {
+				font-size:15px;
+				line-height: 26px;
+				p {
+					margin-bottom: 25px;
+				}
+				.quote_wrapper {
+					margin-bottom: 28px;
+					.greyline {
+						
+					}
+					span {
+						font-size: 22px;
+						line-height: 33px;
+						padding-left:35px;
+					}
+					.horizontal_greyline {
+						margin-left: 38px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+	/* Case Results */
+
+
+
+.wavy {
+	
+}
+
+.featured_cases {
+	
+	.featured_title_wrapper {
+		margin-top:-20px;
+		padding-right:148px;
+		span.sub_header {
+			
+		}
+		span.large_header {
+			
+		}
+		span.featured_orange_line {
+			
+		}
+	}
+}
+
+.cases_grid {
+	margin-top: 255px;
+	.single_case {
+		
+		&:nth-of-type(1) {
+			&:before {
+				
+				
+			}
+			&:after {
+				
+			}
+		}
+		&:nth-of-type(2) {
+		
+			&:before {
+				
+			}
+			&:after {
+			
+			
+			}
+			.hover_case {
+				.hover_case_inner {
+					.hover_case_content {
+						
+						span {
+						
+						}
+					}
+				}
+			}
+		}
+		&:nth-of-type(3) {
+			
+			&:before {
+				
+			}
+			&:after {
+				
+				
+			}
+			.regular_case {
+				
+				.img_wrapper {
+				
+				}
+			}
+			.hover_case {
+				.hover_case_inner {
+					
+					.hover_case_content {
+						
+						span {
+							
+						}
+					}
+				}
+			}
+		}
+		&:nth-of-type(4) {
+		
+			&:after {
+				
+			}
+			.regular_case {
+				
+				.img_wrapper {
+					
+				}
+			}
+			.hover_case {
+				.hover_case_inner {
+					
+					.hover_case_content {
+						
+					}
+				}
+			}
+		}
+		&:nth-of-type(5) {
+			
+			&:before {
+				
+			}
+			&:after {
+				
+			}
+			.hover_case {
+				.hover_case_inner {
+					
+					.hover_case_content {
+						span {
+							
+						}
+					}
+				}
+			}
+		}
+		&:nth-of-type(6) {
+			
+			&:before {
+				
+			}
+			.hover_case {
+				.hover_case_inner {
+					
+					.hover_case_content {
+						span {
+							
+						}
+					}
+				}
+			}
+		}
+		a {
+			
+		}
+			.regular_case {
+				
+				span.case_number {
+					
+				}
+				span.case_dollar_amount {
+					
+				}
+				span.case_greyline {
+					
+				}
+				span.case_category {
+					
+				}
+				.img_wrapper {
+					
+					img.case_arrow {
+						
+					}
+				}
+			}
+			.hover_case {
+				
+				.hover_case_inner {
+				
+					.hover_case_content {
+						
+						span {
+							
+						}
+					}
+				}
+			}
+		}
+	
+}
+
+a.case_results_button {
+	
+	&:hover {
+		
+	}
+}
+
+
 	
 	
 	
