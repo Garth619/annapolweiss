@@ -989,10 +989,7 @@ a.case_results_button {
 	padding:230px 0 20px;
 	overflow:hidden;
 	position: relative;
-/*
-	display: flex;
-	flex-direction: row;
-*/
+
 	.blog_left {
 		position: relative;
 		padding-left:5.25%;
@@ -2253,7 +2250,94 @@ a.case_results_button {
 	
 	
 	
+	/* Blog */
+
+
+
+.blog {
 	
+
+	.blog_left {
+		
+		span.blog_orangeline {
+			
+		}
+		span.sub_header {
+			
+		}
+		span.large_header {
+			
+		}
+	}
+}
+
+.blog_right {
+	
+	.blog_posts_wrapper {
+		
+		.blog_inner_wrapper {
+			
+			.slick-prev {
+				
+			}
+			.single_blog_wrapper {
+				
+				
+				a {
+					
+					
+				}
+				span.blog_title {
+					
+				}
+				.blog_content {
+					
+					p {
+						
+					}
+				}
+				.blog_read_more {
+					
+					&:hover {
+						
+					}
+				}
+			}
+		}
+	.blog_post_next {
+		
+		.spacer {
+			width:32.666666666666666%;
+			margin-right: 0.65%;
+			&:first-of-type {
+				display: none;
+			}
+		}
+		.spacer.next.slideright {
+			
+		}
+		.spacer.next {
+			right:-300px;
+			.next_wrapper {
+				
+				
+				span {
+					
+				}
+				img {
+					
+				}
+			}
+		}
+		}
+	}
+}
+
+.wavy_blog {
+
+}
+
+
 	
 	
 	

@@ -149,7 +149,20 @@ jQuery('.blog_inner_wrapper').slick({
 	slidesToScroll: 1,
 	arrows:true,
 	dots:false,
-	nextArrow:".spacer.next"
+	nextArrow:".spacer.next",
+	responsive: [
+    {
+      breakpoint: 1665,
+      settings: {
+        slidesToShow: 3,
+				slidesToScroll: 1,
+				arrows:true,
+				dots:false
+      }
+    }
+    
+  ]
+
 
 
 });
