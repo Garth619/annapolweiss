@@ -13,6 +13,7 @@ get_header(); ?>
 	
 	<div class="inner_main_content">
 		
+		<a href="tel:866.735.2792" class="mobile_tel_banner">866.735.2792</a><!-- mobile_tel -->
 		
 		<a class="play_button" href="">
 			

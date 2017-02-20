@@ -295,7 +295,7 @@ jQuery('.team_next').mouseleave(function(){
 
 function checkWidth() {
     
-    if (jQuery(window).width() > 730) {
+    if (jQuery(window).width() > 1145) {
         
        
        jQuery('.single_case').mouseenter(function(){
@@ -313,6 +313,24 @@ function checkWidth() {
     	   		
     		
     } else {
+	    
+	    
+	    
+	    
+	    jQuery('.single_case').click(function(){
+	       
+	      jQuery(this).find('.hover_case').fadeIn();
+	       
+	     });
+	     
+	     jQuery('.hover_case').click(function(){
+	       
+	      jQuery(this).fadeOut();
+	       
+	     });
+	    
+	    
+	    
 
     }
 };
