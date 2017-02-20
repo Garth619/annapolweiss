@@ -5959,14 +5959,18 @@ header {
 		
 		.mobile_consultation {
 			display: block;
-			background: $orange;
-			color:#fff;
-			text-align: center;
-			font-size: 16px;
-			text-transform: uppercase;
-			font-family: $helvetica;
-			letter-spacing: 1.5px;
-			padding:24px 10px;
+			a {
+				display: block;
+				text-decoration: none;
+				background: $orange;
+				color:#fff;
+				text-align: center;
+				font-size: 16px;
+				text-transform: uppercase;
+				font-family: $helvetica;
+				letter-spacing: 1.5px;
+				padding:24px 10px;
+			}
 		}
 		
 				

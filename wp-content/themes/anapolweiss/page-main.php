@@ -27,7 +27,7 @@ get_header(); ?>
 		
 		<span class="largeheader">Great Lawyers</span><!-- large_header -->
 		
-		<a class="white_button consulation" href="">Start Your free consultation</a>
+		<a class="white_button consulation" href="#free_consultation">Start Your free consultation</a>
 		
 		<div class="mouse_scroll_wrapper">
 			
@@ -49,7 +49,7 @@ get_header(); ?>
 
 <section class="mobile_consultation">
 	
-start your free consultation	
+	<a href="#free_consultation">start your free consultation</a>
 	
 </section><!-- mobile_consultation -->
 
