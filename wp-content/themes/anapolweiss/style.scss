@@ -105,6 +105,7 @@ header, section, nav, footer {
 header {
 	background: #fff;
 	padding:0px 50px;
+	
 	.inner_header {
 		max-width:1800px;
 		margin:0 auto;
@@ -1665,6 +1666,7 @@ a.case_results_button {
 
 footer {
 	background: $bluedark;
+	
 }
 
 .get_started {
@@ -1791,6 +1793,7 @@ footer {
 				font-size:16px;
 				letter-spacing:4.5px;
 				text-transform: uppercase;
+				border-radius: 0;
 			}
 			textarea {
 				padding:7px 0 10px;
@@ -1814,7 +1817,8 @@ footer {
 		margin:20px 0 0 0;
 		cursor: pointer;
 		transition: all .2s ease-in-out;
-		
+		border-radius: 0;
+		-webkit-appearance: none;
 		&:hover {
 			background: #fff;
 			color:$orange;
@@ -7199,7 +7203,7 @@ a.case_results_button {
 	
 	.bottom_footer {
 		text-align: center;
-		padding:32px;
+		padding:32px 4px;
 		.copyright {
 			float:none;
 			display: block;
@@ -7721,26 +7725,23 @@ footer {
 				}
 			}
 			input {
-				-webkit-appearance: none;
-				border-radius: 0;
+				
 			}
 			input:focus, textarea:focus {
-				-webkit-appearance: none;
+			
 			}
 			input, textarea {
 				
 			}
 			textarea {
 				height:135px;
-				border-radius: 0;
+				
 			}
 			
 		}
 	}
 	input[type="submit"] {
 		margin:-10px auto 0;;
-		-webkit-appearance: none;
-		border-radius: 0;
 		float:none;
 		display: block;
 		&:hover {
