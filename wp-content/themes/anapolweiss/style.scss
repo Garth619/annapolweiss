@@ -1976,6 +1976,11 @@ footer {
 	}
 	
 	
+	.mobile_consultation {
+		display: none;
+	}
+	
+	
 
 @media screen and (max-width: 1830px) {
 	
@@ -5901,6 +5906,7 @@ header {
 		
 		.main_banner {
 			margin-top:83px;
+			padding:40px 20px 60px;
 			.inner_main_content {
 				a.mobile_tel_banner {
 					display: block;
@@ -5908,11 +5914,14 @@ header {
 					font-size:35px;
 					text-decoration: none;
 					font-family: $butlermedium;
+					margin-bottom:60px;
 			}
 				a.play_button {
-					
+					width:125px;
+					height:125px;
 					img {
-						
+						width:125px;
+						height:125px;
 					}
 					img.play_hover {
 						
@@ -5921,6 +5930,7 @@ header {
 				span.subheader {
 					font-size:20px;
 					letter-spacing: 16px;
+					margin-top: 47px;
 				}
 				span.largeheader {
 					font-size:75px;
@@ -5933,9 +5943,9 @@ header {
 		
 		
 		.mouse_scroll_wrapper {
-			
+			height:75px;
 			.mouse_inner_wrapper {
-				
+				margin-top:0;
 				img.outer {
 					
 				}
@@ -5945,7 +5955,19 @@ header {
 			}
 		}
 		
-	
+		
+		
+		.mobile_consultation {
+			display: block;
+			background: $orange;
+			color:#fff;
+			text-align: center;
+			font-size: 16px;
+			text-transform: uppercase;
+			font-family: $helvetica;
+			letter-spacing: 1.5px;
+			padding:24px 10px;
+		}
 		
 				
 		
