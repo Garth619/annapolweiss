@@ -25,6 +25,20 @@ jQuery('.play_button').mouseleave(function(){
 
 
 
+
+// Featured Cases
+
+
+
+jQuery('.cases_grid_mobile').slick({
+  	slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows:false,
+		dots:false,
+
+});
+
+
 // Stats
 
 jQuery('.inner_stats').slick({
@@ -301,7 +315,7 @@ jQuery('.team_next').mouseleave(function(){
 
 
 
-// Case Results Hover
+// Case Results Hover Desktop
 
 
 function checkWidth() {
@@ -309,13 +323,13 @@ function checkWidth() {
     if (jQuery(window).width() > 1145) {
         
        
-       jQuery('.single_case').mouseenter(function(){
+       jQuery('.cases_grid.desktop .single_case').mouseenter(function(){
 	       
 	      jQuery(this).find('.hover_case').fadeIn();
 	       
 	     });
 	     
-	     jQuery('.single_case').mouseleave(function(){
+	     jQuery('.cases_grid.desktop .single_case').mouseleave(function(){
 	       
 	      jQuery(this).find('.hover_case').fadeOut();
 	       
@@ -328,13 +342,13 @@ function checkWidth() {
 	    
 	    
 	    
-	    jQuery('.single_case').click(function(){
+	    jQuery('.cases_grid.desktop .single_case').click(function(){
 	       
 	      jQuery(this).find('.hover_case').fadeIn();
 	       
 	     });
 	     
-	     jQuery('.hover_case').click(function(){
+	     jQuery('.cases_grid.desktop .hover_case').click(function(){
 	       
 	      jQuery(this).fadeOut();
 	       
@@ -348,6 +362,30 @@ function checkWidth() {
 
 
 checkWidth();
+
+
+// Case Results Mobile
+
+
+
+
+
+
+
+jQuery('.single_case_mobile').click(function(){
+	
+	jQuery(this).find('.hover_case').fadeIn();
+	
+	
+});
+
+
+jQuery('.cases_grid_mobile .hover_case').click(function(){
+	
+	jQuery(this).fadeOut();
+	
+	
+});
 
 
 

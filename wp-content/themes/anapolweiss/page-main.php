@@ -55,7 +55,7 @@ get_header(); ?>
 
 <section class="stats">
 	
-	<div class="inner_stats">
+	<div class="inner_stats desktop">
 		
 		<div id="case_1" class="single_stat">
 			
@@ -247,7 +247,254 @@ get_header(); ?>
 </div><!-- featured_title_wrapper -->
 
 
-<div class="cases_grid">
+
+
+
+
+<div class="cases_grid_mobile">
+	
+	<div class="single_case_mobile">
+		
+		<div class="regular_case">
+				
+				<span class="case_number">$4.85</span><!-- case_number -->
+				<span class="case_dollar_amount">billion</span><!-- case_dollar_amount -->
+				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_category">pharmaceutical liability</span><!-- case_category -->
+				
+				<div class="img_wrapper">
+				
+					<img class="case_arrow" src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
+				
+				</div><!-- img_wrapper -->
+				
+			</div><!-- regular_case -->
+		
+		<a href="">
+		
+			<div class="hover_case">
+				
+				<div class="hover_case_inner">
+					
+					<div class="hover_case_content">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/results_merck.jpg"/>
+						
+						<span>Merck & Co., Inc. agreed to pay $4.85 billion to resolve Vioxx-related claims involving heart attack, sudden cardiac death or stroke. Anapol Weiss Partner Sol Weiss served as Co-Liaison Counsel in the New Jersey Vioxx litigation.</span>
+					
+					</div><!-- hover_case_content -->
+					
+				</div><!-- hover_case_inner -->
+				
+			</div><!-- hover_case -->
+		
+		</a>
+		
+	</div><!-- single_case -->
+	
+	<div class="single_case_mobile">
+		
+		<div class="regular_case">
+				
+				<span class="case_number">$3.75</span><!-- case_number -->
+				<span class="case_dollar_amount">billion</span><!-- case_dollar_amount -->
+				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_category">pharmaceutical liability</span><!-- case_category -->
+				
+				<div class="img_wrapper">
+				
+					<img class="case_arrow" src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
+				
+				</div><!-- img_wrapper -->
+				
+			</div><!-- regular_case -->
+		
+		<a href="">
+		
+			<div class="hover_case">
+				
+				<div class="hover_case_inner">
+					
+					<div class="hover_case_content">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/results_ahp.jpg"/>
+						
+						<span>American Home Products Corporation agreed to compensate thousands of people who used the diet drugs and suffered heart valve disease.</span>
+					
+					</div><!-- hover_case_content -->
+					
+				</div><!-- hover_case_inner -->
+				
+			</div><!-- hover_case -->
+		
+		</a>
+		
+	</div><!-- single_case -->
+	
+	<div class="single_case_mobile">
+		
+		<div class="regular_case">
+				
+				<span class="case_number">$1.4</span><!-- case_number -->
+				<span class="case_dollar_amount">billion</span><!-- case_dollar_amount -->
+				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_category">medical devices</span><!-- case_category -->
+				
+				<div class="img_wrapper">
+				
+					<img class="case_arrow" src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
+				
+				</div><!-- img_wrapper -->
+				
+			</div><!-- regular_case -->
+		
+		<a href="">
+		
+			<div class="hover_case">
+				
+				<div class="hover_case_inner">
+					
+					<div class="hover_case_content">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/results_stryker.jpg"/>
+						
+						<span>Stryker Rejuvenate and ABG II Hip Implant Settlement: Stryker agreed to pay in excess of $1.4B to people who needed their hip replaced. The settlement negotiated by several lawyers, including Thomas Anapol, in this coordinated litigation, provided for a base award of $300,000 for eligible claimants per case. To date, it is the highest base settlement in any metal-on-metal hip implant litigation.</span>
+					
+					</div><!-- hover_case_content -->
+					
+				</div><!-- hover_case_inner -->
+				
+			</div><!-- hover_case -->
+		
+		</a>
+		
+	</div><!-- single_case -->
+	
+	<div class="single_case_mobile">
+		
+		<div class="regular_case">
+				
+				<span class="case_number">$765</span><!-- case_number -->
+				<span class="case_dollar_amount">million</span><!-- case_dollar_amount -->
+				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_category">class actions</span><!-- case_category -->
+				
+				<div class="img_wrapper">
+				
+					<img class="case_arrow" src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
+				
+				</div><!-- img_wrapper -->
+				
+			</div><!-- regular_case -->
+		
+		<a href="">
+		
+			<div class="hover_case">
+				
+				<div class="hover_case_inner">
+					
+					<div class="hover_case_content">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/results_pfizer.jpg"/>
+						
+						<span>Pfizer settled thousands of claims alleging the Rezulin diabetes drug caused severe liver damage and sometimes death.</span>
+					
+					</div><!-- hover_case_content -->
+					
+				</div><!-- hover_case_inner -->
+				
+			</div><!-- hover_case -->
+		
+		</a>
+		
+	</div><!-- single_case -->
+	
+	<div class="single_case_mobile">
+		
+		<div class="regular_case">
+				
+				<span class="case_number">$26</span><!-- case_number -->
+				<span class="case_dollar_amount">million</span><!-- case_dollar_amount -->
+				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_category">products liability</span><!-- case_category -->
+				
+				<div class="img_wrapper">
+				
+					<img class="case_arrow" src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
+				
+				</div><!-- img_wrapper -->
+				
+			</div><!-- regular_case -->
+		
+		<a href="">
+		
+			<div class="hover_case">
+				
+				<div class="hover_case_inner">
+					
+					<div class="hover_case_content">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/results_gm.jpg"/>
+						
+						<span>$26 million Verdict Against General Motors: The defective design of a passenger’s seat back failed in a rear-end collision and rendered the passenger a quadriplegic.</span>
+					
+					</div><!-- hover_case_content -->
+					
+				</div><!-- hover_case_inner -->
+				
+			</div><!-- hover_case -->
+		
+		</a>
+		
+	</div><!-- single_case -->
+	
+	<div class="single_case_mobile">
+		
+		<div class="regular_case">
+				
+				<span class="case_number">$10.2</span><!-- case_number -->
+				<span class="case_dollar_amount">million</span><!-- case_dollar_amount -->
+				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_category">products liability</span><!-- case_category -->
+				
+				<div class="img_wrapper">
+				
+					<img class="case_arrow" src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
+				
+				</div><!-- img_wrapper -->
+				
+			</div><!-- regular_case -->
+		
+		<a href="">
+		
+			<div class="hover_case">
+				
+				<div class="hover_case_inner">
+					
+					<div class="hover_case_content">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/results_vw.jpg"/>
+						
+						<span>$10.2 million verdict against Volkswagen in a products liability case for lack of an anti-submarining ramp for a rear-center seated occupant.</span>
+					
+					</div><!-- hover_case_content -->
+					
+				</div><!-- hover_case_inner -->
+				
+			</div><!-- hover_case -->
+		
+		</a>
+		
+	</div><!-- single_case -->
+	
+</div><!-- cases_grid -->
+
+
+
+
+
+
+<div class="cases_grid desktop">
 	
 	<div class="single_case">
 		

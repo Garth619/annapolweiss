@@ -672,6 +672,8 @@ header {
 	
 }
 
+
+
 .featured_cases {
 	background: #fff;
 	margin-bottom:100px;
@@ -715,6 +717,13 @@ header {
 		}
 	}
 }
+
+.cases_grid_mobile {
+	display: none;
+}
+
+
+
 
 .cases_grid {
 	clear:both;
@@ -2712,13 +2721,16 @@ a.case_results_button {
 
 
 .featured_cases {
-	
+
 	.featured_title_wrapper {
 		
 		span.sub_header {
-			
+			font-size:22px;
+			right: -71px;
+			letter-spacing: 38px;
 		}
 		span.large_header {
+			font-size:101px;
 			
 		}
 		span.featured_orange_line {
@@ -5375,6 +5387,82 @@ footer {
 
 
 
+@media screen and (max-width: 800px) {
+	
+	
+	
+	
+	
+		
+	/* About */
+
+.about {
+	
+	.about_inner {
+		
+		.about_left {
+			
+			.about_title {
+				
+				h1 {
+					font-size: 47px;
+					line-height: 48px;
+					margin-left: 10%;
+					span.h1first, span.h1middle, span.h1end {
+						
+					}
+					span.h1first {
+						
+						
+					}
+					span.h1middle {
+						
+						span.tablet {
+							
+						}
+					}
+					span.h1end {
+						
+					}
+				}
+				span.header_line {
+					 top: 73px;
+				}
+			}
+			img.content_img {
+				
+			}
+		}
+		.about_right {
+			
+			.content {
+				
+				p {
+					
+				}
+				.quote_wrapper {
+					
+					.greyline {
+						
+					}
+					span {
+						
+					}
+					.horizontal_greyline {
+						
+					}
+				}
+			}
+		}
+	}
+}
+
+	
+	
+	
+} /* Media Query */
+
+
 
 
 @media screen and (max-width: 770px) {
@@ -5625,10 +5713,16 @@ footer {
 			
 		}
 	}
+	
+	
 
-	
-	
-	
+
+
+
+
+		
+				
+
 	
 	
 	
@@ -5691,8 +5785,104 @@ footer {
 		}
 
 
+/* Featured Cases */
 
+.cases_grid.desktop {
+	display: none;
+}
+	
+	
+	.cases_grid_mobile {
+		width:100%;
+		clear:both;
+		padding:0 20px;
+		display: block;
+		max-width:600px;
+		margin:175px auto 0;
+		.single_case_mobile {
+			text-align: center;
+// 			background: red;
+			padding-top:40px;
+			height:430px;
+			position: relative;
+			a {
+				text-decoration: none;
+			}
+			.hover_case {
+				background: $greylight;
+				height: 430px;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+				z-index: 5;
+				display: none;
+				.hover_case_inner {
+					text-align: center;
+					padding:50px 30px 0;
+					display: block !important;
+			.hover_case_content {
+				img {
+					margin: 0 auto;
+				}
+				span {
+					font-size:15px;
+					line-height:28px;
+					color:$greydark;
+					margin-top:35px;
+					display: block;
+				}
+			}
+		}
+	}
+	
 
+			.regular_case {
+				height:430px;
+				span.case_number {
+					font-size:80px;
+					font-family: $butlermedium;
+					display: block;
+				}
+				span.case_dollar_amount {
+					color:$orange;
+					display: block;
+					font-size:18px;
+					text-transform: uppercase;
+					font-family: $butlerbold;
+					letter-spacing: 18px;
+					margin-top:0px;
+				}
+				span.case_greyline {
+					width:1px;
+					height:50px;
+					background:$grey;
+					display: block;
+					margin:50px auto 25px;
+				}
+				span.case_category {
+					font-family: $butler;
+					font-size:24px;
+					color:$greydark;
+				}
+				.img_wrapper {
+					width:100%;
+					text-align: center;
+					margin-top:80px;
+					img {
+						display: block;
+						margin: 0 auto;
+					}
+				}
+			}
+		}
+	}
+	
+	
+		a.case_results_button {
+			margin: 25px auto 0;
+			font-size:14px;
+		}
 	
 	
 	
@@ -6061,9 +6251,268 @@ header {
 	}
 }
 
-		
+
+	
+	/* About */
+
+.about {
+	padding: 58px 0 0;
+	.about_inner {
+		display: block;
+		overflow: hidden;
+		.about_left {
+			width:100%;
+			max-width: 100%;
+			float:left;
+			.about_title {
 				
+				h1 {
+					
+					margin-left: 23%;
+					span.h1first, span.h1middle, span.h1end {
+						
+					}
+					span.h1first {
+						
+						
+					}
+					span.h1middle {
+						
+						span.tablet {
+							
+						}
+					}
+					span.h1end {
+						
+					}
+				}
+				span.header_line {
+					 top: 73px;
+				}
+			}
+			img.content_img {
+				display: none;
+			}
+		}
+		.about_right {
+			width:100%;
+			max-width: 100%;
+			float:right;
+			margin-top: 57px;
+			padding-bottom: 85px;
+			padding-left:30px;
+			padding-right:30px;
+			.content {
+				font-size:14px;
+				line-height: 25px;
+				p {
+					
+				}
+				.quote_wrapper {
+					padding-bottom:0;
+					margin-bottom: 34px;
+					.greyline {
+						
+					}
+					span {
+						font-size:20px;
+						line-height: 27px;
+						padding-left:20px;
+						padding-bottom:3px;
+					}
+					.horizontal_greyline {
+						margin-left:20px;
+						position: relative;
+						top:12px;
+					}
+				}
+			}
+		}
+	}
+}
+
 		
+
+
+
+/* Case Results */
+
+.wavy {
+	top:-85px;
+	
+}
+
+
+
+
+.featured_cases {
+
+	.featured_title_wrapper {
+		    padding-right: 115px;
+
+		span.sub_header {
+			font-size:17px;
+			right: -71px;
+			letter-spacing: 24px;
+		}
+		span.large_header {
+			font-size:81px;
+			
+		}
+		span.featured_orange_line {
+			top:76px;
+		}
+	}
+}
+
+.cases_grid {
+	padding-left:10px;
+	
+	.single_case {
+		
+		&:nth-of-type(1) {
+			&:before {
+				
+			}
+			&:after {
+				
+			}
+		}
+		&:nth-of-type(2) {
+			&:before {
+				
+			}
+			&:after {
+				
+			}
+			.hover_case {
+				.hover_case_inner {
+					.hover_case_content {
+						
+						span {
+							
+						}
+					}
+				}
+			}
+		}
+		&:nth-of-type(3) {
+			&:before {
+				
+			}
+			&:after {
+				
+			}
+			.hover_case {
+				.hover_case_inner {
+					.hover_case_content {
+						
+						span {
+							
+						}
+					}
+				}
+			}
+		}
+		&:nth-of-type(4) {
+			
+			&:after {
+				
+			}
+			.hover_case {
+				.hover_case_inner {
+					
+				}
+			}
+		}
+		&:nth-of-type(5) {
+			
+			&:before {
+				
+			}
+			&:after {
+				
+			}
+			.hover_case {
+				.hover_case_inner {
+					
+					.hover_case_content {
+						span {
+							 
+						}
+					}
+				}
+			}
+		}
+		&:nth-of-type(6) {
+			
+			&:before {
+				
+			}
+			.hover_case {
+				.hover_case_inner {
+					
+					.hover_case_content {
+						span {
+							
+						}
+					}
+				}
+			}
+		}
+		a {
+			
+		}
+			.regular_case {
+				
+				span.case_number {
+					
+				}
+				span.case_dollar_amount {
+					
+				}
+				span.case_greyline {
+					
+				}
+				span.case_category {
+					
+				}
+				.img_wrapper {
+					
+					img.case_arrow {
+						
+					}
+				}
+			}
+			.hover_case {
+				
+				.hover_case_inner {
+					
+					.hover_case_content {
+						
+						span {
+							
+						}
+					}
+				}
+			}
+		}
+	
+}
+
+a.case_results_button {
+	
+	&:hover {
+		
+	}
+}
+
+
+
+
+
+
+
 
 	
 	
@@ -6121,6 +6570,75 @@ header {
 	margin-top: 76px;
 }
 		
+
+
+
+
+	/* About */
+
+.about {
+	
+	.about_inner {
+		
+		.about_left {
+			
+			.about_title {
+				
+				h1 {
+					
+					margin-left: 8%;
+					span.h1first, span.h1middle, span.h1end {
+						
+					}
+					span.h1first {
+						
+						
+					}
+					span.h1middle {
+						
+						span.tablet {
+							
+						}
+					}
+					span.h1end {
+						
+					}
+				}
+				span.header_line {
+					
+				}
+			}
+			img.content_img {
+			
+			}
+		}
+		.about_right {
+			
+			.content {
+				
+				p {
+					
+				}
+				.quote_wrapper {
+					
+					.greyline {
+						
+					}
+					span {
+						
+					}
+					.horizontal_greyline {
+						
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
 
 
 
