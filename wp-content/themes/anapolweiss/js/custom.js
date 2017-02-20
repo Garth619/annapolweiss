@@ -48,6 +48,17 @@ jQuery('.inner_stats').slick({
 				prevArrow:".stat_left",
 				nextArrow:".stat_right"
       }
+    },
+    {
+      breakpoint: 675,
+      settings: {
+        slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows:true,
+				dots:false,
+				prevArrow:".stat_left",
+				nextArrow:".stat_right"
+      }
     }
     
   ]
