@@ -55,6 +55,10 @@ body {
 	color:$bluedark;
 }
 
+body img.gform_ajax_spinner {
+    display: none!important;
+}
+
 
 header, section, nav, footer {
 	display: block;
@@ -7555,7 +7559,7 @@ footer {
 			}
 		li {
 			width:100%;
-margin-bottom:40px; 
+			margin-bottom:40px; 
 			float:none;
 			label {
 				
@@ -7564,23 +7568,28 @@ margin-bottom:40px;
 				}
 			}
 			input {
-				
+				-webkit-appearance: none;
+				border-radius: 0;
 			}
 			input:focus, textarea:focus {
-				
+				-webkit-appearance: none;
 			}
 			input, textarea {
 				
 			}
 			textarea {
 				height:135px;
+				border-radius: 0;
 			}
 			
 		}
 	}
 	input[type="submit"] {
-		margin-top:-10px;
-		
+		margin:-10px auto 0;;
+		-webkit-appearance: none;
+		border-radius: 0;
+		float:none;
+		display: block;
 		&:hover {
 			
 		}
@@ -7610,7 +7619,7 @@ margin-bottom:40px;
 }
 	.locations_wrapper {
 		
-		
+		display: none;
 		span.location_title {
 			  
 		}
@@ -7703,8 +7712,83 @@ margin-bottom:40px;
 	
 	
 
+.locations_mobile {
+	text-align: center;
+	margin-top:65px;
+	span.locations_mobile_title {
+		color:$orange;
+		text-transform: uppercase;
+		font-family: $helvetica;
+		font-size:14px;
+		letter-spacing: 5px;
+		display: inline-block;
+	}
+	.locations_mobile_inner {
+		margin-top:65px;
+			.single_location_mobile {
+				text-align: center;
+				span.state {
+					color:$orange;
+					font-size: 24px;
+					font-family: $butlermedium;
+					display: block;
+				}
+				span.location_line {
+					width:30px;
+					height:2px;
+					background: $greydark;
+					display: block;
+					margin:20px auto;
+					
+				}
+				a.address {
+					color:#fff;
+					display: block;
+					text-decoration: none;
+					font-size: 14px;
+					line-height: 20px;
+				}
+				a.location_tel {
+					color:#fff;
+					text-decoration: none;
+					margin-top:30px;
+					display: block;
+				}
+			}
+		}
+}
 
 
+.locations_mobile_button {
+	margin-top:80px;
+	height:16px;
+	.locations_mobile_back_wrapper {
+		position: relative;
+		cursor: pointer;
+		float:left;
+		img {
+			position: absolute;
+			top:0;
+			left:0;
+		}
+		img.locations_mobile_back_hover {
+			display: none;
+		}
+	}
+	.locations_mobile_next_wrapper {
+		position: relative;
+		cursor: pointer;
+		float:right;
+		img {
+			position: absolute;
+			top:0;
+			left:0;
+		}
+		img.locations_mobile_next_hover {
+			display: none;
+		}
+	}
+}
 
 
 	

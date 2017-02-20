@@ -42,6 +42,74 @@
 
 <div class="extended_footer">
 	
+	
+	
+	<div class="locations_mobile">
+		
+		<span class="locations_mobile_title">Locations</span><!-- locations_mobile_title -->
+		
+		<div class="locations_mobile_inner">
+			
+			<div class="single_location_mobile">
+			
+				<span class="state">Pennsylvania</span><!-- state -->
+				<span class="location_line"></span><!-- location_line -->
+				<a class="address" href="" target="_blank">One Logan Square 130 N. 18th St. <br/>Ste. 1600<br/>Philadelphia, PA 19103</a><!-- address -->
+				<a class="location_tel" href="tel:21573511340">(215) 735-11340</a>
+			
+			</div><!-- single_location -->
+			
+			<div class="single_location_mobile">
+			
+				<span class="state">Pennsylvania</span><!-- state -->
+				<span class="location_line"></span><!-- location_line -->
+				<a class="address" href="" target="_blank">4807 Jonestown Rd, <br/>Suite 148<br/>Harrisburg, PA 171093</a><!-- address -->
+				<a class="location_tel" href="tel:7179013500">(717) 901-3500</a>
+			
+			</div><!-- single_location -->
+			
+			<div class="single_location_mobile">
+			
+				<span class="state">New Jersey</span><!-- state -->
+				<span class="location_line"></span><!-- location_line -->
+				<a class="address" href="" target="_blank">1040 N. Kings Highway<br/>Cherry Hill, NJ 080343</a><!-- address -->
+				<a class="location_tel" href="tel:8564279229">(856) 427-9229</a>
+			
+			</div><!-- single_location -->
+			
+			<div class="single_location_mobile">
+			
+				<span class="state">Arizona</span><!-- state -->
+				<span class="location_line"></span><!-- location_line -->
+				<a class="address" href="" target="_blank">8700 E. Vista Bonita Dr,<br class="tablet_break"/> Suite 268<br/>Scottsdale, AZ 852553</a><!-- address -->
+				<a class="location_tel" href="tel:4805154745">(480) 515-4745</a>
+			
+			</div><!-- single_location -->
+
+		</div><!-- locations_mobile_inner -->
+		
+		<div class="locations_mobile_button">
+			
+			<div class="locations_mobile_back_wrapper">
+				
+				<img class="locations_mobile_back" src="<?php bloginfo('template_directory');?>/images/content_left_arrow.png"/>
+				<img class="locations_mobile_back_hover" src="<?php bloginfo('template_directory');?>/images/content_left_arrow_orange.png"/>
+				
+			</div><!-- locations_mobile_back -->
+			
+			<div class="locations_mobile_next_wrapper">
+				
+				<img class="locations_mobile_next" src="<?php bloginfo('template_directory');?>/images/content_right_arrow.png"/>
+				<img class="locations_mobile_next_hover" src="<?php bloginfo('template_directory');?>/images/content_right_arrow_orange.png"/>
+				
+			</div><!-- locations_mobile_next_wrapper -->
+			
+		</div><!-- locations_mobile_button -->
+				
+	</div><!-- locations_mobile -->
+	
+	
+	
 	<div class="locations_wrapper">
 		
 		<span class="location_title">locations</span><!-- location_title -->

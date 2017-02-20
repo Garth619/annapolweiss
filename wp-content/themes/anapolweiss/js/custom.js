@@ -24,6 +24,56 @@ jQuery('.play_button').mouseleave(function(){
 });
 
 
+// Mobile Locations
+
+
+
+jQuery('.locations_mobile_inner').slick({
+  	slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows:true,
+		dots:false,
+		prevArrow:".locations_mobile_back_wrapper",
+		nextArrow:".locations_mobile_next_wrapper"
+});
+
+
+
+
+jQuery('.locations_mobile_back_wrapper').mouseenter(function(){
+	
+	jQuery('.locations_mobile_back').fadeOut(200);
+	jQuery('.locations_mobile_back_hover').fadeIn(200);
+	
+});
+
+
+jQuery('.locations_mobile_back_wrapper').mouseleave(function(){
+	
+	jQuery('.locations_mobile_back').fadeIn(200);
+	jQuery('.locations_mobile_back_hover').fadeOut(200);
+	
+});
+
+
+
+
+jQuery('.locations_mobile_next_wrapper').mouseenter(function(){
+	
+	jQuery('.locations_mobile_next').fadeOut(200);
+	jQuery('.locations_mobile_next_hover').fadeIn(200);
+	
+});
+
+
+jQuery('.locations_mobile_next_wrapper').mouseleave(function(){
+	
+	jQuery('.locations_mobile_next').fadeIn(200);
+	jQuery('.locations_mobile_next_hover').fadeOut(200);
+	
+});
+
+
 
 
 // Featured Cases
