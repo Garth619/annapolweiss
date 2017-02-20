@@ -182,7 +182,7 @@ jQuery('.blog_inner_wrapper').slick({
         slidesToShow: 3,
 				slidesToScroll: 1,
 				arrows:true,
-				dots:false
+				dots:false,
       }
     },
     {
@@ -191,9 +191,30 @@ jQuery('.blog_inner_wrapper').slick({
         slidesToShow: 2,
 				slidesToScroll: 1,
 				arrows:true,
-				dots:false
+				dots:false,
+      }
+    },
+    {
+      breakpoint: 675,
+      settings: {
+        slidesToShow: 2,
+				slidesToScroll: 2,
+				arrows:false,
+				dots:false,
+				
+      }
+    },
+    {
+      breakpoint: 630,
+      settings: {
+        slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows:false,
+				dots:false,
+				
       }
     }
+
     
   ]
 

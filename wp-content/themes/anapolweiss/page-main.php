@@ -748,9 +748,32 @@ get_header(); ?>
 		<span class="sub_header">Keep up to date</span><!-- sub_header -->
 		<span class="large_header"><span class="orange">Follow us</span> <br/>in the news</span><!-- sub_header -->
 		
+	
+			
+	
+	
 	</div><!-- blog_left -->
 	
 	<div class="blog_right">
+		
+		<div class="blog_buttons">
+			
+			<div class="mobile_blog_back">
+				
+				<img class="blog_back_image"src="<?php bloginfo('template_directory');?>/images/content_left_arrow.png"/>
+				
+			</div><!-- blog_back -->
+			
+			
+			<div class="mobile_blog_next">
+				
+				<img class="blog_next_image"src="<?php bloginfo('template_directory');?>/images/content_right_arrow.png"/>
+				
+			</div><!-- blog_next -->
+			
+			
+		</div><!-- blog_buttons -->
+	
 		
 		<div class="blog_posts_wrapper">
 			
