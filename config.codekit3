@@ -21,12 +21,6 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
-	"\/anapol-migrate-20170217000100.sql.gz": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/anapol-migrate-20170217000100.sql.gz",
-		"oF": 0
-		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -8483,6 +8477,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/index.php",
+		"oF": 0
+		},
+	"\/wp-content\/uploads\/wp-migrate-db\/.htaccess": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/.htaccess",
+		"oF": 0
+		},
+	"\/wp-content\/uploads\/wp-migrate-db\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/index.php",
 		"oF": 0
 		},
 	"\/wp-cron.php": {
