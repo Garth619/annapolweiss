@@ -22,7 +22,7 @@ get_header(); ?>
 	<div class="inner_page_content">
 		
 		<h1>Tom Anapol</h1>
-		<span class="">shareholder</span>
+		<span class="profile_title">shareholder</span><!-- profile_title -->
 		
 		<div class="content">
 			
@@ -50,7 +50,7 @@ get_header(); ?>
 		
 	</div><!-- inner_page_content -->
 	
-	<?php get_sidebar(); ?>
+	<?php include('sidebar-profile.php');?>
 	
 	
 </div><!-- inner_main_container -->

@@ -110,7 +110,7 @@ header, section, nav, footer {
 		display: block;
 		border-bottom:1px solid $grey;
 		padding-bottom:22px;
-		margin-bottom:29px;
+		margin-bottom: 25px;
 	}
 	a {
 		color: $orange;
@@ -2654,6 +2654,161 @@ ol.commentlist {
 			}
 		}
 	}
+	
+	
+	/* Profile */
+		
+		
+
+
+	
+	
+	
+	body.page-template-page-attprofile {
+		
+		
+		.inner_main_wrapper {
+			max-width:1635px;
+		}
+	
+	.inner_page_content {
+			width:50%;
+			> h1 {
+				margin-bottom:0;
+				
+			}
+			span.profile_title {
+				color:$orange;
+				padding-left:60px;
+				font-size:18px;
+				text-transform: uppercase;
+				font-family: $helvetica;
+				letter-spacing: 5px;
+				margin-top:20px;
+				margin-bottom:30px;
+				display: block;
+				margin-bottom: 90px;
+			}
+			.content {
+				padding-left:60px;
+			}
+		}
+	
+	.sidebar {
+		max-width:100%;
+		padding-left:140px;
+		
+		width:50%;
+		margin-top:10px;
+		.profile_wrapper {
+			img.profile_pic {
+				max-width: 100%;
+				height:auto;
+				display: block;
+			}
+			.profile_awards {
+				width:50%;
+				background: green;
+				float:right;
+				height:50px;
+			}
+			.profile_sidebar_content {
+				margin-top:60px;
+				width:50%;
+				float:left;
+				
+				.profile_inner_content {
+					overflow: hidden;
+					
+					span.profile_contact_title {
+						color:$orange;
+						text-transform: uppercase;
+						font-family: $helvetica;
+						font-size:14px;
+						letter-spacing: 4px;
+						float:left;
+						
+						width:40%;
+					}
+					.profile_content_info {
+						float:left;
+						margin-top:-3px;
+						width:50%;
+						a {
+							color:$orange;
+							text-decoration: none;
+							font-family: $newscycle;
+							font-wieght:bold;
+							font-size:18px;
+						}
+						a.vcard {
+							display: block;
+							margin-bottom:12px;
+						}
+						a.email {
+							display: block;
+							margin-bottom:45px;
+						}
+						a.profile_tel {
+							color:$bluedark;
+							font-size:16px;
+							display: block;
+							margin-bottom:13px;
+							span.orange {
+								margin-right:7px;
+							}
+						}
+						.profile_locations {
+							margin-top:53px;
+							span.profile_location_title {
+								font-family: $butlermedium;
+								font-size:22px;
+								color:$orange;
+							}
+							span.profile_greyline {
+								width:30px;
+								height:1px;
+								background: $greydark;
+								display: block;
+								margin-top:20px;
+							}
+							.profile_locations_single {
+								margin-bottom:25px;
+								a.profile_address {
+									color:$bluedark;
+									transition: all .2s ease-in-out;
+									font-size:16px;
+									line-height: 25px;
+									display: block;
+									margin-top:18px;
+									&:hover {
+										color:$orange;
+									}
+								}
+								a.profile_tel_single {
+									color:$bluedark;
+									font-size:16px;
+									display: block;
+									margin-bottom:13px;
+									margin-top:33px;
+									span.orange {
+										margin-right:7px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+	
+	
+	
+	
+	
+
 	
 	
 	
