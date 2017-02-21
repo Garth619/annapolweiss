@@ -2693,12 +2693,23 @@ body.page-template-page-attprofile {
 			}
 		}
 	
+	
+	
+	
+	.mobile_profile {
+		display:none;
+	}
+	
+	
+	
+	
+	
 	.sidebar {
 		max-width:100%;
 		padding-left:140px;
 		
 		width:50%;
-		margin-top:10px;
+		margin-top:0px;
 		.profile_wrapper {
 			img.profile_pic {
 				max-width: 100%;
@@ -2708,7 +2719,7 @@ body.page-template-page-attprofile {
 			.profile_awards {
 				width:40%;
 				float:right;
-				height:50px;
+				
 				text-align: center;
 				padding-right:20px;
 				margin-top:60px;
@@ -4462,43 +4473,68 @@ footer {
 		}
 	
 	.inner_page_content {
-			
+			width:100%;
 			> h1 {
 				
 				
 			}
 			span.profile_title {
+				margin-bottom:55px;
 				
 			}
 			.content {
-				
+				overflow: hidden;
+				width:100%;
+				margin-top:30px;
 			}
 		}
+		
+		
+		
+		.mobile_profile {
+			display: block;
+		}
+		
+		.desktop_profile {
+			display: none;
+		}
+		
 	
 	.sidebar {
-		
+		width:100%;
+		padding-left:55px;
+		float: none;
+		max-width: 100%;
 		.profile_wrapper {
-			img.profile_pic {
+			width:100%;
+			overflow: hidden;
+			.tablet_profile {
+				width:50%;
+				float:left;
+				img.profile_pic {
 				
+					}
 			}
 			.profile_awards {
-				width:100%;
-				float:left;
+				margin-top: 7px;
+				padding-right:0;
 				img {
 					
 				}
 			}
 			.profile_sidebar_content {
-					
-				width:100%;
+				float:left;		
+				width:50%;
+				margin-top:0px;
+				padding-left:3%;
 				.profile_inner_content {
 					
 					
 					span.profile_contact_title {
-						width:30%;
+						width: 33%;
 					}
 					.profile_content_info {
-						
+						width:60%;
 						a {
 							
 						}
@@ -4506,7 +4542,7 @@ footer {
 							
 						}
 						a.email {
-							
+							margin-bottom:20px;
 						}
 						a.profile_tel {
 							
@@ -4515,23 +4551,23 @@ footer {
 							}
 						}
 						.profile_locations {
-							
+							margin-top:25px;
 							span.profile_location_title {
 								
 							}
 							span.profile_greyline {
-								
+								margin-top:10px;
 							}
 							.profile_locations_single {
 								
 								a.profile_address {
-									
+									margin-top:10px;
 									&:hover {
 										
 									}
 								}
 								a.profile_tel_single {
-									
+									margin-top:10px;
 									span.orange {
 										
 									}
@@ -6449,6 +6485,103 @@ footer {
 	
 	
 	
+	/* Profile */
+
+
+	body.page-template-page-attprofile {
+		
+	.inner_main_wrapper {
+			
+		}
+	
+	.inner_page_content {
+			
+			> h1 {
+				
+				
+			}
+			span.profile_title {
+				
+			}
+			.content {
+				
+			}
+		}
+	
+	.sidebar {
+		
+		.profile_wrapper {
+			img.profile_pic {
+				
+			}
+			.profile_awards {
+				
+				img {
+					
+				}
+			}
+			.profile_sidebar_content {
+					
+				
+				.profile_inner_content {
+					
+					
+					span.profile_contact_title {
+						
+					}
+					.profile_content_info {
+						
+						a {
+							
+						}
+						a.vcard {
+							
+						}
+						a.email {
+							
+						}
+						a.profile_tel {
+							
+							span.orange {
+							
+							}
+						}
+						.profile_locations {
+							
+							span.profile_location_title {
+								
+							}
+							span.profile_greyline {
+								
+							}
+							.profile_locations_single {
+								
+								a.profile_address {
+									
+									&:hover {
+										
+									}
+								}
+								a.profile_tel_single {
+									
+									span.orange {
+										
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+	
+
+
+	
+	
+	
 	.keep_up {
 		
 		span.keep_up_sub_header {
@@ -7395,7 +7528,122 @@ header {
 			
 			}
 		
+	
+	
+	/* Profile */
+
+
+	body.page-template-page-attprofile {
 		
+	.inner_main_wrapper {
+			
+		}
+	
+	.inner_page_content {
+			
+			> h1 {
+				
+				
+			}
+			span.profile_title {
+				padding-left:6%;
+				
+			}
+			.content {
+				padding-left:6%;
+			}
+		}
+		
+		
+		
+		.mobile_profile {
+			
+		}
+		
+		.desktop_profile {
+			
+		}
+		
+	
+	.sidebar {
+		padding-left:6%;
+		padding-right:0;
+		.profile_wrapper {
+			
+			.tablet_profile {
+				width:100%;
+				float:none;
+				img.profile_pic {
+					width:100%;
+					}
+			}
+			.profile_awards {
+				width:100%;
+				float:none;
+				padding-left:33%;
+				img {
+					margin:20px 0;
+				}
+			}
+			.profile_sidebar_content {
+					width:100%;
+					padding-left:0;
+					margin-top:35px;
+				.profile_inner_content {
+					
+					
+					span.profile_contact_title {
+						
+					}
+					.profile_content_info {
+						
+						a {
+							
+						}
+						a.vcard {
+							
+						}
+						a.email {
+							
+						}
+						a.profile_tel {
+							
+							span.orange {
+							
+							}
+						}
+						.profile_locations {
+							
+							span.profile_location_title {
+								
+							}
+							span.profile_greyline {
+								
+							}
+							.profile_locations_single {
+								
+								a.profile_address {
+									
+									&:hover {
+										
+									}
+								}
+								a.profile_tel_single {
+									
+									span.orange {
+										
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+	
 	
 	
 	

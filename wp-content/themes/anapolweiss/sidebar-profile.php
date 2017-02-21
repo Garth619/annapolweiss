@@ -3,8 +3,12 @@
 	
 	<div class="profile_wrapper">
 	
-		<img class="profile_pic" src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>	
 		
+		<div class="tablet_profile">
+		
+			<img class="profile_pic" src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>	
+		
+		</div><!-- tablet_profile -->
 		
 		<div class="profile_sidebar_content">
 			

@@ -24,6 +24,14 @@ get_header(); ?>
 		<h1>Tom Anapol</h1>
 		<span class="profile_title">shareholder</span><!-- profile_title -->
 		
+		
+		<div class="mobile_profile">
+		
+			<?php include('sidebar-profile.php');?>
+		
+		</div><!-- mobile_profile -->
+		
+		
 		<div class="content">
 			
 			<h2>Leader in national medical device litigations</h2>
@@ -50,7 +58,12 @@ get_header(); ?>
 		
 	</div><!-- inner_page_content -->
 	
+	<div class="desktop_profile">
+	
+	
 	<?php include('sidebar-profile.php');?>
+	
+	</div>
 	
 	
 </div><!-- inner_main_container -->
