@@ -2664,10 +2664,9 @@ ol.commentlist {
 	
 	
 	
-	body.page-template-page-attprofile {
+body.page-template-page-attprofile {
 		
-		
-		.inner_main_wrapper {
+	.inner_main_wrapper {
 			max-width:1635px;
 		}
 	
@@ -2707,7 +2706,7 @@ ol.commentlist {
 				display: block;
 			}
 			.profile_awards {
-				width:50%;
+				width:40%;
 				float:right;
 				height:50px;
 				text-align: center;
@@ -2720,7 +2719,7 @@ ol.commentlist {
 			}
 			.profile_sidebar_content {
 				margin-top:60px;
-				width:50%;
+				width:60%;
 				float:left;
 				
 				.profile_inner_content {
@@ -4453,7 +4452,102 @@ footer {
 	}
 
 
+	/* Profile */
+
+
+	body.page-template-page-attprofile {
+		
+	.inner_main_wrapper {
+			
+		}
 	
+	.inner_page_content {
+			
+			> h1 {
+				
+				
+			}
+			span.profile_title {
+				
+			}
+			.content {
+				
+			}
+		}
+	
+	.sidebar {
+		
+		.profile_wrapper {
+			img.profile_pic {
+				
+			}
+			.profile_awards {
+				width:100%;
+				float:left;
+				img {
+					
+				}
+			}
+			.profile_sidebar_content {
+					
+				width:100%;
+				.profile_inner_content {
+					
+					
+					span.profile_contact_title {
+						width:30%;
+					}
+					.profile_content_info {
+						
+						a {
+							
+						}
+						a.vcard {
+							
+						}
+						a.email {
+							
+						}
+						a.profile_tel {
+							
+							span.orange {
+							
+							}
+						}
+						.profile_locations {
+							
+							span.profile_location_title {
+								
+							}
+							span.profile_greyline {
+								
+							}
+							.profile_locations_single {
+								
+								a.profile_address {
+									
+									&:hover {
+										
+									}
+								}
+								a.profile_tel_single {
+									
+									span.orange {
+										
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+	
+
+	
+
 	
 	
 	
@@ -5991,12 +6085,7 @@ footer {
 		}
 	}
 	
-	
-
-
-
-	
-	
+		
 	
 		
 	
