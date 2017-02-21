@@ -2,7 +2,7 @@
 	
 	<div class="my_newsletter">
 		
-		<span class="large_header">follow our latest news updates</span><!-- large_header -->
+		<span class="large_header">follow our latest new updates</span><!-- large_header -->
 		
 		<div class="newsletter_form">
 			

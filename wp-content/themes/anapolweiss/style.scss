@@ -5686,46 +5686,7 @@ footer {
 	
 	
 	
-	.inner_page_content {
-			width:100%;
-			padding-right:6%;
-			> h1 {
-					margin-left:4%;
-					padding-left:10px;
-					font-size:50px;
-					margin-bottom:40px;
-			}
-			.content {
-				padding-left:6%;
-			}
-		}
-	
-	.sidebar {
-		width:100%;
-		max-width:100%;
-		padding-left:6%;
-		padding-right:6%;
-		margin-top:45px;
-		span.sub_header {
-			
-		}
-		span.sidebar_line {
 		
-		}
-		ul.menu {
-			
-			li {
-				
-				a {
-					
-					&:hover {
-						
-					}
-				}
-			}
-		}
-	}
-	
 	
 	.keep_up {
 		
@@ -5763,6 +5724,7 @@ footer {
 	}
 	
 	
+
 
 
 	
@@ -6079,6 +6041,92 @@ footer {
 	}
 
 
+
+	.inner_page_content {
+			width:100%;
+			padding-right:6%;
+			> h1 {
+					margin-left:4%;
+					padding-left:10px;
+					font-size:50px;
+					margin-bottom:40px;
+			}
+			.content {
+				padding-left:6%;
+			}
+		}
+	
+	.sidebar {
+		width:100%;
+		max-width:100%;
+		padding-left:6%;
+		padding-right:6%;
+		margin-top:45px;
+		span.sub_header {
+			
+		}
+		span.sidebar_line {
+		
+		}
+		ul.menu {
+			overflow: hidden;
+			li {
+				width:48%;
+				
+				&:nth-of-type(2n +1) {
+					float:left;
+				}
+				&:nth-of-type(2n +2) {
+					float:right;
+				}
+				
+				a {
+					
+					&:hover {
+						
+					}
+				}
+			}
+		}
+	}
+	
+	
+	
+	.keep_up {
+		
+		span.keep_up_sub_header {
+			float:left;
+			text-align: left;
+		}
+		span.keep_up_large_header {
+			
+		}
+		.follow_us_posts {
+			
+			.follow_us_single_post {
+				
+				&:hover {
+					span.keep_up_date {
+							
+						}
+					span.keep_up_post_title {
+							
+					}
+				}
+				a {
+					
+					
+					span.keep_up_date {
+						
+					}
+					span.keep_up_post_title {
+						
+						
+					}
+				}
+			}
+		}
+	}
 
 
 	
@@ -6419,6 +6467,84 @@ footer {
 	
 	
 
+
+.inner_page_content {
+			
+			> h1 {
+					
+			}
+			.content {
+				
+			}
+		}
+	
+	.sidebar {
+		
+		span.sub_header {
+			
+		}
+		span.sidebar_line {
+		
+		}
+		ul.menu {
+			overflow: hidden;
+			li {
+				width:100%;
+				
+				&:nth-of-type(2n +1) {
+					float:none;
+				}
+				&:nth-of-type(2n +2) {
+					float:none;
+				}
+				
+				a {
+					
+					&:hover {
+						
+					}
+				}
+			}
+		}
+	}
+	
+	
+	
+	.keep_up {
+		
+		span.keep_up_sub_header {
+			float:right;
+			text-align: right;
+		}
+		span.keep_up_large_header {
+			
+		}
+		.follow_us_posts {
+			
+			.follow_us_single_post {
+				
+				&:hover {
+					span.keep_up_date {
+							
+						}
+					span.keep_up_post_title {
+							
+					}
+				}
+				a {
+					
+					
+					span.keep_up_date {
+						
+					}
+					span.keep_up_post_title {
+						
+						
+					}
+				}
+			}
+		}
+	}
 
 
 
