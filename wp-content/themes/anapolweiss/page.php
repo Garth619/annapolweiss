@@ -9,9 +9,14 @@ get_header(); ?>
 
 <?php include('banner.php');?>
 
-
+<div class="inner_page_orangeline">
+	
+	<span class="line"></span>
+	
+</div><!-- inner_page_orangeline -->
 
 <div class="inner_main_wrapper">
+	
 	
 	
 	<div class="inner_page_content">
@@ -37,6 +42,17 @@ get_header(); ?>
 
 
 <h2>H2 Styling </h2>
+
+
+<p>Anapol Weiss is a nationally recognized personal injury law firm with a winning track record. Our attorneys fight for maximum compensation for our clients in a wide range of personal injury situations including:</p>
+				<ul>
+        <li>bullet list styling</li>
+         <li>bullet list styling</li>
+         <li>bullet list styling</li>
+         <li>bullet list styling</li>
+				</ul>
+
+<p>You shouldn’t pay the price for someone else’s negligence.  Learn more about your legal options by <a href="">contacting us today.</a></p>
 
 
 			
