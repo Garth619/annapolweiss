@@ -118,7 +118,7 @@ header, section, nav, footer {
 		text-decoration: none;
 		&:hover {
 			color:$bluedark;
-			text-decoration: underline;
+			text-decoration: none;
 		}
 	}
 }
@@ -1034,7 +1034,7 @@ a.case_results_button {
 
 
 
-.blog {
+section.blog {
 	width:100%;
 	
 	background: $bluedark;
@@ -2039,8 +2039,7 @@ footer {
 	
 	/* Internal */
 	
-	
-	
+		
 	
 	.inner_banner_wrapper {
 		background:url(images/internal_header_img.jpg) top center no-repeat;
@@ -2099,6 +2098,10 @@ footer {
 			background: $orange;
 		}
 	}
+	
+	
+	
+
 	
 	
 	.inner_main_wrapper {
@@ -2237,7 +2240,199 @@ footer {
 	}
 	
 	
+/* Blog */
 
+
+
+body.blog {
+	.inner_main_wrapper {
+		margin-top:34px;
+		.content {
+			.type-post {
+				padding-bottom:65px;
+				border-bottom:1px $grey solid;
+				margin-top:55px;
+				
+				h1 {
+					font-size:39px;
+					font-family: $butler;
+					line-height: 42px;
+					a {
+						
+					}
+				}
+			}
+		}
+	}
+}
+
+span.my_posted_info {
+	display: block;
+	color:#bcbcbc;
+	text-transform: uppercase;
+	font-family: $helvetica;
+	font-size:14px;
+	letter-spacing: 1px;
+	margin-top:5px;
+	margin-bottom:28px;
+
+}
+
+.my_share {
+	border-top:1px $grey solid;
+	border-bottom:1px $grey solid;
+	height:42px;
+	width:100%;
+	margin-bottom:25px;
+}
+
+
+a.read_full_post {
+	display: inline-block;
+	color:$bluedark;
+	text-transform: uppercase;
+	font-family: $helvetica;
+	font-size:14px;
+	letter-spacing: 1px;
+	padding:5px 30px;
+	border:1px $orange solid;
+	transition: all .2s ease-in-out;
+	margin-top:30px;
+	&:hover{
+		background: $orange;
+		color:#fff;
+	}
+}
+
+#nav-above {
+	display: none;
+}
+
+#nav-below {
+	text-transform: uppercase;
+	font-family: $helvetica;
+	letter-spacing: 1px;
+	font-size:14px;
+	margin-top:10px;
+	.nav-previous {
+		float:left;
+	}
+	.nav-next {
+		float:right;
+	}
+}
+
+body.blog {
+	.sidebar {
+		margin-top:65px;
+	}
+}
+
+
+.my_newsletter {
+	border-bottom:3px solid $orange;
+	overflow: hidden;
+	padding-bottom:50px;
+	margin-bottom: 23px;
+	span.large_header {
+		font-family: $butler;
+		font-size:30px;
+	}
+	.newsletter_form {
+		.gfield_description, .validation_message {
+			
+			position: absolute;
+			top:43px;
+			left:0;
+			color:$orange;
+		}
+		#gform_confirmation_message_2 {
+			font-family: $newscycle;
+			line-height:20px;
+			text-align: center;
+			margin-top:10px;
+			margin-bottom:25px;
+		}
+		input[type="submit"] {
+			border: 1px $orange solid;
+			background: transparent;
+			font-size:14px;
+			text-transform: uppercase;
+			font-family: $helvetica;
+			letter-spacing: 1px;
+			padding:10px 28px;
+			margin:25px 0 0;
+			float:right;
+			transition: all .2s ease-in-out;
+			cursor: pointer;
+			&:hover {
+				background: $orange;
+				color:#fff;
+			}
+		}
+		ul {
+			list-style: none;
+			margin-top:20px;
+			li#field_2_2 {
+				display: none;
+			}
+			li {
+				width:100%;
+				position: relative;
+				label {
+					display: none;
+				}
+				input {
+					width:100%;
+					border:none;
+					background: $greylight;
+					font-size:13px;
+					font-family: $helvetica;
+					text-transform: uppercase;
+					letter-spacing: 1.5px;
+					padding:13px 20px;
+				}
+				
+			}
+			
+		}
+	}
+}
+
+
+.my_recent_posts {
+	border-bottom:3px solid $orange;
+	padding-bottom:38px;
+	margin-bottom: 23px;
+	span.sub_header {
+		
+	}
+	span.blog_greyline {
+		width:30px;
+		height:1px;
+		background:$greydark;
+		display: block;
+		margin-top:12px;
+	}
+	ul.recent_post_list {
+		list-style: none;
+		margin-top:27px;
+		li {
+			margin-bottom:26px;
+			a {
+				color:$bluedark;
+				text-decoration: none;
+				font-family: $butler;
+				font-size:16px;
+				line-height:25px;
+				transition: all .2s ease-in-out;
+				&:hover {
+					color:$orange;
+				}
+			}
+		}
+	}
+}
 	
 	
 	
@@ -2802,7 +2997,7 @@ a.case_results_button {
 
 
 
-.blog {
+section.blog {
 	padding: 130px 0 0px;
 
 	.blog_left {
@@ -4703,7 +4898,7 @@ a.case_results_button {
 
 
 
-.blog {
+section.blog {
 	
 	padding: 90px 0 110px;
 	.blog_left {
@@ -5474,7 +5669,7 @@ footer {
 
 
 
-.blog {
+section.blog {
 	
 	
 	.blog_left {
@@ -7235,7 +7430,7 @@ a.case_results_button {
 
 
 
-.blog {
+section.blog {
 	padding:86px 0 150px;
 
 	.blog_left {
@@ -7918,7 +8113,7 @@ a.case_results_button {
 
 
 
-.blog {
+section.blog {
 	
 
 	.blog_left {
