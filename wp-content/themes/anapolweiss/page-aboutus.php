@@ -60,8 +60,15 @@ We passionately believe it is our responsibility to stand up for those who have 
 				
 			</div><!-- inner_about_slider -->
 			
+			<div class="inner_about_caption">
+				
+				<span class="inner_about_caption_title">Lorem Ipsum Dolor</span><!-- inner_about_caption_title -->
+				<span class="inner_about_line"></span><!-- inner_about_greyline -->
+				
+			</div><!-- inner_about_caption -->
 			
-		</div><!-- inner_about_slider -->
+			
+		</div><!-- inner_about_slider_wrapper -->
 		
 	</div><!-- about_orange_box -->
 	
