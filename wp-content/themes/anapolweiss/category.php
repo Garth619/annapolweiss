@@ -9,12 +9,31 @@
 
 get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
+		
+				
 
-				<h1 class="page-title"><?php
+<?php include('banner.php');?>
+
+<div class="inner_page_orangeline">
+	
+	<span class="line"></span>
+	
+</div><!-- inner_page_orangeline -->
+
+<div class="inner_main_wrapper">
+	
+	
+	
+	<div class="inner_page_content">
+		
+<h1 class="page-title"><?php
 					printf( __( 'Category Archives: %s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 				?></h1>
+		
+		<div class="content">
+			
+			
+			
 				<?php
 					$category_description = category_description();
 					if ( ! empty( $category_description ) )
@@ -28,8 +47,19 @@ get_header(); ?>
 				get_template_part( 'loop', 'category' );
 				?>
 
-			</div><!-- #content -->
-		</div><!-- #container -->
+			
+			
+		</div><!-- content -->
+		
+	</div><!-- inner_page_content -->
+	
+	<?php include('sidebar-blog.php');?>
+	
+	
+</div><!-- inner_main_container -->
 
-<?php get_sidebar(); ?>
+
+
+
 <?php get_footer(); ?>
+

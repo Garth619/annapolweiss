@@ -135,26 +135,16 @@
 		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<h1><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 			
-			<span class="my_posted_info">Posted By Someone on this date and time</span>
+			<span class="my_posted_info">Posted By <span class="orange"><?php the_author(); ?></span> on this <span class="orange"><?php $pfx_date = get_the_date(); ?><?php echo $pfx_date ;?></span>  at  <?php the_time(); ?>  </span>
 			
 			<div class="my_share"></div><!-- my_share -->
 			
 
-	<?php if ( is_archive() || is_search() ) : // Only display excerpts for archives and search. ?>
-			
-			
-			
-			
-			<div class="entry-summary">
-				<?php the_excerpt(); ?>
-			</div><!-- .entry-summary -->
 	
-	
-	
-	
-	<?php else : ?>
 			
 			
+			
+				
 			
 			
 			<div class="entry-content">
@@ -169,7 +159,7 @@
 			<a href="<?php the_permalink();?>" class="read_full_post">Read Full Post</a>
 	
 	
-	<?php endif; ?>
+
 
 			
 			<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="meta-sep">|</span> <span class="edit-link">', '</span>' ); ?>

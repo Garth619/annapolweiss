@@ -24,7 +24,7 @@
 					
 					<h1 class="entry-title"><?php the_title(); ?></h1>
 
-					<span class="my_posted_info">Posted By Someone on this date and time</span>
+					<span class="my_posted_info">Posted By <span class="orange"><?php the_author(); ?></span> on this <span class="orange"><?php $pfx_date = get_the_date(); ?><?php echo $pfx_date ;?></span>  at  <?php the_time(); ?>  </span>
 			
 					<div class="my_share"></div><!-- my_share -->
 
