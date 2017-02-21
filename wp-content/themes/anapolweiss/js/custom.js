@@ -24,6 +24,59 @@ jQuery('.play_button').mouseleave(function(){
 });
 
 
+
+// Inner About Slider 
+
+
+jQuery('.inner_about_slider').slick({
+  	slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows:true,
+		dots:false,
+		prevArrow:".inner_about_back",
+		nextArrow:".inner_about_next"
+});
+
+
+
+jQuery('.inner_about_back').mouseenter(function(){
+	
+	jQuery('.inner_about_back_img').fadeOut(200);
+		jQuery('.inner_about_back_hover_img').fadeIn(200);
+	
+});
+
+
+
+jQuery('.inner_about_back').mouseleave(function(){
+	
+	jQuery('.inner_about_back_img').fadeIn(200);
+	jQuery('.inner_about_back_hover_img').fadeOut(200);
+	
+});
+
+
+
+
+jQuery('.inner_about_next').mouseenter(function(){
+	
+	jQuery('.inner_about_next_img').fadeOut(200);
+		jQuery('.inner_about_next_hover_img').fadeIn(200);
+	
+});
+
+
+
+jQuery('.inner_about_next').mouseleave(function(){
+	
+	jQuery('.inner_about_next_img').fadeIn(200);
+	jQuery('.inner_about_next_hover_img').fadeOut(200);
+	
+});
+
+
+
+
 // Mobile Locations
 
 

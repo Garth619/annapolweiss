@@ -57,6 +57,36 @@ We passionately believe it is our responsibility to stand up for those who have 
 					
 				</div><!-- inner_about_slides -->
 				
+				<div class="inner_about_slides">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/content_slide_2.jpg"/>
+					
+				</div><!-- inner_about_slides -->
+				
+				<div class="inner_about_slides">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/content_slide_3.jpg"/>
+					
+				</div><!-- inner_about_slides -->
+				
+				<div class="inner_about_slides">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/content_slide_4.jpg"/>
+					
+				</div><!-- inner_about_slides -->
+				
+				<div class="inner_about_slides">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/content_slide_5.jpg"/>
+					
+				</div><!-- inner_about_slides -->
+				
+				<div class="inner_about_slides">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/content_slide_6.jpg"/>
+					
+				</div><!-- inner_about_slides -->
+				
 				
 			</div><!-- inner_about_slider -->
 			
@@ -68,6 +98,27 @@ We passionately believe it is our responsibility to stand up for those who have 
 			</div><!-- inner_about_caption -->
 			
 			
+			<div class="inner_about_buttons">
+				
+				<div class="inner_about_back">
+					
+					<img class="inner_about_back_img" src="<?php bloginfo('template_directory');?>/images/content_left_arrow.png"/>
+					<img class="inner_about_back_hover_img" src="<?php bloginfo('template_directory');?>/images/content_left_arrow_orange.png"/>
+					
+				</div><!-- inner_about_back -->
+				
+				<div class="inner_about_counter_spacer">1/8</div><!-- inner_about_counter_spacer -->
+				
+				<div class="inner_about_next">
+					
+					<img class="inner_about_next_img" src="<?php bloginfo('template_directory');?>/images/content_right_arrow.png"/>
+					<img class="inner_about_next_hover_img" src="<?php bloginfo('template_directory');?>/images/content_right_arrow_orange.png"/>
+					
+				</div><!-- inner_about_back -->
+				
+			</div><!-- inner_about_buttons -->
+			
+			
 		</div><!-- inner_about_slider_wrapper -->
 		
 	</div><!-- about_orange_box -->
@@ -75,6 +126,9 @@ We passionately believe it is our responsibility to stand up for those who have 
 	
 	
 </div><!-- inner_main_container -->
+
+
+<div class="inner_about_quote"></div><!-- inner_about_quote -->
 
 
 
