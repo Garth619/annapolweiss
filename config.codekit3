@@ -21,6 +21,12 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/anapol-migrate-20170220161705.sql.gz": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/anapol-migrate-20170220161705.sql.gz",
+		"oF": 0
+		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -7219,6 +7225,12 @@
 		"oAP": "\/wp-content\/themes\/anapolweiss\/author.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/anapolweiss\/banner.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/banner.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/anapolweiss\/category.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -7749,6 +7761,14 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/dots.jpg": {
+		"ft": 16384,
+		"iS": 518,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/dots.jpg",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/wp-content\/themes\/anapolweiss\/images\/foundation_header.jpg": {
 		"ft": 16384,
