@@ -2104,16 +2104,81 @@ footer {
 	}
 	
 	
+	/* About */
 	
+	.inner_main_wrapper_no_sidebar {
+		width:100%;
+		height:2000px;
+		position: relative;
+		.inner_page_content_about {
+			margin-top:80px;
+			width:60%;
+			float:left;
+			> h1 {
+				font-family: $butler;
+				font-size:65px;
+				font-weight: 300;
+				font-style: normal;
+				display: block;
+				margin-bottom:60px;
+				background:#fff;
+				padding-left:30px;
+				margin-left: 95px;
+			}
+			.content {
+				padding-left:11%;
+				padding-right:95px;
+				
+				h2 {
+					font-family: $helvetica;
+					text-transform: uppercase;
+					font-size:18px;
+					letter-spacing: 5px;
+					border-bottom: none;
+					margin-top: 48px;
+					padding-bottom:0px;
+					margin-bottom:10px;
+				}
+				span.aboutus_greyline {
+					width:30px;
+					height:1px;
+					display: block;
+					background: $greydark;
+					margin-top:10px;
+					margin-bottom:15px;
+				}
+				p.intro {
+					font-size:22px;
+					font-family: $butler;
+					line-height:35px;
+				}
+				p {
+					font-family: $newscycle;
+					font-size:18px;
+				}
+			}
+		}
+	}
+	
+	
+	
+	.about_orange_box {
+		width:40%;
+		height:500px;
+		background: $orange;
+		float:right;
+		
+	}
 
 	
 	
 	.inner_main_wrapper {
-		width:100%;
+		width:60%;
 		max-width: 1490px;
 		margin:79px auto 123px;
 		overflow: hidden;
 		position: relative;
+		
 	}
 	
 	
