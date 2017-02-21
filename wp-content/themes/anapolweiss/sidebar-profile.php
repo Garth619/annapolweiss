@@ -48,6 +48,7 @@
 		
 		<div class="profile_awards">
 				
+				<a href="" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/award.jpg"/></a>
 				
 				
 			</div><!-- profile_awards -->
