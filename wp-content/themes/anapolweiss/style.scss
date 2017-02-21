@@ -2523,6 +2523,29 @@ body.blog, body.single {
 	}
 }
 
+ol.commentlist {
+	
+	margin-top:50px;
+	margin-bottom:50px;
+	> li {
+		border-bottom: 1px solid $grey;
+	}
+	li {
+		padding:0 0 20px;
+		background: transparent;
+		margin-left:0;
+		margin: 25px 0 0;
+		
+		ul.children {
+			margin-left:35px;
+			margin-bottom:0;
+			li {
+				
+			}
+		}
+	}
+}
+
 	
 	
 	
