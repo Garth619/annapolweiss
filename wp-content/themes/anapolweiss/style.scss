@@ -2404,6 +2404,7 @@ body.blog {
 	border-bottom:3px solid $orange;
 	padding-bottom:38px;
 	margin-bottom: 23px;
+	margin-top:26px;
 	span.sub_header {
 		
 	}
@@ -2419,6 +2420,37 @@ body.blog {
 		margin-top:27px;
 		li {
 			margin-bottom:26px;
+			a {
+				color:$bluedark;
+				text-decoration: none;
+				font-family: $butler;
+				font-size:16px;
+				line-height:25px;
+				transition: all .2s ease-in-out;
+				&:hover {
+					color:$orange;
+				}
+			}
+		}
+	}
+}
+
+
+.my_posts_by_topic {
+	span.sub_header {
+		margin-top:26px;
+	}
+	span.blog_greyline {
+		width:30px;
+		height:1px;
+		background:$greydark;
+		display: block;
+		margin-top:12px;
+	}
+	ul.posts_by_topic_list {
+		list-style: none;
+		margin-top:27px;
+		li {
 			a {
 				color:$bluedark;
 				text-decoration: none;

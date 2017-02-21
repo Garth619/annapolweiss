@@ -28,5 +28,23 @@
 		
 	</div><!-- my_recent_posts -->
 	
+	<div class="my_posts_by_topic">
+		
+		<span class="sub_header">posts by topics</span><!-- sub_header -->
+		<span class="blog_greyline"></span><!-- blog_greyline -->
+		
+		<ul class="posts_by_topic_list">
+			<li><a href="">Medical Malpractice (74)</a></li>
+			<li><a href="">Medical Malpractice (74)</a></li>
+			<li><a href="">Medical Malpractice (74)</a></li>
+			<li><a href="">Medical Malpractice (74)</a></li>
+			<li><a href="">Medical Malpractice (74)</a></li>
+			<li><a href="">Medical Malpractice (74)</a></li>
+			
+		</ul>
+		
+		
+	</div><!-- my_posts_by_topic -->
+	
 		
 </div><!-- sidebar -->
