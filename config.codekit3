@@ -21,12 +21,6 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
-	"\/anapol-migrate-20170220161705.sql.gz": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/anapol-migrate-20170220161705.sql.gz",
-		"oF": 0
-		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
