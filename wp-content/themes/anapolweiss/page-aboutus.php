@@ -46,7 +46,22 @@ We passionately believe it is our responsibility to stand up for those who have 
 	
 	<div class="about_orange_box">
 		
-		
+		<div class="inner_about_slider_wrapper">
+			
+			<div class="inner_about_slider">
+				
+				
+				<div class="inner_about_slides">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/content_slide_1.jpg"/>
+					
+				</div><!-- inner_about_slides -->
+				
+				
+			</div><!-- inner_about_slider -->
+			
+			
+		</div><!-- inner_about_slider -->
 		
 	</div><!-- about_orange_box -->
 	

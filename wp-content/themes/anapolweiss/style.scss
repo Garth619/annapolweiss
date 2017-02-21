@@ -2112,8 +2112,10 @@ footer {
 		position: relative;
 		.inner_page_content_about {
 			margin-top:80px;
-			width:60%;
+			width:55%;
 			float:left;
+			
+			padding-left: 5%;
 			> h1 {
 				font-family: $butler;
 				font-size:65px;
@@ -2123,7 +2125,7 @@ footer {
 				margin-bottom:60px;
 				background:#fff;
 				padding-left:30px;
-				margin-left: 95px;
+				margin-left: 8%;
 			}
 			.content {
 				padding-left:11%;
@@ -2163,11 +2165,19 @@ footer {
 	
 	
 	.about_orange_box {
-		width:40%;
+		width:45%;
 		height:500px;
 		background: $orange;
 		float:right;
-		
+		.inner_about_slider_wrapper {
+			.inner_about_slider {
+				.inner_about_slides {
+					img {
+						
+					}
+				}
+			}
+		}
 	}
 
 	
