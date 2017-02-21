@@ -2585,7 +2585,75 @@ ol.commentlist {
 	}
 }
 
+
+
+
+/* Downloads */
+
+
+
+ body.page-template-page-download_pdfs {
 	
+	.sidebar {
+		
+		margin-top:6px
+		
+	}
+
+}
+	
+	.download_list {
+		margin:52px 0;
+		
+		.single_download {
+			&:last-of-type {
+				a {
+					border-bottom:1px solid $grey;
+				}
+			}
+			a {
+				border-top:1px solid $grey;
+				
+				display: block;
+				padding:26px 0 26px;
+				
+				overflow: hidden;
+				&:hover {
+						span.download_pdf {
+						background: $orange;
+						color:#fff;
+						}
+					}
+				span.download_title {
+					font-family: $butler;
+					font-size:26px;
+					line-height:54px;
+					float:left;
+					width:60%;
+					line-height: 32px;
+					margin-top:5px;
+
+				
+				}
+				span.download_pdf {
+					float: right;
+					text-align: center;
+					font-family: $helvetica;
+					text-transform: uppercase;
+					color:$bluedark;
+					font-size:14px;
+					border:1px solid $orange;
+					letter-spacing: 1px;
+					padding:5px 32px;
+
+					width:40%;
+					max-width: 182px;
+					transition: all .2s ease-in-out;
+					
+				}
+			}
+		}
+	}
 	
 	
 	
@@ -8174,6 +8242,40 @@ section.blog {
 	
 
 	
+	.download_list {
+	
+		
+		.single_download {
+			&:last-of-type {
+				a {
+					
+				}
+			}
+			a {
+				
+				&:hover {
+						span.download_pdf {
+						
+						}
+					}
+				span.download_title {
+					width:100%;
+					float:left;
+					font-size: 24px;
+				
+				}
+				span.download_pdf {
+					margin-top:15px;
+					display: inline-block;
+					width:100%;
+					float:left;
+					font-size:13px;
+					padding:5px 12px;
+					
+				}
+			}
+		}
+	}
 
 
 	
