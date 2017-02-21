@@ -13,7 +13,7 @@
  */
 ?>
 
-			<div id="comments">
+<div id="comments">
 <?php if ( post_password_required() ) : ?>
 				<p class="nopassword"><?php _e( 'This post is password protected. Enter the password to view any comments.', 'twentyten' ); ?></p>
 			</div><!-- #comments -->
@@ -75,6 +75,9 @@
 
 <?php endif; // end have_comments() ?>
 
-<?php comment_form(); ?>
+<?php
+      comment_form(array(
+      'title_reply' => __( 'Leave a Reply' ),
+ ));?>
 
 </div><!-- #comments -->

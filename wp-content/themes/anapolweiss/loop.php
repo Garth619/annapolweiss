@@ -166,7 +166,7 @@
 			
 			</div><!-- .entry-content -->
 	
-			<a href="" class="read_full_post">Read Full Post</a>
+			<a href="<?php the_permalink();?>" class="read_full_post">Read Full Post</a>
 	
 	
 	<?php endif; ?>

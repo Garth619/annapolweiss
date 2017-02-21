@@ -2244,7 +2244,7 @@ footer {
 
 
 
-body.blog {
+body.blog, body.single {
 	.inner_main_wrapper {
 		margin-top:34px;
 		.content {
@@ -2257,6 +2257,7 @@ body.blog {
 					font-size:39px;
 					font-family: $butler;
 					line-height: 42px;
+					color:$orange;
 					a {
 						
 					}
@@ -2322,7 +2323,7 @@ a.read_full_post {
 	}
 }
 
-body.blog {
+body.blog, body.single {
 	.sidebar {
 		margin-top:65px;
 	}
@@ -2451,6 +2452,7 @@ body.blog {
 		list-style: none;
 		margin-top:27px;
 		li {
+			margin-bottom:2px;
 			a {
 				color:$bluedark;
 				text-decoration: none;
@@ -2465,6 +2467,62 @@ body.blog {
 		}
 	}
 }
+
+
+
+
+/* Comments */
+
+
+#comments {
+	padding-top:45px;
+	#respond {
+		h3.comment-reply-title {
+			font-family: $butler;
+			font-size:30px;
+			text-transform: lowercase;
+		}
+		form {
+			width:100%;
+			p.comment-notes {
+				margin-bottom:22px;
+			}
+			p {
+				margin-bottom: 15px;
+				label {
+					display: none;
+				}
+				input, textarea {
+					background: $greylight;
+					border:none;
+					width:100%;
+					font-family: $helvetica;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+					font-size:13px;
+					padding:13px 20px;
+				}
+				input[type="submit"] {
+					width:auto;
+					background: transparent;
+					border:$orange 1px solid;
+					display: block;
+					margin-top:20px;
+					transition: all .2s ease-in-out;
+					cursor: pointer;
+					&:hover {
+						background: $orange;
+						color:#fff;
+					}
+				}
+				textarea {
+					height:130px;
+				}
+			}
+		}
+	}
+}
+
 	
 	
 	
