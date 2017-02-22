@@ -25,6 +25,46 @@ jQuery('.play_button').mouseleave(function(){
 
 
 
+// Memberships
+
+
+jQuery('.members_list_inner').slick({
+  	slidesToShow: 4,
+		slidesToScroll: 4,
+		arrows:true,
+		dots:false,
+		responsive: [
+    {
+      breakpoint: 1730,
+      settings: {
+        slidesToShow: 2,
+				slidesToScroll: 2,
+				arrows:true,
+				dots:false,
+				prevArrow:".members_back",
+				nextArrow:".members_next",
+				
+      }
+    },
+    {
+      breakpoint: 935,
+      settings: {
+        slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows:true,
+				dots:false,
+				prevArrow:".members_back",
+				nextArrow:".members_next",
+      }
+    }
+    
+  ]
+
+});
+
+
+
+
 // Inner About Slider 
 
 

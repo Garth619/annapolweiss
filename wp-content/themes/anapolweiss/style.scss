@@ -2377,12 +2377,12 @@ footer {
 				}
 			}
 			.single_member {
-				width:25%;
+// 				width:25%;
 				text-align: center;
 				border-right:1px solid $grey;
 				padding:0 3%;
 				height:640px;
-				float:left;
+// 				float:left;
 				a.visit_site {
 					background: $orange;
 					color:#fff;
@@ -2426,6 +2426,7 @@ footer {
 					font-family:$newscycle;
 					font-size:16px;
 					line-height:26px;
+					display: block;
 				}
 			}
 		}
@@ -2434,8 +2435,36 @@ footer {
 	
 	
 	
+	
+.members_button {
+	width:100%;
+	height:16px;
+	overflow: hidden;
+	.members_back {
+		position: relative;
+		height:16px;
+		img {
+			position: absolute;
+			top:0;
+			left:0;
+		}
+		img.memebers_img_back_reg_hover {
+			
+		}
+	}
+}	
+	
+	
+	
+	
+	
+	/* Practice Areas */
+	
+	
+	
+	
 	.inner_main_wrapper {
-		width:60%;
+	
 		max-width: 1490px;
 		margin:79px auto 123px;
 		overflow: hidden;
@@ -3700,6 +3729,76 @@ a.case_results_button {
 	
 	
 } /* Media Query */
+
+
+
+@media screen and (max-width: 1730px) {
+	
+	
+	
+	
+	.members_list {
+		
+		
+		.members_list_inner {
+			.single_member.member_one {
+				img {
+					
+				}
+			}
+			.single_member.member_two {
+				img {
+					
+				}
+			}
+			.single_member.member_three {
+				img {
+					
+					
+				}
+			}
+			.single_member.member_four {
+				img {
+					
+				}
+			}
+			.single_member {
+				padding-left:1%;
+				padding-right:1%;
+				height:615px;
+				a.visit_site {
+					
+					&:hover {
+						
+					}
+				}
+				&:last-of-type {
+					
+				}
+				img {
+					
+				}
+				span.member_greyline {
+					
+				}
+				span.single_member_title {
+					
+				}
+				span.single_member_content {
+					
+				}
+			}
+		}
+	}
+
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
 	
 	
 @media screen and (max-width: 1665px) {
@@ -5173,7 +5272,202 @@ footer {
 
 
 		
+		/* About */
+	
+	.inner_main_wrapper_no_sidebar {
 		
+		.inner_page_content_about {
+			width:100%;
+			float:none;
+			padding:0;
+			> h1 {
+				  margin-left: 3%;
+			}
+			.content {
+				padding-left: 6%;
+				padding-right:6%;
+				h2 {
+					
+				}
+				span.aboutus_greyline {
+					
+				}
+				p.intro {
+					
+				}
+				p {
+					
+				}
+			}
+		}
+	}
+	
+	
+	
+	.about_orange_box {
+		height: 638px;
+    width: 62%;
+    margin-top:80px;
+    
+		.inner_about_slider_wrapper {
+			max-width: 483px;
+			.inner_about_caption {
+				
+				span.inner_about_caption_title {
+					
+				}
+				span.inner_about_line {
+					
+				}
+			}
+			.inner_about_slider {
+				
+				
+				.inner_about_slides {
+					
+					img {
+						
+					}
+				}
+			}
+		}
+	}
+	
+	
+	.inner_about_buttons {
+		
+		.inner_about_back {
+			
+			img {
+				
+			}
+			img.inner_about_back_hover_img {
+				
+			}
+		}
+		.inner_about_counter_spacer {
+			
+		}
+		.inner_about_next {
+			
+			img {
+				
+			}
+			img.inner_about_next_hover_img {
+				
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	.inner_about_quote {
+		margin-top:50px;
+		padding-left:30px;
+		padding-right:30px;
+		span.client_review_title {
+			margin-top: 85px;
+		}
+		span.client_review_line {
+			
+		}
+		span.inner_about_quote {
+			font-size: 43px;
+			line-height:50px;
+			max-width: 815px;
+			margin-bottom:85px;
+		}
+	}
+
+	
+	.wavy_inner_about {
+		
+		svg {
+			
+		}
+		.wavy_inner_about_hidden {
+			
+		}
+	}
+	
+	
+	
+	
+	.memberships {
+		
+		.membership_title {
+			font-size:56px;
+			padding-right: 9%;
+			span.members {
+				
+			}
+			span.orange {
+				
+				
+			}
+			span.membership_line {
+				
+			}
+		}
+	}
+	
+	
+	
+	.members_list {
+		
+		
+		.members_list_inner {
+			.single_member.member_one {
+				img {
+					
+				}
+			}
+			.single_member.member_two {
+				img {
+					
+				}
+			}
+			.single_member.member_three {
+				img {
+					
+					
+				}
+			}
+			.single_member.member_four {
+				img {
+					
+				}
+			}
+			.single_member {
+				
+				a.visit_site {
+					
+					&:hover {
+						
+					}
+				}
+				&:last-of-type {
+					
+				}
+				img {
+					
+				}
+				span.member_greyline {
+					
+				}
+				span.single_member_title {
+					
+				}
+				span.single_member_content {
+					
+				}
+			}
+		}
+	}
+	
+
 		
 		
 		
@@ -7006,6 +7300,69 @@ footer {
 
 	
 	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 930px) {
+	
+	
+	.members_list {
+		
+		
+		.members_list_inner {
+			.single_member.member_one {
+				img {
+					
+				}
+			}
+			.single_member.member_two {
+				img {
+					
+				}
+			}
+			.single_member.member_three {
+				img {
+					
+					
+				}
+			}
+			.single_member.member_four {
+				img {
+					
+				}
+			}
+			.single_member {
+				
+				a.visit_site {
+					
+					&:hover {
+						
+					}
+				}
+				&:last-of-type {
+					
+				}
+				img {
+					
+				}
+				span.member_greyline {
+					
+				}
+				span.single_member_title {
+					
+				}
+				span.single_member_content {
+					max-width:600px;
+					margin:0 auto;
+				}
+			}
+		}
+	}
+
+
 	
 	
 	

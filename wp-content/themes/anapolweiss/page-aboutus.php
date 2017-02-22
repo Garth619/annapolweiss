@@ -21,7 +21,7 @@ get_header(); ?>
 	
 	<div class="inner_page_content_about">
 		
-		<h1>About Us</h1>
+		<h1>about us</h1>
 		
 		<div class="content">
 			
@@ -205,17 +205,33 @@ We passionately believe it is our responsibility to stand up for those who have 
 			
 		</div><!-- members_list_inner -->
 		
+		<div class="members_button">
+			
+			
+			<div class="members_back">
+				
+				<img class="memebers_img_back_reg" src="<?php bloginfo('template_directory');?>/images/content_left_arrow.png"/>
+				<img class="memebers_img_back_reg_hover" src="<?php bloginfo('template_directory');?>/images/content_left_arrow_orange.png"/>
+				
+			</div><!-- members_back -->
+			
+			
+			<div class="members_next">
+				
+				<img class="memebers_img_next_reg" src="<?php bloginfo('template_directory');?>/images/content_right_arrow.png"/>
+				<img class="memebers_img_reg_next_hover" src="<?php bloginfo('template_directory');?>/images/content_right_arrow_orange.png"/>
+				
+			</div><!-- members_back -->
+			
+			
+			
+			
+		</div><!-- members_button -->
+		
 		
 	</div><!-- members_list -->
 	
 	
 </div><!-- memberships -->
-
-
-
-<?php // get_template_part( 'loop', 'page' ); ?>
-
-
-
 
 <?php get_footer(); ?>
