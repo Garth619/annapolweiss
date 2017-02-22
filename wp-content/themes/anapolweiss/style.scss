@@ -3033,8 +3033,21 @@ ol.commentlist {
 	}
 	
 	
-		/* Contact */
+	/* Contact */
 	
+	
+	
+	body.page-template-page-contact {
+		.get_started {
+			padding-bottom:142px;
+		}
+		.extended_footer {
+			display: none;
+		}
+		.wavy_footer {
+			display:none;
+		}
+	}
 	
 	body.page-template-page-contact {
 		.inner_main_wrapper {
@@ -6712,6 +6725,23 @@ footer {
 	
 	
 }
+
+
+
+body.page-template-page-contact {
+		.get_started {
+			padding-bottom: 90px;
+		}
+		.extended_footer {
+			
+		}
+		.wavy_footer {
+			
+		}
+	}
+
+
+
 
 .get_started_left {
 	margin-top: 97px;
@@ -10761,6 +10791,22 @@ footer {
 	
 	
 }
+
+
+
+body.page-template-page-contact {
+		.get_started {
+			padding-bottom: 70px;
+		}
+		.extended_footer {
+			
+		}
+		.wavy_footer {
+			
+		}
+	}
+
+
 
 .get_started_left {
 	margin-top: 68px;

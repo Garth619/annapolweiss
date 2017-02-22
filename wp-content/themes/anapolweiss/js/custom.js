@@ -114,6 +114,18 @@ jQuery('.inner_about_next').mouseleave(function(){
 	
 });
 
+// Mobile Locations Inner Page
+
+
+
+jQuery('.locations_mobile_inner_inner_page').slick({
+  	slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows:true,
+		dots:false,
+		prevArrow:".locations_mobile_back_wrapper_inner_page",
+		nextArrow:".locations_mobile_next_wrapper_inner_page"
+});
 
 
 
