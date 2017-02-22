@@ -148,6 +148,70 @@ We passionately believe it is our responsibility to stand up for those who have 
 </div><!-- wavy_inner_about -->
 
 
+<div class="memberships">
+	
+	
+	<div class="membership_title">
+		
+		<span class="members">memberships <span class="orange">&</span> Associations</span></span>
+		<span class="membership_line"></span><!-- membership_line -->
+		
+	</div><!-- membership_title -->
+	
+	
+	<div class="members_list">
+		
+		
+		<div class="members_list_inner">
+			
+			<div class="single_member member_one">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/about_logo_1.png"/>
+				<span class="member_greyline"></span><!-- member_greyline -->
+				<span class="single_member_title">Pound Civil Justice Institute</span><!-- single_member_title -->
+				<span class="single_member_content">Anapol Weiss is a Sustaining Fellow of the Pound Civil Justice Institute, an organization dedicated to ensuring access to justice for all citizens. Pound “… works to give lawyers, judges, legal educators and the public a balanced view of the issues affecting the U.S. civil justice system.”</span>
+				
+			</div><!-- single_member -->
+			
+			<div class="single_member member_two">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/about_logo_2.png"/>
+				<span class="member_greyline"></span><!-- member_greyline -->
+				<span class="single_member_title">Civil Justice Foundation</span><!-- single_member_title -->
+				<span class="single_member_content">Anapol Weiss proudly supports the Civil Justice Foundation, a national organization that strengthens the relationship between trial attorneys and consumer advocacy groups in order to safeguard justice for all Americans. The Foundation is devoted to protecting the rights, health and well-being of the injured by providing grants to organizations fighting to preserve justice across the country.</span>
+				
+			</div><!-- single_member -->
+			
+			<div class="single_member member_three">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/about_logo_3.png"/>
+				<span class="member_greyline"></span><!-- member_greyline -->
+				<span class="single_member_title">End Distracted Driving</span><!-- single_member_title -->
+				<span class="single_member_content">Anapol Weiss Shareholder Joel Feldman founded End Distracted Driving (EndDD) after his daughter was killed by a distracted driver in 2009. EndDD’s mission is “… to preserve life and promote safety on a large scale through advocacy, education, and action.” The organization uses a scientifically-based presentation that has been given by hundreds of volunteered lawyers and other professionals. These distracted driving presentations have been seen by more than 275,000 people in the U.S. and in Canada.</span>
+				
+				
+				<a class="visit_site" href="" target="_blank">Visit Site</a>
+				
+			</div><!-- single_member -->
+			
+			<div class="single_member member_four">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/about_logo_4.png"/>
+				<span class="member_greyline"></span><!-- member_greyline -->
+				<span class="single_member_title">Casey Anderson Feldman<br/>1988-2009</span><!-- single_member_title -->
+				<span class="single_member_content">Joel Feldman and his wife Dianne Anderson founded the Casey Feldman Memorial Foundation in memory of their daughter. The Foundation’s mission is to support individuals, groups and institutions whose interests and goals align with those of Casey.</span>
+				
+			</div><!-- single_member -->
+			
+		</div><!-- members_list_inner -->
+		
+		
+	</div><!-- members_list -->
+	
+	
+</div><!-- memberships -->
+
+
 
 <?php // get_template_part( 'loop', 'page' ); ?>
 

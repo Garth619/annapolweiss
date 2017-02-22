@@ -2293,18 +2293,142 @@ footer {
 	
 	.wavy_inner_about {
 		position: relative;
-		top:-160px;
+		margin-top:-160px;
 		overflow: hidden;
 		z-index: 1;
 		svg {
 			min-width:2000px;
-		width:100%;
+			width:100%;
 		}
 		.wavy_inner_about_hidden {
 			
 		}
 	}
 	
+	
+	
+	
+	.memberships {
+		background:#fff;
+		width:100%;
+		height:3000px;
+		padding-top:60px;
+		.membership_title {
+			float:right;
+			text-align: right;
+			font-size:65px;
+			font-family: $butler;
+			position:relative;
+			padding-right:200px;
+			span.members {
+				background:#fff;
+				position: relative;
+				z-index:5;
+				display: inline-block;
+				padding-right:30px;
+			}
+			span.orange {
+				
+				
+			}
+			span.membership_line {
+				width:300px;
+				height:2px;
+				background: $orange;
+				display: block;
+				position: absolute;
+				top:30px;
+				right:0;
+			}
+		}
+	}
+	
+	
+	
+	.members_list {
+		width:100%;
+		margin:144px auto 0;
+		max-width:2000px;
+		
+		.members_list_inner {
+			.single_member.member_one {
+				img {
+					margin-bottom:35px;
+				}
+			}
+			.single_member.member_two {
+				img {
+					margin-top:10px;
+					margin-bottom:30px;
+				}
+			}
+			.single_member.member_three {
+				img {
+					margin-top:23px;
+					margin-bottom:57px;
+					
+				}
+			}
+			.single_member.member_four {
+				img {
+					margin-bottom:27px;
+					width:140px;
+				}
+			}
+			.single_member {
+				width:25%;
+				text-align: center;
+				border-right:1px solid $grey;
+				padding:0 3%;
+				height:640px;
+				float:left;
+				a.visit_site {
+					background: $orange;
+					color:#fff;
+					font-family: $helvetica;
+					text-transform: uppercase;
+					font-size:16px;
+					display: inline-block;
+					text-decoration: none;
+					padding:14px 45px;
+					margin-top:35px;
+					transition: background .2s ease-in-out;
+					&:hover {
+						background: transparent;
+						color:$bluedark;
+						border:1px solid $orange;
+						padding:13px 44px;
+					}
+				}
+				&:last-of-type {
+					border-right:none;
+				}
+				img {
+					display: block;
+					margin:0 auto;
+				}
+				span.member_greyline {
+					width:1px;
+					height:53px;
+					background: $grey;
+					display: block;
+					margin:0 auto 33px;
+				}
+				span.single_member_title {
+					color:$orange;
+					display: block;
+					font-size:26px;
+					margin-bottom:20px;
+					line-height: 29px;
+				}
+				span.single_member_content {
+					font-family:$newscycle;
+					font-size:16px;
+					line-height:26px;
+				}
+			}
+		}
+	}
 	
 	
 	
