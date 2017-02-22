@@ -133,6 +133,9 @@ get_header(); ?>
 	
 	
 	</div><!-- locations_outer_wrapper -->
+	
+	
+	
 
 				
 				
@@ -142,6 +145,13 @@ get_header(); ?>
 	
 	
 </div><!-- inner_main_container -->
+
+
+<div class="map">
+		
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6612.7298281230305!2d-75.17435784458159!3d39.956282927043794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c633b894d95d%3A0x45460f48646c7b9b!2s130+N+18th+St+%231600%2C+Philadelphia%2C+PA+19103!5e0!3m2!1sen!2sus!4v1487786762366" frameborder="0" style="border:0" allowfullscreen></iframe>
+		
+	</div><!-- <a href="" class="get_directions" target="_blank">Get Directions</a> -->
 
 
 <?php get_footer(); ?>

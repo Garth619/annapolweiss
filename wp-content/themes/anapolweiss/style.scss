@@ -3098,6 +3098,7 @@ ol.commentlist {
 	
 	body.page-template-page-contact {
 		.inner_main_wrapper {
+			margin-bottom:60px;
 			.inner_page_content {
 				.locations_outer_wrapper {
 					.social_links {
@@ -3122,7 +3123,13 @@ ol.commentlist {
 	
 	
 	
-	
+	.map {
+		width:100%;
+		iframe {
+			width:100%;
+			height:700px;
+		}
+	}
 
 	
 	
@@ -7536,6 +7543,113 @@ footer {
 	}
 	
 
+/* Contact */
+	
+	
+	body.page-template-page-contact {
+		.inner_main_wrapper {
+			
+			.inner_page_content {
+				
+				.locations_outer_wrapper {
+					
+					.locations_wrapper {
+						span.location_title {
+							margin-right:60px;
+						}
+						.location_slider {
+							.location_col {
+								span.state {
+								
+								}
+								span.location_line {
+										
+								}
+								.single_location {
+									a.address {
+										
+										&:hover {
+											
+										}
+										
+									}
+									a.get_directions {
+										
+										&:hover {
+											
+										}
+									}
+									a.location_tel {
+										
+										&:hover {
+											
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+
+body.page-template-page-contact {
+		.inner_main_wrapper {
+			
+			.inner_page_content {
+				.locations_outer_wrapper {
+					padding-left: 5.5%;
+					.social_links {
+						.social_inner {
+							span.social_title {
+								margin-right: 92px;
+							}
+							ul {
+								width:73%;
+								li {
+									margin-right:5%;
+									a {
+										
+										&:hover {
+											
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	
+
+
+
+
+
+
+		
+		
+	
+	.map {
+		
+		iframe {
+			
+		}
+	}
+
+	
+
+
+
+
+
+
 	
 	
 	
@@ -9878,6 +9992,97 @@ body.page-template-page-aboutus .inner_page_orangeline span.line {
     left: 0;
     top: 152px;
 }
+
+
+
+
+
+
+/* Contact */
+	
+	
+	body.page-template-page-contact {
+		.inner_main_wrapper {
+			
+			.inner_page_content {
+				
+				.locations_outer_wrapper {
+					
+					.locations_wrapper {
+						span.location_title {
+							
+						}
+						.location_slider {
+							.location_col {
+								span.state {
+								
+								}
+								span.location_line {
+										
+								}
+								.single_location {
+									a.address {
+										
+										&:hover {
+											
+										}
+										
+									}
+									a.get_directions {
+										
+										&:hover {
+											
+										}
+									}
+									a.location_tel {
+										
+										&:hover {
+											
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+
+body.page-template-page-contact {
+		.inner_main_wrapper {
+			
+			.inner_page_content {
+				.locations_outer_wrapper {
+					
+					.social_links {
+						.social_inner {
+							text-align: center;
+							span.social_title {
+								margin-right:0px;
+								
+							}
+							ul {
+								width:100%;
+								li {
+									margin-right:0;
+									a {
+										
+										&:hover {
+											
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
 
 
 
