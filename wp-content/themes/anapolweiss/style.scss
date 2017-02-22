@@ -3032,6 +3032,57 @@ ol.commentlist {
 	}
 	
 	
+	
+	
+	/* Practice Areas */
+	
+	
+	body.page-template-page-practiceareas {
+		
+	.inner_main_wrapper {
+			max-width:1635px;
+			.inner_page_content {
+				width:100%;
+			}
+		}
+	
+	}
+	
+	
+	
+	.practice_areas_list_wrapper {
+		width: 100%;
+		
+		ul {
+			list-style: none;
+			overflow: hidden;
+			width: 100%;
+			li {
+				width:23%;
+				float:left;
+				a {
+					text-decoration: none;
+					color:$bluedark;
+					font-family: $newscycle;
+					font-size:18px;
+					display: block;
+					margin-top:43px;
+					padding-bottom:19px;
+					border-bottom: 1px solid $grey;
+					transition: all .2s ease-in-out;
+					&:hover {
+						color:$orange;
+					}
+				}
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	
 	/* Profile */
 		
 		
