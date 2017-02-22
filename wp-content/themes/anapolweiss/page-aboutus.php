@@ -128,7 +128,14 @@ We passionately believe it is our responsibility to stand up for those who have 
 </div><!-- inner_main_container -->
 
 
-<div class="inner_about_quote"></div><!-- inner_about_quote -->
+<div class="inner_about_quote">
+	
+	<span class="client_review_title">Client Review</span><!-- client_review -->
+	<span class="client_review_line"></span><!-- client_review_line -->
+	
+	<span class="inner_about_quote">“Your accomplishments are not simply attributed to <span class="orange">expert leadership</span> and <span class="orange">hard-working employees</span>, but <span class="orange">you truly care</span> about the person behind the case.”</span><!-- inner_about_quote -->
+	
+</div><!-- inner_about_quote -->
 
 
 

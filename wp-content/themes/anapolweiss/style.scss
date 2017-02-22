@@ -2251,7 +2251,46 @@ footer {
 			}
 		}
 	}
+	
+	
+	
+	
+	
+	.inner_about_quote {
+		width:100%;
+		text-align: center;
+		background: $greylight;
+		overflow: hidden;
+		span.client_review_title {
+			color:$orange;
+			font-size:15px;
+			font-family: $butlermedium;
+			text-transform: uppercase;
+			letter-spacing: 6px;
+			margin-top:120px;
+			display: block;
+		}
+		span.client_review_line {
+			width:43px;
+			height:2px;
+			background:$grey;
+			display:block;
+			margin:28px auto;
+		}
+		span.inner_about_quote {
+			font-size:53px;
+			font-family: $bulterlight;
+			line-height: 65px;
+			max-width:900px;
+			
+		}
+	}
 
+	
+	
+	
+	
+	
 	
 	
 	.inner_main_wrapper {
