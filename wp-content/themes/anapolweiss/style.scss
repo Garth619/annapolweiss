@@ -3052,7 +3052,8 @@ ol.commentlist {
 	
 	.practice_areas_list_wrapper {
 		width: 100%;
-		
+		padding-left: 58px;
+		padding-bottom:60px;
 		ul {
 			list-style: none;
 			overflow: hidden;
@@ -3060,6 +3061,7 @@ ol.commentlist {
 			li {
 				width:23%;
 				float:left;
+				margin-right:0.75%;
 				a {
 					text-decoration: none;
 					color:$bluedark;
@@ -3067,9 +3069,10 @@ ol.commentlist {
 					font-size:18px;
 					display: block;
 					margin-top:43px;
-					padding-bottom:19px;
+					padding-bottom:22px;
 					border-bottom: 1px solid $grey;
 					transition: all .2s ease-in-out;
+					padding-left:20px;
 					&:hover {
 						color:$orange;
 					}
@@ -7410,6 +7413,34 @@ footer {
 
 	
 	
+	body.page-template-page-practiceareas {
+		.inner_page_content {
+			padding-right:0;
+		}
+	}
+	
+	
+	.practice_areas_list_wrapper {
+		padding-left: 6%;
+		padding-right:6%;
+		padding-bottom:0;
+		ul {
+			
+			li {
+				width:31.3%;
+				margin-right:2%;
+				a {
+					
+					&:hover {
+						
+					}
+				}
+			}
+		}
+	}
+	
+
+	
 	
 	
 	
@@ -8577,6 +8608,26 @@ header {
 	}
 	
 
+
+	
+	.practice_areas_list_wrapper {
+		
+		ul {
+			
+			li {
+				width:48%;
+				a {
+					
+					&:hover {
+						
+					}
+				}
+			}
+		}
+	}
+	
+
+	
 	
 
 		
@@ -9943,6 +9994,22 @@ body.page-template-page-aboutus .inner_page_orangeline span.line {
 	
 	
 
+	.practice_areas_list_wrapper {
+		
+		ul {
+			
+			li {
+				width:100%;
+				margin-right:0;
+				a {
+					
+					&:hover {
+						
+					}
+				}
+			}
+		}
+	}
 	
 	
 	
