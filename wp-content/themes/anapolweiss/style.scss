@@ -3479,8 +3479,9 @@ body.page-template-page-attprofile {
 
 
 .inner_banner_foundation {
-	background:url(images/foundation_header.jpg) top left no-repeat;
+	
 	background-size:cover;
+	background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url(images/foundation_header.jpg) no-repeat scroll top left / cover ;
 	width:100%;
 	height:600px;
 	.inner_content_foundation {
@@ -3496,7 +3497,7 @@ body.page-template-page-attprofile {
 			font-size:26px;
 			font-family: $butlermedium;
 			letter-spacing: 37px;
-			font-color:$bluedark;
+			color:#fff;
 			text-transform: uppercase;
 			display: block;
 			margin-bottom:15px;
@@ -5606,7 +5607,7 @@ footer {
 
 		
 		
-		/* Foundation */
+	/* Foundation */
 	
 	
 	
@@ -7280,6 +7281,44 @@ body.page-template-page-contact {
 	}
 	
 	
+	
+	/* Foundation */
+
+
+.inner_banner_foundation {
+	margin-top:50px;
+	background-size:cover;
+	background: linear-gradient(rgba(0,0,0,.18), rgba(0,0,0,.18)), url(images/foundation_header.jpg) no-repeat scroll top left / cover ;
+	width:100%;
+	height:600px;
+	 margin-top: 111px;
+	.inner_content_foundation {
+		max-width:100%;
+		float:none;
+		margin-right:0%;
+		padding:0 20px;
+		span.sub_header {
+			font-size:22px;
+			
+			letter-spacing: 32px;
+					}
+	span.large_header {
+	
+		font-size:145px;
+		
+	}
+	}
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	/* About */
 		
 		
@@ -7982,6 +8021,139 @@ body.page-template-page-contact {
 	}
 
 
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 876px) {
+	
+	
+	
+	
+		/* Foundation */
+
+
+.inner_banner_foundation {
+	height:400px;
+	.inner_content_foundation {
+		span.sub_header {
+			font-size: 23px;
+			letter-spacing: 25px;
+			line-height: 30px;
+		}
+		span.large_header {
+			font-size: 100px;
+			letter-spacing: 5px;
+			line-height: 90px;
+		}
+	}
+}
+
+
+	
+	
+	
+	body.page-template-page-foundation {
+		
+		.inner_page_orangeline {
+			top:10px;
+		}
+	
+	.inner_main_wrapper_no_sidebar {
+		
+		.inner_page_content_about {
+			
+			> h1 {
+				
+			}
+			.content {
+			
+				
+				h2 {
+					
+				}
+				span.aboutus_greyline {
+					
+				}
+				p.intro {
+					
+				}
+				p {
+					
+				}
+			}
+		}
+	}
+	
+	
+	
+	.about_orange_box {
+		
+		.inner_about_slider_wrapper {
+			.orange_caption {
+				 
+			}
+			.inner_about_caption {
+				 
+				span.inner_about_caption_title {
+					
+				}
+				span.inner_about_line {
+					
+				}
+			}
+			.inner_about_slider {
+			
+				
+				
+				.inner_about_slides {
+					
+					img {
+						
+					}
+				}
+			}
+		}
+	}
+	
+	
+	.inner_about_buttons {
+		
+		.inner_about_back {
+			
+			img {
+				
+			}
+			img.inner_about_back_hover_img {
+				
+			}
+		}
+		.inner_about_counter_spacer {
+			
+		}
+		.inner_about_next {
+			
+			img {
+				
+			}
+			img.inner_about_next_hover_img {
+				
+			}
+		}
+	}
+	
+
+	}
+	
+
+
+
+
+	
+	
+	
 	
 	
 	
@@ -9007,6 +9179,52 @@ header {
 
 
 
+/* Foundation */
+
+
+	
+	body.page-template-page-foundation {
+		
+		.inner_page_orangeline {
+			top:170px;
+		}
+	
+	.inner_main_wrapper_no_sidebar {
+		
+		.inner_page_content_about {}
+			
+		}
+		
+		}
+		
+		
+		
+		/* Foundation */
+
+
+.inner_banner_foundation {
+	margin-top:83px;
+	display:none;
+	.inner_content_foundation {
+		span.sub_header {
+			font-size: 23px;
+			letter-spacing: 25px;
+			line-height: 30px;
+		}
+		span.large_header {
+			font-size: 100px;
+			letter-spacing: 5px;
+			line-height: 90px;
+		}
+	}
+}
+
+	
+	
+	
+
+
+
 
 
 /* About */
@@ -9110,6 +9328,30 @@ header {
 
 		
 		
+	/* Foundation */
+
+
+.inner_banner_foundation {
+	
+	.inner_content_foundation {
+		
+		span.sub_header {
+			 font-size: 23px;
+    letter-spacing: 10px;
+    line-height: 30px;
+    margin-bottom:0px;
+					}
+	span.large_header {
+font-size: 85px;
+    letter-spacing: 5px;
+    line-height: 90px;
+	
+		
+	}
+	}
+}
+
+
 
 
 
@@ -10478,12 +10720,20 @@ body.page-template-page-contact {
 	
 	
 	
+		body.page-template-page-foundation {
+		
+		.inner_page_orangeline {
+			top:130px;
+		}
 	
+	.inner_main_wrapper_no_sidebar {
+		
+		.inner_page_content_about {}
+			
+		}
+		
+		}
 	
-	
-	
-	
-
 
 
 
@@ -11325,7 +11575,32 @@ body.page-template-page-contact {
 		
 	
 	
+			
+	/* Foundation */
+
+
+.inner_banner_foundation {
+	display: none;
+	.inner_content_foundation {
+		
+		span.sub_header {
+			 font-size: 20px;
+			 letter-spacing: 10px;
+    line-height: 30px;
+    margin-bottom:4px;
+					}
+	span.large_header {
+font-size: 80px;
+    letter-spacing: 5px;
+    line-height: 77px;
 	
+		
+	}
+	}
+}
+
+
+
 
 
 
