@@ -21,10 +21,10 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
-	"\/anapol-migrate-20170222002509.sql.gz": {
+	"\/anapol-migrate-20170222060744.sql.gz": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/anapol-migrate-20170222002509.sql.gz",
+		"oAP": "\/anapol-migrate-20170222060744.sql.gz",
 		"oF": 0
 		},
 	"\/index.php": {
@@ -8688,6 +8688,12 @@
 		"oAP": "\/wp-content\/themes\/anapolweiss\/page-blog.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/anapolweiss\/page-contact.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/page-contact.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/anapolweiss\/page-download_pdfs.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -8698,6 +8704,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/page-main.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/page-practiceareas.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/page-practiceareas.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/anapolweiss\/page.php": {

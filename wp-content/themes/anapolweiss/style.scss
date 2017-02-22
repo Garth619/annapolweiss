@@ -2478,6 +2478,7 @@ footer {
 	
 	
 	
+	
 	/* Practice Areas */
 	
 	
@@ -3032,7 +3033,102 @@ ol.commentlist {
 	}
 	
 	
+		/* Contact */
 	
+	
+	body.page-template-page-contact {
+		.inner_main_wrapper {
+			max-width:1635px;
+			.inner_page_content {
+				width:100%;
+				float: none;
+				overflow: hidden;
+				.locations_outer_wrapper {
+					padding-left:70px;
+					.locations_wrapper {
+						.location_slider {
+							.location_col {
+								span.state {
+									margin-top:2px;
+									display: block;
+								}
+								span.location_line {
+										background:$bluedark;
+								}
+								.single_location {
+									a.address {
+										color:$bluedark;
+										transition: all .2s ease-in-out;
+										&:hover {
+											color:$orange;
+										}
+										
+									}
+									a.get_directions {
+										color:$orange;
+										text-transform: uppercase;
+										font-family: $helvetica;
+										text-decoration: none;
+										font-size:13px;
+										letter-spacing: 2px;
+										display: block;
+										margin-top:6px;
+										transition: all .2s ease-in-out;
+										&:hover {
+											color:$bluedark;
+										}
+									}
+									a.location_tel {
+										color:$bluedark;
+										transition: all .2s ease-in-out;
+										&:hover {
+											color:$orange;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	
+	
+	body.page-template-page-contact {
+		.inner_main_wrapper {
+			.inner_page_content {
+				.locations_outer_wrapper {
+					.social_links {
+						.social_inner {
+							ul {
+								li {
+									a {
+										color:$bluedark;
+										transition: all .2s ease-in-out;
+										&:hover {
+											color:$orange;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	
+	
+	
+
+	
+	
+	
+	
+
 	
 	/* Practice Areas */
 	
