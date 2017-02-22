@@ -3367,7 +3367,9 @@ body.page-template-page-attprofile {
 }
 	
 	
-	
+	.locations_mobile_inner_page {
+		display: none;
+	}
 	
 	
 
@@ -10131,7 +10133,7 @@ body.page-template-page-contact {
 .locations_mobile_inner_page {
 	text-align: center;
 	margin-top:65px;
-
+	display:block;
 	span.locations_mobile_title {
 		color:$orange;
 		text-transform: uppercase;
