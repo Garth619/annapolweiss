@@ -21,6 +21,12 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/anapol-migrate-20170222002509.sql.gz": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/anapol-migrate-20170222002509.sql.gz",
+		"oF": 0
+		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -7886,6 +7892,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/themes\/anapolweiss\/images\/award.jpg": {
+		"ft": 16384,
+		"iS": 10280,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/award.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/themes\/anapolweiss\/images\/blog_waves_1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -8638,10 +8652,28 @@
 		"oAP": "\/wp-content\/themes\/anapolweiss\/loop.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/anapolweiss\/page-aboutus.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/page-aboutus.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/page-attprofile.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/page-attprofile.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/anapolweiss\/page-blog.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/page-blog.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/page-download_pdfs.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/page-download_pdfs.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/anapolweiss\/page-main.php": {
@@ -8696,6 +8728,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/sidebar-footer.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/sidebar-profile.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/sidebar-profile.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/anapolweiss\/sidebar.php": {
@@ -8755,6 +8793,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/.htaccess",
+		"oF": 0
+		},
+	"\/wp-content\/uploads\/wp-migrate-db\/anapol-migrate-20170222022334-f61ko.sql.gz": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/anapol-migrate-20170222022334-f61ko.sql.gz",
 		"oF": 0
 		},
 	"\/wp-content\/uploads\/wp-migrate-db\/index.php": {

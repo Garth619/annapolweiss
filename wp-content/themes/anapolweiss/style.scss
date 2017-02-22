@@ -2281,13 +2281,29 @@ footer {
 			font-size:53px;
 			font-family: $bulterlight;
 			line-height: 65px;
-			max-width:900px;
-			
+			max-width:945px;
+			display: block;
+			margin: 0 auto 130px;
+			position: relative;
+			z-index: 5;
+			background: transparent;
 		}
 	}
 
 	
-	
+	.wavy_inner_about {
+		position: relative;
+		top:-160px;
+		overflow: hidden;
+		z-index: 1;
+		svg {
+			min-width:2000px;
+		width:100%;
+		}
+		.wavy_inner_about_hidden {
+			
+		}
+	}
 	
 	
 	
