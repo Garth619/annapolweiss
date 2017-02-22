@@ -10086,7 +10086,7 @@ body.page-template-page-contact {
 			
 			.inner_page_content {
 				.locations_outer_wrapper {
-					
+					padding-right:5.5%;
 					.social_links {
 						.social_inner {
 							text-align: center;
@@ -10113,7 +10113,138 @@ body.page-template-page-contact {
 		}
 	}
 
+	
+	
+	
+body.page-template-page-contact {
+		.inner_main_wrapper {
+			
+			.inner_page_content {
+				padding-right:0;
+			}
+		}
+		}
+	
+	
+	
+	
+.locations_mobile_inner_page {
+	text-align: center;
+	margin-top:65px;
 
+	span.locations_mobile_title {
+		color:$orange;
+		text-transform: uppercase;
+		font-family: $helvetica;
+		font-size:14px;
+		letter-spacing: 5px;
+		display: inline-block;
+	}
+	.locations_mobile_inner_inner_page {
+		margin-top:65px;
+		display: block;
+		width:100%;
+/* 		padding-left: 6%; */
+			.single_location_mobile {
+				text-align: center;
+				span.state {
+					color:$orange;
+					font-size: 24px;
+					font-family: $butlermedium;
+					display: block;
+				}
+				span.location_line {
+					width:30px;
+					height:2px;
+					background: $greydark;
+					display: block;
+					margin:20px auto;
+					
+				}
+				a.address {
+					color:$bluedark;
+					display: block;
+					text-decoration: none;
+					font-size: 14px;
+					line-height: 20px;
+					br {
+						
+					}
+				}
+				a.get_directions {
+					color:$orange;
+					text-decoration: none;
+					text-transform: uppercase;
+					font-family: $helvetica;
+					font-size:13px;
+					letter-spacing: 1.5px;
+					display:block;
+					margin-top:6px;
+				}
+				a.location_tel {
+					color:$bluedark;
+					text-decoration: none;
+					margin-top:30px;
+					display: block;
+				}
+			}
+		}
+}
+
+
+.locations_mobile_button_inner_page {
+	margin-top:59px;
+	height:16px;
+	width:100%;
+	display: block;
+	.locations_mobile_back_wrapper_inner_page {
+		position: relative;
+		cursor: pointer;
+		float:left;
+		width:35px;
+		height:16px;
+		margin-left:30px;
+		img {
+			position: absolute;
+			top:0;
+			left:0;
+			width:35px;
+			height:16px;
+		}
+		img.locations_mobile_back_hover {
+			display: none;
+		}
+	}
+	.locations_mobile_next_wrapper_inner_page {
+		position: relative;
+		margin-right:30px;
+		cursor: pointer;
+		float:right;
+		width:35px;
+		height:16px;
+		img {
+			position: absolute;
+			top:0;
+			left:0;
+			width:35px;
+			height:16px;
+		}
+		img.locations_mobile_next_hover {
+			display: none;
+		}
+	}
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 

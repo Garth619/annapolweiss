@@ -129,6 +129,43 @@ jQuery('.locations_mobile_inner_inner_page').slick({
 
 
 
+	jQuery('.locations_mobile_back_wrapper_inner_page').mouseenter(function(){
+		
+		jQuery('.locations_mobile_back').fadeOut();
+		jQuery('.locations_mobile_back_hover').fadeIn();
+		
+	});
+	
+	
+	
+	jQuery('.locations_mobile_back_wrapper_inner_page').mouseleave(function(){
+		
+		jQuery('.locations_mobile_back').fadeIn();
+		jQuery('.locations_mobile_back_hover').fadeOut();
+		
+	});
+	
+	
+	
+	jQuery('.locations_mobile_next_wrapper_inner_page').mouseenter(function(){
+		
+		jQuery('.locations_mobile_next').fadeOut();
+		jQuery('.locations_mobile_next_hover').fadeIn();
+		
+	});
+	
+	
+	
+	jQuery('.locations_mobile_next_wrapper_inner_page').mouseleave(function(){
+		
+		jQuery('.locations_mobile_next').fadeIn();
+		jQuery('.locations_mobile_next_hover').fadeOut();
+		
+	});
+
+
+
+
 // Mobile Locations
 
 
