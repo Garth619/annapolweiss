@@ -25,85 +25,43 @@ get_header(); ?>
 		
 		<div class="content">
 			
-			<p>Welcome to The Anapol Weiss Resource Center. It's a source of free expert advice and information for our clients, referring attorneys and the general public. Our easily downloadable materials cover a variety of personal injury law topics, offering valuable insights on everything from hiring an attorney to what steps to take after an automobile accident. Be sure to check back often for new tools and updates.</p>
+			<?php the_field( 'download_conent' ); ?>
 			
-				<div class="download_list">
+				
+				
+				
+				<?php if(get_field('downloads')): ?>
+				 
+					<div class="download_list">
 					
-					<div class="single_download">
+					<?php while(has_sub_field('downloads')): ?>
+					
+					
+						<div class="single_download">
 						
-						<a href="">
+						<a href="<?php the_sub_field( 'download_pdf' ); ?>" target="_blank">
 						
-						<span class="download_title">Takata recalls millions of defective airbags</span>
+						<span class="download_title"><?php the_sub_field( 'title' ); ?></span>
 						
 						<span class="download_pdf">Download PDF</span><!-- download_pdf -->
 						
 						</a>
 						
 					</div><!-- single_download -->
+						
+						
+						<?php the_sub_field('');?>
+				    
+					<?php endwhile; ?>
 					
-					<div class="single_download">
-						
-						<a href="">
-						
-						<span class="download_title">Takata recalls millions of defective airbags</span>
-						
-						<span class="download_pdf">Download PDF</span><!-- download_pdf -->
-						
-						</a>
-						
-					</div><!-- single_download -->
 					
-					<div class="single_download">
-						
-						<a href="">
-						
-						<span class="download_title">Takata recalls millions of defective airbags</span>
-						
-						<span class="download_pdf">Download PDF</span><!-- download_pdf -->
-						
-						</a>
-						
-					</div><!-- single_download -->
-					
-					<div class="single_download">
-						
-						<a href="">
-						
-						<span class="download_title">Takata recalls millions of defective airbags</span>
-						
-						<span class="download_pdf">Download PDF</span><!-- download_pdf -->
-						
-						</a>
-						
-					</div><!-- single_download -->
-					
-					<div class="single_download">
-						
-						<a href="">
-						
-						<span class="download_title">Takata recalls millions of defective airbags</span>
-						
-						<span class="download_pdf">Download PDF</span><!-- download_pdf -->
-						
-						</a>
-						
-					</div><!-- single_download -->
-					
-					<div class="single_download">
-						
-						<a href="">
-						
-						<span class="download_title">Takata recalls millions of defective airbags</span>
-						
-						<span class="download_pdf">Download PDF</span><!-- download_pdf -->
-						
-						</a>
-						
-					</div><!-- single_download -->
-					
-				</div><!-- download_list -->
-						
-			
+					</div><!-- download_list -->
+				 
+				<?php endif; ?>
+				
+				
+				
+							
 		</div><!-- content -->
 		
 	</div><!-- inner_page_content -->
