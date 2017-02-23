@@ -24,6 +24,25 @@ jQuery('.play_button').mouseleave(function(){
 });
 
 
+// Profile Grid
+
+
+jQuery('.single_profile_box').mouseenter(function(){
+	
+	jQuery(this).find('.profile_overlay').fadeIn(200);
+	
+	
+});
+
+
+jQuery('.single_profile_box').mouseleave(function(){
+	
+	jQuery(this).find('.profile_overlay').fadeOut(200);
+	
+	
+});
+
+
 
 // Memberships
 
