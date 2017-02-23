@@ -87,6 +87,45 @@ jQuery('.members_list_inner').slick({
 
 
 
+jQuery('.members_back').mouseenter(function(){
+	
+	
+	jQuery('img.memebers_img_back_reg').fadeOut(200);
+	jQuery('img.memebers_img_back_reg_hover').fadeIn(200);
+	
+});
+
+
+jQuery('.members_back').mouseleave(function(){
+
+	jQuery('img.memebers_img_back_reg').fadeIn(200);
+	jQuery('img.memebers_img_back_reg_hover').fadeOut(200);
+	
+});
+
+
+
+jQuery('.members_next').mouseenter(function(){
+	
+	
+	jQuery('img.memebers_img_next_reg').fadeOut(200);
+	jQuery('img.memebers_img_reg_next_hover').fadeIn(200);
+	
+});
+
+
+
+jQuery('.members_next').mouseleave(function(){
+	
+	
+	jQuery('img.memebers_img_next_reg').fadeIn(200);
+	jQuery('img.memebers_img_reg_next_hover').fadeOut(200);
+	
+});
+
+
+
+
 
 // Inner About Slider 
 
@@ -689,6 +728,13 @@ jQuery(function() {
     }
   });
 });
+
+
+
+
+
+
+
 
 
 

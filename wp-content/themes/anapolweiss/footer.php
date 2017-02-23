@@ -223,7 +223,59 @@
 
 	
 <?php wp_footer(); ?>
+
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/slick/slick/slick.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/waypoints/lib/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/vivus/dist/vivus.min.js"></script>
+
+
+<?php if(is_front_page()):?>
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+
+
+// About
+
+	var waypoint = new Waypoint({
+  element: document.getElementById('about_waypoint'),
+  handler: function(direction) {
+    
+    
+    
+    jQuery('section.about span.header_line').addClass('fadein');
+    jQuery('section.about img.content_img').addClass('fadein');
+    jQuery('section.about .greyline').addClass('fadein');
+    
+  }
+})
+
+
+
+new Vivus('layer_1',
+   {
+     type: 'oneByOne',
+     duration: 180,
+		 forceRender: false,
+     dashGap: 2
+   }
+ );
+
+
+
+
+
+}); /* Ready */
+
+</script>
+
+
+
+
+<?php endif;?>
+
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: Attorney Profile
+* Template Name: Attorney & Staff Profile
  */
 
 get_header(); ?>
