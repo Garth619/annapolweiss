@@ -226,7 +226,7 @@
 
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/slick/slick/slick.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/waypoints/lib/jquery.waypoints.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/vivus/dist/vivus.min.js"></script>
+<!-- <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/vivus/dist/vivus.min.js"></script> -->
 
 
 <?php if(is_front_page()):?>
@@ -253,6 +253,7 @@ jQuery(document).ready(function(){
 })
 
 
+/*
 
 new Vivus('layer_1',
    {
@@ -262,6 +263,7 @@ new Vivus('layer_1',
      dashGap: 2
    }
  );
+*/
 
 
 

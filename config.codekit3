@@ -21,6 +21,12 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/anapol-migrate-20170223174825.sql.gz": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/anapol-migrate-20170223174825.sql.gz",
+		"oF": 0
+		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -9539,11 +9545,11 @@
 		},
 	"\/wp-content\/themes\/anapolweiss\/images\/content_img_1.jpg": {
 		"ft": 16384,
-		"iS": 551089,
+		"iS": 426886,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/content_img_1.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/wp-content\/themes\/anapolweiss\/images\/content_left_arrow.png": {
 		"ft": 32768,
@@ -9630,6 +9636,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/content_waves_1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/content_waves_1_animated.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/content_waves_1_animated.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -9784,6 +9800,16 @@
 		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/mobile_video_play_button_hover.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/mytest.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/mytest.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/wp-content\/themes\/anapolweiss\/images\/profile_lt_gray_arrow.png": {
 		"ft": 32768,
@@ -9960,6 +9986,26 @@
 		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/tablet_header_bg.jpg",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/test3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/test3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/test3_animated.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/test3_animated.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/wp-content\/themes\/anapolweiss\/images\/test_bg.jpg": {
 		"ft": 16384,
@@ -11517,6 +11563,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/tag.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/wave.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/wave.html",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/index.php": {

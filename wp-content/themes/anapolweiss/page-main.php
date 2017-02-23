@@ -195,24 +195,20 @@ get_header(); ?>
 			
 			<div class="content">
 				
-				<p>Since our founding in 1977, the attorneys at Anapol Weiss have become leaders in personal injury, product liability and mass tort litigation. We have successfully represented thousands of clients who were harmed as a result of someone else’s carelessness. We are proud to serve as victims’ voices in the courtroom. In addition to the firm’s leadership roles and legal successes, we have established and support numerous organizations that help people in need and make a positive difference in the lives of others.</p>
-
-				<p>Cras venenatis, massa et imperdiet ultrices, ante nisl imperdiet magna, nec mollis ante nisl vitae eros. Curabitur consequat facilisis lectus a consequat. Aliquam erat volutpat. Sed est lacus, egestas a risus posuere, pharetra elementum risus. Maecenas ullamcorper tortor ac eros adipiscing, ac commodo purus varius. Curabitur placerat nec leo quis porta. Nam pharetra, dui semper imperdiet dictum, ipsum augue auctor nibh, vel porta velit diam eget neque. Nullam fermentum mauris eu massa iaculis, et gravida dolor tincidunt. Duis et pellentesque augue, quis porttitor ligula. Nunc sit amet sem in dolor euismod rutrum.</p>
+				<p>The field of personal injury law is expansive and includes every accident and injury imaginable. While larger law firms may offer a broad service scope, they often do not provide the same level of personalized support throughout the duration of a claim. At Anapol Weiss, we focus our practices in four major areas of personal injury law – general personal injuries, product liability, medical malpractice, and mass tort litigation. Within these primary fields, we handle a variety of specific case types, including vehicle accident cases, medical device claims, and wrongful death claims.</p>
 				
 				<div class="quote_wrapper">
 					
 					<div class="greyline"></div><!-- greyline -->
 					
-					<span>Cras nec elit ac augue pretium commodo non id mi. Proin eleifend consequat purus ac aliquam. Etiam arcu leo, pellentesque ac pharetra et, ultrices bibendum massa. Cras arcu metus, dictum in erat id, semper condimentum ligula. </span>
+					<span>In the United States, every individual accepts a certain level of personal responsibility. When someone’s reckless or malicious actions harm others, those injured have the right to seek restitution. A distracted driver, careless doctor, or greedy manufacturer can change the course of lives in an instant. At Anapol Weiss, we have committed our careers to standing up for those wronged in preventable incidents. Our attorneys are thorough, accessible, and experienced. </span>
 					
 									
 					<div class="horizontal_greyline"></div>
 					
 				</div><!-- quote_wrapper -->
 				
-					<p>Suspendisse potenti. Quisque at consequat urna. Nam lobortis elementum sapien, a blandit tortor placerat ac. Nam porttitor consectetur dui, sed rhoncus nisl porttitor non. Curabitur eu ornare sapien. Praesent non adipiscing nisi. Aenean adipiscing risus eget feugiat pharetra. Proin malesuada sem lectus, et facilisis ante condimentum a. Phasellus nec tellus tempor, adipiscing orci sit amet, dapibus magna. Phasellus ultricies lacus vitae pharetra pharetra. Nulla eleifend, risus non semper lobortis, massa eros molestie nulla, eget adipiscing felis neque ultrices justo. Quisque facilisis magna ut erat laoreet adipiscing. Pellentesque non suscipit nisi, vel ultricies tellus. Etiam vel porttitor turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempus orci lacus, sit amet scelerisque ligula vestibulum vitae. Mauris faucibus, urna a pharetra venenatis, velit diam tempor sem, nec ornare felis diam sit amet turpis. Aliquam eget ullamcorper magna. Nam id convallis turpis. Mauris porta diam augue. Sed sit amet nisl nec arcu mollis faucibus tempor id ante. Curabitur commodo vestibulum nulla at lacinia.</p>
-
-					<p>Cras venenatis, massa et imperdiet ultrices, ante nisl imperdiet magna, nec mollis ante nisl vitae eros. Curabitur consequat facilisis lectus a consequat. Aliquam erat volutpat. Sed est lacus, egestas a risus posuere, pharetra elementum risus. Maecenas ullamcorper tortor ac eros adipiscing, ac commodo purus varius. Curabitur placerat nec</p>
+					<p>When you retain representation from Anapol Weiss, our team of Best Lawyer and Super Lawyer-awarded attorneys will serve as your legal advocates in every way. From securing high quality medical support to negotiating with insurance providers, we assist our clients with much more than the pursuit of a legal claim. We strive to make your life a little easier during a time of emotional, physical, and financial hardship. While you focus on recovery, we dedicate our days to obtaining justice, closure, and restitution on your behalf. Ask us anything at any time. Consider your Anapol Weiss attorney as a friend, supporter, and legal guide.</p>
 
 				
 			</div><!-- content -->
@@ -231,7 +227,10 @@ get_header(); ?>
 
 <div class="wavy_one">
 			
-<svg id="layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1968.63 224.08"><defs><style>.cls-1{fill:#c4c8c9;}</style></defs><title>content_waves_1</title><path class="cls-1" d="M1968.41,224.08a.22.22,0,0,0,.19-.14.34.34,0,0,0-.08-.4c-45.48-34.78-97.19-61.73-158.07-82.38-60-20.35-131.32-35.38-218.06-45.95-132.5-16.15-260.95,22.24-374.28,56.11-33.28,9.95-64.71,19.34-95.17,27.1-71.39,18.2-176.68,28.58-281.65,27.73C783.7,205.71,729,202,678.6,195,623,187.34,574.21,175.93,533.67,161.1c-41.64-15.23-88.49-27-139.26-35.11a948.28,948.28,0,0,0-148.5-11.7c-49.71,0-96.14,3.94-138,11.7C64.38,134.07,28.12,145.89.14,161.12a.32.32,0,0,0-.12.38c0,.15.18.22.29.16,28-15.21,64.18-27,107.66-35.09,41.84-7.76,88.25-11.7,137.94-11.7a947.94,947.94,0,0,1,148.45,11.7c50.74,8.07,97.57,19.88,139.19,35.1,40.57,14.83,89.35,26.25,145,33.92,50.37,6.95,105.13,10.7,162.75,11.16,3.93,0,7.87,0,11.8,0,101,0,201.19-10.26,269.94-27.79,30.46-7.77,61.9-17.16,95.18-27.11,113.3-33.86,241.7-72.24,374.13-56.1,86.71,10.57,158,25.59,218,45.93,60.84,20.64,112.51,47.56,158,82.32A.18.18,0,0,0,1968.41,224.08Z" transform="translate(0 0)"/><circle class="cls-1" cx="1601.66" cy="96.97" r="1.59"/><circle class="cls-1" cx="1188.33" cy="160.97" r="1.59"/><circle class="cls-1" cx="545" cy="165.38" r="1.59"/><circle class="cls-1" cx="247.66" cy="114.72" r="1.59"/><path class="cls-1" d="M.22,132.67a.22.22,0,0,1-.19-.14.34.34,0,0,1,.08-.4C45.59,97.35,97.3,70.4,158.18,49.76c60-20.35,131.32-35.38,218.06-45.95C508.74-12.34,637.18,26,750.51,59.92c33.28,9.95,64.71,19.34,95.17,27.1,71.39,18.2,176.68,28.58,281.65,27.73,57.6-.46,112.34-4.21,162.7-11.16,55.63-7.67,104.39-19.08,144.94-33.91,41.64-15.23,88.49-27,139.26-35.11a948.28,948.28,0,0,1,148.5-11.7c49.71,0,96.14,3.94,138,11.7,43.52,8.08,79.79,19.89,107.77,35.13a.32.32,0,0,1,.12.38c0,.15-.18.22-.29.16-28-15.21-64.18-27-107.66-35.09-41.84-7.76-88.25-11.7-137.94-11.7a947.94,947.94,0,0,0-148.45,11.7c-50.74,8.07-97.57,19.88-139.19,35.1-40.57,14.83-89.35,26.25-145,33.92-50.37,6.95-105.13,10.7-162.75,11.16-3.93,0-7.87,0-11.8,0-101,0-201.19-10.26-269.94-27.79-30.46-7.77-61.9-17.16-95.18-27.11-113.3-33.86-241.7-72.24-374.13-56.1C289.57,15,218.26,30,158.29,50.31,97.45,71,45.78,97.88.34,132.63A.18.18,0,0,1,.22,132.67Z" transform="translate(0 0)"/><circle class="cls-1" cx="366.97" cy="5.56" r="1.59"/><circle class="cls-1" cx="780.3" cy="69.56" r="1.59"/><circle class="cls-1" cx="1423.64" cy="73.97" r="1.59"/><circle class="cls-1" cx="1720.97" cy="23.3" r="1.59"/></svg>
+<svg id="test" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1968.88 224.33" style=""><defs><style>.cls-1{fill:none;stroke:#c4c8c9;stroke-miterlimit:10;stroke-width:0.25px;}</style></defs><title>mytest</title><path class="cls-1 QmEZgYth_0" d="M1968.41,224.08a.22.22,0,0,0,.19-.14.34.34,0,0,0-.08-.4c-45.48-34.78-97.19-61.73-158.07-82.38-60-20.35-131.32-35.38-218.06-45.95-132.5-16.15-260.95,22.24-374.28,56.11-33.28,9.95-64.71,19.34-95.17,27.1-71.39,18.2-176.68,28.58-281.65,27.73C783.7,205.71,729,202,678.6,195,623,187.34,574.21,175.93,533.67,161.1c-41.64-15.23-88.49-27-139.26-35.11a948.28,948.28,0,0,0-148.5-11.7c-49.71,0-96.14,3.94-138,11.7C64.38,134.07,28.12,145.89.14,161.12a.32.32,0,0,0-.12.38c0,.15.18.22.29.16,28-15.21,64.18-27,107.66-35.09,41.84-7.76,88.25-11.7,137.94-11.7a947.94,947.94,0,0,1,148.45,11.7c50.74,8.07,97.57,19.88,139.19,35.1,40.57,14.83,89.35,26.25,145,33.92,50.37,6.95,105.13,10.7,162.75,11.16,3.93,0,7.87,0,11.8,0,101,0,201.19-10.26,269.94-27.79,30.46-7.77,61.9-17.16,95.18-27.11,113.3-33.86,241.7-72.24,374.13-56.1,86.71,10.57,158,25.59,218,45.93,60.84,20.64,112.51,47.56,158,82.32A.18.18,0,0,0,1968.41,224.08Z" transform="translate(0.13 0.12)"></path><path class="cls-1 QmEZgYth_1" d="M.22,132.67a.22.22,0,0,1-.19-.14.34.34,0,0,1,.08-.4C45.59,97.35,97.3,70.4,158.18,49.76c60-20.35,131.32-35.38,218.06-45.95C508.74-12.34,637.18,26,750.51,59.92c33.28,9.95,64.71,19.34,95.17,27.1,71.39,18.2,176.68,28.58,281.65,27.73,57.6-.46,112.34-4.21,162.7-11.16,55.63-7.67,104.39-19.08,144.94-33.91,41.64-15.23,88.49-27,139.26-35.11a948.28,948.28,0,0,1,148.5-11.7c49.71,0,96.14,3.94,138,11.7,43.52,8.08,79.79,19.89,107.77,35.13a.32.32,0,0,1,.12.38c0,.15-.18.22-.29.16-28-15.21-64.18-27-107.66-35.09-41.84-7.76-88.25-11.7-137.94-11.7a947.94,947.94,0,0,0-148.45,11.7c-50.74,8.07-97.57,19.88-139.19,35.1-40.57,14.83-89.35,26.25-145,33.92-50.37,6.95-105.13,10.7-162.75,11.16-3.93,0-7.87,0-11.8,0-101,0-201.19-10.26-269.94-27.79-30.46-7.77-61.9-17.16-95.18-27.11-113.3-33.86-241.7-72.24-374.13-56.1C289.57,15,218.26,30,158.29,50.31,97.45,71,45.78,97.88.34,132.63A.18.18,0,0,1,.22,132.67Z" transform="translate(0.13 0.12)"></path><style>.QmEZgYth_0{stroke-dasharray:4050 4052;stroke-dashoffset:4051;animation:QmEZgYth_draw 2000ms linear 0ms forwards;}.QmEZgYth_1{stroke-dasharray:4050 4052;stroke-dashoffset:4051;animation:QmEZgYth_draw 2000ms linear 1000ms forwards;}@keyframes QmEZgYth_draw{100%{stroke-dashoffset:0;}}@keyframes QmEZgYth_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
+
+
+
 			
 </div><!-- wavy -->
 
@@ -1038,7 +1037,7 @@ get_header(); ?>
 				
 				<div class="slider_caption">
 					
-					<span class="slider_caption_title">Lorem Ipsum Dolor</span><!-- slider_caption_title -->
+					<span class="slider_caption_title">Our Team</span><!-- slider_caption_title -->
 					<span class="caption_line"></span><!-- caption_line -->
 				
 				</div><!-- slider_caption -->
@@ -1115,8 +1114,8 @@ get_header(); ?>
 		
 		<div class="second_about_title">
 			
-			<span class="sub_header">Lorem Ipsum Dolor</span><!-- sub_header -->
-			<span class="large_header">lorem ipsum<br/><span class="orange">dolor sit amet</span></span><!-- large_header -->
+			<span class="sub_header">personal injury law</span><!-- sub_header -->
+			<span class="large_header">Our Approach</span></span><!-- large_header -->
 			<span class="about_content_orangeline"></span><!-- about_content_orangeline -->
 			
 		</div><!-- second_about_title -->
@@ -1126,20 +1125,22 @@ get_header(); ?>
 			
 			<div class="col">
 				
-				<span class="col_title">dolor sit amet lorem</span><!-- col_title -->
+				<span class="col_title">why choose anapol weiss?</span><!-- col_title -->
 				<span class="col_greyline"></span><!-- col_greyline -->
 				
-				<p>Cras nec elit ac augue pretium commodo non id mi. Proin eleifend consequat purus ac aliquam. Etiam arcu leo, pellentesque ac pharetra et, ultrices bibendum massa. Cras arcu metus, dictum in erat id, semper condimentum ligula. Etiam tempor tortor eu urna rutrum, eu viverra dolor rutrum. Curabitur vel convallis purus. In sit amet viverra augue. Duis tincidunt dolor nec massa fermentum porta. Nullam id congue purus. In semper lacus et blandit laoreet.</p>
+				<p>Since 1977, Anapol Weiss has maintained a reputation of excellence in the legal community in Philadelphia and across the country. Our firm operates under a one-firm, one-mission principle: to deliver excellence in support for those we serve. Whether we’re going up against an individual or a large, public corporation, we use the same level of diligence.</p>
 
-				<p>Suspendisse potenti. Quisque at consequat urna. Nam lobortis elementum sapien, a blandit tortor placerat ac. Nam porttitor consectetur dui, sed rhoncus nisl porttitor non. Curabitur eu ornare sapien. Praesent non adipiscing nisi. Aenean adipiscing risus eget feugiat pharetra. Proin malesuada sem lectus, et facilisis ante condimentum a. Phasellus nec tellus tempor, adipiscing orci sit amet, dapibus magna. Phasellus ultricies lacus vitae pharetra pharetra. Nulla eleifend, risus non semper lobortis, massa eros molestie nulla, eget adipiscing felis neque ultrices justo.  Quisque facilisis magna ut erat laoreet adipiscing. Pellentesque non suscipit nisi, vel ultricies tellus. Etiam vel porttitor turpis.</p>
+<p>If you search for a personal injury attorney online, several results will pop up. However, not all firms offer the same level of support and guidance. At Anapol Weiss, we look at the big picture in every case. We want to give you the best opportunity for maximum recovery in the future, but we’re also focused enacting change. When you partner with our team, you may play a key role in preventing similar incidents in the future. When individuals and companies recognize the consequences of negligence, they take preventative actions. Many of our attorneys have initiated groundbreaking changes in company policies and laws for the safety of employees, customers, and the general public. </p>
 				
 			</div><!-- col -->
 			
 			<div class="col">
 				
-				<p>Suspendisse potenti. Quisque at consequat urna. Nam lobortis elementum sapien, a blandit tortor placerat ac. Nam porttitor consectetur dui, sed rhoncus nisl porttitor non. Mauris faucibus, urna a pharetra venenatis, velit diam tempor sem, nec ornare felis diam sit amet turpis. Aliquam eget ullamcorper magna. Nam id convallis turpis. Mauris porta diam augue. Sed sit amet nisl nec arcu mollis faucibus tempor id ante.</p>
+				<p>If you or someone you love suffered at the hands of another, explore your options. Long-term medical care, lost income and future wages, and the emotional and physical devastation of an injury can change lives forever. Criminal prosecution only goes so far, may not apply in certain cases and can never deliver fair compensation. The attorneys at Anapol Weiss will protect your right to recovery through financial compensation and fight for justice at every step. Allow us to serve as your legal representation after a preventable accident. We will work hard to deliver the best possible outcome.<p>
 
-				<p>Curabitur commodo vestibulum nulla at lacinia. Cras venenatis, massa et imperdiet ultrices, ante nisl imperdiet magna, nec mollis ante nisl vitae eros. Curabitur consequat facilisis lectus a consequat. Aliquam erat volutpat. Sed est lacus, egestas a risus posuere, pharetra elementum risus. Maecenas ullamcorper tortor ac eros adipiscing, ac commodo purus varius. Curabitur placerat nec leo quis porta. Nam pharetra, dui semper imperdiet dictum, ipsum augue auctor nibh, vel porta velit diam eget neque. Nullam fermentum mauris eu massa iaculis, et gravida dolor tincidunt. </p>
+<p>In addition to our headquarters in Philadelphia, PA, our clients can reach us in Harrisburg, PA, Cherry Hill, NJ, and in Scottsdale, AZ. With strategic office locations around the country, our firm handles both local and nationwide cases. After any serious injury, talk to one of our attorneys to learn more about your legal right to take action.<p>
+
+<p><strong>For a private consultation, reach out to our attorneys in Philadelphia, PA and across the country today.<strong></p>
 				
 			</div><!-- col -->
 			
