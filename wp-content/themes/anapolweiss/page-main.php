@@ -1115,7 +1115,7 @@ get_header(); ?>
 		<div class="second_about_title">
 			
 			<span class="sub_header">personal injury law</span><!-- sub_header -->
-			<span class="large_header">Our Approach</span></span><!-- large_header -->
+			<span class="large_header">Our Approach</span><!-- large_header -->
 			<span class="about_content_orangeline"></span><!-- about_content_orangeline -->
 			
 		</div><!-- second_about_title -->
@@ -1136,11 +1136,13 @@ get_header(); ?>
 			
 			<div class="col">
 				
-				<p>If you or someone you love suffered at the hands of another, explore your options. Long-term medical care, lost income and future wages, and the emotional and physical devastation of an injury can change lives forever. Criminal prosecution only goes so far, may not apply in certain cases and can never deliver fair compensation. The attorneys at Anapol Weiss will protect your right to recovery through financial compensation and fight for justice at every step. Allow us to serve as your legal representation after a preventable accident. We will work hard to deliver the best possible outcome.<p>
+				<p>If you or someone you love suffered at the hands of another, explore your options. Long-term medical care, lost income and future wages, and the emotional and physical devastation of an injury can change lives forever. Criminal prosecution only goes so far, may not apply in certain cases and can never deliver fair compensation. The attorneys at Anapol Weiss will protect your right to recovery through financial compensation and fight for justice at every step. Allow us to serve as your legal representation after a preventable accident. We will work hard to deliver the best possible outcome.</p>
 
-<p>In addition to our headquarters in Philadelphia, PA, our clients can reach us in Harrisburg, PA, Cherry Hill, NJ, and in Scottsdale, AZ. With strategic office locations around the country, our firm handles both local and nationwide cases. After any serious injury, talk to one of our attorneys to learn more about your legal right to take action.<p>
+<p>In addition to our headquarters in Philadelphia, PA, our clients can reach us in Harrisburg, PA, Cherry Hill, NJ, and in Scottsdale, AZ. With strategic office locations around the country, our firm handles both local and nationwide cases. After any serious injury, talk to one of our attorneys to learn more about your legal right to take action.</p>
 
-<p><strong>For a private consultation, reach out to our attorneys in Philadelphia, PA and across the country today.<strong></p>
+<p><strong>For a private consultation, reach out to our attorneys in Philadelphia, PA and across the country today.</strong></p>
+
+				
 				
 			</div><!-- col -->
 			
