@@ -21,7 +21,7 @@ get_header(); ?>
 	
 	<div class="inner_page_content">
 		
-		<h1>Practice Areas</h1>
+		<h1><?php the_title();?></h1>
 		
 		
 		<div class="practice_areas_list_wrapper">

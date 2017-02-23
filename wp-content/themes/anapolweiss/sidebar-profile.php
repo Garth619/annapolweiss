@@ -5,8 +5,17 @@
 	
 		
 		<div class="tablet_profile">
+			
+			
+			<?php if ( get_field( 'image') ) { ?>
+				
+				<img class="profile_pic" src="<?php the_field( 'my_profile_image' ); ?>" />
+			
+			<?php } ?>
+			
+			
 		
-			<img class="profile_pic" src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>	
+
 		
 		</div><!-- tablet_profile -->
 		
@@ -18,7 +27,14 @@
 				
 				<div class="profile_content_info">
 					
-					<a class="vcard" href="">Download Vcard</a>
+					
+					<?php if ( get_field( 'download_vcard_link' ) ) { ?>
+						
+						<a class="vcard" href="<?php the_field( 'download_vcard_link' ); ?>" target="_blank"><?php the_field( 'download_vcard' ); ?></a>
+					
+					<?php } ?>
+					
+					
 					<a class="email" href="">tanapol@anapolweiss.com</a>
 					
 					
