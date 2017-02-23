@@ -2132,16 +2132,12 @@ footer {
 	
 	
 	.profile_grid_inner {
-		text-align: center;
 		width:100%;
-		
 		.single_profile_box {
-			
-		display: inline-block;
+			float:left;
 			padding-right:8px;
 			margin-bottom:70px;
-
-width:286px;
+			width:20%;
 			
 			&:hover {
 				.profile_grid_title_wrapper {
@@ -2151,34 +2147,52 @@ width:286px;
 				}
 			}
 			.img_wrapper {
-					height: 308px;
+				position: relative;
+				
 					
-					position: relative;
-				.img_wrapper_inner {
-					height: 308px;
 					img {
 						max-width:100%;
 						height:auto;
+						display: block;
 					}
+				
+				.profile_overlay.fade_in_grid {
+					opacity: 1;
+					visibility: visible;
 				}
 				.profile_overlay {
 					text-align: center;
+					display: block;
 					display: none;
 					a {
-						height: 300px;
+						
 						width:100%;
-						background: rgba(9, 20, 27, 0.7) none repeat scroll 0 0;
+						height:100%;
 						position: absolute;
 						top:0;
+						background: rgba(9, 20, 27, 0.79) none repeat scroll 0 0;
 						left:0;
 						z-index: 5;
-						padding-top:155px;
+						
 						color:$orange;
 						text-decoration: none;
 						text-transform: uppercase;
 						font-family: $helvetica;
 						font-size:13px;
 						letter-spacing: 5px;
+						
+						display: flex;
+						align-items: center;
+						
+						span {
+							 display: block;
+							 margin:0 auto;
+						}
+					}
+					img {
+						max-width:100%;
+						height:auto;
+						display: block;
 					}
 				}
 			}
@@ -4768,6 +4782,77 @@ a.case_results_button {
 
 
 
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1499px) {
+	
+	
+	
+	/* Profile Grid */
+	
+	
+	
+	body.page-template-page-profilegrid {
+		
+		.inner_page_content {
+			
+			}
+	}
+	
+	
+	.profile_grid_wrapper {
+		
+		span.grid_title {
+			
+		}
+		
+	}
+	
+	
+	.profile_grid_inner {
+		
+		
+		
+		.single_profile_box {
+			
+	
+			&:hover {
+				.profile_grid_title_wrapper {
+					a.profile_grid_title {
+						
+					}
+				}
+			}
+			.img_wrapper {
+					
+				.img_wrapper_inner {
+					
+					img {
+						
+					}
+				}
+				.profile_overlay {
+					
+					a {
+						
+					}
+				}
+			}
+			.profile_grid_title_wrapper {
+				a.profile_grid_title {
+					
+				}
+			}
+		}
+	}
+	
+
+	
+	
+	
 	
 	
 } /* Media Query */
