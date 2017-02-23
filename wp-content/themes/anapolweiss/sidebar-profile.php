@@ -7,11 +7,13 @@
 		<div class="tablet_profile">
 			
 			
-			<?php if ( get_field( 'image') ) { ?>
+			<?php if ( get_field( 'my_profile_image') ) { ?>
 				
 				<img class="profile_pic" src="<?php the_field( 'my_profile_image' ); ?>" />
 			
 			<?php } ?>
+			
+			
 			
 			
 		
@@ -35,23 +37,46 @@
 					<?php } ?>
 					
 					
-					<a class="email" href="">tanapol@anapolweiss.com</a>
+					
+					<a class="email" href="mailto:<?php the_field( 'profile_email' ); ?>"><?php the_field( 'profile_email' ); ?></a>
 					
 					
-					<a class="profile_tel" href=""><span class="orange">P</span>(215) 790-4572</a><!-- profile_tel -->
-					<a class="profile_tel" href=""><span class="orange">F</span>(215) 875-7707</a><!-- profile_tel -->
+					<a class="profile_tel" href="tel:<?php the_field( 'profile_phone' ); ?>"><span class="orange">P</span><?php the_field( 'profile_phone' ); ?></a><!-- profile_tel -->
+					<a class="profile_tel" href="tel:<?php the_field( 'fax' ); ?>"><span class="orange">F</span><?php the_field( 'fax' ); ?></a><!-- profile_tel -->
 					
 					<div class="profile_locations">
 				
 						<span class="profile_location_title">Office Location</span><!-- sub_header -->
 						<span class="profile_greyline"></span><!-- profile_greyline -->
 						
-						<div class="profile_locations_single">
 						
-							<a class="profile_address" href="" target="_blank">One Logan Square 130 N. 18th St. Ste. 1600 Philadelphia, PA 19103</a><!-- profile_address -->
-							<a class="profile_tel_single" href=""><span class="orange">P</span>(215) 790-4572</a><!-- profile_tel -->
 						
-						</div><!-- profile_locations_single -->
+						
+						<?php if ( have_rows( 'profile_locations' ) ) : ?>
+							
+							
+							
+							<?php while ( have_rows( 'profile_locations' ) ) : the_row(); ?>
+								
+								
+								<div class="profile_locations_single">
+						
+									<a class="profile_address" href="<?php the_sub_field( 'address_link' ); ?>" target="_blank"><?php the_sub_field( 'address' ); ?></a><!-- profile_address -->
+									<a class="profile_tel_single" href=""><span class="orange">P</span><?php the_sub_field( 'mulit_location_phone' ); ?></a><!-- profile_tel -->
+						
+								</div><!-- profile_locations_single -->
+								
+				
+							<?php endwhile; ?>
+								
+							
+						
+						<?php endif; ?>
+						
+						
+						
+						
+					
 				
 				</div><!-- profile_locations -->
 					
@@ -67,10 +92,21 @@
 		</div><!-- profile_sidebar_content -->
 		
 		<div class="profile_awards">
+			
+			
+			
+			<?php if ( have_rows( 'awards' ) ) : ?>
 				
-				<a href="" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/award.jpg"/></a>
+				<?php while ( have_rows( 'awards' ) ) : the_row(); ?>
 				
-				
+						<a href="" target="_blank"><img src="<?php the_sub_field( 'award_image' ); ?>"/></a>
+					
+				<?php endwhile; ?>
+
+			<?php endif; ?>
+			
+			
+			
 			</div><!-- profile_awards -->
 	
 	</div><!-- profile_wrapper -->
