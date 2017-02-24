@@ -78,6 +78,7 @@ jQuery('.members_list_inner').slick({
 				dots:false,
 				prevArrow:".members_back",
 				nextArrow:".members_next",
+				adaptiveHeight: true,
       }
     }
     
@@ -130,6 +131,7 @@ jQuery('.members_next').mouseleave(function(){
 // Inner About Slider 
 
 
+/*
 jQuery('.inner_about_slider').slick({
   	slidesToShow: 1,
 		slidesToScroll: 1,
@@ -138,6 +140,39 @@ jQuery('.inner_about_slider').slick({
 		prevArrow:".inner_about_back",
 		nextArrow:".inner_about_next"
 });
+*/
+
+
+
+
+var $statusinnerabout = jQuery('.inner_about_counter_spacer span');
+    var $slickElementinnerabout = jQuery('.inner_about_slider');
+
+    $slickElementinnerabout.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        var i = (currentSlide ? currentSlide : 0) + 1;
+       jQuery(this).find('.inner_about_counter_spacer').text(i + ' / ' + slick.slideCount);
+    });
+
+
+
+    $slickElementinnerabout.slick({
+      	slide: '.inner_about_slides',
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows:true,
+				dots:false,
+				prevArrow:".inner_about_back",
+				nextArrow:".inner_about_next"
+    });
+
+
+
+
+
+
+
+
 
 
 
@@ -373,6 +408,7 @@ jQuery('.stat_right').mouseleave(function(){
 
 
 
+/*
 jQuery('.about_slide_inner').slick({
   slidesToShow: 1,
 	slidesToScroll: 1,
@@ -383,6 +419,43 @@ jQuery('.about_slide_inner').slick({
 
 
 });
+*/
+
+
+
+
+
+
+
+    var $status = jQuery('.about_counter span');
+    var $slickElement = jQuery('.about_slide_inner');
+
+    $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        var i = (currentSlide ? currentSlide : 0) + 1;
+       jQuery(this).find('.about_counter span').text(i + ' / ' + slick.slideCount);
+    });
+
+
+
+    $slickElement.slick({
+      
+        autoplay: true,
+        dots: false,
+        slide: '.about_slide',
+				arrows: true,
+        slidesToShow: 1,
+				slidesToScroll: 1,
+				prevArrow:".about_arrow_left",
+				nextArrow:".about_arrow_right"
+    });
+
+
+
+
+
+
+
 
 
 
@@ -509,6 +582,7 @@ jQuery('.slider_thumbs_wrapper').slick({
   asNavFor: '.slide_main_inner'
 });
 
+/*
 jQuery('.slide_main_inner').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -517,6 +591,35 @@ jQuery('.slide_main_inner').slick({
 	 arrows: false
   
 });
+*/
+
+
+
+
+
+
+ var $statusteam = jQuery('.team_counter span');
+    var $slickElementteam = jQuery('.slide_main_inner');
+
+    $slickElementteam.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        var i = (currentSlide ? currentSlide : 0) + 1;
+       jQuery(this).find('.team_counter span.counter_inner').html('<span class="emphasis">' + i + '</span><span class="hash"></span><span class="slide_count">' + slick.slideCount + '</span>');
+    });
+
+
+
+    $slickElementteam.slick({
+      	slide: '.single_main_slide',
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				asNavFor: '.slider_thumbs_wrapper',
+				fade: true,
+				arrows: false
+    });
+
+
+
 
 
 

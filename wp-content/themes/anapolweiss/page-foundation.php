@@ -90,19 +90,7 @@ get_header(); ?>
 					
 				</div><!-- inner_about_slides -->
 				
-								
-				
-			</div><!-- inner_about_slider -->
-			
-			<div class="inner_about_caption">
-				
-				<span class="inner_about_caption_title">the anapol advocate award</span><!-- inner_about_caption_title -->
-				<span class="inner_about_line"></span><!-- inner_about_greyline -->
-				
-			</div><!-- inner_about_caption -->
-			
-			
-			<div class="inner_about_buttons">
+				<div class="inner_about_buttons">
 				
 				<div class="inner_about_back">
 					
@@ -120,7 +108,19 @@ get_header(); ?>
 					
 				</div><!-- inner_about_back -->
 				
-			</div><!-- inner_about_buttons -->
+			</div><!-- inner_about_buttons -->				
+				
+			</div><!-- inner_about_slider -->
+			
+			<div class="inner_about_caption">
+				
+				<span class="inner_about_caption_title">the anapol advocate award</span><!-- inner_about_caption_title -->
+				<span class="inner_about_line"></span><!-- inner_about_greyline -->
+				
+			</div><!-- inner_about_caption -->
+			
+			
+			
 			
 			
 		</div><!-- inner_about_slider_wrapper -->

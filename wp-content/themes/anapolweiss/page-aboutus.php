@@ -88,6 +88,27 @@ We passionately believe it is our responsibility to stand up for those who have 
 				</div><!-- inner_about_slides -->
 				
 				
+				<div class="inner_about_buttons">
+				
+				<div class="inner_about_back">
+					
+					<img class="inner_about_back_img" src="<?php bloginfo('template_directory');?>/images/content_left_arrow.png"/>
+					<img class="inner_about_back_hover_img" src="<?php bloginfo('template_directory');?>/images/content_left_arrow_orange.png"/>
+					
+				</div><!-- inner_about_back -->
+				
+				<div class="inner_about_counter_spacer"><span></span></div><!-- inner_about_counter_spacer -->
+				
+				<div class="inner_about_next">
+					
+					<img class="inner_about_next_img" src="<?php bloginfo('template_directory');?>/images/content_right_arrow.png"/>
+					<img class="inner_about_next_hover_img" src="<?php bloginfo('template_directory');?>/images/content_right_arrow_orange.png"/>
+					
+				</div><!-- inner_about_back -->
+				
+			</div><!-- inner_about_buttons -->
+				
+				
 			</div><!-- inner_about_slider -->
 			
 			<div class="inner_about_caption">
@@ -98,25 +119,7 @@ We passionately believe it is our responsibility to stand up for those who have 
 			</div><!-- inner_about_caption -->
 			
 			
-			<div class="inner_about_buttons">
-				
-				<div class="inner_about_back">
-					
-					<img class="inner_about_back_img" src="<?php bloginfo('template_directory');?>/images/content_left_arrow.png"/>
-					<img class="inner_about_back_hover_img" src="<?php bloginfo('template_directory');?>/images/content_left_arrow_orange.png"/>
-					
-				</div><!-- inner_about_back -->
-				
-				<div class="inner_about_counter_spacer">1/8</div><!-- inner_about_counter_spacer -->
-				
-				<div class="inner_about_next">
-					
-					<img class="inner_about_next_img" src="<?php bloginfo('template_directory');?>/images/content_right_arrow.png"/>
-					<img class="inner_about_next_hover_img" src="<?php bloginfo('template_directory');?>/images/content_right_arrow_orange.png"/>
-					
-				</div><!-- inner_about_back -->
-				
-			</div><!-- inner_about_buttons -->
+			
 			
 			
 		</div><!-- inner_about_slider_wrapper -->

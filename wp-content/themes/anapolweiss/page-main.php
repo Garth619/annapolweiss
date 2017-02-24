@@ -195,7 +195,7 @@ get_header(); ?>
 			
 			<div class="content">
 				
-				<p>The field of personal injury law is expansive and includes every accident and injury imaginable. While larger law firms may offer a broad service scope, they often do not provide the same level of personalized support throughout the duration of a claim. At Anapol Weiss, we focus our practices in four major areas of personal injury law – general personal injuries, product liability, medical malpractice, and mass tort litigation. Within these primary fields, we handle a variety of specific case types, including vehicle accident cases, medical device claims, and wrongful death claims.</p>
+				<p><span class="drop_cap">T</span>he field of personal injury law is expansive and includes every accident and injury imaginable. While larger law firms may offer a broad service scope, they often do not provide the same level of personalized support throughout the duration of a claim. At Anapol Weiss, we focus our practices in four major areas of personal injury law – general personal injuries, product liability, medical malpractice, and mass tort litigation. Within these primary fields, we handle a variety of specific case types, including vehicle accident cases, medical device claims, and wrongful death claims.</p>
 				
 				<div class="quote_wrapper">
 					
@@ -737,7 +737,7 @@ get_header(); ?>
 	
 	<div style="clear:both"></div>
 	
-	<a href="" class="case_results_button">Click Here To View All Case Results</a>
+	<a href="<?php bloginfo('url');?>/results" class="case_results_button">Click Here To View All Case Results</a>
 	
 </section><!-- featured_cases -->
 
@@ -1079,10 +1079,8 @@ get_header(); ?>
 						<img src="<?php bloginfo('template_directory');?>/images/content_slide_6.jpg"/>
 					
 					</div><!-- about_slide -->
-				
-				</div><!-- about_slide_inner -->
-				
-				<div class="about_arrows_count">
+					
+					<div class="about_arrows_count">
 					
 					<div class="about_arrow_left">
 						
@@ -1091,7 +1089,7 @@ get_header(); ?>
 						
 					</div><!-- about_arrow_left -->
 					
-					<div class="about_counter">1/8</div><!-- about_counter -->
+					<div class="about_counter"><span>1/8</span></div><!-- about_counter -->
 					
 					
 					<div class="about_arrow_right">
@@ -1102,6 +1100,10 @@ get_header(); ?>
 					</div><!-- about_arrow_right -->
 					
 				</div><!-- about_arrows_count -->
+				
+				</div><!-- about_slide_inner -->
+				
+				
 				
 			</div><!-- about_slider_wrapper -->
 			
@@ -1157,6 +1159,8 @@ get_header(); ?>
 </section><!-- second_about -->
 
 <section class="team">
+	
+	
 	
 	
 	<div class="team_title">
@@ -1391,6 +1395,9 @@ get_header(); ?>
 			</div><!-- thumb_overlay -->
 			
 		</div><!-- single_thumb -->
+		
+		
+				
 		
 	</div><!-- slider_thumbs_wrapper -->
 	
@@ -1633,7 +1640,14 @@ get_header(); ?>
 				
 			</div><!-- single_main_slide -->
 		
+			
+			<div class="team_counter">
 		
+				<span class="counter_inner"></span>
+		
+		</div><!-- team_counter -->
+		
+
 		
 		
 		</div><!-- slide_main_inner -->

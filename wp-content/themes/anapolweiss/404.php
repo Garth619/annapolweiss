@@ -9,22 +9,31 @@
 
 get_header(); ?>
 
-	<div id="container">
-		<div id="content" role="main">
+						
+					
+<?php include('banner.php');?>
 
-			<div id="post-0" class="post error404 not-found">
-				<h1 class="entry-title"><?php _e( 'Not Found', 'twentyten' ); ?></h1>
-				<div class="entry-content">
-					<p><?php _e( 'Apologies, but the page you requested could not be found. Perhaps searching will help.', 'twentyten' ); ?></p>
-					<?php get_search_form(); ?>
-				</div><!-- .entry-content -->
-			</div><!-- #post-0 -->
+<div class="inner_page_orangeline">
+	
+	<span class="line"></span>
+	
+</div><!-- inner_page_orangeline -->
 
-		</div><!-- #content -->
-	</div><!-- #container -->
-	<script type="text/javascript">
-		// focus on search field after it has loaded
-		document.getElementById('s') && document.getElementById('s').focus();
-	</script>
+<div class="inner_main_wrapper">
+	
+	
+	
+	<div class="inner_page_content" style="height:300px;">
+		
+		<h1>Not Found</h1>
+		
+		
+	</div><!-- inner_page_content -->
+	
+
+	
+	
+</div><!-- inner_main_container -->
+
 
 <?php get_footer(); ?>
