@@ -439,9 +439,7 @@ jQuery('.about_slide_inner').slick({
 
 
     $slickElement.slick({
-      
-        autoplay: true,
-        dots: false,
+      	dots: false,
         slide: '.about_slide',
 				arrows: true,
         slidesToShow: 1,
