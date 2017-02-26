@@ -249,7 +249,7 @@ jQuery(document).ready(function(){
     
     
     jQuery('#case_1').addClass('svg_fadein');
- 
+		jQuery('#case_1').find('span.orange_line').addClass('fadein');
     
 
     
@@ -257,6 +257,7 @@ jQuery(document).ready(function(){
 	    
 	    
 	    jQuery(this).addClass('svg_fadein');
+	    jQuery(this).find('span.orange_line').addClass('fadein');
 	    
 	    
     });
@@ -266,7 +267,7 @@ jQuery(document).ready(function(){
 	    
 	    
 	    jQuery(this).addClass('svg_fadein');
-	    
+	    jQuery(this).find('span.orange_line').addClass('fadein');
 	    
     });
     
@@ -276,7 +277,7 @@ jQuery(document).ready(function(){
 	    
 	    
 	    jQuery(this).addClass('svg_fadein');
-	    
+	    jQuery(this).find('span.orange_line').addClass('fadein');
 	    
     });
 
