@@ -241,6 +241,61 @@
 jQuery(document).ready(function(){
 
 
+// Selling Points
+
+	var waypointtwo = new Waypoint({
+  element: document.getElementById('selling_points_trigger'),
+  handler: function(direction) {
+    
+    
+    jQuery('#case_1').addClass('svg_fadein');
+ 
+    
+
+    
+   jQuery('#case_2').delay(1000).queue(function(){
+	    
+	    
+	    jQuery(this).addClass('svg_fadein');
+	    
+	    
+    });
+    
+    
+    jQuery('#case_3').delay(2000).queue(function(){
+	    
+	    
+	    jQuery(this).addClass('svg_fadein');
+	    
+	    
+    });
+    
+    
+    
+    jQuery('#case_4').delay(3000).queue(function(){
+	    
+	    
+	    jQuery(this).addClass('svg_fadein');
+	    
+	    
+    });
+
+    
+    
+    
+    
+   
+    
+    
+   
+    
+  }
+})
+
+
+
+
+
 // About
 
 	var waypoint = new Waypoint({
@@ -257,17 +312,12 @@ jQuery(document).ready(function(){
 })
 
 
-/*
 
-new Vivus('layer_1',
-   {
-     type: 'oneByOne',
-     duration: 180,
-		 forceRender: false,
-     dashGap: 2
-   }
- );
-*/
+
+
+
+
+
 
 
 
