@@ -650,8 +650,8 @@ header {
 			stroke-dasharray: 300;
 			fill-opacity:0;
 			animation-name: dash, FillIn;
-			animation-duration:3s, 1s;
-			animation-delay: 0s, 0.5s;
+			animation-duration:3s, 0.5s;
+			animation-delay: 0s, 2s;
 			animation-timing-function:linear;
 			animation-fill-mode: forwards;
 			animation-play-state: running;
@@ -666,8 +666,8 @@ header {
 			stroke-dasharray: 500;
 			fill-opacity:0;
 			animation-name: dash, FillIn;
-			animation-duration:1s, 1s;
-			animation-delay: 0s, 0.5s;
+			animation-duration:3s, 0.5s;
+			animation-delay: 0s, 2s;
 			animation-timing-function:linear;
 			animation-fill-mode: forwards;
 			animation-play-state: running;
@@ -697,8 +697,8 @@ header {
 			stroke-dasharray: 1300;
 			fill-opacity:0;
 			animation-name: dash, FillIn;
-			animation-duration:2s, 1s;
-			animation-delay: 0s, 0.5s;
+			animation-duration:2s, 0.5s;
+			animation-delay: 0s, 2s;
 			animation-timing-function:linear;
 			animation-fill-mode: forwards;
 			animation-play-state: running;
@@ -728,8 +728,8 @@ header {
 			stroke-dasharray: 300;
 			fill-opacity:0;
 			animation-name: dash, FillIn;
-			animation-duration:3s, 1s;
-			animation-delay: 0s, 0.5s;
+			animation-duration:2s, 0.5s;
+			animation-delay: 0s, 2s;
 			animation-timing-function:linear;
 			animation-fill-mode: forwards;
 			animation-play-state: running;
@@ -744,8 +744,8 @@ header {
 			stroke-dasharray: 500;
 			fill-opacity:0;
 			animation-name: dash, FillIn;
-			animation-duration:1s, 1s;
-			animation-delay: 0s, 0.5s;
+			animation-duration:2s, 0.5s;
+			animation-delay: 0s, 2s;
 			animation-timing-function:linear;
 			animation-fill-mode: forwards;
 			animation-play-state: running;
@@ -775,8 +775,8 @@ header {
 			stroke-dasharray: 300;
 			fill-opacity:0;
 			animation-name: dash, FillIn;
-			animation-duration:3s, 1s;
-			animation-delay: 4s, 0.5s;
+			animation-duration:2s, 0.5s;
+			animation-delay: 0s, 2s;
 			animation-timing-function:linear;
 			animation-fill-mode: forwards;
 			animation-play-state: running;
@@ -5256,28 +5256,28 @@ a.case_results_button {
 		#case_1 {
 			.svg_icon {
 				padding-top:90px;
-				img {
+				img, svg {
 					
 				}
 			}
 		}
 		#case_2 {
 			.svg_icon {
-				img {
+				img, svg {
 					padding-top:120px;
 				}
 			}
 		}
 		#case_3 {
 			.svg_icon {
-				img {
+				img, svg {
 					padding-top:70px;
 				}
 			}
 		}
 		#case_4 {
 			.svg_icon {
-				img {
+				img, svg {
 					padding-top:120px;
 					max-width:195px;
 				}
@@ -5311,7 +5311,7 @@ a.case_results_button {
 					}
 				}
 				span.orange_line {
-					
+					width:45px;
 				}
 				span.sub_header {
 					
@@ -5327,6 +5327,142 @@ a.case_results_button {
 		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+/* SVG Animations */
+
+/* Icon 1 */
+
+
+
+
+
+#case_1.svg_fadein {
+	.svg_icon {
+		img, svg {
+			
+		}
+		.selling_point1 {
+			
+			fill-opacity:1;
+			
+		}
+		.selling_point1-2 {
+			
+			fill-opacity:1;
+			
+		}
+	}
+}
+
+
+
+
+
+/* Icon 2 */
+
+
+#case_2.svg_fadein {
+	.svg_icon {
+		img, svg {
+			
+		}
+		.selling_point2 {
+			
+			fill-opacity:1;
+					}
+	}
+}
+
+
+
+
+
+
+/* Icon 3 */
+
+#case_3.svg_fadein {
+	.svg_icon {
+		img, svg {
+			
+		}
+		.selling_point3 {
+			
+			fill-opacity:1;
+			
+		}
+		.selling_point3-2 {
+			
+			fill-opacity:1;
+			
+		}
+	}
+}
+
+
+
+
+
+/* Icon 4 */
+
+
+#case_4.svg_fadein {
+	.svg_icon {
+		img, svg {
+			
+		}
+		.selling_point4 {
+			
+			fill-opacity:1;
+			
+		}
+
+	}
+}
+
+
+
+
+/* SVG starting points */
+
+
+.selling_point1, .selling_point1-2, .selling_point2, .selling_point3, .selling_point3-2, .selling_point4 {
+	fill:#f0f1f2;
+			stroke:#f0f1f2;
+	fill-opacity:1;
+}
+
+
+
+
+@keyframes dash {
+  
+  to {
+    stroke-dashoffset: 1;
+  }
+}
+
+
+@keyframes FillIn {
+  from { fill-opacity: 1; }
+  to { fill-opacity: 1; }
+}
+
+
+
+
+
+
+
+
 
 
 	/* Team */
