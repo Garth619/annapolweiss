@@ -290,7 +290,7 @@ get_header(); ?>
 				
 			</div><!-- regular_case -->
 		
-		<a href="">
+		<a>
 		
 			<div class="hover_case">
 				
@@ -329,7 +329,7 @@ get_header(); ?>
 				
 			</div><!-- regular_case -->
 		
-		<a href="">
+		<a>
 		
 			<div class="hover_case">
 				
@@ -368,7 +368,7 @@ get_header(); ?>
 				
 			</div><!-- regular_case -->
 		
-		<a href="">
+		<a>
 		
 			<div class="hover_case">
 				
@@ -407,7 +407,7 @@ get_header(); ?>
 				
 			</div><!-- regular_case -->
 		
-		<a href="">
+		<a>
 		
 			<div class="hover_case">
 				
@@ -446,7 +446,7 @@ get_header(); ?>
 				
 			</div><!-- regular_case -->
 		
-		<a href="">
+		<a>
 		
 			<div class="hover_case">
 				
@@ -485,7 +485,7 @@ get_header(); ?>
 				
 			</div><!-- regular_case -->
 		
-		<a href="">
+		<a>
 		
 			<div class="hover_case">
 				
@@ -533,7 +533,7 @@ get_header(); ?>
 				
 			</div><!-- regular_case -->
 		
-		<a href="http://facebook.com">
+		<a>
 		
 			<div class="hover_case">
 				
@@ -572,7 +572,7 @@ get_header(); ?>
 				
 			</div><!-- regular_case -->
 		
-		<a href="">
+		<a>
 		
 			<div class="hover_case">
 				
@@ -611,7 +611,7 @@ get_header(); ?>
 				
 			</div><!-- regular_case -->
 		
-		<a href="">
+		<a>
 		
 			<div class="hover_case">
 				
@@ -650,7 +650,7 @@ get_header(); ?>
 				
 			</div><!-- regular_case -->
 		
-		<a href="">
+		<a>
 		
 			<div class="hover_case">
 				
@@ -689,7 +689,7 @@ get_header(); ?>
 				
 			</div><!-- regular_case -->
 		
-		<a href="">
+		<a>
 		
 			<div class="hover_case">
 				
@@ -719,7 +719,7 @@ get_header(); ?>
 				<span class="case_dollar_amount">million</span><!-- case_dollar_amount -->
 				<span class="case_greyline"></span><!-- case_greyline -->
 				<span class="case_category">products liability</span><!-- case_category -->
-				
+	
 				<div class="img_wrapper">
 				
 					<img class="case_arrow" src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
@@ -728,7 +728,7 @@ get_header(); ?>
 				
 			</div><!-- regular_case -->
 		
-		<a href="">
+		<a>
 		
 			<div class="hover_case">
 				

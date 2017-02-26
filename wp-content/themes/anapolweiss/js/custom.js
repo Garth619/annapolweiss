@@ -723,6 +723,7 @@ function checkWidth() {
 	    jQuery('.cases_grid.desktop .single_case').click(function(){
 	       
 	      jQuery(this).find('.hover_case').fadeIn();
+	      jQuery('.single_case').not(this).find('.hover_case').fadeOut();
 	       
 	     });
 	     
