@@ -15,13 +15,27 @@ get_header(); ?>
 		
 		<a href="tel:866.735.2792" class="mobile_tel_banner">866.735.2792</a><!-- mobile_tel -->
 		
-		<a class="play_button" href="">
+		<div class="play_button_wrapper">
+		
+		
+<script src="//fast.wistia.com/embed/medias/iqptxo13jy.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_iqptxo13jy popover=true popoverContent=link" style="display:inline">
+
+
+
+		<a class="play_button" href="#">
 			
 			<img class="play_reg" src="<?php bloginfo('template_directory');?>/images/video_play_button.png"/>
 			<img class="play_hover" src="<?php bloginfo('template_directory');?>/images/video_play_button_hover.png"/>
 			
 			
 		</a><!-- play_button -->
+
+</div><!-- play_button_wrapper -->
+
+
+</span>
+		
+
 		
 		<span class="subheader">good people</span><!-- subheader -->
 		
@@ -44,6 +58,7 @@ get_header(); ?>
 		
 	</div><!-- inner_main_content -->
 	
+	<video src="<?php bloginfo('template_directory');?>/images/videobg.mp4" loop autoplay></video>
 	
 </section><!-- main_banner -->
 
@@ -204,9 +219,11 @@ get_header(); ?>
 					<span>In the United States, every individual accepts a certain level of personal responsibility. When someone’s reckless or malicious actions harm others, those injured have the right to seek restitution. A distracted driver, careless doctor, or greedy manufacturer can change the course of lives in an instant. At Anapol Weiss, we have committed our careers to standing up for those wronged in preventable incidents. Our attorneys are thorough, accessible, and experienced. </span>
 					
 									
-					<div class="horizontal_greyline"></div>
+					
 					
 				</div><!-- quote_wrapper -->
+				
+				<div class="horizontal_greyline"></div>
 				
 					<p>When you retain representation from Anapol Weiss, our team of Best Lawyer and Super Lawyer-awarded attorneys will serve as your legal advocates in every way. From securing high quality medical support to negotiating with insurance providers, we assist our clients with much more than the pursuit of a legal claim. We strive to make your life a little easier during a time of emotional, physical, and financial hardship. While you focus on recovery, we dedicate our days to obtaining justice, closure, and restitution on your behalf. Ask us anything at any time. Consider your Anapol Weiss attorney as a friend, supporter, and legal guide.</p>
 

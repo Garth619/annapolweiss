@@ -42,7 +42,7 @@ get_header(); ?>
 					
 						<div class="profile_overlay">
 						
-							<a href=""><span>View Profile</span></a>
+							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
 						
 						</div><!-- profile_overlay -->
 					
@@ -50,7 +50,7 @@ get_header(); ?>
 					
 					<div class="profile_grid_title_wrapper">
 						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
+						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
 						
 					</div><!-- profile_title_wrapper -->
 					
@@ -67,7 +67,7 @@ get_header(); ?>
 					
 						<div class="profile_overlay">
 						
-							<a href=""><span>View Profile</span></a>
+							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
 						
 						</div><!-- profile_overlay -->
 					
@@ -75,7 +75,7 @@ get_header(); ?>
 					
 					<div class="profile_grid_title_wrapper">
 						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
+						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
 						
 					</div><!-- profile_title_wrapper -->
 					
@@ -92,7 +92,7 @@ get_header(); ?>
 					
 						<div class="profile_overlay">
 						
-							<a href=""><span>View Profile</span></a>
+							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
 						
 						</div><!-- profile_overlay -->
 					
@@ -100,7 +100,7 @@ get_header(); ?>
 					
 					<div class="profile_grid_title_wrapper">
 						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
+						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
 						
 					</div><!-- profile_title_wrapper -->
 					
@@ -117,7 +117,7 @@ get_header(); ?>
 					
 						<div class="profile_overlay">
 						
-							<a href=""><span>View Profile</span></a>
+							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
 						
 						</div><!-- profile_overlay -->
 					
@@ -125,7 +125,7 @@ get_header(); ?>
 					
 					<div class="profile_grid_title_wrapper">
 						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
+						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
 						
 					</div><!-- profile_title_wrapper -->
 					
@@ -142,7 +142,7 @@ get_header(); ?>
 					
 						<div class="profile_overlay">
 						
-							<a href=""><span>View Profile</span></a>
+							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
 						
 						</div><!-- profile_overlay -->
 					
@@ -150,7 +150,7 @@ get_header(); ?>
 					
 					<div class="profile_grid_title_wrapper">
 						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
+						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
 						
 					</div><!-- profile_title_wrapper -->
 					
@@ -167,7 +167,7 @@ get_header(); ?>
 					
 						<div class="profile_overlay">
 						
-							<a href=""><span>View Profile</span></a>
+							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
 						
 						</div><!-- profile_overlay -->
 					
@@ -175,7 +175,7 @@ get_header(); ?>
 					
 					<div class="profile_grid_title_wrapper">
 						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
+						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
 						
 					</div><!-- profile_title_wrapper -->
 					
@@ -192,7 +192,7 @@ get_header(); ?>
 					
 						<div class="profile_overlay">
 						
-							<a href=""><span>View Profile</span></a>
+							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
 						
 						</div><!-- profile_overlay -->
 					
@@ -200,7 +200,7 @@ get_header(); ?>
 					
 					<div class="profile_grid_title_wrapper">
 						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
+						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
 						
 					</div><!-- profile_title_wrapper -->
 					
@@ -217,7 +217,7 @@ get_header(); ?>
 					
 						<div class="profile_overlay">
 						
-							<a href=""><span>View Profile</span></a>
+							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
 						
 						</div><!-- profile_overlay -->
 					
@@ -225,7 +225,7 @@ get_header(); ?>
 					
 					<div class="profile_grid_title_wrapper">
 						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
+						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
 						
 					</div><!-- profile_title_wrapper -->
 					
@@ -242,7 +242,7 @@ get_header(); ?>
 					
 						<div class="profile_overlay">
 						
-							<a href=""><span>View Profile</span></a>
+							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
 						
 						</div><!-- profile_overlay -->
 					
@@ -250,7 +250,7 @@ get_header(); ?>
 					
 					<div class="profile_grid_title_wrapper">
 						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
+						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
 						
 					</div><!-- profile_title_wrapper -->
 					
@@ -267,7 +267,7 @@ get_header(); ?>
 					
 						<div class="profile_overlay">
 						
-							<a href=""><span>View Profile</span></a>
+							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
 						
 						</div><!-- profile_overlay -->
 					
@@ -275,7 +275,7 @@ get_header(); ?>
 					
 					<div class="profile_grid_title_wrapper">
 						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
+						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
 						
 					</div><!-- profile_title_wrapper -->
 					

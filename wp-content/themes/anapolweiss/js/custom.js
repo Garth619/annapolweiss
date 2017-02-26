@@ -4,7 +4,7 @@ jQuery(document).ready(function(){
 
 
 
-jQuery('.play_button').mouseenter(function(){
+jQuery('.play_button_wrapper').mouseenter(function(){
 	
 	
 	jQuery('img.play_reg').fadeOut(200);
@@ -14,11 +14,12 @@ jQuery('.play_button').mouseenter(function(){
 });
 
 
-jQuery('.play_button').mouseleave(function(){
+jQuery('.play_button_wrapper').mouseleave(function(){
 	
 	
 	jQuery('img.play_reg').fadeIn(200);
 	jQuery('img.play_hover').fadeOut(200);
+	
 	
 	
 });
@@ -128,19 +129,20 @@ jQuery('.members_next').mouseleave(function(){
 
 
 
+// Enable Map Zoom back on when on page scroll on Desktop
+
+jQuery('.map').click(function () {
+    jQuery('.map iframe').css("pointer-events", "auto");
+});
+
+jQuery( ".map" ).mouseleave(function() {
+  jQuery('.map iframe').css("pointer-events", "none"); 
+});
+
+
 // Inner About Slider 
 
 
-/*
-jQuery('.inner_about_slider').slick({
-  	slidesToShow: 1,
-		slidesToScroll: 1,
-		arrows:true,
-		dots:false,
-		prevArrow:".inner_about_back",
-		nextArrow:".inner_about_next"
-});
-*/
 
 
 
