@@ -527,7 +527,7 @@ jQuery('.blog_inner_wrapper').slick({
         slidesToShow: 2,
 				slidesToScroll: 2,
 				arrows:false,
-				dots:false,
+				dots:true,
 				
       }
     },
@@ -537,7 +537,7 @@ jQuery('.blog_inner_wrapper').slick({
         slidesToShow: 1,
 				slidesToScroll: 1,
 				arrows:false,
-				dots:false,
+				dots:true,
 				
       }
     }
