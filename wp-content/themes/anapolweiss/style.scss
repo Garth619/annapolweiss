@@ -13,6 +13,8 @@ a img {border:none}
 
 textarea, input, button {outline: none;}
 
+* {outline:none}
+
 textarea { resize: none;}
 
 *, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
@@ -499,28 +501,28 @@ header {
 		#case_1 {
 			.svg_icon {
 				padding-top:150px;
-				img {
+				img, svg {
 					
 				}
 			}
 		}
 		#case_2 {
 			.svg_icon {
-				img {
+				img, svg {
 					padding-top:180px;
 				}
 			}
 		}
 		#case_3 {
 			.svg_icon {
-				img {
+				img, svg {
 					padding-top:130px;
 				}
 			}
 		}
 		#case_4 {
 			.svg_icon {
-				img {
+				img, svg {
 					padding-top:170px;
 					max-width:195px;
 				}
@@ -545,7 +547,7 @@ header {
 				width:100%;
 				height:100%;
 				text-align: center;
-				img {
+				img, svg {
 					width:100%;
 					max-width:275px;
 					height:auto;
@@ -613,6 +615,183 @@ header {
 		}
 	}
 }
+
+
+
+
+
+/* SVG Animations */
+
+/* Icon 1 */
+
+.selling_point1{
+	fill:#f0f1f2;
+	stroke:#f0f1f2;
+	stroke-miterlimit:10;
+	stroke-width:1;
+	stroke-dashoffset: 300;
+	stroke-dasharray: 300;
+	fill-opacity:0;
+
+	
+	animation-name: dash, FillIn;
+	animation-duration:3s, 2s;
+	animation-delay: 0s, 1s;
+	animation-timing-function:linear;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+	animation-iteration-count: 1;
+}
+
+
+
+
+
+.selling_point1-2 {
+	fill:#f0f1f2;
+	stroke:#f0f1f2;
+	stroke-miterlimit:10;
+	stroke-width:1;
+	stroke-dashoffset: 500;
+	stroke-dasharray: 500;
+	fill-opacity:0;
+
+	
+	animation-name: dash, FillIn;
+	animation-duration:1s, 2s;
+	animation-delay: 0s, 1s;
+	animation-timing-function:linear;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+	animation-iteration-count: 1;
+}
+
+
+/* Icon 2 */
+
+
+
+.selling_point2 {
+	fill:#f0f1f2;
+	stroke:#f0f1f2;
+	stroke-miterlimit:10;
+	stroke-width:1;
+	stroke-dashoffset: 1100;
+	stroke-dasharray: 1300;
+	fill-opacity:0;
+
+	
+	animation-name: dash, FillIn;
+	animation-duration:2s, 2s;
+	animation-delay: 0s, 1s;
+	animation-timing-function:linear;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+	animation-iteration-count: 1;
+}
+
+
+/* Icon 3 */
+
+
+
+
+
+.selling_point3 {
+	fill:#f0f1f2;
+	stroke:#f0f1f2;
+	stroke-miterlimit:10;
+	stroke-width:1;
+	stroke-dashoffset: 300;
+	stroke-dasharray: 300;
+	fill-opacity:0;
+
+	
+	animation-name: dash, FillIn;
+	animation-duration:3s, 2s;
+	animation-delay: 0s, 1s;
+	animation-timing-function:linear;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+	animation-iteration-count: 1;
+}
+
+
+
+
+
+
+.selling_point3-2 {
+	fill:#f0f1f2;
+	stroke:#f0f1f2;
+	stroke-miterlimit:10;
+	stroke-width:1;
+	stroke-dashoffset: 500;
+	stroke-dasharray: 500;
+	fill-opacity:0;
+
+	
+	animation-name: dash, FillIn;
+	animation-duration:1s, 2s;
+	animation-delay: 0s, 1s;
+	animation-timing-function:linear;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+	animation-iteration-count: 1;
+}
+
+
+
+/* Icon 4 */
+
+
+
+.selling_point4 {
+	fill:#f0f1f2;
+	stroke:#f0f1f2;
+	stroke-miterlimit:10;
+	stroke-width:1;
+	stroke-dashoffset: 300;
+	stroke-dasharray: 300;
+	fill-opacity:0;
+
+	
+	animation-name: dash, FillIn;
+	animation-duration:3s, 2s;
+	animation-delay: 0s, 1s;
+	animation-timing-function:linear;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+	animation-iteration-count: 1;
+}
+
+
+
+
+
+@keyframes dash {
+  
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+@keyframes FillIn {
+  from { fill-opacity: 0; }
+  to { fill-opacity: 1; }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* About */
