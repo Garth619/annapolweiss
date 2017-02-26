@@ -6,7 +6,7 @@ Author: iLawyer Marketing (Garrett Cullen)
 
 
 * {margin:0;padding:0;}
-
+67
 
 a {outline: none;}
 a img {border:none}
@@ -672,21 +672,23 @@ header {
 				}
 			}
 			img.content_img {
-				top: 375px;
-				max-width: 100%;
+				top: 112px;
+				min-width: 750px;
 				height:auto;
 				display: block;
-				position: absolute;
+				position: relative;
+				float:right;
 				z-index:5;
 				left:-1000px;
-				
+				width:100%;
+				float:right;
 				-webkit-transition: all 1500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 				transition: all 1500ms cubic-bezier(0.075, 0.82, 0.165, 1); 
 			}
 			img.content_img.fadein {
 				left:0;
 				transition-delay: 1s;
-				
+				float:right;
 			}
 		}
 		.about_right {
@@ -4625,7 +4627,7 @@ section.blog {
 				}
 			}
 			img.content_img {
-				top:350px;
+				top:200px;
 			}
 		}
 		.about_right {
@@ -6793,6 +6795,7 @@ header {
 		
 		.about_left {
 			width:43%;
+// 			float:none;
 			.about_title {
 				padding-right:0;
 				overflow: visible;
@@ -6827,7 +6830,16 @@ header {
 					width:50%;
 				}
 			}
+			img.content_img.fadein {
+// 				left: -250px;
+			}
 			img.content_img {
+/*
+				left: -250px;
+				max-width:100%;
+				width: 741px;
+*/
+				
 				
 			}
 		}
@@ -6835,26 +6847,33 @@ header {
 			padding-left:50px;
 			padding-right:30px;
 			margin-top:11px;
-			
+/*
+			float:none;
+			width:auto;
+*/
 			.content {
 				font-size:15px;
 				line-height: 26px;
 				p {
 					margin-bottom: 25px;
 				}
+				.horizontal_greyline {
+					margin-left: 38px;
+					margin-bottom:60px;
+					
+				}
 				.quote_wrapper {
 					margin-bottom: 28px;
-					.greyline {
-						
+					margin-top:60px;
+					.greyline, .greyline.fadein {
+						height:97%;	
 					}
 					span {
 						font-size: 22px;
 						line-height: 33px;
 						padding-left:35px;
 					}
-					.horizontal_greyline {
-						margin-left: 38px;
-					}
+					
 				}
 			}
 		}
@@ -9280,6 +9299,61 @@ footer {
 
 
 
+
+
+/* About */
+
+.about {
+	
+	.about_inner {
+		
+		.about_left {
+			width:325px;
+			.about_title {
+				
+				h1 {
+					
+					span.h1first, span.h1middle, span.h1end {
+						
+					}
+					span.h1first {
+						
+					}
+					span.h1middle {
+						
+					}
+					span.h1end {
+						
+					}
+				}
+				span.header_line {
+					
+				}
+			}
+			img.content_img {
+				
+			}
+		}
+		.about_right {
+			
+			.content {
+				
+				.quote_wrapper {
+					
+					.greyline {
+						
+					}
+					span {
+						
+					}
+					.horizontal_greyline {
+						
+					}
+				}
+			}
+		}
+	}
+}
 		
 				
 
