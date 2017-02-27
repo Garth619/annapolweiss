@@ -7119,9 +7119,14 @@ footer {
     width: 100%;
 		padding:left;
 		margin-top:45px;
+		top:0;
+		padding-left:0;
 		.inner_about_slider_wrapper {
 			max-width: 483px;
 			 margin:80px auto 0;
+			 opacity: 1;
+			 visibility: visible;
+			 right:0;
 			.inner_about_caption {
 				display: block;
 				top:336px;
@@ -7145,11 +7150,30 @@ footer {
 		}
 	}
 	
+	.inner_about_buttons.fadein {
+		.inner_about_back {
+			left:0px;
+			&:hover {
+				left:0;
+			}
+		}
+		.inner_about_next {
+			&:hover {
+				right:0;
+			}
+
+		}
+	}
+	
 	
 	.inner_about_buttons {
-		
+		opacity: 1;
+		visibility: visible;
 		.inner_about_back {
-			
+			left:0;
+			&:hover {
+				left:0;
+			}
 			img {
 				
 			}
@@ -7197,12 +7221,92 @@ footer {
 	.wavy_inner_about {
 		
 		svg {
-			
-		}
-		.wavy_inner_about_hidden {
-			
+			.inner_about_wavy_lines {
+				stroke:#c4c8ca;
+				fill:none;
+				stroke-width:1;
+				stroke-dashoffset: 1;
+			}
+			.inner_about_wavy_circles {
+				fill:#c4c8ca;
+				fill-opacity:1;
+			}
 		}
 	}
+	
+	
+	
+	
+	
+	
+
+	
+	
+	.wavy_inner_about.fadein {
+		svg {
+			.inner_about_wavy_lines {
+				stroke:#c4c8ca;
+				stroke-width:0.5px;
+				fill:none;
+				stroke-miterlimit:100;
+				stroke-width:1;
+				stroke-dashoffset: 1;
+				stroke-dasharray: 2000;
+				fill-opacity:1;
+				animation-name: inneraboutwavelines;
+				animation-duration:1.5s;
+				animation-delay: 0s;
+				animation-timing-function:linear;
+				animation-fill-mode: forwards;
+				animation-play-state: running;
+				animation-iteration-count: 1;
+			}
+			.inner_about_wavy_circles {
+				fill:#c4c8ca;
+				fill-opacity:1;
+				animation-name: inneraboutwavecircles;
+				animation-duration:0.5s;
+				animation-delay: 1.5s;
+				animation-timing-function:linear;
+				animation-fill-mode: forwards;
+				animation-play-state: running;
+				animation-iteration-count: 1;
+			}
+		}
+	}
+	
+	
+	
+
+
+
+
+
+
+
+@keyframes inneraboutwavelines {
+  
+  to {
+    stroke-dashoffset: 1;
+  }
+}
+
+
+@keyframes inneraboutwavecircles {
+  from { fill-opacity: 1; }
+  to { fill-opacity: 1; }
+}
+
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
