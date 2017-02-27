@@ -26,7 +26,7 @@ get_header(); ?>
 	
 </div><!-- inner_page_orangeline -->
 
-<div class="inner_main_wrapper_no_sidebar">
+<div id="arrows_trigger" class="inner_main_wrapper_no_sidebar">
 	
 	
 	

@@ -324,6 +324,24 @@ jQuery(document).ready(function(){
     
     
     jQuery('.wavy_one').addClass('fadein');
+
+
+    
+  }
+})
+
+
+// Featured Line
+
+
+
+	var waypointfeaturedline = new Waypoint({
+  element: document.getElementById('featured_line_trigger'),
+  handler: function(direction) {
+    
+    
+    
+   
     jQuery('span.featured_orange_line').addClass('fadein');
 
     
@@ -340,7 +358,7 @@ var waypointwave = new Waypoint({
     
     
     
-    jQuery('.wavy_one').addClass('fadein');
+//     jQuery('.wavy_one').addClass('fadein');
     jQuery('span.case_greyline').addClass('fadein');
 
     
@@ -550,10 +568,35 @@ var waypointinnerfoundation = new Waypoint({
     
     
     jQuery('.inner_page_orangeline span.line').addClass('fadein');
+    
+    
+    jQuery('.about_orange_box').addClass('fadein');
+    jQuery('.inner_about_slider_wrapper').addClass('fadein');
 
     
   }
 })
+
+
+
+
+var waypointinnerfoundationarrows = new Waypoint({
+  element: document.getElementById('arrows_trigger'),
+  handler: function(direction) {
+    
+    
+    
+   
+    jQuery('.inner_about_buttons').addClass('fadein');
+    
+    
+    
+   
+
+    
+  }
+})
+
 
 
 

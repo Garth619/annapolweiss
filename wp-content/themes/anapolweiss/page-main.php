@@ -264,7 +264,7 @@ get_header(); ?>
 				
 				<p><span class="drop_cap">T</span>he field of personal injury law is expansive and includes every accident and injury imaginable. While larger law firms may offer a broad service scope, they often do not provide the same level of personalized support throughout the duration of a claim. At Anapol Weiss, we focus our practices in four major areas of personal injury law – general personal injuries, product liability, medical malpractice, and mass tort litigation. Within these primary fields, we handle a variety of specific case types, including vehicle accident cases, medical device claims, and wrongful death claims.</p>
 				
-				<div class="quote_wrapper">
+				<div id="wavy_one_trigger" class="quote_wrapper">
 					
 					<div class="greyline"></div><!-- greyline -->
 					
@@ -275,9 +275,9 @@ get_header(); ?>
 					
 				</div><!-- quote_wrapper -->
 				
-				<div id="wavy_one_trigger" class="horizontal_greyline"></div>
+				<div class="horizontal_greyline"></div>
 				
-					<p>When you retain representation from Anapol Weiss, our team of Best Lawyer and Super Lawyer-awarded attorneys will serve as your legal advocates in every way. From securing high quality medical support to negotiating with insurance providers, we assist our clients with much more than the pursuit of a legal claim. We strive to make your life a little easier during a time of emotional, physical, and financial hardship. While you focus on recovery, we dedicate our days to obtaining justice, closure, and restitution on your behalf. Ask us anything at any time. Consider your Anapol Weiss attorney as a friend, supporter, and legal guide.</p>
+					<p id="featured_line_trigger">When you retain representation from Anapol Weiss, our team of Best Lawyer and Super Lawyer-awarded attorneys will serve as your legal advocates in every way. From securing high quality medical support to negotiating with insurance providers, we assist our clients with much more than the pursuit of a legal claim. We strive to make your life a little easier during a time of emotional, physical, and financial hardship. While you focus on recovery, we dedicate our days to obtaining justice, closure, and restitution on your behalf. Ask us anything at any time. Consider your Anapol Weiss attorney as a friend, supporter, and legal guide.</p>
 
 				
 			</div><!-- content -->
@@ -1144,7 +1144,7 @@ get_header(); ?>
 					
 					</div><!-- about_slide -->
 					
-					<div class="about_arrows_count">
+					<div id="team_trigger" class="about_arrows_count">
 					
 					<div class="about_arrow_left">
 						
@@ -1222,7 +1222,7 @@ get_header(); ?>
 	
 </section><!-- second_about -->
 
-<section id="team_trigger" class="team">
+<section class="team">
 	
 	
 	
