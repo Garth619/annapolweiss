@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		*, html, body{
+			margin: 0;
+			padding: 0;
+		}
+		section{
+			width: 100%;
+			height: 600px;
+			position: relative;
+			color: white;
+			text-align: center;
+			padding-top: 50px;
+		}
+		section .container{
+			max-width: 960px;
+			width: 100%;
+			margin: auto;
+		}
+		section svg{
+			background: rgba(50,50,60,1);
+			position: absolute;
+			top:0;
+			left: 0;
+			z-index: -1;
+		}
+		svg path{
+			fill:none;
+			stroke:rgba(255,255,255,0.5);
+			stroke-width:1px;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<section>
+		<div class="container">
+			<h1>SVG Cubic Bezier Curve Animation</h1>
+		</div>
+
+		<svg id="svg">
+			<!-- circle 1 -->
+			<circle fill="rgba(255,255,255,0.5)" cx="" cy="" r="3">
+        		<animateMotion dur="9s" repeatCount="indefinite" begin="0s">
+			      <mpath xlink:href="#0"/><!-- id of the first path -->
+			    </animateMotion>
+      		</circle>
+      		<!-- circle 2 -->
+      		<circle fill="rgba(255,255,255,0.5)" cx="" cy="" r="3">
+        		<animateMotion dur="9s" repeatCount="indefinite" begin="2s">
+			      <mpath xlink:href="#0"/><!-- id of the first path -->
+			    </animateMotion>
+      		</circle>
+      		<!-- circle 3 -->
+      		<circle fill="rgba(255,255,255,0.5)" cx="" cy="" r="3">
+        		<animateMotion dur="9s" repeatCount="indefinite" begin="4s">
+			      <mpath xlink:href="#0"/><!-- id of the first path -->
+			    </animateMotion>
+      		</circle>
+
+
+
+      		<!-- circle 1 -->
+      		<circle fill="rgba(255,255,255,0.5)" cx="" cy="" r="3">
+        		<animateMotion dur="9s" repeatCount="indefinite" begin="0s">
+			      <mpath xlink:href="#1"/><!-- id of the second path -->
+			    </animateMotion>
+      		</circle>
+      		<!-- circle 2 -->
+      		<circle fill="rgba(255,255,255,0.5)" cx="" cy="" r="3">
+        		<animateMotion dur="9s" repeatCount="indefinite" begin="3s">
+			      <mpath xlink:href="#1"/><!-- id of the second path -->
+			    </animateMotion>
+      		</circle>
+      		<!-- circle 3 -->
+      		<circle fill="rgba(255,255,255,0.5)" cx="" cy="" r="3">
+        		<animateMotion dur="9s" repeatCount="indefinite" begin="6s">
+			      <mpath xlink:href="#1"/><!-- id of the second path -->
+			    </animateMotion>
+      		</circle>
+		</svg>
+		 
+	</section>
+
+
+
+
+
+
+<script>
+
+	//append paths to the svg
+	for(let i = 1; i <= 2; i++){
+		let newpath = document.createElementNS('http://www.w3.org/2000/svg',"path");
+		svg.appendChild(newpath);
+	}
+	
+
+	let angle = 0,
+	  lastTime = null,
+	  animate = (time) => {
+	    //if last time is not equal to 0
+	    if(lastTime!= null) angle+=(time - lastTime) * 0.001;
+	    lastTime = time;
+
+	    let section = document.querySelector('section');
+	    let right = section.clientWidth;
+		let bottom = section.clientHeight;
+		let top = bottom - bottom;
+		let left = right - right;
+		let paths = Array.from( document.querySelectorAll('svg path') );
+
+	
+		//set svg width and height
+		svg.setAttribute('width', right);
+		svg.setAttribute('height', bottom);
+	
+
+
+	    
+	    //get all the paths we appended to the svg and set their attributes
+	    //<path d="Mx1,y1 Cxx1,yy1 xx2,yy2 x2,y2" />
+	    /*paths.map( (item,index)=>{
+	    	//set id for each path
+	    	item.id = index;
+	    	//set attribute for each path
+	    	item.setAttribute('d', 'M'+ top + ',' +bottom/2 + ' ' +
+								'C' + right/4.5 + ',' + ((bottom/2) + ( Math.sin(angle-index) * (bottom/2) )) + ' ' +
+								right/1.5 + ',' + ((bottom/2) + ( Math.cos(angle-index) * (bottom/2) )) + ' ' +
+								right + ',' + bottom/2);
+
+	    });*/
+
+	    for(let i = 0; i < paths.length; i++){
+	    	//set id for each path
+	    	paths[i].id = i;
+	    	//set attribute for each path
+	    	paths[0].setAttribute('d', 'M'+ top + ',' +bottom/2 + ' ' +
+								'C' + right/4.5 + ',' + ((bottom/2) + ( Math.sin(angle-i) * (bottom/2) )) + ' ' +
+								right/1.5 + ',' + ((bottom/2) + ( Math.cos(angle-i) * (bottom/2) )) + ' ' +
+								right + ',' + bottom/2);
+	    	paths[1].setAttribute('d', 'M'+ top + ',' +bottom/3 + ' ' +
+								'C' + right/4.5 + ',' + ((bottom/2) + ( Math.sin(angle-i) * (bottom/2) )) + ' ' +
+								right/1.5 + ',' + ((bottom/2) + ( Math.cos(angle-i) * (bottom/2) )) + ' ' +
+								right + ',' + bottom/3);
+
+	    	
+	    }
+
+	    requestAnimationFrame(animate);
+	  }
+
+	animate();
+
+
+</script>
+
+
+
+
+</body>
+</html>

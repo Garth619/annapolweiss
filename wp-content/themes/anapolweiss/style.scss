@@ -391,6 +391,15 @@ header {
 // 				display: none;
 				
 			}
+			.video_overlay {
+				position: absolute;
+				top:0;
+				left:0;
+				width:100%;
+				height:100%;
+				background: rgba(0, 0, 0, 0.5);
+				z-index:3;
+			}
 			.inner_main_content {
 				text-align:center;
 				position: relative;
@@ -1002,7 +1011,7 @@ span.drop_cap {
 		stroke-dashoffset: 2000;
 		stroke-dasharray: 2000;
 		animation-name: wavelines;
-		animation-duration:1.5s;
+		animation-duration:2.5s;
 		animation-delay: 0s;
 		animation-timing-function:linear;
 		animation-fill-mode: forwards;
@@ -1014,7 +1023,7 @@ span.drop_cap {
 		fill-opacity:0;
 		animation-name: wavecircles;
 		animation-duration:0.5s;
-		animation-delay: 1.5s;
+		animation-delay: 2.5s;
 		animation-timing-function:linear;
 		animation-fill-mode: forwards;
 		animation-play-state: running;
@@ -1645,8 +1654,8 @@ section.blog {
 			stroke-dasharray: 2000;
 			fill-opacity:0;
 			animation-name: blogwavelines;
-			animation-duration:1.5s;
-			animation-delay: 0s;
+			animation-duration:2.5s;
+			animation-delay: 1.5s;
 			animation-timing-function:linear;
 			animation-fill-mode: forwards;
 			animation-play-state: running;
@@ -1657,7 +1666,7 @@ section.blog {
 			fill-opacity:0;
 			animation-name: blogwavecircles;
 			animation-duration:0.5s;
-			animation-delay: 1.5s;
+			animation-delay: 4s;
 			animation-timing-function:linear;
 			animation-fill-mode: forwards;
 			animation-play-state: running;
@@ -2273,9 +2282,11 @@ section.blog {
 				background: $orange;
 				display: block;
 				transition: all .6s ease-in-out;
+				
 			}
 			span.inner_quote_line.fadein {
 				height:75px;
+				
 			}
 		}
 		span.testimonial_quote {
@@ -2361,6 +2372,7 @@ footer {
 		}
 		span.get_started_orangeline.fadein {
 			width:400px;
+			
 		}
 	}
 }
@@ -2517,7 +2529,7 @@ footer {
 			stroke-dasharray: 2000;
 			fill-opacity:0;
 			animation-name: footerwavelines;
-			animation-duration:1.5s;
+			animation-duration:2.5s;
 			animation-delay: 0s;
 			animation-timing-function:linear;
 			animation-fill-mode: forwards;
@@ -2529,7 +2541,7 @@ footer {
 			fill-opacity:0;
 			animation-name: footerwavecircle;
 			animation-duration:0.5s;
-			animation-delay: 1.5s;
+			animation-delay: 2s;
 			animation-timing-function:linear;
 			animation-fill-mode: forwards;
 			animation-play-state: running;
@@ -7538,6 +7550,9 @@ header {
 			
 			padding: 130px 5px 105px;
 			video {
+				display: none;
+			}
+			.video_overlay {
 				display: none;
 			}
 			.inner_main_content {
