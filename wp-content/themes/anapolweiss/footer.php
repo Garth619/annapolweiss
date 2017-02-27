@@ -6,7 +6,7 @@
 	
 	<div class="get_started_left">
 		
-		<div class="get_started_title_wrapper">
+		<div id="footer_wave_trigger" class="get_started_title_wrapper">
 			
 			<span class="sub_header">Free Case Evaluation</span><!-- sub_header -->
 			<span class="large_header">get started today</span><!-- large_header -->
@@ -35,7 +35,7 @@
 
 <div class="wavy_footer">
 	
-	<svg id="footer_wave" data-name="content wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1969.01 224.39"><defs><style></style></defs><title>footer_waves</title><path class="wavy_footer_line" d="M1968.86,161.84c-28-15.2-64.3-27-107.8-35.1-41.9-7.8-88.3-11.7-138-11.7a944.09,944.09,0,0,0-148.5,11.7c-50.8,8.1-97.7,19.9-139.3,35.1-40.5,14.8-89.3,26.2-144.9,33.9-50.4,7-105.1,10.7-162.6,11.1-104.9.9-210.2-9.5-281.6-27.7-30.5-7.8-61.9-17.2-95.2-27.1-113.4-33.9-241.8-72.2-374.3-56.1-86.8,10.5-158.1,25.6-218.1,45.9C97.66,162.54,46,189.44.46,224.24" transform="translate(-0.16 -0.25)"/><circle class="wavy_footer_circle" cx="1422.28" cy="165.92" r="2.66"/><circle class="wavy_footer_circle" cx="1738.8" cy="115.2" r="2.66"/><path class="wavy_footer_line" d="M.46,70.34c28-15.2,64.3-27,107.8-35.1,41.9-7.8,88.3-11.7,138-11.7a944.09,944.09,0,0,1,148.5,11.7c50.8,8.1,97.7,19.9,139.3,35.1,40.5,14.8,89.3,26.2,144.9,33.9,50.4,7,105.1,10.7,162.7,11.2,104.9.9,210.2-9.5,281.6-27.7,30.5-7.8,61.9-17.2,95.2-27.1,113.3-33.9,241.8-72.2,374.2-56.1,86.8,10.5,158.1,25.6,218.1,45.9,60.9,20.7,112.6,47.6,158.1,82.4" transform="translate(-0.16 -0.25)"/><circle class="wavy_footer_circle" cx="1601.8" cy="5.2" r="2.66"/><circle class="wavy_footer_circle" cx="1213.28" cy="61.92" r="2.66"/><circle class="wavy_footer_circle" cx="790.28" cy="163.92" r="2.66"/><circle class="wavy_footer_circle" cx="561.28" cy="78.92" r="2.66"/><circle class="wavy_footer_circle" cx="380.28" cy="95.92" r="2.66"/><circle class="wavy_footer_circle" cx="273.28" cy="23.92" r="2.66"/></svg>	
+	<svg id="footer_wave" data-name="content wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1969.01 224.39"><defs><style></style></defs><title>footer_waves</title><path class="wavy_footer_line" d="M1968.86,161.84c-28-15.2-64.3-27-107.8-35.1-41.9-7.8-88.3-11.7-138-11.7a944.09,944.09,0,0,0-148.5,11.7c-50.8,8.1-97.7,19.9-139.3,35.1-40.5,14.8-89.3,26.2-144.9,33.9-50.4,7-105.1,10.7-162.6,11.1-104.9.9-210.2-9.5-281.6-27.7-30.5-7.8-61.9-17.2-95.2-27.1-113.4-33.9-241.8-72.2-374.3-56.1-86.8,10.5-158.1,25.6-218.1,45.9C97.66,162.54,46,189.44.46,224.24" transform="translate(-0.16 -0.25)"/><circle class="wavy_footer_circle" cx="1422.28" cy="165.92" r="2.66"/><circle class="wavy_footer_circle" cx="1738.8" cy="115.2" r="2.66"/><path class="wavy_footer_line" d="M.46,70.34c28-15.2,64.3-27,107.8-35.1,41.9-7.8,88.3-11.7,138-11.7a944.09,944.09,0,0,1,148.5,11.7c50.8,8.1,97.7,19.9,139.3,35.1,40.5,14.8,89.3,26.2,144.9,33.9,50.4,7,105.1,10.7,162.7,11.2,104.9.9,210.2-9.5,281.6-27.7,30.5-7.8,61.9-17.2,95.2-27.1,113.3-33.9,241.8-72.2,374.2-56.1,86.8,10.5,158.1,25.6,218.1,45.9,60.9,20.7,112.6,47.6,158.1,82.4" transform="translate(-0.16 -0.25)"/><circle class="wavy_footer_circle" cx="1601.8" cy="5.2" r="2.66"/><circle class="wavy_footer_circle" cx="1213.28" cy="61.92" r="2.66"/><circle class="wavy_footer_circle" cx="790.28" cy="163.92" r="2.66"/><circle class="wavy_footer_circle" cx="561.28" cy="78.92" r="2.66"/><circle class="wavy_footer_circle" cx="380.28" cy="95.92" r="2.66"/><circle class="wavy_footer_circle" cx="273.28" cy="23.92" r="2.66"/></svg>
 </div><!-- wavy_footer -->
 
 
@@ -352,12 +352,12 @@ jQuery(document).ready(function(){
 
 
 var waypointfooter = new Waypoint({
-  element: document.getElementById('wavy_blog_trigger'),
+  element: document.getElementById('footer_wave_trigger'),
   handler: function(direction) {
     
     
     
-    jQuery('.wavy_blog').addClass('fadein');
+    jQuery('.wavy_footer').addClass('fadein');
 
     
   }
