@@ -388,6 +388,55 @@ var waypointfooter = new Waypoint({
 })
 
 
+
+
+// Second About
+
+
+var waypointsecondabout = new Waypoint({
+  element: document.getElementById('second_about_trigger'),
+  handler: function(direction) {
+    
+    
+    
+    jQuery('.about_orange_box').addClass('fadein');
+    jQuery('.about_slider_wrapper').addClass('fadein');
+    jQuery('.about_content_orangeline').addClass('fadein');
+    
+
+    
+  }
+})
+
+
+
+// Second About Arrows Animation
+
+var waypointsecondaboutarrows = new Waypoint({
+  element: document.getElementById('arrows_animation_trigger'),
+  handler: function(direction) {
+    
+    
+    
+    jQuery('.about_orange_box').addClass('fadein');
+    jQuery('.about_arrows_count').addClass('fadein');
+    
+    
+    
+
+    
+  }
+})
+
+
+
+
+
+
+
+
+
+
 }); /* Ready */
 
 </script>

@@ -837,7 +837,7 @@ get_header(); ?>
 						
 					</div><!-- blog_content -->
 					
-					<span class="blog_read_more">Click Here to Read More</span><!-- blog_read_more -->
+					<span id="second_about_trigger" class="blog_read_more">Click Here to Read More</span><!-- blog_read_more -->
 						
 					</a>
 					
@@ -1085,7 +1085,7 @@ get_header(); ?>
 			</div><!-- about_orange_box -->
 			
 			
-			<div class="about_slider_wrapper">
+			<div id="arrows_animation_trigger" class="about_slider_wrapper">
 				
 				<div class="slider_caption">
 					

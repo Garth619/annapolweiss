@@ -1704,11 +1704,26 @@ section.blog {
 				background:$orange;
 				height:678px;
 				width:100%;
+				position: relative;
+				top:180px;
+				transition: all 1s ease-in-out;
+				
+
+		
+
 			}
-			
+			.about_orange_box.fadein {
+				top:0;
+// 				transition-delay: .75s;
+			}
 		}
 	}
 }
+.about_slider_wrapper.fadein {
+	left:0;
+	transition-delay: 1.2s;
+}
+
 
 .about_slider_wrapper {
 	margin-top: -498px;
@@ -1716,6 +1731,9 @@ section.blog {
 	float:right;
 	max-width:567px;
 	position: relative;
+	left:-800px;
+	-webkit-transition: all 1300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+	  transition:         all 1300ms cubic-bezier(0.165, 0.84, 0.44, 1);
 	.slider_caption {
 		position: absolute;
 		top: 392px;
@@ -1786,12 +1804,17 @@ section.blog {
 			margin-bottom:165px
 		}
 		span.about_content_orangeline {
-			width:300px;
+			width:0;
 			height:2px;
 			background: $orange;
 			position: absolute;
 			top:5px;
 			right:0;
+			transition-delay: 1s;
+			transition: all 1.3s ease-in-out;
+		}
+		span.about_content_orangeline.fadein {
+			width:300px;
 		}
 	}
 	.content {
@@ -1834,6 +1857,28 @@ section.blog {
 }
 
 
+.about_arrows_count.fadein {
+	opacity: 1;
+	visibility: visible;
+	.about_arrow_left {
+		left:0px;
+		&:hover {
+			left:-5px;
+		}
+	}
+	.about_arrow_right {
+		right:0;
+		
+		&:hover {
+			right:-5px;
+		}
+	}
+}
+
+
+
+
+
 .about_arrows_count {
 	width:100%;
 	max-width:300px;
@@ -1842,14 +1887,20 @@ section.blog {
 	flex-direction: row;
 	align-items: center;
 	margin-top:20px;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .4s ease-in-out;
 	.about_arrow_left {
+		
 		cursor: pointer;
 		position: relative;
-		
 		width:35px;
 		height:16px;
-		
-		
+		left:-30px;
+		transition: all .4s ease-in-out;
+		&:hover {
+			
+		}
 		img {
 			position: absolute;
 			top:0;
@@ -1875,9 +1926,10 @@ section.blog {
 	.about_arrow_right {
 		cursor: pointer;
 		position: relative;
-		
 		width:35px;
 		height:16px;
+		right:-30px;
+		transition: all .6s ease-in-out;
 		img {
 			position: absolute;
 			top:0;
@@ -6441,7 +6493,7 @@ footer {
 		.about_left_inner {
 			
 			.about_orange_box {
-				margin-top:0;
+				margin-top:0px;
 				width:85%;
 				float:left;
 			}
