@@ -30,20 +30,20 @@ svg {
 	
 	
 	
-/* 	.blog_wavy_lines{fill:none;stroke:#6b7b84;stroke-miterlimit:10;stroke-width:0.5px;}.blog_wavy_circles{fill:#6b7b84;} */
+/* 	.blog_wavy_lines{fill:none;stroke:#6b7b84;stroke-miterlimit:10;stroke-width:0.5px;}.blog_wavy_circle class="wavy_footer_circle"s{fill:#6b7b84;} */
 	
 	
-.wavy-blog-lines {
+.wavy_footer_line {
 	
 	stroke:#6b7a84;
 	stroke-width:0.5px;
-
+	fill:none;
 	stroke-miterlimit:100;
 	stroke-width:1;
 	stroke-dashoffset: 2000;
 	stroke-dasharray: 2000;
 	fill-opacity:0;
-	animation-name: wavelines;
+	animation-name: footerwavelines;
 	animation-duration:1.5s;
 	animation-delay: 0s;
 	animation-timing-function:linear;
@@ -55,12 +55,12 @@ svg {
 }
 
 
-.wavy-blog-circles {
+.wavy_footer_circle {
 	
 	fill:#6b7a84;
 
 	fill-opacity:0;
-	animation-name: wavecircles;
+	animation-name: footerwavecircle;
 	animation-duration:0.5s;
 	animation-delay: 1.5s;
 	animation-timing-function:linear;
@@ -78,7 +78,7 @@ svg {
 
 
 
-@keyframes wavelines {
+@keyframes footerwavelines {
   
   to {
     stroke-dashoffset: 0;
@@ -86,7 +86,7 @@ svg {
 }
 
 
-@keyframes wavecircles {
+@keyframes footerwavecircle {
   from { fill-opacity: 0; }
   to { fill-opacity: 1; }
 }
@@ -103,7 +103,7 @@ svg {
 	<div>
 		
 		
-	<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1981.54 374.67"><defs></defs><title>blog_waves_1</title><path class="wavy-blog-lines" d="M.4,194.3c128-81.5,298.3-104.5,385.5-110,134-8.5,256.9,14.6,372,42,36.5,8.7,81,19.9,112,25,90.5,15,161.5,19.8,266.5,18.5,120.5-1.5,244.7-23.5,305-37.5,111.6-25.9,257.8-34.3,307.5-34,95.5.5,200,26.3,228,41.5" transform="translate(0 0.04)"/><circle class="wavy-blog-circles" cx="376.5" cy="85.34" r="1.6"/><circle class="wavy-blog-circles" cx="790.9" cy="134.94" r="1.6"/><circle class="wavy-blog-circles" cx="1430.9" cy="135.34" r="1.6"/><circle class="wavy-blog-circles" cx="1728.4" cy="98.84" r="1.6"/><path class="wavy-blog-lines" d="M1981.1,108.3c-56-40-158.7-82-380-104C1406.8-15,1251.1,49,1118.4,67,882.1,99.1,661.1,73.7,547.7,52.3c-43.6-8.2-162-40-293.4-38.1-49.7.7-96.1,3.9-138,11.7C72.8,34,34.4,40.4,6.4,55.7" transform="translate(0 0.04)"/><circle class="wavy-blog-circles" cx="1611.9" cy="6.84" r="1.6"/><circle class="wavy-blog-circles" cx="1191.9" cy="53.94" r="1.6"/><circle class="wavy-blog-circles" cx="558.4" cy="54.34" r="1.6"/><circle class="wavy-blog-circles" cx="256.1" cy="14.34" r="1.6"/><path class="wavy-blog-lines" d="M.4,374c128-81.5,298.3-104.5,385.5-110,134-8.5,256.9,14.6,372,42,36.5,8.7,81,19.9,112,25,90.5,15,161.5,19.8,266.5,18.5,120.5-1.5,244.7-23.5,305-37.5,111.6-25.9,257.8-34.3,307.5-34,95.5.5,200,26.3,228,41.5" transform="translate(0 0.04)"/><circle class="wavy-blog-circles" cx="376.5" cy="265.04" r="1.6"/><circle class="wavy-blog-circles" cx="790.9" cy="314.64" r="1.6"/><circle class="wavy-blog-circles" cx="1430.9" cy="315.04" r="1.6"/><circle class="wavy-blog-circles" cx="1728.4" cy="278.54" r="1.6"/><path class="wavy-blog-lines" d="M1981.1,288c-56-40-158.7-82-380-104-194.3-19.3-350,44.7-482.7,62.7-236.3,32.1-457.3,6.7-570.7-14.7-43.6-8.2-162-40-293.4-38.1-49.7.7-96.1,3.9-138,11.7-43.5,8.1-81.9,14.5-109.9,29.7" transform="translate(0 0.04)"/><circle class="wavy-blog-circles" cx="1611.9" cy="186.44" r="1.6"/><circle class="wavy-blog-circles" cx="1191.9" cy="233.64" r="1.6"/><circle class="wavy-blog-circles" cx="558.4" cy="233.94" r="1.6"/><circle class="wavy-blog-circles" cx="256.1" cy="194.04" r="1.6"/></svg>
+	<svg id="footer_wave" data-name="content wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1969.01 224.39"><defs><style></style></defs><title>footer_waves</title><path class="wavy_footer_line" d="M1968.86,161.84c-28-15.2-64.3-27-107.8-35.1-41.9-7.8-88.3-11.7-138-11.7a944.09,944.09,0,0,0-148.5,11.7c-50.8,8.1-97.7,19.9-139.3,35.1-40.5,14.8-89.3,26.2-144.9,33.9-50.4,7-105.1,10.7-162.6,11.1-104.9.9-210.2-9.5-281.6-27.7-30.5-7.8-61.9-17.2-95.2-27.1-113.4-33.9-241.8-72.2-374.3-56.1-86.8,10.5-158.1,25.6-218.1,45.9C97.66,162.54,46,189.44.46,224.24" transform="translate(-0.16 -0.25)"/><circle class="wavy_footer_circle" cx="1422.28" cy="165.92" r="2.66"/><circle class="wavy_footer_circle" cx="1738.8" cy="115.2" r="2.66"/><path class="wavy_footer_line" d="M.46,70.34c28-15.2,64.3-27,107.8-35.1,41.9-7.8,88.3-11.7,138-11.7a944.09,944.09,0,0,1,148.5,11.7c50.8,8.1,97.7,19.9,139.3,35.1,40.5,14.8,89.3,26.2,144.9,33.9,50.4,7,105.1,10.7,162.7,11.2,104.9.9,210.2-9.5,281.6-27.7,30.5-7.8,61.9-17.2,95.2-27.1,113.3-33.9,241.8-72.2,374.2-56.1,86.8,10.5,158.1,25.6,218.1,45.9,60.9,20.7,112.6,47.6,158.1,82.4" transform="translate(-0.16 -0.25)"/><circle class="wavy_footer_circle" cx="1601.8" cy="5.2" r="2.66"/><circle class="wavy_footer_circle" cx="1213.28" cy="61.92" r="2.66"/><circle class="wavy_footer_circle" cx="790.28" cy="163.92" r="2.66"/><circle class="wavy_footer_circle" cx="561.28" cy="78.92" r="2.66"/><circle class="wavy_footer_circle" cx="380.28" cy="95.92" r="2.66"/><circle class="wavy_footer_circle" cx="273.28" cy="23.92" r="2.66"/></svg>
 	</div>
 	
 	
