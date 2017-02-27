@@ -836,6 +836,29 @@ jQuery(function() {
 
 
 
+// Get Started
+
+var waypointgetstarted = new Waypoint({
+  element: document.getElementById('free_consultation'),
+  handler: function(direction) {
+    
+    
+    
+    jQuery('span.get_started_orangeline').addClass('fadein');
+
+    
+  }
+})
+
+
+
+
+
+
+
+
+
+
 
 
 

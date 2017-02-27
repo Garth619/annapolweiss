@@ -421,8 +421,6 @@ var waypointsecondaboutarrows = new Waypoint({
     jQuery('.about_orange_box').addClass('fadein');
     jQuery('.about_arrows_count').addClass('fadein');
     
-    
-    
 
     
   }
@@ -430,10 +428,34 @@ var waypointsecondaboutarrows = new Waypoint({
 
 
 
+// Team
+
+var waypointteam = new Waypoint({
+  element: document.getElementById('team_trigger'),
+  handler: function(direction) {
+    
+    
+    
+    jQuery('span.team_orangeline').addClass('fadein');
+
+    
+  }
+})
 
 
+// Quote
 
+var waypointquote = new Waypoint({
+  element: document.getElementById('quote_line_trigger'),
+  handler: function(direction) {
+    
+    
+    
+    jQuery('span.inner_quote_line').addClass('fadein');
 
+    
+  }
+})
 
 
 

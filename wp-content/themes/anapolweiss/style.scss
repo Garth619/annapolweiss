@@ -1975,9 +1975,13 @@ section.blog {
 			position: absolute;
 			top:125px;
 			left:0;
-			width:240px;
+			width:0px;
 			height:2px;
 			background: $orange;
+			transition: all 1s ease-in-out;
+		}
+		span.team_orangeline.fadein {
+			width:240px;
 		}
 	}
 }
@@ -2256,12 +2260,23 @@ section.blog {
 		img.test_logo {
 			
 		}
+		
 		span.test_orangeline {
 			width:1px;
 			height:75px;
-			background: $orange;
+			
 			display: block;
 			margin:30px auto 40px;
+			span.inner_quote_line {
+				width:1px;
+				height:0px;
+				background: $orange;
+				display: block;
+				transition: all .6s ease-in-out;
+			}
+			span.inner_quote_line.fadein {
+				height:75px;
+			}
 		}
 		span.testimonial_quote {
 			font-family: $bulterlight;
@@ -2335,13 +2350,17 @@ footer {
 			margin-left:20px;
 		}
 		span.get_started_orangeline {
-			width:400px;
+			width:0px;
 			height:3px;
 			background: $orange;
 			display: block;
 			top:4px;
 			left:0;
 			position: absolute;
+			transition: all 1s ease-in-out;
+		}
+		span.get_started_orangeline.fadein {
+			width:400px;
 		}
 	}
 }
