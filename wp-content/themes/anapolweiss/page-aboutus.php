@@ -15,7 +15,7 @@ get_header(); ?>
 	
 </div><!-- inner_page_orangeline -->
 
-<div class="inner_main_wrapper_no_sidebar">
+<div  id="arrows_trigger" class="inner_main_wrapper_no_sidebar">
 	
 	
 	
@@ -48,7 +48,7 @@ We passionately believe it is our responsibility to stand up for those who have 
 		
 		<div class="inner_about_slider_wrapper">
 			
-			<div class="inner_about_slider">
+			<div  class="inner_about_slider">
 				
 				
 				<div class="inner_about_slides">

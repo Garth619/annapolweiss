@@ -3056,8 +3056,8 @@ footer {
 			margin-top:80px;
 			width:55%;
 			float:left;
-			
 			padding-left: 5%;
+			position: relative;
 			> h1 {
 				font-family: $butler;
 				font-size:65px;
@@ -3105,7 +3105,9 @@ footer {
 	}
 	
 	
-	
+	.about_orange_box.fadein {
+		top:0;
+	}
 
 	.about_orange_box {
 		width:45%;
@@ -3113,10 +3115,23 @@ footer {
 		background: $orange;
 		float:right;
 		padding-left:5%;
+		position: relative;
+		top:300px;
+		right:0;
+		transition: all 1s ease-in-out;
+		.inner_about_slider_wrapper.fadein {
+			right:0;
+			opacity: 1;
+			visibility: visible;
+			transition-delay: 1s;
+		}
 		.inner_about_slider_wrapper {
-		
+			right:-800px;
+			opacity: 0;
+			visibility: hidden;
 			position: relative;
 			max-width: 570px;
+			transition: all 1s ease-in-out;
 			.inner_about_caption {
 				position: absolute;
 				right: -215px;
@@ -3157,17 +3172,38 @@ footer {
 		}
 	}
 	
-	
+	.inner_about_buttons.fadein {
+		opacity: 1;
+		visibility: visible;
+		transition-delay: 1s;
+		.inner_about_back {
+			left:0px;
+			&:hover {
+				left:-10px;
+			}
+		}
+		.inner_about_next {
+			right:0px;
+			&:hover {
+				right:-10px;
+			}
+		}
+	}
 	.inner_about_buttons {
 		display: flex;
 		padding:0 25px;
 		max-width: 330px;
 		margin: 24px auto 0;
+		opacity: 0;
+		visibility: hidden;
+		transition: all .4s ease-in-out;
 		.inner_about_back {
 			position: relative;
 			height:16px;
 			cursor: pointer;
 			width:35px;
+			left:-300px;
+			transition: all .2s ease-in-out;
 			img {
 				position: absolute;
 				top:0;
@@ -3189,6 +3225,8 @@ footer {
 			height:16px;
 			cursor: pointer;
 			width:35px;
+			right:-300px;
+			transition: all .2s ease-in-out;
 			img {
 				position: absolute;
 				top:0;

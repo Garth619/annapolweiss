@@ -475,10 +475,52 @@ var waypointinnerabout = new Waypoint({
     
     
     jQuery('.wavy_inner_about').addClass('fadein');
+  
 
     
   }
 })
+
+
+
+var waypointinnerabouttwo = new Waypoint({
+  element: document.getElementById('orange_line_trigger'),
+  handler: function(direction) {
+    
+    
+    
+   
+    jQuery(' .about_orange_box').addClass('fadein');
+    jQuery(' .inner_about_slider_wrapper').addClass('fadein');
+    
+    
+   
+
+    
+  }
+})
+
+
+
+var waypointinneraboutsliderarrows = new Waypoint({
+  element: document.getElementById('arrows_trigger'),
+  handler: function(direction) {
+    
+    
+    
+   
+    jQuery('.inner_about_buttons').addClass('fadein');
+    
+    
+    
+   
+
+    
+  }
+})
+
+
+
 
 
 
