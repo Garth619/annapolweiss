@@ -302,7 +302,7 @@ get_header(); ?>
 	
 	<span class="sub_header">Featured</span><!-- sub_header -->
 	<span class="large_header">Cases</span><!-- large_header -->
-	<span class="featured_orange_line"></span><!-- featured_orange_line -->
+	<span id="grid_line_trigger" class="featured_orange_line"></span><!-- featured_orange_line -->
 	
 </div><!-- featured_title_wrapper -->
 
@@ -562,7 +562,7 @@ get_header(); ?>
 				
 				<span class="case_number">$4.85</span><!-- case_number -->
 				<span class="case_dollar_amount">billion</span><!-- case_dollar_amount -->
-				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_greyline"><span class="inner_line"></span></span><!-- case_greyline -->
 				<span class="case_category">pharmaceutical liability</span><!-- case_category -->
 				
 				<div class="img_wrapper">
@@ -601,7 +601,7 @@ get_header(); ?>
 				
 				<span class="case_number">$3.75</span><!-- case_number -->
 				<span class="case_dollar_amount">billion</span><!-- case_dollar_amount -->
-				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_greyline"><span class="inner_line"></span></span><!-- case_greyline -->
 				<span class="case_category">pharmaceutical liability</span><!-- case_category -->
 				
 				<div class="img_wrapper">
@@ -640,7 +640,7 @@ get_header(); ?>
 				
 				<span class="case_number">$1.4</span><!-- case_number -->
 				<span class="case_dollar_amount">billion</span><!-- case_dollar_amount -->
-				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_greyline"><span class="inner_line"></span></span><!-- case_greyline -->
 				<span class="case_category">medical devices</span><!-- case_category -->
 				
 				<div class="img_wrapper">
@@ -679,7 +679,7 @@ get_header(); ?>
 				
 				<span class="case_number">$765</span><!-- case_number -->
 				<span class="case_dollar_amount">million</span><!-- case_dollar_amount -->
-				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_greyline"><span class="inner_line"></span></span><!-- case_greyline -->
 				<span class="case_category">class actions</span><!-- case_category -->
 				
 				<div class="img_wrapper">
@@ -718,7 +718,7 @@ get_header(); ?>
 				
 				<span class="case_number">$26</span><!-- case_number -->
 				<span class="case_dollar_amount">million</span><!-- case_dollar_amount -->
-				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_greyline"><span class="inner_line"></span></span><!-- case_greyline -->
 				<span class="case_category">products liability</span><!-- case_category -->
 				
 				<div class="img_wrapper">
@@ -757,7 +757,7 @@ get_header(); ?>
 				
 				<span class="case_number">$10.2</span><!-- case_number -->
 				<span class="case_dollar_amount">million</span><!-- case_dollar_amount -->
-				<span class="case_greyline"></span><!-- case_greyline -->
+				<span class="case_greyline"><span class="inner_line"></span></span><!-- case_greyline -->
 				<span class="case_category">products liability</span><!-- case_category -->
 	
 				<div class="img_wrapper">
@@ -827,6 +827,7 @@ get_header(); ?>
 					<a href="">
 						
 					<span class="blog_title">Eight attorneys at Anapolweiss named 2017 Best Lawyers</span><!-- blog_title -->
+					<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
 					
 					<div class="blog_content">
 						
@@ -847,6 +848,7 @@ get_header(); ?>
 					<a href="">
 						
 						<span class="blog_title">Anapolweiss is investigating water in Bucks & Montgomery Counties</span><!-- blog_title -->
+						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
 					
 					<div class="blog_content">
 						
@@ -867,6 +869,7 @@ get_header(); ?>
 					<a href="">
 						
 						<span class="blog_title">Sol Weiss honored with lifetime achievement award</span><!-- blog_title -->
+						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
 					
 					<div class="blog_content">
 						
@@ -885,6 +888,7 @@ get_header(); ?>
 					<a href="">
 						
 						<span class="blog_title">17 Anapol Weiss attorneys selected for 2016 Super Lawyers honors</span><!-- blog_title -->
+						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
 					
 					<div class="blog_content">
 						
@@ -903,6 +907,7 @@ get_header(); ?>
 					<a href="">
 						
 						<span class="blog_title">17 Anapol Weiss attorneys selected for 2016 Super Lawyers honors</span><!-- blog_title -->
+						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
 					
 					<div class="blog_content">
 						
@@ -921,6 +926,7 @@ get_header(); ?>
 					<a href="">
 						
 						<span class="blog_title">17 Anapol Weiss attorneys selected for 2016 Super Lawyers honors</span><!-- blog_title -->
+						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
 					
 					<div class="blog_content">
 						
@@ -939,6 +945,7 @@ get_header(); ?>
 					<a href="">
 						
 						<span class="blog_title">17 Anapol Weiss attorneys selected for 2016 Super Lawyers honors</span><!-- blog_title -->
+						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
 					
 					<div class="blog_content">
 						
@@ -957,6 +964,7 @@ get_header(); ?>
 					<a href="">
 						
 						<span class="blog_title">17 Anapol Weiss attorneys selected for 2016 Super Lawyers honors</span><!-- blog_title -->
+						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
 					
 					<div class="blog_content">
 						
@@ -975,6 +983,7 @@ get_header(); ?>
 					<a href="">
 						
 						<span class="blog_title">17 Anapol Weiss attorneys selected for 2016 Super Lawyers honors</span><!-- blog_title -->
+						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
 					
 					<div class="blog_content">
 						
@@ -993,6 +1002,7 @@ get_header(); ?>
 					<a href="">
 						
 						<span class="blog_title">17 Anapol Weiss attorneys selected for 2016 Super Lawyers honors</span><!-- blog_title -->
+						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
 					
 					<div class="blog_content">
 						
@@ -1011,6 +1021,7 @@ get_header(); ?>
 					<a href="">
 						
 						<span class="blog_title">17 Anapol Weiss attorneys selected for 2016 Super Lawyers honors</span><!-- blog_title -->
+						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
 					
 					<div class="blog_content">
 						

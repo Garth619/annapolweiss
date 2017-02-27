@@ -500,31 +500,32 @@ header {
 		margin: 0 auto;
 		#case_1 {
 			.svg_icon {
-				padding-top:150px;
+				
 				img, svg {
-					
+					padding-top: 102px;
 				}
 			}
 		}
 		#case_2 {
 
 			.svg_icon {
+				
 				img, svg {
-					padding-top:180px;
+					padding-top:130px;
 				}
 			}
 		}
 		#case_3 {
 			.svg_icon {
 				img, svg {
-					padding-top:130px;
+					padding-top:60px;
 				}
 			}
 		}
 		#case_4 {
 			.svg_icon {
 				img, svg {
-					padding-top:170px;
+					padding-top:120px;
 					max-width:195px;
 				}
 			}
@@ -537,9 +538,11 @@ header {
 		.single_stat {
 			position: relative;
 // 			width:25%;
-			height:550px;
+			height:432px;
+			margin-top:60px;
+			margin-bottom:60px;
 			padding:0px 0;
-			
+			border-right:1px solid $grey;
 			
 			.svg_icon {
 				position: absolute;
@@ -561,7 +564,7 @@ header {
 				position: relative;
 				z-index:5;
 				text-align: center;
-				margin-top:115px;
+				margin-top:60px;
 				
 				span.number {
 					color:$bluedark;
@@ -1088,13 +1091,19 @@ span.drop_cap {
 			background: #fff;
 		}
 		span.featured_orange_line {
-			width:80%;
+			width:0%;
 			height:2px;
 			background: $orange;
 			position: absolute;
 			top:100px;
 			right:0;
 			z-index:1;
+			
+			transition: all 0.9s linear;
+		}
+		span.featured_orange_line.fadein {
+			width:80%;
+			transition-delay: 2s;
 		}
 	}
 }
@@ -1306,10 +1315,24 @@ span.drop_cap {
 					width:2px;
 					height:50px;
 					margin:0 auto;
-					background: $grey;
+					position: relative;
 					display: block;
 					margin-top:40px;
 					margin-bottom:25px;
+					transition: all .7s ease-in-out;
+					span.inner_line {
+						background: $grey;
+						display: block;
+						position: absolute;
+						width:100%;
+						height:0;
+						transition: all .7s ease-in-out;
+					}
+				}
+				span.case_greyline.fadein {
+					span.inner_line {
+						height:100%;
+					}
 				}
 				span.case_category {
 					font-family: $butler;
@@ -1397,12 +1420,16 @@ section.blog {
 		width:100%;
 		float:left;
 		span.blog_orangeline {
-			width:50%;
+			width:0%;
 			height:3px;
 			background:$orange;
 			position:absolute;
 			left:0;
 			top:5px;
+			transition: all 1.3s ease-in-out;
+		}
+		span.blog_orangeline.fadein {
+			width:50%;
 		}
 		span.sub_header {
 			color:$orange;
@@ -1461,8 +1488,25 @@ section.blog {
 					line-height: 29px;
 					display: block;
 					padding-bottom: 20px;
-					border-bottom:1px $grey solid;
+// 					border-bottom:1px $grey solid;
+					
+				}
+				span.blog_greyline {
+					width:100%;
+					height:1px;
+					position: relative;
+					display: block;
 					margin-bottom:24px;
+					span.inner_blog_line {
+						background: $grey;
+						width:0%;
+						position: absolute;
+						height:1px;
+						transition: all 1.2s ease-in-out;
+					}
+					span.inner_blog_line.fadein {
+						width:100%;
+					}
 				}
 				.blog_content {
 					font-size:16px;
@@ -3112,12 +3156,91 @@ footer {
 		z-index: 1;
 		svg {
 			min-width:2000px;
-			width:100%;
+			width:120%;
+			position: relative;
+			left:-30px;
 		}
-		.wavy_inner_about_hidden {
-			
+		.inner_about_wavy_lines {
+			stroke:none;
+			fill:none;
+			stroke-width:0;
+		}
+		.inner_about_wavy_circles {
+			fill:none;
 		}
 	}
+	
+	
+	.wavy_inner_about.fadein {
+		svg {
+			.inner_about_wavy_lines {
+				stroke:#c4c8ca;
+				stroke-width:0.5px;
+				fill:none;
+				stroke-miterlimit:100;
+				stroke-width:1;
+				stroke-dashoffset: 2000;
+				stroke-dasharray: 2000;
+				fill-opacity:0;
+				animation-name: inneraboutwavelines;
+				animation-duration:1.5s;
+				animation-delay: 0s;
+				animation-timing-function:linear;
+				animation-fill-mode: forwards;
+				animation-play-state: running;
+				animation-iteration-count: 1;
+			}
+			.inner_about_wavy_circles {
+				fill:#c4c8ca;
+				fill-opacity:0;
+				animation-name: inneraboutwavecircles;
+				animation-duration:0.5s;
+				animation-delay: 1.5s;
+				animation-timing-function:linear;
+				animation-fill-mode: forwards;
+				animation-play-state: running;
+				animation-iteration-count: 1;
+			}
+		}
+	}
+	
+	
+	
+
+
+
+
+
+
+
+@keyframes inneraboutwavelines {
+  
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+@keyframes inneraboutwavecircles {
+  from { fill-opacity: 0; }
+  to { fill-opacity: 1; }
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -5471,7 +5594,7 @@ a.case_results_button {
 		margin:73px 0 0;
 		#case_1 {
 			.svg_icon {
-				padding-top:90px;
+				padding-top:00px;
 				img, svg {
 					
 				}
@@ -5487,14 +5610,14 @@ a.case_results_button {
 		#case_3 {
 			.svg_icon {
 				img, svg {
-					padding-top:70px;
+					padding-top:40px;
 				}
 			}
 		}
 		#case_4 {
 			.svg_icon {
 				img, svg {
-					padding-top:120px;
+					padding-top:100px;
 					max-width:195px;
 				}
 			}
@@ -5506,7 +5629,8 @@ a.case_results_button {
 		}
 
 		.single_stat {
-			
+			margin-top:0px;
+			margin-bottom:0px;
 			height:444px;
 			border-right:1px $grey solid;
 			.svg_icon {

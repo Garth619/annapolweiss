@@ -324,10 +324,29 @@ jQuery(document).ready(function(){
     
     
     jQuery('.wavy_one').addClass('fadein');
+    jQuery('span.featured_orange_line').addClass('fadein');
 
     
   }
 })
+
+
+// Grid Line Trigger
+
+
+var waypointwave = new Waypoint({
+  element: document.getElementById('grid_line_trigger'),
+  handler: function(direction) {
+    
+    
+    
+    jQuery('.wavy_one').addClass('fadein');
+    jQuery('span.case_greyline').addClass('fadein');
+
+    
+  }
+})
+
 
 
 
@@ -342,6 +361,11 @@ jQuery(document).ready(function(){
     
     
     jQuery('.wavy_blog').addClass('fadein');
+     jQuery('span.blog_orangeline').addClass('fadein');
+     jQuery('span.inner_blog_line').addClass('fadein');
+     
+     
+ 
 
     
   }
@@ -364,18 +388,6 @@ var waypointfooter = new Waypoint({
 })
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 }); /* Ready */
 
 </script>
@@ -384,6 +396,49 @@ var waypointfooter = new Waypoint({
 
 
 <?php endif;?>
+
+
+<?php if(is_page_template( 'page-aboutus.php' )):?>
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+
+
+// Inner About Wave
+
+
+
+var waypointinnerabout = new Waypoint({
+  element: document.getElementById('inner_about_wave_trigger'),
+  handler: function(direction) {
+    
+    
+    
+    jQuery('.wavy_inner_about').addClass('fadein');
+
+    
+  }
+})
+
+
+
+
+
+});
+
+</script>
+
+
+
+
+<?php endif;?>
+
+
+
+
+
 
 
 </body>
