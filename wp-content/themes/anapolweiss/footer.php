@@ -314,6 +314,44 @@ jQuery(document).ready(function(){
 
 
 
+// Wavy One
+
+
+
+	var waypointwave = new Waypoint({
+  element: document.getElementById('wavy_one_trigger'),
+  handler: function(direction) {
+    
+    
+    
+    jQuery('.wavy_one').addClass('fadein');
+
+    
+  }
+})
+
+
+
+// Wavy Blog
+
+
+
+	var waypointwave = new Waypoint({
+  element: document.getElementById('wavy_blog_trigger'),
+  handler: function(direction) {
+    
+    
+    
+    jQuery('.wavy_blog').addClass('fadein');
+
+    
+  }
+})
+
+
+
+
+
 
 
 

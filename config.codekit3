@@ -7,7 +7,7 @@
 		"uuidString": "B9F4B936-8536-41FE-8E22-A014FDD7D459"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25568",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -31,18 +31,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.php",
-		"oF": 0
-		},
-	"\/license.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/license.txt",
-		"oF": 0
-		},
-	"\/readme.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/readme.html",
 		"oF": 0
 		},
 	"\/wp-activate.php": {
@@ -8448,12 +8436,6 @@
 		"oAP": "\/wp-content\/plugins\/gravityforms\/xml.php",
 		"oF": 0
 		},
-	"\/wp-content\/plugins\/hello.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/plugins\/hello.php",
-		"oF": 0
-		},
 	"\/wp-content\/plugins\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -12671,6 +12653,40 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/news-cycle-bold\/demo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/news-cycle-bold\/demo.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/news-cycle-bold\/NewsCycle-Bold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/news-cycle-bold\/NewsCycle-Bold.eot",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/news-cycle-bold\/NewsCycle-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/news-cycle-bold\/NewsCycle-Bold.ttf",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/news-cycle-bold\/NewsCycle-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/news-cycle-bold\/NewsCycle-Bold.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/fonts\/news-cycle-bold\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/fonts\/news-cycle-bold\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/wp-content\/themes\/anapolweiss\/footer.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -12755,7 +12771,7 @@
 		},
 	"\/wp-content\/themes\/anapolweiss\/images\/content_img_1.jpg": {
 		"ft": 16384,
-		"iS": 426886,
+		"iS": 551089,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/content_img_1.jpg",
 		"oF": 0,
@@ -12863,7 +12879,7 @@
 		},
 	"\/wp-content\/themes\/anapolweiss\/images\/dots.jpg": {
 		"ft": 16384,
-		"iS": 1268,
+		"iS": 518,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/dots.jpg",
 		"oF": 0,
@@ -13248,6 +13264,12 @@
 		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/video_play_button_hover.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/videobg.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/videobg.mp4",
+		"oF": 0
 		},
 	"\/wp-content\/themes\/anapolweiss\/index.php": {
 		"ft": 8192,
@@ -14769,16 +14791,46 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/wp-content\/themes\/anapolweiss\/svgtest.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/svgtest.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/svgtest2.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/svgtest2.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/svgtest3.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/svgtest3.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/svgtest4.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/svgtest4.html",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/anapolweiss\/tag.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/tag.php",
 		"oF": 0
 		},
-	"\/wp-content\/themes\/anapolweiss\/wave.html": {
+	"\/wp-content\/themes\/anapolweiss\/wavetest.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/wp-content\/themes\/anapolweiss\/wave.html",
+		"oAP": "\/wp-content\/themes\/anapolweiss\/wavetest.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/wavetest2.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/wavetest2.html",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/index.php": {
@@ -21633,6 +21685,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -21961,6 +22017,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -22054,6 +22114,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
