@@ -7978,7 +7978,7 @@ section.blog {
 		padding-left:45px;
 		width:100%;
 		span.blog_orangeline {
-			
+			width:50%;
 		}
 		span.sub_header {
 			
@@ -8064,7 +8064,92 @@ section.blog {
 	float: left;
   margin-top: -165px;
 	width: 100%;
+	svg {
+		
+		.wavy-blog-lines {
+			stroke:#6b7a84;
+			stroke-width:1;
+			fill:none;
+		}
+		.wavy-blog-circles {
+			fill:#6b7a84;
+			fill-opacity:1;
+		}
+	}
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.wavy_blog.fadein {
+	
+	svg {
+	
+		.wavy-blog-lines {
+			stroke:#6b7a84;
+			stroke-width:0.5px;
+			stroke-miterlimit:100;
+			stroke-width:1;
+			stroke-dashoffset: 1;
+			stroke-dasharray: 2000;
+			fill-opacity:1;
+			animation-name: blogwavelines;
+			animation-duration:2.5s;
+			animation-delay: 1.5s;
+			animation-timing-function:linear;
+			animation-fill-mode: forwards;
+			animation-play-state: running;
+			animation-iteration-count: 1;
+		}
+		.wavy-blog-circles {
+			fill:#6b7a84;
+			fill-opacity:1;
+			animation-name: blogwavecircles;
+			animation-duration:0.5s;
+			animation-delay: 4s;
+			animation-timing-function:linear;
+			animation-fill-mode: forwards;
+			animation-play-state: running;
+			animation-iteration-count: 1;
+		}
+	}
+}
+
+
+@keyframes blogwavelines {
+  
+  to {
+    stroke-dashoffset: 1;
+  }
+}
+
+
+@keyframes blogwavecircles {
+  from { fill-opacity: 1; }
+  to { fill-opacity: 1; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -8084,7 +8169,7 @@ section.blog {
 		.about_left_inner {
 			
 			.about_orange_box {
-				
+				top:0px;
 			}
 			
 		}
@@ -8097,10 +8182,12 @@ section.blog {
 	margin-top:-370px;
 	margin-right:0;
 	width:455px;
-	
+	left:0;
+	opacity: 1;
+	visibility: visible;
 	
 	.slider_caption {
-		
+
 		
 	
 		
@@ -8153,6 +8240,7 @@ section.blog {
 		}
 		span.about_content_orangeline {
 			height:3px;
+			width:300px;
 		}
 	}
 	.content {
@@ -8184,7 +8272,10 @@ section.blog {
 	max-width:260px;
 	padding:0 5px;
 	margin-top:45px;
+	opacity: 1;
+	visibility: visible;
 	.about_arrow_left {
+		left:0;
 		img {
 			
 		}
@@ -8199,7 +8290,7 @@ section.blog {
 		}
 	}
 	.about_arrow_right {
-		
+		right:0;
 		img {
 			
 		}
@@ -8231,6 +8322,7 @@ section.blog {
 		}
 		span.team_orangeline {
 			top:90px;
+			width:240px;
 		}
 	}
 }
@@ -8385,7 +8477,9 @@ section.blog {
 			
 		}
 		span.test_orangeline {
-			
+			span.inner_quote_line {
+				height:75px;
+			}
 		}
 		span.testimonial_quote {
 			font-size:78px;
@@ -8439,7 +8533,7 @@ body.page-template-page-contact {
 			margin-top: 6px;
 		}
 		span.get_started_orangeline {
-			
+			width:400px;
 		}
 	}
 }
@@ -8504,12 +8598,96 @@ body.page-template-page-contact {
 }
 
 
+
+
+
+
+
 .wavy_footer {
 	
+	
+	svg {
+		
+		.wavy_footer_line {
+			stroke:#6b7a84;
+			fill:none;
+			stroke-width:1;
+		}
+		.wavy_footer_circle {
+			fill:#6b7a84;
+			fill-opacity:1;
+		}
+	}
 }
 
 
+
+
+
+.wavy_footer.fadein {
+	svg {
+		.wavy_footer_line {
+			stroke:#6b7a84;
+			stroke-width:0.5px;
+			fill:none;
+			stroke-miterlimit:100;
+			stroke-width:1;
+			stroke-dashoffset: 1;
+			stroke-dasharray: 2000;
+			fill-opacity:1;
+			animation-name: footerwavelines;
+			animation-duration:2.5s;
+			animation-delay: 0s;
+			animation-timing-function:linear;
+			animation-fill-mode: forwards;
+			animation-play-state: running;
+			animation-iteration-count: 1;
+		}
+		.wavy_footer_circle {
+			fill:#6b7a84;
+			fill-opacity:1;
+			animation-name: footerwavecircle;
+			animation-duration:0.5s;
+			animation-delay: 2s;
+			animation-timing-function:linear;
+			animation-fill-mode: forwards;
+			animation-play-state: running;
+			animation-iteration-count: 1;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+@keyframes footerwavelines {
+  
+  to {
+    stroke-dashoffset: 1;
+  }
+}
+
+
+@keyframes footerwavecircle {
+  from { fill-opacity: 1; }
+  to { fill-opacity: 1; }
+}
+
+
+
+
 /* Extended Footer */
+
+
+
+
+
+
+
 
 
 .extended_footer {
@@ -11742,7 +11920,7 @@ section.blog {
 		float:none;
 		padding-left: 26px;
 		span.blog_orangeline {
-			
+			width:50%;
 		}
 		span.sub_header {
 			font-size:15px;
