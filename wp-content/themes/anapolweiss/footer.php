@@ -217,7 +217,7 @@
 <div class="bottom_footer">
 	
 	<span class="copyright"><?php echo date("Y"); ?> Anapol Weiss. All Rights Reserved &nbsp;|&nbsp; <a class="footer_google" href="" tagret="_blank">Google +</a></span>
-	<img class="ilawyer_logo" src="<?php bloginfo('template_directory');?>/images/ilawyer_logo.png"/>
+	<a href="jttps://ilawyermarketing.com" targte="_blank"><img class="ilawyer_logo" src="<?php bloginfo('template_directory');?>/images/ilawyer_logo.png"/></a>
 	
 </div><!-- bottom_footer -->
 
