@@ -12761,6 +12761,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/wp-content\/themes\/anapolweiss\/images\/blog_waves_2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/blog_waves_2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/wp-content\/themes\/anapolweiss\/images\/blog_white_arrow.png": {
 		"ft": 32768,
 		"iS": 1709,
@@ -14825,6 +14835,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/wavetest.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/wavetest2 copy.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/wavetest2 copy.html",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/anapolweiss\/wavetest2.html": {
