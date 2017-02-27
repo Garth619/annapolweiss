@@ -372,20 +372,7 @@ var waypointwave = new Waypoint({
 })
 
 
-// Wavy Footer
 
-
-var waypointfooter = new Waypoint({
-  element: document.getElementById('footer_wave_trigger'),
-  handler: function(direction) {
-    
-    
-    
-    jQuery('.wavy_footer').addClass('fadein');
-
-    
-  }
-})
 
 
 
@@ -502,6 +489,75 @@ var waypointinnerabout = new Waypoint({
 </script>
 
 
+
+
+<?php endif;?>
+
+
+<?php if(is_page_template( 'page-foundation.php')):?>
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+
+var waypointinnerfoundation = new Waypoint({
+  element: document.getElementById('foundation_trigger'),
+  handler: function(direction) {
+    
+    
+    
+    jQuery('.inner_page_orangeline span.line').addClass('fadein');
+
+    
+  }
+})
+
+
+
+
+});
+
+</script>
+
+
+
+<?php endif;?>
+
+
+
+<?php if(is_page_template( 'page-aboutus.php') || is_page_template('page-download_pdfs.php') || is_page_template('page-contact.php') || is_page_template('page-practiceareas.php') || is_page_template('page-results.php') || is_page_template('page-innerpracticearea.php') || is_page_template('page-profilegrid.php')):?>
+
+
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+
+
+
+
+// Inner Page Orange Lines
+
+
+var waypointinnerpage = new Waypoint({
+  element: document.getElementById('orange_line_trigger'),
+  handler: function(direction) {
+    
+    
+    
+    jQuery('.inner_page_orangeline span.line').addClass('fadein');
+
+    
+  }
+})
+
+
+
+
+
+});
+
+</script>
 
 
 <?php endif;?>

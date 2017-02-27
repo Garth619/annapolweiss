@@ -2798,9 +2798,13 @@ footer {
 			position:absolute;
 			top:110px;
 			left:0px;
-			width:50%;
+			width:0%;
 			height:2px;
 			background: $orange;
+			transition: all 1s ease-in-out;
+		}
+		span.line.fadein {
+			width:50%;
 		}
 	}
 	

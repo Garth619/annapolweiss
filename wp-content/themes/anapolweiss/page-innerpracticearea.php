@@ -1,6 +1,6 @@
 <?php
 /**
-
+* Template Name: Inner Practice Area
  */
 
 get_header(); ?>
@@ -26,7 +26,7 @@ get_header(); ?>
 		<div class="content">
 			
 			
-			Template Not Assigned
+			<?php get_template_part( 'loop', 'page' ); ?>
 			
 			
 		</div><!-- content -->

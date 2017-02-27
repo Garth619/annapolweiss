@@ -851,6 +851,26 @@ var waypointgetstarted = new Waypoint({
 })
 
 
+// Wavy Footer
+
+
+var waypointfooter = new Waypoint({
+  element: document.getElementById('footer_wave_trigger'),
+  handler: function(direction) {
+    
+    
+    
+    jQuery('.wavy_footer').addClass('fadein');
+
+    
+  }
+})
+
+
+
+
+
+
 
 
 

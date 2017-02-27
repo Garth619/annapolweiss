@@ -11,7 +11,7 @@ get_header(); ?>
 	<div class="inner_content_foundation">
 	
 		<span class="sub_header">Our Cases Become</span><!-- sub_header -->
-		<span class="large_header">Our Causes</span><!-- large_header -->
+		<span id="foundation_trigger" class="large_header">Our Causes</span><!-- large_header -->
 	
 	</div><!-- inner_content_foundation -->
 	
