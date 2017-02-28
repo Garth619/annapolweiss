@@ -252,7 +252,7 @@ jQuery(document).ready(function(){
     
 
     
-   jQuery('#case_2').delay(1000).queue(function(){
+   jQuery('#case_2').delay(700).queue(function(){
 	    
 	    
 	    jQuery(this).addClass('svg_fadein');
@@ -262,7 +262,7 @@ jQuery(document).ready(function(){
     });
     
     
-    jQuery('#case_3').delay(2000).queue(function(){
+    jQuery('#case_3').delay(1500).queue(function(){
 	    
 	    
 	    jQuery(this).addClass('svg_fadein');
@@ -272,7 +272,7 @@ jQuery(document).ready(function(){
     
     
     
-    jQuery('#case_4').delay(3000).queue(function(){
+    jQuery('#case_4').delay(2200).queue(function(){
 	    
 	    
 	    jQuery(this).addClass('svg_fadein');
