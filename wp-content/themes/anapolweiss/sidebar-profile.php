@@ -99,7 +99,7 @@
 				
 				<?php while ( have_rows( 'awards' ) ) : the_row(); ?>
 				
-						<a href="" target="_blank"><img src="<?php the_sub_field( 'award_image' ); ?>"/></a>
+					<img src="<?php the_sub_field( 'award_image' ); ?>"/>
 					
 				<?php endwhile; ?>
 

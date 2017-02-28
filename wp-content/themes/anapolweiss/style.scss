@@ -2758,7 +2758,7 @@ footer {
 		
 	
 	.inner_banner_wrapper {
-		background:url(images/internal_header_img.jpg) top center no-repeat;
+		background:/* url(images/internal_header_img.jpg) */ top center no-repeat;
 		background-size:cover;
 		height:382px;
 		width:100%;
@@ -3139,8 +3139,8 @@ footer {
 			transition: all 1s ease-in-out;
 			.inner_about_caption {
 				position: absolute;
-				right: -215px;
-				top: 380px;
+				right: -150px;
+    top: 443px;
 				transform: rotate(90deg);
 				span.inner_about_caption_title {
 					color:#fff;
@@ -7556,7 +7556,8 @@ footer {
 			 right:0;
 			.inner_about_caption {
 				display: block;
-				top:336px;
+				right: -146px;
+				top: 386px;
 				span.inner_about_caption_title {
 					
 				}

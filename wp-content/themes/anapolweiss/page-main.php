@@ -1110,37 +1110,43 @@ get_header(); ?>
 				
 					<div class="about_slide">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/content_slide_1.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_1.jpg"/>
 					
 					</div><!-- about_slide -->
 					
 					<div class="about_slide">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/content_slide_2.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_2.jpg"/>
 					
 					</div><!-- about_slide -->
 					
 					<div class="about_slide">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/content_slide_3.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_3.jpg"/>
 					
 					</div><!-- about_slide -->
 					
 					<div class="about_slide">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/content_slide_4.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_4.jpg"/>
 					
 					</div><!-- about_slide -->
 					
 					<div class="about_slide">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/content_slide_5.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_5.jpg"/>
 					
 					</div><!-- about_slide -->
 					
 					<div class="about_slide">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/content_slide_6.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_6.jpg"/>
+					
+					</div><!-- about_slide -->
+					
+					<div class="about_slide">
+					
+						<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_7.jpg"/>
 					
 					</div><!-- about_slide -->
 					

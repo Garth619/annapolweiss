@@ -53,37 +53,43 @@ We passionately believe it is our responsibility to stand up for those who have 
 				
 				<div class="inner_about_slides">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/content_slide_1.jpg"/>
+					<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_8.jpg"/>
 					
 				</div><!-- inner_about_slides -->
 				
 				<div class="inner_about_slides">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/content_slide_2.jpg"/>
+					<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_9.jpg"/>
 					
 				</div><!-- inner_about_slides -->
 				
 				<div class="inner_about_slides">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/content_slide_3.jpg"/>
+					<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_10.jpg"/>
 					
 				</div><!-- inner_about_slides -->
 				
 				<div class="inner_about_slides">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/content_slide_4.jpg"/>
+					<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_11.jpg"/>
 					
 				</div><!-- inner_about_slides -->
 				
 				<div class="inner_about_slides">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/content_slide_5.jpg"/>
+				<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_12.jpg"/>
 					
 				</div><!-- inner_about_slides -->
 				
 				<div class="inner_about_slides">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/content_slide_6.jpg"/>
+					<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_13.jpg"/>
+					
+				</div><!-- inner_about_slides -->
+				
+				<div class="inner_about_slides">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_14.jpg"/>
 					
 				</div><!-- inner_about_slides -->
 				
@@ -113,7 +119,7 @@ We passionately believe it is our responsibility to stand up for those who have 
 			
 			<div class="inner_about_caption">
 				
-				<span class="inner_about_caption_title">Lorem Ipsum Dolor</span><!-- inner_about_caption_title -->
+				<span class="inner_about_caption_title">Our Team</span><!-- inner_about_caption_title -->
 				<span class="inner_about_line"></span><!-- inner_about_greyline -->
 				
 			</div><!-- inner_about_caption -->
