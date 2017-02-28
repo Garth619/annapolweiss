@@ -872,7 +872,24 @@ var waypointfooter = new Waypoint({
 
 
 
+// Inner Page Case Results Tabs
 
+
+
+jQuery('a.case_button').first().addClass('active');
+
+
+jQuery('a.case_button').click(function(){
+	
+	
+	jQuery(this).addClass('active');
+	jQuery('a.case_button').not(this).removeClass('active');
+	
+	jQuery('.single_cases_wrapper_1').fadeOut();
+	jQuery('.single_cases_wrapper_2').fadeIn();
+	
+	
+});
 
 
 

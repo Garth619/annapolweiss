@@ -4584,6 +4584,14 @@ body.page-template-page-results {
 		overflow: hidden;
 		max-width:1725px;
 		padding:0 15px;
+		a.case_button.active {
+			transition: all .2s ease-in-out;
+			span {
+				background: $orange;
+				color:#fff;
+				border:1px solid $orange;
+			}
+		}
 		a.case_button {
 			text-align: center;
 			width:16.666666666667%;
@@ -4593,6 +4601,16 @@ body.page-template-page-results {
 			display: block;
 			padding-right:10px;
 			margin-bottom:10px;
+			
+/*
+			&:first-of-type {
+				span {
+					background: $orange;
+					color:#fff;
+					border:1px solid $orange;
+				}
+			}
+*/
 			&:nth-of-type(6n + 6) {
 				padding-right:0;
 			}
@@ -4623,6 +4641,11 @@ body.page-template-page-results {
 
 
 .single_cases_wrapper {
+	display: none;
+	&:first-of-type {
+		display: block;
+	}
+	
 	.single_cases_inner {
 		overflow: hidden;
 		max-width:1725px;
