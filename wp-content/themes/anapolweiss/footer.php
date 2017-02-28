@@ -669,7 +669,7 @@ var waypointinnerpage = new Waypoint({
 							jQuery('a.case_button_<?php echo $count; ?>').click(function(){
 	
 								jQuery('.single_cases_wrapper:not(.single_cases_wrapper_<?php echo $count; ?>)').fadeOut();
-								jQuery('.single_cases_wrapper_<?php echo $count; ?>').fadeIn();
+								jQuery('.single_cases_wrapper_<?php echo $count; ?>').delay(200).fadeIn();
 	
 							});
 							

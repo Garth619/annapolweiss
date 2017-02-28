@@ -4627,7 +4627,6 @@ body.page-template-page-results {
 
 
 
-
 .single_cases_wrapper {
 	display: none;
 	&:first-of-type {
@@ -4697,6 +4696,19 @@ body.page-template-page-results {
 
 
 	
+a.back_to_top {
+	color:$orange;
+	text-align: center;
+	display: block;
+	margin:0 auto;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: $helvetica;
+	font-size:15px;
+	letter-spacing: 2px;
+	margin-bottom:60px;
+	display: none;
+}
 	
 	
 @media screen and (max-width: 1830px) {
@@ -9607,7 +9619,9 @@ body.page-template-page-results {
 }
 
 
-
+a.back_to_top {
+	display: block;
+}
 		
 		
 	

@@ -904,5 +904,31 @@ jQuery('a.case_button').click(function(){
 
 
 
+// Strips out the href scroll function on desktop
+
+
+function checkWidth() {
+    
+    if (jQuery(window).width() > 1145) {
+        
+       
+       
+       jQuery("a.case_button").removeAttr("href");
+       
+       
+           		
+    } else {
+
+    }
+};
+
+
+checkWidth();
+
+
+
+
+
+
 }); // document ready 
 

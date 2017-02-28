@@ -56,7 +56,7 @@ get_header(); ?>
 			 
 
 				
-					<a href="#scroll_<?php echo $count; ?>" class="case_button case_button_<?php echo $count; ?>">
+					<a href="#scroll" class="case_button case_button_<?php echo $count; ?>">
 						
 						<span><?php the_sub_field('button_title');?></span>
 					
@@ -77,7 +77,7 @@ get_header(); ?>
 	
 	
 	
-	<div class="parent_wrapper">
+	<div id="scroll" class="parent_wrapper">
 		
 
 		<?php if(get_field('case_results')): ?>
@@ -86,7 +86,7 @@ get_header(); ?>
 			 
 				<?php while(has_sub_field('case_results')): ?>
 				
-					<div id="scroll_<?php echo $count; ?>" class="single_cases_wrapper single_cases_wrapper_<?php echo $count; ?>">
+					<div class="single_cases_wrapper single_cases_wrapper_<?php echo $count; ?>">
 						
 						<div class="single_cases_inner">
 			 
