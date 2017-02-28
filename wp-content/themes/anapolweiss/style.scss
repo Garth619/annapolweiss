@@ -4257,8 +4257,20 @@ ol.commentlist {
 	
 	.practice_areas_list_wrapper {
 		width: 100%;
-		padding-left: 58px;
+		padding-left: 60px;
 		padding-bottom:60px;
+		h2 {
+			border-bottom: 1px solid #d4d4d4;
+			color: #cf622d;
+			display: block;
+			font-family:$butlermedium;
+			font-size: 25px;
+			font-style: normal;
+			font-weight: 300;
+			margin-bottom: 25px;
+			margin-top: 70px;
+			padding-bottom: 22px;
+		}
 		ul {
 			list-style: none;
 			overflow: hidden;
@@ -4266,7 +4278,7 @@ ol.commentlist {
 			li {
 				width:23%;
 				float:left;
-				margin-right:0.75%;
+				margin-right:2.0%;
 				a {
 					text-decoration: none;
 					color:$bluedark;

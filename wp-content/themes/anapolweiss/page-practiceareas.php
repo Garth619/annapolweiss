@@ -26,6 +26,103 @@ get_header(); ?>
 		
 		<div class="practice_areas_list_wrapper">
 			
+			
+			<h2>Title</h2>
+			
+			
+			<ul>
+				
+				
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				
+				
+			</ul>
+			
+			
+		</div><!-- practice_areas_list_wrapper -->
+		
+		
+		<div class="practice_areas_list_wrapper">
+			
+			
+			<h2>Title</h2>
+			
+			
+			<ul>
+				
+				
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				<li><a href="">Automobile or Trucking Accidents</a></li>
+				
+				
+			</ul>
+			
+			
+		</div><!-- practice_areas_list_wrapper -->
+		
+		<div class="practice_areas_list_wrapper">
+			
+			
+			<h2>Title</h2>
+			
+			
 			<ul>
 				
 				
