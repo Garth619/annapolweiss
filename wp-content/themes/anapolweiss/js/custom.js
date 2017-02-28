@@ -876,20 +876,62 @@ var waypointfooter = new Waypoint({
 
 
 
+// Sets the first button as active by default
+
+
 jQuery('a.case_button').first().addClass('active');
+
+
+// Button Active States
 
 
 jQuery('a.case_button').click(function(){
 	
-	
 	jQuery(this).addClass('active');
 	jQuery('a.case_button').not(this).removeClass('active');
 	
-	jQuery('.single_cases_wrapper_1').fadeOut();
-	jQuery('.single_cases_wrapper_2').fadeIn();
+	
+});
+
+
+// Brings in various case results
+
+
+jQuery('a.case_button_1').click(function(){
+	
+	jQuery('.single_cases_wrapper:not(.single_cases_wrapper_1)').fadeOut();
+	jQuery('.single_cases_wrapper_1').fadeIn();
+	
 	
 	
 });
+
+
+
+
+jQuery('a.case_button_2').click(function(){
+	
+	jQuery('.single_cases_wrapper:not(.single_cases_wrapper_2)').fadeOut();
+	jQuery('.single_cases_wrapper_2').fadeIn();
+	
+	
+	
+});
+
+
+
+jQuery('a.case_button_3').click(function(){
+	
+	jQuery('.single_cases_wrapper:not(.single_cases_wrapper_3)').fadeOut();
+	jQuery('.single_cases_wrapper_3').fadeIn();
+	
+	
+	
+});
+
+
+
+
 
 
 

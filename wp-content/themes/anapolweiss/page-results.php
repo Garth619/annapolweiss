@@ -47,15 +47,15 @@ get_header(); ?>
 	
 		<div class="inner_case_wrapper">
 			
-			<a class="case_button">
+			<a class="case_button case_button_1">
 				<span>pharmaceutical liability</span>
 			</a><!-- case_button -->
 			
-			<a class="case_button">
+			<a class="case_button case_button_2">
 				<span>pharmaceutical liability</span>
 			</a><!-- case_button -->
 			
-			<a class="case_button">
+			<a class="case_button case_button_3">
 				<span>pharmaceutical liability</span>
 			</a><!-- case_button -->
 			
@@ -326,7 +326,7 @@ get_header(); ?>
 				
 				<div class="inner_page_single_case">
 					
-					<span class="inner_page_case_number">$4444.85</span><!-- inner_page_case_number -->
+					<span class="inner_page_case_number">$two.85</span><!-- inner_page_case_number -->
 					
 					<span class="inner_page_money_title">Billion</span><!-- inner_page_money_title -->
 					
@@ -523,7 +523,7 @@ get_header(); ?>
 	
 	
 	
-	<div class="single_cases_wrapper">
+	<div class="single_cases_wrapper single_cases_wrapper_3">
 		
 		
 			<div class="single_cases_inner">
@@ -535,7 +535,7 @@ get_header(); ?>
 				
 				<div class="inner_page_single_case">
 					
-					<span class="inner_page_case_number">$44444.85</span><!-- inner_page_case_number -->
+					<span class="inner_page_case_number">$three.85</span><!-- inner_page_case_number -->
 					
 					<span class="inner_page_money_title">Billion</span><!-- inner_page_money_title -->
 					

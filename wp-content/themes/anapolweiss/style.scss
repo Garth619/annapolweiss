@@ -4641,10 +4641,12 @@ body.page-template-page-results {
 
 
 .single_cases_wrapper {
+/*
 	display: none;
 	&:first-of-type {
 		display: block;
 	}
+*/
 	
 	.single_cases_inner {
 		overflow: hidden;
