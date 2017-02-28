@@ -219,6 +219,55 @@ get_header(); ?>
 				
 				
 				
+				
+				
+				<div class="inner_page_single_case">
+					
+					<span class="inner_page_case_number">$4.85</span><!-- inner_page_case_number -->
+					
+					<span class="inner_page_money_title">Billion</span><!-- inner_page_money_title -->
+					
+					<span class="inner_page_greyline_wrapper"><span class="inner_page_line"></span></span><!-- inner_page_greyline_wrapper -->
+					
+					<div class="inner_page_case_content_wrapper">
+						
+						<span class="inner_page_case_title">Vioxx litigation (MDL 1657)</span><!-- inner_page_case_title -->
+						
+						<span class="inner_page_case_content">Merck & Co., Inc. agreed to pay $4.85 billion to resolve Vioxx-related claims involving heart attack, sudden cardiac death or stroke. Anapol Weiss Partner Sol Weiss served as Co-Liaison Counsel in the New Jersey Vioxx litigation.</span><!-- inner_page_case_content -->
+					
+					</div><!-- inner_page_case_content_wrapper -->
+					
+				</div><!-- inner_page_single_case -->
+				
+				
+				
+				
+				<div class="inner_page_single_case">
+					
+					<span class="inner_page_case_number">$4.85</span><!-- inner_page_case_number -->
+					
+					<span class="inner_page_money_title">Billion</span><!-- inner_page_money_title -->
+					
+					<span class="inner_page_greyline_wrapper"><span class="inner_page_line"></span></span><!-- inner_page_greyline_wrapper -->
+					
+					<div class="inner_page_case_content_wrapper">
+						
+						<span class="inner_page_case_title">Vioxx litigation (MDL 1657)</span><!-- inner_page_case_title -->
+						
+						<span class="inner_page_case_content">Merck & Co., Inc. agreed to pay $4.85 billion to resolve Vioxx-related claims involving heart attack, sudden cardiac death or stroke. Anapol Weiss Partner Sol Weiss served as Co-Liaison Counsel in the New Jersey Vioxx litigation.</span><!-- inner_page_case_content -->
+					
+					</div><!-- inner_page_case_content_wrapper -->
+					
+				</div><!-- inner_page_single_case -->
+
+				
+				
+				
+				
+				
+				
+				
+				
 			</div><!-- single_cases_inner -->
 		
 		

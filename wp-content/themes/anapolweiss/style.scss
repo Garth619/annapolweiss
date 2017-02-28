@@ -4626,12 +4626,18 @@ body.page-template-page-results {
 	.single_cases_inner {
 		overflow: hidden;
 		max-width:1725px;
-		margin:0 auto;
+		margin:0 auto 100px;
 		.inner_page_single_case {
 			width:33.33333%;
 			text-align: center;
 			border-right: 1px solid $grey;
 			float:left;
+			margin-top:100px;
+			padding:20px;
+			
+			&:nth-of-type(3n + 3) {
+				border-right: 0;
+			}
 			span.inner_page_case_number {
 				font-family: $butlerbold;
 				font-size:50px;
@@ -4666,6 +4672,8 @@ body.page-template-page-results {
 			.inner_page_case_content_wrapper {
 				font-size:16px;
 				line-height: 29px;
+				max-width:385px;
+				margin:0 auto;
 				span.inner_page_case_title {
 					font-family: $newscyclebold;
 					display: block;
