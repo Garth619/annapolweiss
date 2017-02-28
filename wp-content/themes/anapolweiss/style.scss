@@ -173,7 +173,7 @@ header {
 						text-decoration: none;
 						color:$blue;
 						text-transform: lowercase;
-						font-size:20px;
+						font-size:18px;
 						transition: all .1s ease-in-out;
 						cursor: pointer;
 						&:hover {
@@ -10880,7 +10880,7 @@ body.page-template-page-results {
 		
 		
 		.main_banner {
-			background: url(images/tablet_header_bg.jpg) top right no-repeat;
+			background: url(images/tablet_header_bg.jpg) top center no-repeat;
 			background-size:cover;
 			.inner_main_content {
 				
@@ -11241,7 +11241,7 @@ header {
 		
 		
 		.main_banner {
-			background: url(images/tablet_header_bg.jpg) top right no-repeat;
+			background: url(images/tablet_header_bg.jpg) top center no-repeat;
 			background-size: cover;
 			
 			.inner_main_content {
@@ -12383,6 +12383,11 @@ header {
 		.main_banner {
 			margin-top:83px;
 			padding:40px 0px 60px;
+			
+background:url(images/tablet_header_bg.jpg) top center;
+			background-size: cover;
+
+		
 			.inner_main_content {
 				a.mobile_tel_banner {
 					display: block;
@@ -12421,6 +12426,7 @@ header {
 		
 		.mouse_scroll_wrapper {
 			height:75px;
+			display: none;
 			.mouse_inner_wrapper {
 				margin-top:0;
 				img.outer {
@@ -14503,6 +14509,17 @@ body.page-template-page-results {
 	
 	
 	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 465px) {
+	
+	
+		.main_banner {
+			background:url(images/mobile_header_bg.jpg) top center;
+			background-size: cover;
+		}
 	
 } /* Media Query */
 
