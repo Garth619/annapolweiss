@@ -820,6 +820,9 @@ checkWidthtwo();
 
 jQuery(function() {
   jQuery('a[href*="#"]:not([href="#"])').click(function() {
+    
+    
+    
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = jQuery(this.hash);
       target = target.length ? target : jQuery('[name=' + this.hash.slice(1) +']');
@@ -830,6 +833,12 @@ jQuery(function() {
         return false;
       }
     }
+  
+  
+  
+  
+  
+  
   });
 });
 
@@ -892,58 +901,6 @@ jQuery('a.case_button').click(function(){
 	
 	
 });
-
-
-// Brings in various case results
-
-
-jQuery('a.case_button_1').click(function(){
-	
-	jQuery('.single_cases_wrapper:not(.single_cases_wrapper_1)').fadeOut();
-	jQuery('.single_cases_wrapper_1').fadeIn();
-	
-	
-	
-});
-
-
-
-
-jQuery('a.case_button_2').click(function(){
-	
-	jQuery('.single_cases_wrapper:not(.single_cases_wrapper_2)').fadeOut();
-	jQuery('.single_cases_wrapper_2').fadeIn();
-	
-	
-	
-});
-
-
-
-jQuery('a.case_button_3').click(function(){
-	
-	jQuery('.single_cases_wrapper:not(.single_cases_wrapper_3)').fadeOut();
-	jQuery('.single_cases_wrapper_3').fadeIn();
-	
-	
-	
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

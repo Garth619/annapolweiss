@@ -649,8 +649,44 @@ var waypointinnerpage = new Waypoint({
 
 
 
+<?php if(is_page_template( 'page-results.php')):?>
 
 
+
+			
+			
+			<?php if(get_field('case_results')): ?>
+			 
+			 	<?php $count=1; ?>
+			 	
+			 	<script type="text/javascript">
+							
+						jQuery(document).ready(function(){
+			 	
+						<?php while(has_sub_field('case_results')): ?>
+			 
+							
+							jQuery('a.case_button_<?php echo $count; ?>').click(function(){
+	
+								jQuery('.single_cases_wrapper:not(.single_cases_wrapper_<?php echo $count; ?>)').fadeOut();
+								jQuery('.single_cases_wrapper_<?php echo $count; ?>').fadeIn();
+	
+							});
+							
+							
+							<?php $count++; ?>
+
+				
+						<?php endwhile; ?>
+				
+						}); // Document Ready
+							
+					</script>
+			 
+			<?php endif; ?>
+
+
+<?php endif;?>
 
 
 </body>
