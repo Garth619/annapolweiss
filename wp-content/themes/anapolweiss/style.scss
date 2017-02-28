@@ -4582,6 +4582,7 @@ body.page-template-page-results {
 		padding:0 15px;
 		a.case_button.active {
 			transition: all .2s ease-in-out;
+			text-decoration: none;
 			span {
 				background: $orange;
 				color:#fff;
@@ -4597,6 +4598,7 @@ body.page-template-page-results {
 			display: block;
 			padding-right:10px;
 			margin-bottom:10px;
+			text-decoration: none;
 			&:nth-of-type(6n + 6) {
 				padding-right:0;
 			}
@@ -9500,7 +9502,7 @@ body.page-template-page-contact {
 
 body.page-template-page-results {
 	.inner_main_wrapper {
-		
+		margin-bottom:75px;
 	}
 	.inner_page_content {
 		
@@ -9513,7 +9515,8 @@ body.page-template-page-results {
 	.intro_cases {
 		width:100%;
 		float:none;
-		margin-top:0;
+		margin-top:75px;
+		padding-left:7.5%;
 		h2.sub_header {
 			
 		}
@@ -9571,10 +9574,13 @@ body.page-template-page-results {
 	.single_cases_inner {
 		
 		.inner_page_single_case {
-			
+			width:50%;
 			
 			&:nth-of-type(3n + 3) {
-				
+				border-right: 1px solid #d4d4d4;
+			}
+			&:nth-of-type(2n + 2) {
+				border-right: 1px solid #d4d4d4;
 			}
 			span.inner_page_case_number {
 				
@@ -11979,6 +11985,123 @@ font-size: 85px;
 
 
 
+/* Inner Case Results */
+
+
+
+body.page-template-page-results {
+	.inner_main_wrapper {
+		
+	}
+	.inner_page_content {
+		
+	}
+}
+
+
+.inner_case_results_wrapper {
+	
+	.intro_cases {
+		
+		h2.sub_header {
+			
+		}
+		p {
+			
+		}
+	}
+}
+
+
+.case_results_button_wrapper {
+
+	.inner_case_wrapper {
+		
+		a.case_button.active {
+			
+			span {
+			
+			}
+		}
+		a.case_button {
+		
+			&:nth-of-type(6n + 6) {
+			
+			}
+			&:nth-of-type(5n + 5) {
+			;
+			}
+			&:nth-of-type(4n + 4) {
+			
+			}
+			&:nth-of-type(3n + 3) {
+			
+			}
+			span {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+.single_cases_wrapper {
+	
+	&:first-of-type {
+		
+	}
+	
+	.single_cases_inner {
+		
+		.inner_page_single_case {
+			width:100%;
+			
+			&:nth-of-type(3n + 3) {
+				border-right: 1px solid #d4d4d4;
+			}
+			&:nth-of-type(2n + 2) {
+				border-right: 1px solid #d4d4d4;
+			}
+			&:nth-of-type(1n + 1) {
+				border-right: none;
+				
+			}
+			span.inner_page_case_number {
+				
+			}
+			span.inner_page_money_title {
+				
+			}
+			span.inner_page_greyline_wrapper {
+				
+				
+				span.inner_page_line {
+					
+				}
+			}
+			.inner_page_case_content_wrapper {
+				
+				span.inner_page_case_title {
+					
+					
+				}
+			}
+		}
+	}
+}
+
+
+
+		
+		
+
+
 
 
 
@@ -13700,6 +13823,119 @@ body.page-template-page-contact {
 	
 
 
+	
+/* Inner Case Results */
+
+
+
+body.page-template-page-results {
+	.inner_main_wrapper {
+		margin-bottom:75px;
+	}
+	.inner_page_content {
+		
+	}
+}
+
+
+.inner_case_results_wrapper {
+	
+	.intro_cases {
+		
+		h2.sub_header {
+			letter-spacing: 7px;
+			line-height: 25px;
+		}
+		p {
+			
+		}
+	}
+}
+
+
+.case_results_button_wrapper {
+
+	.inner_case_wrapper {
+		
+		a.case_button.active {
+			
+			span {
+			
+			}
+		}
+		a.case_button {
+			
+			&:nth-of-type(6n + 6) {
+			
+			}
+			&:nth-of-type(5n + 5) {
+			
+			}
+			&:nth-of-type(4n + 4) {
+			
+			}
+			&:nth-of-type(3n + 3) {
+			
+			}
+			span {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+.single_cases_wrapper {
+	
+	&:first-of-type {
+		
+	}
+	
+	.single_cases_inner {
+		
+		.inner_page_single_case {
+	
+			
+			&:nth-of-type(3n + 3) {
+			
+			}
+			&:nth-of-type(2n + 2) {
+			
+			}
+			span.inner_page_case_number {
+				
+			}
+			span.inner_page_money_title {
+				
+			}
+			span.inner_page_greyline_wrapper {
+				
+				
+				span.inner_page_line {
+					
+				}
+			}
+			.inner_page_case_content_wrapper {
+				
+				span.inner_page_case_title {
+					
+					
+				}
+			}
+		}
+	}
+}
+
+
+
+		
+		
 	
 
 

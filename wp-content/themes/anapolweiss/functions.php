@@ -680,3 +680,15 @@ function my_update_comment_field( $comment_field ) {
   return $comment_field;
 }
 add_filter( 'comment_form_field_comment', 'my_update_comment_field' );
+
+
+// Allow Vcard uploads
+
+
+
+add_filter('upload_mimes', 'custom_upload_mimes');
+function custom_upload_mimes ( $existing_mimes=array() ) {
+	// add your extension to the array
+	$existing_mimes['vcf'] = 'text/x-vcard';
+	return $existing_mimes;
+}
