@@ -23,545 +23,72 @@ get_header(); ?>
 		
 		<h1>Meet the Team</h1>
 		
-		<div class="profile_grid_wrapper">
-			
-			<span class="grid_title">Shareholders</span>
-			
-			<div class="profile_grid_inner">
-				
-				
-				
-				
-				
-				<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href="<?php bloginfo('url');?>/tom-anapol"><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="<?php bloginfo('url');?>/tom-anapol">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-				
-
-			
-			</div><!-- profile_grid_inner -->
-			
-		</div><!-- profile_grid_wrapper -->
-		
-		
+		<?php if(get_field('attorney_grid')): ?>
 		
 		<div class="profile_grid_wrapper">
 			
-			<span class="grid_title">Partners</span>
+			<?php while(has_sub_field('attorney_grid')): ?>
 			
-			<div class="profile_grid_inner">
+			<span class="grid_title"><?php the_sub_field('position_title');?></span>
+		 
+				
+				<?php $posts = get_sub_field('single_profile');
+				
+				if( $posts ): ?>
+				    
+				    
+				    <div class="profile_grid_inner">
+				    
+				    
+				    
+				    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+				        
+				        <?php setup_postdata($post); ?>
+				       	
+				       	
+									<div class="single_profile_box">
+					
+					
+										<div class="img_wrapper">
+					
+											<img src="<?php the_field( 'my_profile_image' ); ?>"/>
+					
+											<div class="profile_overlay">
+						
+												<a href="<?php the_permalink();?>"><span>View Profile</span></a>
+						
+											</div><!-- profile_overlay -->
+					
+										</div><!-- img_wrapper -->
+					
+										<div class="profile_grid_title_wrapper">
+						
+											<a class="profile_grid_title" href="<?php the_permalink();?>"><?php the_title();?></a><!-- profile_grid_title -->
+						
+										</div><!-- profile_title_wrapper -->
+					
+					
+									</div><!-- single_profile_box -->
+				       	
+				       	
+				       	 <?php endforeach; ?>
+				  
+				  	</div><!-- profile_grid_inner -->
+				  
+				  
+				  
+						<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+						
+						<?php endif; ?>
 				
 				
-				
-				
-				
-				<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href=""><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href=""><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href=""><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href=""><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href=""><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href=""><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href=""><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href=""><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href=""><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-			
-			
-			<div class="single_profile_box">
-					
-					
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-						<div class="profile_overlay">
-						
-							<a href=""><span>View Profile</span></a>
-						
-						</div><!-- profile_overlay -->
-					
-					</div><!-- img_wrapper -->
-					
-					<div class="profile_grid_title_wrapper">
-						
-						<a class="profile_grid_title" href="">Tom Anapol</a><!-- profile_grid_title -->
-						
-					</div><!-- profile_title_wrapper -->
-					
-					
-			</div><!-- single_profile_box -->
-				
-				
-				
-				
-											
-			
-			
-			
-			</div><!-- profile_grid_inner -->
+			<?php endwhile; ?>
 			
 		</div><!-- profile_grid_wrapper -->
-
-				
+		 
+		<?php endif; ?>
 		
+
 				
 	</div><!-- inner_page_content -->
 	
