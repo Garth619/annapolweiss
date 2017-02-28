@@ -24,6 +24,20 @@ get_header(); ?>
 		<h1>Case Results</h1>
 		
 		
+	<div class="inner_case_results_wrapper">
+		
+		<div class="intro_cases">
+			
+			<h2 class="sub_header">Verdicts & Settlements</h2>
+			
+			<p>Anapol Weiss is a national leader in personal injury, product liability and mass tort litigation, having successfully litigated thousands of cases in state and federal courts. Our personal injury lawyers have obtained billions of dollars in successful verdicts, settlements and judgments on behalf of clients in a variety of mass tort, class action, environmental toxin, medical malpractice and automobile accident lawsuits.</p>
+			
+		</div><!-- intro_cases -->
+		
+		
+	</div><!-- inner_case_results_wrapper -->
+		
+		
 				
 				
 	</div><!-- inner_page_content -->

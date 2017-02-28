@@ -4270,15 +4270,20 @@ ol.commentlist {
 			margin-bottom: 25px;
 			margin-top: 70px;
 			padding-bottom: 22px;
+			margin-right:15px;
 		}
 		ul {
 			list-style: none;
 			overflow: hidden;
 			width: 100%;
 			li {
-				width:23%;
+				width:25%;
+				padding-right:15px;
 				float:left;
-				margin-right:2.0%;
+// 				margin-right:2.0%;
+				&:nth-of-type(){
+					
+				}
 				a {
 					text-decoration: none;
 					color:$bluedark;
@@ -4519,6 +4524,51 @@ body.page-template-page-attprofile {
 		text-transform: uppercase;
 		letter-spacing: 9px;
 	}
+	}
+}
+
+/* Inner Case Results */
+
+
+
+body.page-template-page-results {
+	.inner_main_wrapper {
+		
+	}
+	.inner_page_content {
+		float:none;
+		width:100%;
+	}
+}
+
+
+
+
+
+
+
+.inner_case_results_wrapper {
+	.intro_cases {
+		color:#5e696b;
+		width:50%;
+		float:right;
+		padding-left:15px;
+		margin-top:-110px;
+		h2.sub_header {
+			color:$orange;
+			font-size:16px;
+			font-family: $butlermedium;
+			font-weight: 300;
+			font-style: normal;
+			text-transform: uppercase;
+			letter-spacing: 12px;
+			margin-bottom:34px;
+		}
+		p {
+			font-size: 18px;
+			font-family: $butler;
+			line-height: 36px;
+		}
 	}
 }
 	
