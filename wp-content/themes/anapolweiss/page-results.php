@@ -47,52 +47,52 @@ get_header(); ?>
 	
 		<div class="inner_case_wrapper">
 			
-			<a class="case_button case_button_1">
+			<a href="#scroll" class="case_button case_button_1">
 				<span>pharmaceutical liability</span>
 			</a><!-- case_button -->
 			
 			<a class="case_button case_button_2">
-				<span>pharmaceutical liability</span>
+				<span>medical devices</span>
 			</a><!-- case_button -->
 			
 			<a class="case_button case_button_3">
-				<span>pharmaceutical liability</span>
+				<span>products liability</span>
 			</a><!-- case_button -->
 			
 			<a class="case_button">
-				<span>pharmaceutical liability</span>
+				<span>class actions</span>
 			</a><!-- case_button -->
 			
 			<a class="case_button">
-				<span>pharmaceutical liability</span>
+				<span>medical malpractice</span>
 			</a><!-- case_button -->
 			
 			<a class="case_button">
-				<span>pharmaceutical liability</span>
+				<span>construction site accidents</span>
 			</a><!-- case_button -->
 			
 			<a class="case_button">
-				<span>pharmaceutical liability</span>
+				<span>environmental toxins</span>
 			</a><!-- case_button -->
 			
 			<a class="case_button">
-				<span>pharmaceutical liability</span>
+				<span>auto accidents</span>
 			</a><!-- case_button -->
 			
 			<a class="case_button">
-				<span>pharmaceutical liability</span>
+				<span>premises liability</span>
 			</a><!-- case_button -->
 			
 			<a class="case_button">
-				<span>pharmaceutical liability</span>
+				<span>securities</span>
 			</a><!-- case_button -->
 			
 			<a class="case_button">
-				<span>pharmaceutical liability</span>
+				<span>securities</span>
 			</a><!-- case_button -->
 			
 			<a class="case_button">
-				<span>pharmaceutical liability</span>
+				<span>vaccine claims</span>
 			</a><!-- case_button -->
 						
 						
@@ -106,7 +106,7 @@ get_header(); ?>
 	<div class="parent_wrapper">
 	
 	
-	<div class="single_cases_wrapper single_cases_wrapper_1">
+	<div id="scroll" class="single_cases_wrapper single_cases_wrapper_1">
 		
 		
 			<div class="single_cases_inner">

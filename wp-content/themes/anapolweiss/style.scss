@@ -6,7 +6,7 @@ Author: iLawyer Marketing (Garrett Cullen)
 
 
 * {margin:0;padding:0;}
-67
+
 
 a {outline: none;}
 a img {border:none}
@@ -4542,11 +4542,6 @@ body.page-template-page-results {
 }
 
 
-
-
-
-
-
 .inner_case_results_wrapper {
 	.intro_cases {
 		color:#5e696b;
@@ -4554,6 +4549,7 @@ body.page-template-page-results {
 		float:right;
 		padding-left:15px;
 		margin-top:-110px;
+		padding-right:15px;
 		h2.sub_header {
 			color:$orange;
 			font-size:16px;
@@ -4601,16 +4597,6 @@ body.page-template-page-results {
 			display: block;
 			padding-right:10px;
 			margin-bottom:10px;
-			
-/*
-			&:first-of-type {
-				span {
-					background: $orange;
-					color:#fff;
-					border:1px solid $orange;
-				}
-			}
-*/
 			&:nth-of-type(6n + 6) {
 				padding-right:0;
 			}
@@ -4641,12 +4627,10 @@ body.page-template-page-results {
 
 
 .single_cases_wrapper {
-/*
 	display: none;
 	&:first-of-type {
 		display: block;
 	}
-*/
 	
 	.single_cases_inner {
 		overflow: hidden;
@@ -5501,6 +5485,116 @@ section.blog {
 			}
 		}
 	}
+	
+	
+	
+	
+	
+	/* Inner Case Results */
+
+
+
+body.page-template-page-results {
+	.inner_main_wrapper {
+		
+	}
+	.inner_page_content {
+		
+	}
+}
+
+
+.inner_case_results_wrapper {
+	.intro_cases {
+		
+		h2.sub_header {
+			
+		}
+		p {
+			
+		}
+	}
+}
+
+
+.case_results_button_wrapper {
+
+	.inner_case_wrapper {
+		
+		a.case_button.active {
+			
+			span {
+			
+			}
+		}
+		a.case_button {
+			width:20%;
+			&:nth-of-type(6n + 6) {
+				padding-right:10px;
+			}
+			&:nth-of-type(5n + 5) {
+				padding-right:0px;
+			}
+			span {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+.single_cases_wrapper {
+	
+	&:first-of-type {
+		
+	}
+	
+	.single_cases_inner {
+		
+		.inner_page_single_case {
+			
+			
+			&:nth-of-type(3n + 3) {
+				
+			}
+			span.inner_page_case_number {
+				
+			}
+			span.inner_page_money_title {
+				
+			}
+			span.inner_page_greyline_wrapper {
+				
+				
+				span.inner_page_line {
+					
+				}
+			}
+			.inner_page_case_content_wrapper {
+				
+				span.inner_page_case_title {
+					
+					
+				}
+			}
+		}
+	}
+}
+
+
+	
+
+	
+	
+	
+	
+	
 
 	
 	
@@ -6292,6 +6386,119 @@ a.case_results_button {
 } /* Media Query */
 
 
+@media screen and (max-width: 1400px) {
+	
+	
+	/* Inner Case Results */
+
+
+
+body.page-template-page-results {
+	.inner_main_wrapper {
+		
+	}
+	.inner_page_content {
+		
+	}
+}
+
+
+.inner_case_results_wrapper {
+	.intro_cases {
+		
+		h2.sub_header {
+			
+		}
+		p {
+			
+		}
+	}
+}
+
+
+.case_results_button_wrapper {
+
+	.inner_case_wrapper {
+		
+		a.case_button.active {
+			
+			span {
+			
+			}
+		}
+		a.case_button {
+			width:25%;
+			&:nth-of-type(6n + 6) {
+				padding-right:10px;
+			}
+			&:nth-of-type(5n + 5) {
+				padding-right:10px;
+			}
+			&:nth-of-type(4n + 4) {
+				padding-right:0px;
+			}
+			span {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+.single_cases_wrapper {
+	
+	&:first-of-type {
+		
+	}
+	
+	.single_cases_inner {
+		
+		.inner_page_single_case {
+			
+			
+			&:nth-of-type(3n + 3) {
+				
+			}
+			span.inner_page_case_number {
+				
+			}
+			span.inner_page_money_title {
+				
+			}
+			span.inner_page_greyline_wrapper {
+				
+				
+				span.inner_page_line {
+					
+				}
+			}
+			.inner_page_case_content_wrapper {
+				
+				span.inner_page_case_title {
+					
+					
+				}
+			}
+		}
+	}
+}
+
+
+	
+
+	
+	
+	
+
+	
+	
+} /* Media Query */
 
 
 @media screen and (max-width: 1375px) {
@@ -9287,7 +9494,114 @@ body.page-template-page-contact {
 	
 	
 	
-	/* About */
+/* Inner Case Results */
+
+
+
+body.page-template-page-results {
+	.inner_main_wrapper {
+		
+	}
+	.inner_page_content {
+		
+	}
+}
+
+
+.inner_case_results_wrapper {
+	
+	.intro_cases {
+		width:100%;
+		float:none;
+		margin-top:0;
+		h2.sub_header {
+			
+		}
+		p {
+			
+		}
+	}
+}
+
+
+.case_results_button_wrapper {
+
+	.inner_case_wrapper {
+		
+		a.case_button.active {
+			
+			span {
+			
+			}
+		}
+		a.case_button {
+			width:33.333333%;
+			&:nth-of-type(6n + 6) {
+				padding-right:10px;
+			}
+			&:nth-of-type(5n + 5) {
+				padding-right:10px;
+			}
+			&:nth-of-type(4n + 4) {
+				padding-right:10px;
+			}
+			&:nth-of-type(3n + 3) {
+				padding-right:0px;
+			}
+			span {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+.single_cases_wrapper {
+	
+	&:first-of-type {
+		
+	}
+	
+	.single_cases_inner {
+		
+		.inner_page_single_case {
+			
+			
+			&:nth-of-type(3n + 3) {
+				
+			}
+			span.inner_page_case_number {
+				
+			}
+			span.inner_page_money_title {
+				
+			}
+			span.inner_page_greyline_wrapper {
+				
+				
+				span.inner_page_line {
+					
+				}
+			}
+			.inner_page_case_content_wrapper {
+				
+				span.inner_page_case_title {
+					
+					
+				}
+			}
+		}
+	}
+}
+
+
+
 		
 		
 	
@@ -10333,6 +10647,117 @@ body.page-template-page-contact {
 
 
 
+/* Inner Case Results */
+
+
+
+body.page-template-page-results {
+	.inner_main_wrapper {
+		
+	}
+	.inner_page_content {
+		
+	}
+}
+
+
+.inner_case_results_wrapper {
+	.intro_cases {
+		
+		h2.sub_header {
+			
+		}
+		p {
+			
+		}
+	}
+}
+
+
+.case_results_button_wrapper {
+
+	.inner_case_wrapper {
+		
+		a.case_button.active {
+			
+			span {
+			
+			}
+		}
+		a.case_button {
+			width:50%;
+			&:nth-of-type(6n + 6) {
+				padding-right:10px;
+			}
+			&:nth-of-type(5n + 5) {
+				padding-right:10px;
+			}
+			&:nth-of-type(4n + 4) {
+				padding-right:10px;
+			}
+			&:nth-of-type(3n + 3) {
+				padding-right:10px;
+			}
+			&:nth-of-type(2n + 2) {
+				padding-right:0px;
+			}
+			span {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+.single_cases_wrapper {
+	
+	&:first-of-type {
+		
+	}
+	
+	.single_cases_inner {
+		
+		.inner_page_single_case {
+			
+			
+			&:nth-of-type(3n + 3) {
+				
+			}
+			span.inner_page_case_number {
+				
+			}
+			span.inner_page_money_title {
+				
+			}
+			span.inner_page_greyline_wrapper {
+				
+				
+				span.inner_page_line {
+					
+				}
+			}
+			.inner_page_case_content_wrapper {
+				
+				span.inner_page_case_title {
+					
+					
+				}
+			}
+		}
+	}
+}
+
+
+
+		
+		
+	
 
 	
 	
@@ -13381,7 +13806,122 @@ body.page-template-page-contact {
 	}
 	
 
+		/* Inner Case Results */
+
+
+
+body.page-template-page-results {
+	.inner_main_wrapper {
 		
+	}
+	.inner_page_content {
+		
+	}
+}
+
+
+.inner_case_results_wrapper {
+	.intro_cases {
+		
+		h2.sub_header {
+			
+		}
+		p {
+			
+		}
+	}
+}
+
+
+.case_results_button_wrapper {
+
+	.inner_case_wrapper {
+		
+		a.case_button.active {
+			
+			span {
+			
+			}
+		}
+		a.case_button {
+			width:100%;
+			&:nth-of-type(6n + 6) {
+				padding-right:10px;
+			}
+			&:nth-of-type(5n + 5) {
+				padding-right:10px;
+			}
+			&:nth-of-type(4n + 4) {
+				padding-right:10px;
+			}
+			&:nth-of-type(3n + 3) {
+				padding-right:10px;
+			}
+			&:nth-of-type(2n + 2) {
+				padding-right:10px;
+			}
+			&:nth-of-type(1n + 1) {
+				padding-right:0px;
+			}
+			span {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+.single_cases_wrapper {
+	
+	&:first-of-type {
+		
+	}
+	
+	.single_cases_inner {
+		
+		.inner_page_single_case {
+			
+			
+			&:nth-of-type(3n + 3) {
+				
+			}
+			span.inner_page_case_number {
+				
+			}
+			span.inner_page_money_title {
+				
+			}
+			span.inner_page_greyline_wrapper {
+				
+				
+				span.inner_page_line {
+					
+				}
+			}
+			.inner_page_case_content_wrapper {
+				
+				span.inner_page_case_title {
+					
+					
+				}
+			}
+		}
+	}
+}
+
+
+
+		
+		
+	
+
+
 
 	
 	
