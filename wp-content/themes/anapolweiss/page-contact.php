@@ -38,8 +38,8 @@ get_header(); ?>
 			
 				<span class="state">Pennsylvania</span><!-- state -->
 				<span class="location_line"></span><!-- location_line -->
-				<a class="address" href="" target="_blank">One Logan Square 130 N. 18th St. <br/>Ste. 1600<br/>Philadelphia, PA 19103</a><!-- address -->
-				<a href="" class="get_directions" target="_blank">Get Directions</a>
+				<a class="address" href="https://www.google.com/maps?biw=2526&bih=1072&q=One+Logan+Square+130+N.+18th+St.+Ste.+1600+Philadelphia,+PA+19103&bav=on.2,or.r_cp.&bvm=bv.148441817,d.cGw&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjXgpCAzbTSAhXrylQKHTxRAjMQ_AUIBigB" target="_blank">One Logan Square 130 N. 18th St. <br/>Ste. 1600<br/>Philadelphia, PA 19103</a><!-- address -->
+				<a href="https://www.google.com/maps?biw=2526&bih=1072&q=One+Logan+Square+130+N.+18th+St.+Ste.+1600+Philadelphia,+PA+19103&bav=on.2,or.r_cp.&bvm=bv.148441817,d.cGw&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjXgpCAzbTSAhXrylQKHTxRAjMQ_AUIBigB" class="get_directions" target="_blank">Get Directions</a>
 				<a class="location_tel" href="tel:21573511340">(215) 735-11340</a>
 			
 			</div><!-- single_location -->
@@ -48,8 +48,8 @@ get_header(); ?>
 			
 				<span class="state">Pennsylvania</span><!-- state -->
 				<span class="location_line"></span><!-- location_line -->
-				<a class="address" href="" target="_blank">4807 Jonestown Rd, <br/>Suite 148<br/>Harrisburg, PA 171093</a><!-- address -->
-				<a href="" class="get_directions" target="_blank">Get Directions</a>
+				<a class="address" href="https://www.google.com/maps/place/4807+Jonestown+Rd+%23148,+Harrisburg,+PA+17109/@40.303559,-76.8107735,17z/data=!3m1!4b1!4m5!3m4!1s0x89c8b895df971cdf:0xe237c16a491974dd!8m2!3d40.303559!4d-76.8085848" target="_blank">4807 Jonestown Rd, <br/>Suite 148<br/>Harrisburg, PA 171093</a><!-- address -->
+				<a href="https://www.google.com/maps/place/4807+Jonestown+Rd+%23148,+Harrisburg,+PA+17109/@40.303559,-76.8107735,17z/data=!3m1!4b1!4m5!3m4!1s0x89c8b895df971cdf:0xe237c16a491974dd!8m2!3d40.303559!4d-76.8085848" class="get_directions" target="_blank">Get Directions</a>
 				<a class="location_tel" href="tel:7179013500">(717) 901-3500</a>
 			
 			</div><!-- single_location -->
@@ -58,8 +58,8 @@ get_header(); ?>
 			
 				<span class="state">New Jersey</span><!-- state -->
 				<span class="location_line"></span><!-- location_line -->
-				<a class="address" href="" target="_blank">1040 N. Kings Highway<br/>Cherry Hill, NJ 080343</a><!-- address -->
-				<a href="" class="get_directions" target="_blank">Get Directions</a>
+				<a class="address" href="https://www.google.com/maps/place/1040+Kings+Hwy+N,+Cherry+Hill,+NJ+08034/@39.9221344,-75.0049256,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6cb0df600bd0b:0xa1e9fa0145600506!8m2!3d39.9221344!4d-75.0027369" target="_blank">1040 N. Kings Highway<br/>Cherry Hill, NJ 080343</a><!-- address -->
+				<a href="https://www.google.com/maps/place/1040+Kings+Hwy+N,+Cherry+Hill,+NJ+08034/@39.9221344,-75.0049256,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6cb0df600bd0b:0xa1e9fa0145600506!8m2!3d39.9221344!4d-75.0027369" class="get_directions" target="_blank">Get Directions</a>
 				<a class="location_tel" href="tel:8564279229">(856) 427-9229</a>
 			
 			</div><!-- single_location -->
@@ -68,8 +68,8 @@ get_header(); ?>
 			
 				<span class="state">Arizona</span><!-- state -->
 				<span class="location_line"></span><!-- location_line -->
-				<a class="address" href="" target="_blank">8700 E. Vista Bonita Dr,<br class="tablet_break"/> Suite 268<br/>Scottsdale, AZ 852553</a><!-- address -->
-				<a href="" class="get_directions" target="_blank">Get Directions</a>
+				<a class="address" href="https://www.google.com/maps/place/8700+E+Vista+Bonita+Dr+%23268,+Scottsdale,+AZ+85255/@33.696658,-111.8955687,17z/data=!3m1!4b1!4m5!3m4!1s0x872b77ae10a095fb:0xd5d07a34fd9de2c6!8m2!3d33.696658!4d-111.89338" target="_blank">8700 E. Vista Bonita Dr,<br class="tablet_break"/> Suite 268<br/>Scottsdale, AZ 852553</a><!-- address -->
+				<a href="https://www.google.com/maps/place/8700+E+Vista+Bonita+Dr+%23268,+Scottsdale,+AZ+85255/@33.696658,-111.8955687,17z/data=!3m1!4b1!4m5!3m4!1s0x872b77ae10a095fb:0xd5d07a34fd9de2c6!8m2!3d33.696658!4d-111.89338" class="get_directions" target="_blank">Get Directions</a>
 				<a class="location_tel" href="tel:4805154745">(480) 515-4745</a>
 			
 			</div><!-- single_location -->
@@ -125,8 +125,8 @@ get_header(); ?>
 						
 						<div class="single_location">
 						
-							<a class="address" href="" target="_blank">One Logan Square 130 N. 18th St. Ste. 1600<br/>Philadelphia, PA 19103</a><!-- address -->
-							<a href="" class="get_directions" target="_blank">Get Directions</a>
+							<a class="address" href="https://www.google.com/maps?biw=2526&bih=1072&q=One+Logan+Square+130+N.+18th+St.+Ste.+1600+Philadelphia,+PA+19103&bav=on.2,or.r_cp.&bvm=bv.148441817,d.cGw&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjXgpCAzbTSAhXrylQKHTxRAjMQ_AUIBigB" target="_blank">One Logan Square 130 N. 18th St. Ste. 1600<br/>Philadelphia, PA 19103</a><!-- address -->
+							<a href="https://www.google.com/maps?biw=2526&bih=1072&q=One+Logan+Square+130+N.+18th+St.+Ste.+1600+Philadelphia,+PA+19103&bav=on.2,or.r_cp.&bvm=bv.148441817,d.cGw&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjXgpCAzbTSAhXrylQKHTxRAjMQ_AUIBigB" class="get_directions" target="_blank">Get Directions</a>
 						
 							<a class="location_tel" href="tel:21573511340">(215) 735-11340</a>
 					
@@ -134,8 +134,8 @@ get_header(); ?>
 						
 						<div class="single_location">
 						
-							<a class="address" href="" target="_blank">4807 Jonestown Rd, Suite 148<br/>Harrisburg, PA 171093</a><!-- address -->
-							<a href="" class="get_directions" target="_blank">Get Directions</a>
+							<a class="address" href="https://www.google.com/maps/place/4807+Jonestown+Rd+%23148,+Harrisburg,+PA+17109/@40.303559,-76.8107735,17z/data=!3m1!4b1!4m5!3m4!1s0x89c8b895df971cdf:0xe237c16a491974dd!8m2!3d40.303559!4d-76.8085848" target="_blank">4807 Jonestown Rd, Suite 148<br/>Harrisburg, PA 171093</a><!-- address -->
+							<a href="https://www.google.com/maps/place/4807+Jonestown+Rd+%23148,+Harrisburg,+PA+17109/@40.303559,-76.8107735,17z/data=!3m1!4b1!4m5!3m4!1s0x89c8b895df971cdf:0xe237c16a491974dd!8m2!3d40.303559!4d-76.8085848" class="get_directions" target="_blank">Get Directions</a>
 						
 							<a class="location_tel" href="tel:7179013500">(717) 901-3500</a>
 					
@@ -154,8 +154,8 @@ get_header(); ?>
 						
 						<div class="single_location">
 						
-							<a class="address" href="" target="_blank">1040 N. Kings Highway<br/>Cherry Hill, NJ 080343</a><!-- address -->
-							<a href="" class="get_directions" target="_blank">Get Directions</a>
+							<a class="address" href="https://www.google.com/maps/place/1040+Kings+Hwy+N,+Cherry+Hill,+NJ+08034/@39.9221344,-75.0049256,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6cb0df600bd0b:0xa1e9fa0145600506!8m2!3d39.9221344!4d-75.0027369" target="_blank">1040 N. Kings Highway<br/>Cherry Hill, NJ 080343</a><!-- address -->
+							<a href="https://www.google.com/maps/place/1040+Kings+Hwy+N,+Cherry+Hill,+NJ+08034/@39.9221344,-75.0049256,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6cb0df600bd0b:0xa1e9fa0145600506!8m2!3d39.9221344!4d-75.0027369" class="get_directions" target="_blank">Get Directions</a>
 						
 							<a class="location_tel" href="tel:8564279229">(856) 427-9229</a>
 					
@@ -174,8 +174,8 @@ get_header(); ?>
 						
 						<div class="single_location">
 						
-							<a class="address" href="" target="_blank">8700 E. Vista Bonita Dr,<br class="tablet_break"/> Suite 268<br/>Scottsdale, AZ 852553</a><!-- address -->
-							<a href="" class="get_directions" target="_blank">Get Directions</a>
+							<a class="address" href="https://www.google.com/maps/place/8700+E+Vista+Bonita+Dr+%23268,+Scottsdale,+AZ+85255/@33.696658,-111.8955687,17z/data=!3m1!4b1!4m5!3m4!1s0x872b77ae10a095fb:0xd5d07a34fd9de2c6!8m2!3d33.696658!4d-111.89338" target="_blank">8700 E. Vista Bonita Dr,<br class="tablet_break"/> Suite 268<br/>Scottsdale, AZ 852553</a><!-- address -->
+							<a href="https://www.google.com/maps/place/8700+E+Vista+Bonita+Dr+%23268,+Scottsdale,+AZ+85255/@33.696658,-111.8955687,17z/data=!3m1!4b1!4m5!3m4!1s0x872b77ae10a095fb:0xd5d07a34fd9de2c6!8m2!3d33.696658!4d-111.89338" class="get_directions" target="_blank">Get Directions</a>
 						
 							<a class="location_tel" href="tel:4805154745">(480) 515-4745</a>
 					
@@ -201,10 +201,10 @@ get_header(); ?>
 			<span class="social_title">social</span><!-- socail_title -->
 		
 			<ul>
-				<li><a href="" target="_blank">Facebook</a></li>
+				<li><a href="https://www.facebook.com/AnapolWeiss/" target="_blank">Facebook</a></li>
 				<li><a href="" target="_blank">Google+</a></li>
-				<li><a href="" target="_blank">Linkedin</a></li>
-				<li><a href="" target="_blank">Twitter</a></li>
+				<li><a href="https://www.linkedin.com/company/anapol-weiss" target="_blank">Linkedin</a></li>
+				<li><a href="https://twitter.com/AnapolWeiss" target="_blank">Twitter</a></li>
 			</ul>
 		
 		</div><!-- social_inner -->
