@@ -3,6 +3,10 @@
 	<span class="sub_header">Practice Areas</span><!-- sub_header -->
 	<span class="sidebar_line"></span><!-- sidebar_line -->
 	
+	<?php global $post ?>
+	
+	
+	
 	
 	<ul class="menu">
 		
