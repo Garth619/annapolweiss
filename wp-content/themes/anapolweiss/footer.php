@@ -631,7 +631,7 @@ var waypointinnerfoundationarrows = new Waypoint({
 
 
 
-<?php if(is_page_template( 'page-aboutus.php') || is_page_template('page-download_pdfs.php') || is_page_template('page-contact.php') || is_page_template('page-practiceareas.php') || is_page_template('page-results.php') || is_page_template('page-innerpracticearea.php') ||  is_page_template('page-attprofile.php') ||  is_page_template('page-profilegrid.php')):?>
+<?php if(is_page_template( 'page-aboutus.php') || is_page_template('page-download_pdfs.php') || is_page_template('page-videos.php') || is_page_template('page-contact.php') || is_page_template('page-practiceareas.php') || is_page_template('page-results.php') || is_page_template('page-innerpracticearea.php') ||  is_page_template('page-attprofile.php') ||  is_page_template('page-profilegrid.php')):?>
 
 
 <script type="text/javascript">

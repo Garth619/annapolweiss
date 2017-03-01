@@ -21,10 +21,10 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
-	"\/anapol-migrate-20170301072353.sql.gz": {
+	"\/anapol-migrate-20170301073338.sql.gz": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/anapol-migrate-20170301072353.sql.gz",
+		"oAP": "\/anapol-migrate-20170301073338.sql.gz",
 		"oF": 0
 		},
 	"\/index.php": {
@@ -17727,6 +17727,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/page-results.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/page-videos.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/page-videos.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/anapolweiss\/page.php": {
