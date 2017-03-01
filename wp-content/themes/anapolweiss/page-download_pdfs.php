@@ -38,8 +38,20 @@ get_header(); ?>
 					
 					
 						<div class="single_download">
+							
+						<?php if( get_sub_field('file_or_link') == 'PDF' ): ?>
+	
+							<a href="<?php the_sub_field( 'download_pdf' ); ?>" target="_blank">
+	
+						<?php endif; ?>
 						
-						<a href="<?php the_sub_field( 'download_pdf' ); ?>" target="_blank">
+						<?php if( get_sub_field('file_or_link') == 'LINK' ): ?>
+	
+							<a href="<?php the_sub_field( 'download_link' ); ?>" target="_blank">
+	
+						<?php endif; ?>
+						
+						
 						
 						<span class="download_title"><?php the_sub_field( 'title' ); ?></span>
 						
