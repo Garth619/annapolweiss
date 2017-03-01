@@ -7,7 +7,7 @@
 		"uuidString": "B9F4B936-8536-41FE-8E22-A014FDD7D459"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25504",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -31,6 +31,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.php",
+		"oF": 0
+		},
+	"\/license.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/license.txt",
+		"oF": 0
+		},
+	"\/readme.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/readme.html",
 		"oF": 0
 		},
 	"\/wp-activate.php": {
@@ -11245,6 +11257,12 @@
 		"oAP": "\/wp-content\/plugins\/gravityforms\/xml.php",
 		"oF": 0
 		},
+	"\/wp-content\/plugins\/hello.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/hello.php",
+		"oF": 0
+		},
 	"\/wp-content\/plugins\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -15878,7 +15896,7 @@
 		},
 	"\/wp-content\/themes\/anapolweiss\/images\/dots.jpg": {
 		"ft": 16384,
-		"iS": 518,
+		"iS": 1268,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/dots.jpg",
 		"oF": 0,
@@ -16222,7 +16240,7 @@
 		},
 	"\/wp-content\/themes\/anapolweiss\/images\/tablet_header_bg.jpg": {
 		"ft": 16384,
-		"iS": 328776,
+		"iS": 375484,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/tablet_header_bg.jpg",
 		"oF": 0,
@@ -17823,7 +17841,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/style.css",
 		"oF": 0,
@@ -18159,6 +18177,38 @@
 		"iS": 184802,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/02\/christopher_marzzacco.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/02\/coming_soon-150x150.jpg": {
+		"ft": 16384,
+		"iS": 1408,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/02\/coming_soon-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/02\/coming_soon-278x300.jpg": {
+		"ft": 16384,
+		"iS": 3038,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/02\/coming_soon-278x300.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/02\/coming_soon-631x198.jpg": {
+		"ft": 16384,
+		"iS": 5415,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/02\/coming_soon-631x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/02\/coming_soon.jpg": {
+		"ft": 16384,
+		"iS": 13944,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/02\/coming_soon.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -19064,12 +19114,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/uploads\/ithemes-security\/backups\/index.php",
-		"oF": 0
-		},
-	"\/wp-content\/uploads\/ithemes-security\/index.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/uploads\/ithemes-security\/index.php",
 		"oF": 0
 		},
 	"\/wp-content\/uploads\/ithemes-security\/logs": {
@@ -25852,10 +25896,6 @@
 			"active": 0,
 			"optionString": ""
 			},
-		"no-multi-assign": {
-			"active": 0,
-			"optionString": ""
-			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -26184,10 +26224,6 @@
 			"active": 0,
 			"optionString": ""
 			},
-		"prefer-promise-reject-errors": {
-			"active": 0,
-			"optionString": "{'allowEmptyReject': false}"
-			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -26281,10 +26317,6 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
-			"active": 0,
-			"optionString": "'never'"
-			},
-		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
