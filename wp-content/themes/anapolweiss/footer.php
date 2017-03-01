@@ -378,7 +378,7 @@ var waypointwave = new Waypoint({
     
     
     
-//     jQuery('.wavy_one').addClass('fadein');
+
     jQuery('span.case_greyline').addClass('fadein');
 
     

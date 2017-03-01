@@ -4281,29 +4281,57 @@ ol.commentlist {
 			list-style: none;
 			overflow: hidden;
 			width: 100%;
-			li {
-				width:25%;
-				padding-right:15px;
-				float:left;
-// 				margin-right:2.0%;
-				&:nth-of-type(){
-					
-				}
-				a {
-					text-decoration: none;
-					color:$bluedark;
-					font-family: $newscycle;
-					font-size:18px;
+		}
+		ul.menu {
+			
+			> li {
+					color: $orange;
 					display: block;
-					margin-top:43px;
-					padding-bottom:22px;
-					border-bottom: 1px solid $grey;
-					transition: all .2s ease-in-out;
-					padding-left:20px;
+					font-family:$butlermedium;
+					font-size: 25px;
+					width:100%;
+					font-style: normal;
+					font-weight: 300;
+					margin-top: 70px;
+					margin-right:15px;
+					
+					> a {
+						color: $orange;
+						text-decoration: none;
+						border-bottom: 1px solid #d4d4d4;
+						margin-bottom: 25px;
+						padding-bottom: 22px;
+						display: block;
+						width:100%;
+						padding-left:20px;
+						transition: all .2s ease-in-out;
+						&:hover {
+							color:$bluedark;
+						}
+					}
+					> ul.sub-menu {
+						margin-bottom:100px;
+						> li {
+							width:25%;
+							padding-right:15px;
+							float:left;
+							> a {
+								text-decoration: none;
+								color:$bluedark;
+								font-family: $newscycle;
+								font-size:18px;
+								display: block;
+								margin-top:43px;
+								padding-bottom:22px;
+								border-bottom: 1px solid $grey;
+								transition: all .2s ease-in-out;
+								padding-left:20px;
 					&:hover {
 						color:$orange;
 					}
-				}
+							}
+						}
+					}
 			}
 		}
 	}
@@ -10299,6 +10327,55 @@ footer {
 		}
 	}
 	
+	
+	
+	
+	.practice_areas_list_wrapper {
+		padding-left: 6%;
+		padding-right:6%;
+		padding-bottom:0;
+		h2 {
+			
+		}
+		ul {
+			
+		}
+		ul.menu {
+			
+			> li {
+					
+					
+					> a {
+						
+						&:hover {
+							
+						}
+					}
+					> ul.sub-menu {
+					
+						> li {
+							width:31.3%;
+							margin-right:2%;
+							> a {
+								
+					&:hover {
+						
+					}
+							}
+						}
+					}
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 /* Contact */
 	
@@ -11959,20 +12036,43 @@ header {
 
 	
 	.practice_areas_list_wrapper {
-		
+		padding-left: 6%;
+		padding-right:6%;
+		padding-bottom:0;
+		h2 {
+			
+		}
 		ul {
 			
-			li {
-				width:48%;
-				a {
+		}
+		ul.menu {
+			
+			> li {
 					
+					
+					> a {
+						
+						&:hover {
+							
+						}
+					}
+					> ul.sub-menu {
+					
+						> li {
+							width:48%;
+							
+							> a {
+								
 					&:hover {
 						
 					}
-				}
+							}
+						}
+					}
 			}
 		}
 	}
+	
 	
 
 	
@@ -14394,21 +14494,44 @@ body.page-template-page-results {
 	
 
 	.practice_areas_list_wrapper {
-		
+		padding-left: 6%;
+		padding-right:6%;
+		padding-bottom:0;
+		h2 {
+			
+		}
 		ul {
 			
-			li {
-				width:100%;
-				margin-right:0;
-				a {
+		}
+		ul.menu {
+			
+			> li {
 					
+					
+					> a {
+						
+						&:hover {
+							
+						}
+					}
+					> ul.sub-menu {
+					
+						> li {
+							width:100%;
+							
+							> a {
+								
 					&:hover {
 						
 					}
-				}
+							}
+						}
+					}
 			}
 		}
 	}
+	
+	
 	
 	
 	/* Profile Grid */
@@ -14524,7 +14647,7 @@ body.page-template-page-results {
 	
 	
 		.main_banner {
-			background:url(images/mobile_header_bg.jpg) top center;
+			background:url(images/mobile_header_bg.jpg) center center;
 			background-size: cover;
 		}
 	

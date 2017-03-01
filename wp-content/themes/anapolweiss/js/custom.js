@@ -907,7 +907,7 @@ jQuery('a.case_button').click(function(){
 // Strips out the href scroll function on desktop
 
 
-function checkWidth() {
+function checkWidththree() {
     
     if (jQuery(window).width() > 1145) {
         
@@ -923,7 +923,7 @@ function checkWidth() {
 };
 
 
-checkWidth();
+checkWidththree();
 
 
 

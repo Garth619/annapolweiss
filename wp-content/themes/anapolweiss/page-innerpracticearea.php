@@ -21,14 +21,7 @@ get_header(); ?>
 	
 	<div class="inner_page_content">
 		
-		<?php if ( $post->post_parent == '140' ) {
-   
-   
-   echo 'child';
-   
-   // stuff
-} ?>
-		
+
 		<h1><?php the_title();?></h1>
 		
 		<div class="content">

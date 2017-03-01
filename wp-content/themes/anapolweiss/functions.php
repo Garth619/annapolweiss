@@ -91,9 +91,11 @@ function twentyten_setup() {
 	load_theme_textdomain( 'twentyten', get_template_directory() . '/languages' );
 
 	// This theme uses wp_nav_menu() in one location.
+/*
 	register_nav_menus( array(
 		'primary' => __( 'Primary Navigation', 'twentyten' ),
 	) );
+*/
 
 	// This theme allows users to set a custom background.
 	add_theme_support( 'custom-background', array(
@@ -579,7 +581,7 @@ function my_jquery_enqueue() {
 
  function load_my_styles_scripts() {
      // Load my stylesheet
-     wp_enqueue_style( 'styles', get_stylesheet_uri(), '', 3, 'all' ); 
+     wp_enqueue_style( 'styles', get_stylesheet_uri(), '', 5, 'all' ); 
 
      // Load my javascripts
      wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom.js',
@@ -627,6 +629,11 @@ remove_action('admin_print_styles', 'print_emoji_styles');
 
 register_nav_menus(array(
     'main_menu' => 'Main Menu',
+    'pa_directory' => 'PA Directory',
+    'personal_injury_sidebar' => 'Personal Injury Sidebar',
+    'car_accidents_sidebar' => 'Car Accidents Sidebar',
+    'medical_malpractice_sidebar' => 'Medical Malpractice Sidebar',
+    'mass_torts_sidebar' => 'Mass Torts Sidebar',
     
 ));
 
