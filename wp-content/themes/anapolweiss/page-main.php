@@ -821,9 +821,6 @@ get_header(); ?>
 		<span class="large_header"><span class="orange">Follow us</span> <br/>in the news</span><!-- sub_header -->
 		
 	
-			
-	
-	
 	</div><!-- blog_left -->
 	
 	<div class="blog_right">
@@ -833,220 +830,46 @@ get_header(); ?>
 		<div class="blog_posts_wrapper">
 			
 			<div class="blog_inner_wrapper">
+				
+				
+				
+				
+				
+				<?php $posts = get_field('featured_in_the_news');
+				
+				if( $posts ): ?>
+				    
+				    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+				        <?php setup_postdata($post); ?>
+				        
+				        
+				        <div class="single_blog_wrapper">
+					
+									<a href="<?php the_permalink();?>">
+						
+									<span class="blog_title"><?php echo wp_trim_words( get_the_title(), 7, '...' );?></span><!-- blog_title -->
+									<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
+					
+									<div class="blog_content">
+						
+									<p><?php echo wp_trim_words( get_the_content(), 40, '...' );?></p>
+						
+							</div><!-- blog_content -->
+					
+							<span id="second_about_trigger" class="blog_read_more">Click Here to Read More</span><!-- blog_read_more -->
+						
+						</a>
+					
+					</div><!-- single_blog_wrapper -->
+
+				        
+				        
+				    <?php endforeach; ?>
+				    
+				    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+				<?php endif; ?>
 			
-				<div class="single_blog_wrapper">
-					
-					<a href="">
-						
-					<span class="blog_title">Eight attorneys at Anapolweiss named 2017 Best Lawyers</span><!-- blog_title -->
-					<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
-					
-					<div class="blog_content">
-						
-						<p>Anapol Weiss has announced today that eight of its attorneys have been rated by their peers as “The Best Lawyers in America” for exemplary work in their respective fields.</p>
-						
-						<p>A full list of Anapol Weiss attorneys recognized by Best Lawyers is located at the end of this release.</p>
-						
-					</div><!-- blog_content -->
-					
-					<span id="second_about_trigger" class="blog_read_more">Click Here to Read More</span><!-- blog_read_more -->
-						
-					</a>
-					
-				</div><!-- single_blog_wrapper -->
-				
-				<div class="single_blog_wrapper">
-					
-					<a href="">
-						
-						<span class="blog_title">Anapolweiss is investigating water in Bucks & Montgomery Counties</span><!-- blog_title -->
-						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
-					
-					<div class="blog_content">
-						
-						<p>Our Toxic Tort and Environmental Team is now investigating claims for individuals who may be suffering the consequences of exposure to contaminated water in Bucks and Montgomery Counties.</p>
-				
-<p>Our	 Anapol Weiss Team, lead by shareholder Larry Cohan and associates David Carney and Catelyn...</p>
-						
-					</div><!-- blog_content -->
-					
-					<span class="blog_read_more">Click Here to Read More</span><!-- blog_read_more -->
-						
-					</a>
-					
-				</div><!-- single_blog_wrapper -->
-				
-				<div class="single_blog_wrapper">
-					
-					<a href="">
-						
-						<span class="blog_title">Sol Weiss honored with lifetime achievement award</span><!-- blog_title -->
-						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
-					
-					<div class="blog_content">
-						
-						<p>Anapol Weiss is proud to announce that its President Sol H. Weiss is among the recipients of The Legal Intelligencer’s 2016 Lifetime Achievement Award.</p>
-						
-					</div><!-- blog_content -->
-					
-					<span class="blog_read_more">Click Here to Read More</span><!-- blog_read_more -->
-						
-					</a>
-					
-				</div><!-- single_blog_wrapper -->
-				
-				<div class="single_blog_wrapper">
-					
-					<a href="">
-						
-						<span class="blog_title">17 Anapol Weiss attorneys selected for 2016 Super Lawyers honors</span><!-- blog_title -->
-						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
-					
-					<div class="blog_content">
-						
-						<p>Anapol Weiss is proud to announce that 17 of our attorneys have been named 2016 Super Lawyers or Rising Stars.</p>
-						
-					</div><!-- blog_content -->
-					
-					<span class="blog_read_more">Click Here to Read More</span><!-- blog_read_more -->
-						
-					</a>
-					
-				</div><!-- single_blog_wrapper -->
-				
-				<div class="single_blog_wrapper">
-					
-					<a href="">
-						
-						<span class="blog_title">17 Anapol Weiss attorneys selected for 2016 Super Lawyers honors</span><!-- blog_title -->
-						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
-					
-					<div class="blog_content">
-						
-						<p>Anapol Weiss is proud to announce that 17 of our attorneys have been named 2016 Super Lawyers or Rising Stars.</p>
-						
-					</div><!-- blog_content -->
-					
-					<span class="blog_read_more">Click Here to Read More</span><!-- blog_read_more -->
-						
-					</a>
-					
-				</div><!-- single_blog_wrapper -->
-				
-				<div class="single_blog_wrapper">
-					
-					<a href="">
-						
-						<span class="blog_title">17 Anapol Weiss attorneys selected for 2016 Super Lawyers honors</span><!-- blog_title -->
-						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
-					
-					<div class="blog_content">
-						
-						<p>Anapol Weiss is proud to announce that 17 of our attorneys have been named 2016 Super Lawyers or Rising Stars.</p>
-						
-					</div><!-- blog_content -->
-					
-					<span class="blog_read_more">Click Here to Read More</span><!-- blog_read_more -->
-						
-					</a>
-					
-				</div><!-- single_blog_wrapper -->
-				
-				<div class="single_blog_wrapper">
-					
-					<a href="">
-						
-						<span class="blog_title">17 Anapol Weiss attorneys selected for 2016 Super Lawyers honors</span><!-- blog_title -->
-						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
-					
-					<div class="blog_content">
-						
-						<p>Anapol Weiss is proud to announce that 17 of our attorneys have been named 2016 Super Lawyers or Rising Stars.</p>
-						
-					</div><!-- blog_content -->
-					
-					<span class="blog_read_more">Click Here to Read More</span><!-- blog_read_more -->
-						
-					</a>
-					
-				</div><!-- single_blog_wrapper -->
-				
-				<div class="single_blog_wrapper">
-					
-					<a href="">
-						
-						<span class="blog_title">17 Anapol Weiss attorneys selected for 2016 Super Lawyers honors</span><!-- blog_title -->
-						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
-					
-					<div class="blog_content">
-						
-						<p>Anapol Weiss is proud to announce that 17 of our attorneys have been named 2016 Super Lawyers or Rising Stars.</p>
-						
-					</div><!-- blog_content -->
-					
-					<span class="blog_read_more">Click Here to Read More</span><!-- blog_read_more -->
-						
-					</a>
-					
-				</div><!-- single_blog_wrapper -->
-				
-				<div class="single_blog_wrapper">
-					
-					<a href="">
-						
-						<span class="blog_title">17 Anapol Weiss attorneys selected for 2016 Super Lawyers honors</span><!-- blog_title -->
-						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
-					
-					<div class="blog_content">
-						
-						<p>Anapol Weiss is proud to announce that 17 of our attorneys have been named 2016 Super Lawyers or Rising Stars.</p>
-						
-					</div><!-- blog_content -->
-					
-					<span class="blog_read_more">Click Here to Read More</span><!-- blog_read_more -->
-						
-					</a>
-					
-				</div><!-- single_blog_wrapper -->
-				
-				<div class="single_blog_wrapper">
-					
-					<a href="">
-						
-						<span class="blog_title">17 Anapol Weiss attorneys selected for 2016 Super Lawyers honors</span><!-- blog_title -->
-						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
-					
-					<div class="blog_content">
-						
-						<p>Anapol Weiss is proud to announce that 17 of our attorneys have been named 2016 Super Lawyers or Rising Stars.</p>
-						
-					</div><!-- blog_content -->
-					
-					<span class="blog_read_more">Click Here to Read More</span><!-- blog_read_more -->
-						
-					</a>
-					
-				</div><!-- single_blog_wrapper -->
-				
-				<div class="single_blog_wrapper">
-					
-					<a href="">
-						
-						<span class="blog_title">17 Anapol Weiss attorneys selected for 2016 Super Lawyers honors</span><!-- blog_title -->
-						<span class="blog_greyline"><span class="inner_blog_line"></span></span><!-- blog_greyline -->
-					
-					<div class="blog_content">
-						
-						<p>Anapol Weiss is proud to announce that 17 of our attorneys have been named 2016 Super Lawyers or Rising Stars.</p>
-						
-					</div><!-- blog_content -->
-					
-					<span class="blog_read_more">Click Here to Read More</span><!-- blog_read_more -->
-						
-					</a>
-					
-				</div><!-- single_blog_wrapper -->
-			
+							
 			</div><!-- blog_inner_wrapper -->
 			
 			<div class="blog_post_next">
