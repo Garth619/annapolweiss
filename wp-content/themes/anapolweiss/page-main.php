@@ -1297,177 +1297,52 @@ get_header(); ?>
 	
 	<div class="slider_thumbs_wrapper">
 		
-		<div class="single_thumb">
-			
-			<div class="img_wrapper">
-				
-				<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-				
-			</div><!-- img_wrapper -->
-			
-			<div class="thumb_overlay">
-				
-				<div class="thumb_title_wrapper">
-				
-					<span class="thumb_orange_line"></span>
-					<span class="thumb_title">Tom Anapol</span><!-- thumb_title -->
-				
-				</div><!-- thumb_title_wrapper -->
-				
-			</div><!-- thumb_overlay -->
-			
-		</div><!-- single_thumb -->
-		
-		<div class="single_thumb">
-			
-			<div class="img_wrapper">
-				
-				<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-				
-			</div><!-- img_wrapper -->
-			
-			<div class="thumb_overlay">
-				
-				<div class="thumb_title_wrapper">
-				
-					<span class="thumb_orange_line"></span>
-					<span class="thumb_title">Tom Anapol</span><!-- thumb_title -->
-				
-				
-				</div><!-- thumb_title_wrapper -->
-				
-			</div><!-- thumb_overlay -->
-			
-		</div><!-- single_thumb -->
-		
-		<div class="single_thumb">
-			
-			<div class="img_wrapper">
-				
-				<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-				
-			</div><!-- img_wrapper -->
-			
-			<div class="thumb_overlay">
-				
-				<div class="thumb_title_wrapper">
-				
-					<span class="thumb_orange_line"></span>
-					<span class="thumb_title">Tom Anapol</span><!-- thumb_title -->
-				
-				</div><!-- thumb_title_wrapper -->
-				
-			</div><!-- thumb_overlay -->
-			
-		</div><!-- single_thumb -->
-		
-		<div class="single_thumb">
-			
-			<div class="img_wrapper">
-				
-				<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-				
-			</div><!-- img_wrapper -->
-			
-			<div class="thumb_overlay">
-				
-				<div class="thumb_title_wrapper">
-				
-					<span class="thumb_orange_line"></span>
-					<span class="thumb_title">Tom Anapol</span><!-- thumb_title -->
-				
-				</div><!-- thumb_title_wrapper -->
-				
-			</div><!-- thumb_overlay -->
-			
-		</div><!-- single_thumb -->
-		
-		<div class="single_thumb">
-			
-			<div class="img_wrapper">
-				
-				<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-				
-			</div><!-- img_wrapper -->
-			
-			<div class="thumb_overlay">
-				
-				<div class="thumb_title_wrapper">
-				
-					<span class="thumb_orange_line"></span>
-					<span class="thumb_title">Tom Anapol</span><!-- thumb_title -->
-				
-				</div><!-- thumb_title_wrapper -->
-				
-			</div><!-- thumb_overlay -->
-			
-		</div><!-- single_thumb -->
-		
-		<div class="single_thumb">
-			
-			<div class="img_wrapper">
-				
-				<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-				
-			</div><!-- img_wrapper -->
-			
-			<div class="thumb_overlay">
-				
-				<div class="thumb_title_wrapper">
-				
-					<span class="thumb_orange_line"></span>
-					<span class="thumb_title">Tom Anapol</span><!-- thumb_title -->
-				
-				</div><!-- thumb_title_wrapper -->
-				
-			</div><!-- thumb_overlay -->
-			
-		</div><!-- single_thumb -->
-		
-		<div class="single_thumb">
-			
-			<div class="img_wrapper">
-				
-				<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-				
-			</div><!-- img_wrapper -->
-			
-			<div class="thumb_overlay">
-				
-				<div class="thumb_title_wrapper">
-				
-					<span class="thumb_orange_line"></span>
-					<span class="thumb_title">Tom Anapol</span><!-- thumb_title -->
-				
-				</div><!-- thumb_title_wrapper -->
-				
-			</div><!-- thumb_overlay -->
-			
-		</div><!-- single_thumb -->
-		
-		<div class="single_thumb">
-			
-			<div class="img_wrapper">
-				
-				<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-				
-			</div><!-- img_wrapper -->
-			
-			<div class="thumb_overlay">
-				
-				<div class="thumb_title_wrapper">
-				
-					<span class="thumb_orange_line"></span>
-					<span class="thumb_title">Tom Anapol</span><!-- thumb_title -->
-				
-				</div><!-- thumb_title_wrapper -->
-				
-			</div><!-- thumb_overlay -->
-			
-		</div><!-- single_thumb -->
 		
 		
+		<?php if(get_field('meet_the_team_slider')): ?>
+		 
+			<?php while(has_sub_field('meet_the_team_slider')): ?>
+		 
 				
+		  	<?php $post_object = get_sub_field('team_bio_link');
+
+						if( $post_object ): 
+
+						// override $post
+						$post = $post_object;
+						setup_postdata( $post ); ?>
+    
+						<div class="single_thumb">
+			
+							<div class="img_wrapper">
+				
+								<img src="<?php the_field( 'my_profile_image' ); ?>"/>
+				
+							</div><!-- img_wrapper -->
+			
+							<div class="thumb_overlay">
+				
+								<div class="thumb_title_wrapper">
+				
+									<span class="thumb_orange_line"></span>
+									<span class="thumb_title"><?php the_title();?></span><!-- thumb_title -->
+				
+								</div><!-- thumb_title_wrapper -->
+				
+						</div><!-- thumb_overlay -->
+			
+					</div><!-- single_thumb -->
+    
+    
+					<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+					<?php endif; ?>
+			
+			
+			
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
+		
 		
 	</div><!-- slider_thumbs_wrapper -->
 	
@@ -1485,230 +1360,65 @@ get_header(); ?>
 			
 			
 			
-			<div class="single_main_slide">
+			<?php if(get_field('meet_the_team_slider')): ?>
+			 
+				<?php while(has_sub_field('meet_the_team_slider')): ?>
+			 
+<!-- 					<?php the_sub_field('');?> -->
+
+
+						
+						<?php $post_object = get_sub_field('team_bio_link');
+
+						if( $post_object ): 
+
+						// override $post
+						$post = $post_object;
+						setup_postdata( $post ); ?>
+						
+						
+							
+						<div class="single_main_slide">
 				
-				<div class="main_slide_left">
+								<div class="main_slide_left">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
+									<img src="<?php the_field( 'my_profile_image' ); ?>"/>
 					
-				</div><!-- main_slide_left -->
+								</div><!-- main_slide_left -->
 				
-				<div class="main_slide_right">
+							<div class="main_slide_right">
 					
-					<span class="slide_title">Tom Anapol</span><!-- slide_title -->
-					<span class="slide_position">shareholder</span><!-- slide_position -->
+								<span class="slide_title"><?php the_title();?></span><!-- slide_title -->
+								<span class="slide_position"><?php the_field( 'position' ); ?></span><!-- slide_position -->
 					
-					<div class="slide_content">
+								<div class="slide_content">
 						
-						<span class="slide_content_title">What’s the best part about the work you do?</span><!-- slide_content_title -->
+									<span class="slide_content_title"><?php the_sub_field('bio_question');?></span><!-- slide_content_title -->
 						
-						<p>It's extremely gratifying to help people and right wrongs. I concentrate much of my practice on pharmaceutical and medical device litigation. It's a massive industry that over the years has put profits ahead of patient care. I firmly believe I have made a difference in my client's lives. I take tremendous pride in holding industry accountable for their actions.</p>
+									<p><?php the_sub_field('bio_answer');?></p>
 						
-					</div><!-- slide_content -->
+								</div><!-- slide_content -->
 					
-					<a href="" id="quote_line_trigger" class="view_profile">View Profile</a><!-- view_profile -->
+								<a href="<?php the_permalink();?>" class="view_profile">View Profile</a><!-- view_profile -->
 					
-				</div><!-- main_slide_right -->
-				
-			</div><!-- single_main_slide -->
-			
-		
-			<div class="single_main_slide">
-				
-				<div class="main_slide_left">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-				</div><!-- main_slide_left -->
-				
-				<div class="main_slide_right">
-					
-					<span class="slide_title">Other Person</span><!-- slide_title -->
-					<span class="slide_position">shareholder</span><!-- slide_position -->
-					
-					<div class="slide_content">
-						
-						<span class="slide_content_title">What’s the best part about the work you do?</span><!-- slide_content_title -->
-						
-						<p>It's extremely gratifying to help people and right wrongs. I concentrate much of my practice on pharmaceutical and medical device litigation. It's a massive industry that over the years has put profits ahead of patient care. I firmly believe I have made a difference in my client's lives. I take tremendous pride in holding industry accountable for their actions.</p>
-						
-					</div><!-- slide_content -->
-					
-					<a href="" class="view_profile">View Profile</a><!-- view_profile -->
-					
-				</div><!-- main_slide_right -->
+						</div><!-- main_slide_right -->
 				
 			</div><!-- single_main_slide -->
+    
+						    
+    
+					<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+					<?php endif; ?>
+						
+						
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
+			
+
 			
 			
-			<div class="single_main_slide">
-				
-				<div class="main_slide_left">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-				</div><!-- main_slide_left -->
-				
-				<div class="main_slide_right">
-					
-					<span class="slide_title">Tom Anapol</span><!-- slide_title -->
-					<span class="slide_position">shareholder</span><!-- slide_position -->
-					
-					<div class="slide_content">
-						
-						<span class="slide_content_title">What’s the best part about the work you do?</span><!-- slide_content_title -->
-						
-						<p>It's extremely gratifying to help people and right wrongs. I concentrate much of my practice on pharmaceutical and medical device litigation. It's a massive industry that over the years has put profits ahead of patient care. I firmly believe I have made a difference in my client's lives. I take tremendous pride in holding industry accountable for their actions.</p>
-						
-					</div><!-- slide_content -->
-					
-					<a href="" class="view_profile">View Profile</a><!-- view_profile -->
-					
-				</div><!-- main_slide_right -->
-				
-			</div><!-- single_main_slide -->
-			
-			
-			<div class="single_main_slide">
-				
-				<div class="main_slide_left">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-				</div><!-- main_slide_left -->
-				
-				<div class="main_slide_right">
-					
-					<span class="slide_title">Tom Anapol</span><!-- slide_title -->
-					<span class="slide_position">shareholder</span><!-- slide_position -->
-					
-					<div class="slide_content">
-						
-						<span class="slide_content_title">What’s the best part about the work you do?</span><!-- slide_content_title -->
-						
-						<p>It's extremely gratifying to help people and right wrongs. I concentrate much of my practice on pharmaceutical and medical device litigation. It's a massive industry that over the years has put profits ahead of patient care. I firmly believe I have made a difference in my client's lives. I take tremendous pride in holding industry accountable for their actions.</p>
-						
-					</div><!-- slide_content -->
-					
-					<a href="" class="view_profile">View Profile</a><!-- view_profile -->
-					
-				</div><!-- main_slide_right -->
-				
-			</div><!-- single_main_slide -->
-			
-			
-			
-			<div class="single_main_slide">
-				
-				<div class="main_slide_left">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-				</div><!-- main_slide_left -->
-				
-				<div class="main_slide_right">
-					
-					<span class="slide_title">Tom Anapol</span><!-- slide_title -->
-					<span class="slide_position">shareholder</span><!-- slide_position -->
-					
-					<div class="slide_content">
-						
-						<span class="slide_content_title">What’s the best part about the work you do?</span><!-- slide_content_title -->
-						
-						<p>It's extremely gratifying to help people and right wrongs. I concentrate much of my practice on pharmaceutical and medical device litigation. It's a massive industry that over the years has put profits ahead of patient care. I firmly believe I have made a difference in my client's lives. I take tremendous pride in holding industry accountable for their actions.</p>
-						
-					</div><!-- slide_content -->
-					
-					<a href="" class="view_profile">View Profile</a><!-- view_profile -->
-					
-				</div><!-- main_slide_right -->
-				
-			</div><!-- single_main_slide -->
-			
-			
-			<div class="single_main_slide">
-				
-				<div class="main_slide_left">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-				</div><!-- main_slide_left -->
-				
-			<div class="main_slide_right">
-					
-					<span class="slide_title">Tom Anapol</span><!-- slide_title -->
-					<span class="slide_position">shareholder</span><!-- slide_position -->
-					
-					<div class="slide_content">
-						
-						<span class="slide_content_title">What’s the best part about the work you do?</span><!-- slide_content_title -->
-						
-						<p>It's extremely gratifying to help people and right wrongs. I concentrate much of my practice on pharmaceutical and medical device litigation. It's a massive industry that over the years has put profits ahead of patient care. I firmly believe I have made a difference in my client's lives. I take tremendous pride in holding industry accountable for their actions.</p>
-						
-					</div><!-- slide_content -->
-					
-					<a href="" class="view_profile">View Profile</a><!-- view_profile -->
-					
-				</div><!-- main_slide_right -->
-				
-			</div><!-- single_main_slide -->
-			
-			
-			<div class="single_main_slide">
-				
-				<div class="main_slide_left">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-				</div><!-- main_slide_left -->
-				
-				<div class="main_slide_right">
-					
-					<span class="slide_title">Tom Anapol</span><!-- slide_title -->
-					<span class="slide_position">shareholder</span><!-- slide_position -->
-					
-					<div class="slide_content">
-						
-						<span class="slide_content_title">What’s the best part about the work you do?</span><!-- slide_content_title -->
-						
-						<p>It's extremely gratifying to help people and right wrongs. I concentrate much of my practice on pharmaceutical and medical device litigation. It's a massive industry that over the years has put profits ahead of patient care. I firmly believe I have made a difference in my client's lives. I take tremendous pride in holding industry accountable for their actions.</p>
-						
-					</div><!-- slide_content -->
-					
-					<a href="" class="view_profile">View Profile</a><!-- view_profile -->
-					
-				</div><!-- main_slide_right -->
-				
-			</div><!-- single_main_slide -->
-			
-			
-			
-			<div class="single_main_slide">
-				
-				<div class="main_slide_left">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/profile_tom.jpg"/>
-					
-				</div><!-- main_slide_left -->
-				
-				<div class="main_slide_right">
-					
-					<span class="slide_title">Tom Anapol</span><!-- slide_title -->
-					<span class="slide_position">shareholder</span><!-- slide_position -->
-					
-					<div class="slide_content">
-						
-						<span class="slide_content_title">What’s the best part about the work you do?</span><!-- slide_content_title -->
-						
-						<p>It's extremely gratifying to help people and right wrongs. I concentrate much of my practice on pharmaceutical and medical device litigation. It's a massive industry that over the years has put profits ahead of patient care. I firmly believe I have made a difference in my client's lives. I take tremendous pride in holding industry accountable for their actions.</p>
-						
-					</div><!-- slide_content -->
-					
-					<a href="" class="view_profile">View Profile</a><!-- view_profile -->
-					
-				</div><!-- main_slide_right -->
-				
-			</div><!-- single_main_slide -->
 		
 			
 			<div class="team_counter">
@@ -1718,8 +1428,6 @@ get_header(); ?>
 		</div><!-- team_counter -->
 		
 
-		
-		
 		</div><!-- slide_main_inner -->
 		
 		
