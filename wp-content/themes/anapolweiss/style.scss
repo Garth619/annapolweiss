@@ -185,6 +185,11 @@ header {
 			ul.menu {
 				display: flex;
 				justify-content: space-around;
+				>li.current-menu-item {
+					a {
+						color:$orange;
+					}
+				}
 				> li.current-menu-ancestor {
 					> a {
 						color:$orange;
@@ -4644,6 +4649,7 @@ body.page-template-page-results {
 			float:left;
 			margin-top:100px;
 			padding:20px;
+			height:450px;
 			
 			&:nth-of-type(3n + 3) {
 				border-right: 0;

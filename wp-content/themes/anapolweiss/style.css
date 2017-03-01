@@ -132,6 +132,8 @@ nav.desktop {
   nav.desktop ul.menu {
     display: flex;
     justify-content: space-around; }
+    nav.desktop ul.menu > li.current-menu-item a {
+      color: #cf622d; }
     nav.desktop ul.menu > li.current-menu-ancestor > a {
       color: #cf622d; }
       nav.desktop ul.menu > li.current-menu-ancestor > a:after {
@@ -3253,7 +3255,8 @@ body.page-template-page-results .inner_page_content {
       border-right: 1px solid #d4d4d4;
       float: left;
       margin-top: 100px;
-      padding: 20px; }
+      padding: 20px;
+      height: 450px; }
       .single_cases_wrapper .single_cases_inner .inner_page_single_case:nth-of-type(3n + 3) {
         border-right: 0; }
       .single_cases_wrapper .single_cases_inner .inner_page_single_case span.inner_page_case_number {
