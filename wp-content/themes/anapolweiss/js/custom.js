@@ -929,6 +929,26 @@ checkWidththree();
 
 
   
+// Video Play Button
+
+
+jQuery('.single_video_wrapper').mouseenter(function(){
+	
+	jQuery(this).find('.play_reg').fadeOut(200);
+	jQuery(this).find('.play_reg_hover').fadeIn(200);
+	
+});
+
+
+
+jQuery('.single_video_wrapper').mouseleave(function(){
+	
+	jQuery(this).find('.play_reg').fadeIn(200);
+	jQuery(this).find('.play_reg_hover').fadeOut(200);
+	
+});
+
+
 
 
 

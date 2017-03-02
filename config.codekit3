@@ -16288,6 +16288,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/themes\/anapolweiss\/images\/video_play.png": {
+		"ft": 32768,
+		"iS": 4518,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/video_play.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/themes\/anapolweiss\/images\/video_play_button.png": {
 		"ft": 32768,
 		"iS": 14518,
@@ -16301,6 +16309,14 @@
 		"iS": 15370,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/video_play_button_hover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/images\/video_play_hover.png": {
+		"ft": 32768,
+		"iS": 4191,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/images\/video_play_hover.png",
 		"oF": 0,
 		"opt": 0
 		},
