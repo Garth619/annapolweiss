@@ -24,10 +24,6 @@ get_header(); ?>
 		<h1>Contact</h1>
 		
 		
-		
-		
-		
-		
 		<div class="locations_mobile_inner_page">
 		
 		<span class="locations_mobile_title">Locations</span><!-- locations_mobile_title -->
@@ -46,31 +42,31 @@ get_header(); ?>
 			
 			<div class="single_location_mobile">
 			
-				<span class="state">Pennsylvania</span><!-- state -->
+				<span class="state"><?php the_field( 'locations_1_state' ); ?></span><!-- note same state as the above -->
 				<span class="location_line"></span><!-- location_line -->
-				<a class="address" href="https://www.google.com/maps/place/4807+Jonestown+Rd+%23148,+Harrisburg,+PA+17109/@40.303559,-76.8107735,17z/data=!3m1!4b1!4m5!3m4!1s0x89c8b895df971cdf:0xe237c16a491974dd!8m2!3d40.303559!4d-76.8085848" target="_blank">4807 Jonestown Rd, <br/>Suite 148<br/>Harrisburg, PA 171093</a><!-- address -->
-				<a href="https://www.google.com/maps/place/4807+Jonestown+Rd+%23148,+Harrisburg,+PA+17109/@40.303559,-76.8107735,17z/data=!3m1!4b1!4m5!3m4!1s0x89c8b895df971cdf:0xe237c16a491974dd!8m2!3d40.303559!4d-76.8085848" class="get_directions" target="_blank">Get Directions</a>
-				<a class="location_tel" href="tel:7179013500">(717) 901-3500</a>
+				<a class="address" href="<?php the_field( 'locations_2_link' ); ?>" target="_blank"><?php the_field( 'locations_2_address' ); ?></a><!-- address -->
+				<a href="<?php the_field( 'locations_2_link' ); ?>" class="get_directions" target="_blank">Get Directions</a>
+				<a class="location_tel" href="tel:<?php the_field( 'locations_2_phone_number' ); ?>"><?php the_field( 'locations_2_phone_number' ); ?></a>
 			
 			</div><!-- single_location -->
 			
 			<div class="single_location_mobile">
 			
-				<span class="state">New Jersey</span><!-- state -->
+				<span class="state"><?php the_field( 'locations_3_state' ); ?></span><!-- state -->
 				<span class="location_line"></span><!-- location_line -->
-				<a class="address" href="https://www.google.com/maps/place/1040+Kings+Hwy+N,+Cherry+Hill,+NJ+08034/@39.9221344,-75.0049256,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6cb0df600bd0b:0xa1e9fa0145600506!8m2!3d39.9221344!4d-75.0027369" target="_blank">1040 N. Kings Highway<br/>Cherry Hill, NJ 080343</a><!-- address -->
-				<a href="https://www.google.com/maps/place/1040+Kings+Hwy+N,+Cherry+Hill,+NJ+08034/@39.9221344,-75.0049256,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6cb0df600bd0b:0xa1e9fa0145600506!8m2!3d39.9221344!4d-75.0027369" class="get_directions" target="_blank">Get Directions</a>
-				<a class="location_tel" href="tel:8564279229">(856) 427-9229</a>
+				<a class="address" href="<?php the_field( 'locations_3_link' ); ?>" target="_blank"><?php the_field( 'locations_3_address' ); ?></a><!-- address -->
+				<a href="<?php the_field( 'locations_3_link' ); ?>" class="get_directions" target="_blank">Get Directions</a>
+				<a class="location_tel" href="tel:<?php the_field( 'locations_3_phone_number' ); ?>"><?php the_field( 'locations_3_phone_number' ); ?></a>
 			
 			</div><!-- single_location -->
 			
 			<div class="single_location_mobile">
 			
-				<span class="state">Arizona</span><!-- state -->
+				<span class="state"><?php the_field( 'locations_4_state' ); ?></span><!-- state -->
 				<span class="location_line"></span><!-- location_line -->
-				<a class="address" href="https://www.google.com/maps/place/8700+E+Vista+Bonita+Dr+%23268,+Scottsdale,+AZ+85255/@33.696658,-111.8955687,17z/data=!3m1!4b1!4m5!3m4!1s0x872b77ae10a095fb:0xd5d07a34fd9de2c6!8m2!3d33.696658!4d-111.89338" target="_blank">8700 E. Vista Bonita Dr,<br class="tablet_break"/> Suite 268<br/>Scottsdale, AZ 852553</a><!-- address -->
-				<a href="https://www.google.com/maps/place/8700+E+Vista+Bonita+Dr+%23268,+Scottsdale,+AZ+85255/@33.696658,-111.8955687,17z/data=!3m1!4b1!4m5!3m4!1s0x872b77ae10a095fb:0xd5d07a34fd9de2c6!8m2!3d33.696658!4d-111.89338" class="get_directions" target="_blank">Get Directions</a>
-				<a class="location_tel" href="tel:4805154745">(480) 515-4745</a>
+				<a class="address" href="<?php the_field( 'locations_4_link' ); ?>" target="_blank"><?php the_field( 'locations_4_address' ); ?></a><!-- address -->
+				<a href="<?php the_field( 'locations_4_link' ); ?>" class="get_directions" target="_blank">Get Directions</a>
+				<a class="location_tel" href="tel:<?php the_field( 'locations_4_phone_number' ); ?>"><?php the_field( 'locations_4_phone_number' ); ?></a>
 			
 			</div><!-- single_location -->
 
@@ -98,15 +94,9 @@ get_header(); ?>
 		
 		
 		
+
 		
-		
-		
-		
-		
-		
-		
-		
-		<div class="locations_outer_wrapper">
+	<div class="locations_outer_wrapper">
 		
 		
 		<div class="locations_wrapper">
@@ -134,10 +124,10 @@ get_header(); ?>
 						
 						<div class="single_location">
 						
-							<a class="address" href="https://www.google.com/maps/place/4807+Jonestown+Rd+%23148,+Harrisburg,+PA+17109/@40.303559,-76.8107735,17z/data=!3m1!4b1!4m5!3m4!1s0x89c8b895df971cdf:0xe237c16a491974dd!8m2!3d40.303559!4d-76.8085848" target="_blank">4807 Jonestown Rd, Suite 148<br/>Harrisburg, PA 171093</a><!-- address -->
-							<a href="https://www.google.com/maps/place/4807+Jonestown+Rd+%23148,+Harrisburg,+PA+17109/@40.303559,-76.8107735,17z/data=!3m1!4b1!4m5!3m4!1s0x89c8b895df971cdf:0xe237c16a491974dd!8m2!3d40.303559!4d-76.8085848" class="get_directions" target="_blank">Get Directions</a>
+							<a class="address" href="<?php the_field( 'locations_2_link' ); ?>" target="_blank"><?php the_field( 'locations_2_address' ); ?></a><!-- address -->
+							<a href="<?php the_field( 'locations_2_link' ); ?>" class="get_directions" target="_blank">Get Directions</a>
 						
-							<a class="location_tel" href="tel:7179013500">(717) 901-3500</a>
+							<a class="location_tel" href="tel:<?php the_field( 'locations_2_phone_number' ); ?>"><?php the_field( 'locations_2_phone_number' ); ?></a>
 					
 						</div><!-- single_location -->
 					
@@ -148,16 +138,16 @@ get_header(); ?>
 					
 					<div class="location_col">
 					
-					<span class="state">New Jersey</span><!-- state -->
+					<span class="state"><?php the_field( 'locations_3_state' ); ?></span><!-- state -->
 						
 						<span class="location_line"></span><!-- location_line -->
 						
 						<div class="single_location">
 						
-							<a class="address" href="https://www.google.com/maps/place/1040+Kings+Hwy+N,+Cherry+Hill,+NJ+08034/@39.9221344,-75.0049256,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6cb0df600bd0b:0xa1e9fa0145600506!8m2!3d39.9221344!4d-75.0027369" target="_blank">1040 N. Kings Highway<br/>Cherry Hill, NJ 080343</a><!-- address -->
-							<a href="https://www.google.com/maps/place/1040+Kings+Hwy+N,+Cherry+Hill,+NJ+08034/@39.9221344,-75.0049256,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6cb0df600bd0b:0xa1e9fa0145600506!8m2!3d39.9221344!4d-75.0027369" class="get_directions" target="_blank">Get Directions</a>
+							<a class="address" href="<?php the_field( 'locations_3_link' ); ?>" target="_blank"><?php the_field( 'locations_3_address' ); ?></a><!-- address -->
+							<a href="<?php the_field( 'locations_3_link' ); ?>" class="get_directions" target="_blank">Get Directions</a>
 						
-							<a class="location_tel" href="tel:8564279229">(856) 427-9229</a>
+							<a class="location_tel" href="tel:<?php the_field( 'locations_3_phone_number' ); ?>"><?php the_field( 'locations_3_phone_number' ); ?></a>
 					
 						</div><!-- single_location -->
 						
@@ -168,16 +158,16 @@ get_header(); ?>
 					
 					<div class="location_col">
 					
-					<span class="state">Arizona</span><!-- state -->
+					<span class="state"><?php the_field( 'locations_4_state' ); ?></span><!-- state -->
 						
 						<span class="location_line"></span><!-- location_line -->
 						
 						<div class="single_location">
 						
-							<a class="address" href="https://www.google.com/maps/place/8700+E+Vista+Bonita+Dr+%23268,+Scottsdale,+AZ+85255/@33.696658,-111.8955687,17z/data=!3m1!4b1!4m5!3m4!1s0x872b77ae10a095fb:0xd5d07a34fd9de2c6!8m2!3d33.696658!4d-111.89338" target="_blank">8700 E. Vista Bonita Dr,<br class="tablet_break"/> Suite 268<br/>Scottsdale, AZ 852553</a><!-- address -->
-							<a href="https://www.google.com/maps/place/8700+E+Vista+Bonita+Dr+%23268,+Scottsdale,+AZ+85255/@33.696658,-111.8955687,17z/data=!3m1!4b1!4m5!3m4!1s0x872b77ae10a095fb:0xd5d07a34fd9de2c6!8m2!3d33.696658!4d-111.89338" class="get_directions" target="_blank">Get Directions</a>
+							<a class="address" href="<?php the_field( 'locations_4_link' ); ?>" target="_blank"><?php the_field( 'locations_4_address' ); ?></a><!-- address -->
+							<a href="<?php the_field( 'locations_4_link' ); ?>" class="get_directions" target="_blank">Get Directions</a>
 						
-							<a class="location_tel" href="tel:4805154745">(480) 515-4745</a>
+							<a class="location_tel" href="tel:<?php the_field( 'locations_4_phone_number' ); ?>"><?php the_field( 'locations_4_phone_number' ); ?></a>
 					
 						</div><!-- single_location -->
 						
