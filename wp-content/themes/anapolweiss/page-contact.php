@@ -36,11 +36,11 @@ get_header(); ?>
 			
 			<div class="single_location_mobile">
 			
-				<span class="state">Pennsylvania</span><!-- state -->
+				<span class="state"><?php the_field( 'locations_1_state' ); ?></span><!-- state -->
 				<span class="location_line"></span><!-- location_line -->
-				<a class="address" href="https://www.google.com/maps?biw=2526&bih=1072&q=One+Logan+Square+130+N.+18th+St.+Ste.+1600+Philadelphia,+PA+19103&bav=on.2,or.r_cp.&bvm=bv.148441817,d.cGw&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjXgpCAzbTSAhXrylQKHTxRAjMQ_AUIBigB" target="_blank">One Logan Square 130 N. 18th St. <br/>Ste. 1600<br/>Philadelphia, PA 19103</a><!-- address -->
-				<a href="https://www.google.com/maps?biw=2526&bih=1072&q=One+Logan+Square+130+N.+18th+St.+Ste.+1600+Philadelphia,+PA+19103&bav=on.2,or.r_cp.&bvm=bv.148441817,d.cGw&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjXgpCAzbTSAhXrylQKHTxRAjMQ_AUIBigB" class="get_directions" target="_blank">Get Directions</a>
-				<a class="location_tel" href="tel:21573511340">(215) 735-11340</a>
+				<a class="address" href="<?php the_field( 'locations_1_link' ); ?>" target="_blank"><?php the_field( 'locations_1_address' ); ?></a><!-- address -->
+				<a href="<?php the_field( 'locations_1_link' ); ?>" class="get_directions" target="_blank">Get Directions</a>
+				<a class="location_tel" href="tel:<?php the_field( 'locations_1_phone_number' ); ?>"><?php the_field( 'locations_1_phone_number' ); ?></a>
 			
 			</div><!-- single_location -->
 			
@@ -119,16 +119,16 @@ get_header(); ?>
 				
 				<div class="location_col">
 					
-					<span class="state">Pennsylvania</span><!-- state -->
+					<span class="state"><?php the_field( 'locations_1_state' ); ?></span><!-- state -->
 						
 						<span class="location_line"></span><!-- location_line -->
 						
 						<div class="single_location">
 						
-							<a class="address" href="https://www.google.com/maps?biw=2526&bih=1072&q=One+Logan+Square+130+N.+18th+St.+Ste.+1600+Philadelphia,+PA+19103&bav=on.2,or.r_cp.&bvm=bv.148441817,d.cGw&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjXgpCAzbTSAhXrylQKHTxRAjMQ_AUIBigB" target="_blank">One Logan Square 130 N. 18th St. Ste. 1600<br/>Philadelphia, PA 19103</a><!-- address -->
-							<a href="https://www.google.com/maps?biw=2526&bih=1072&q=One+Logan+Square+130+N.+18th+St.+Ste.+1600+Philadelphia,+PA+19103&bav=on.2,or.r_cp.&bvm=bv.148441817,d.cGw&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjXgpCAzbTSAhXrylQKHTxRAjMQ_AUIBigB" class="get_directions" target="_blank">Get Directions</a>
+							<a class="address" href="<?php the_field( 'locations_1_link' ); ?>" target="_blank"><?php the_field( 'locations_1_address' ); ?></a><!-- address -->
+							<a href="<?php the_field( 'locations_1_link' ); ?>" class="get_directions" target="_blank">Get Directions</a>
 						
-							<a class="location_tel" href="tel:21573511340">(215) 735-11340</a>
+							<a class="location_tel" href="tel:<?php the_field( 'locations_1_phone_number' ); ?>"><?php the_field( 'locations_1_phone_number' ); ?></a>
 					
 						</div><!-- single_location -->
 						

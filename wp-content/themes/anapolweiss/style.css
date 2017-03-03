@@ -94,6 +94,33 @@ header, section, nav, footer {
       color: #17303f;
       text-decoration: none; }
 
+/* Image alignment */
+.alignleft,
+img.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 24px;
+  margin-top: 4px; }
+
+.alignright,
+img.alignright {
+  display: inline;
+  float: right;
+  margin-left: 24px;
+  margin-top: 4px; }
+
+.aligncenter,
+img.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+img.alignleft,
+img.alignright,
+img.aligncenter {
+  margin-bottom: 12px; }
+
 /* Header */
 header {
   background: #fff;
@@ -1726,7 +1753,7 @@ footer {
     margin: 0; }
     .form ul li#field_1_3 {
       margin-right: 0%; }
-    .form ul li#field_1_5 {
+    .form ul li#field_1_5, .form ul li#field_1_6 {
       display: none; }
     .form ul li#field_1_4 {
       width: 100%;
@@ -3165,29 +3192,29 @@ body.page-template-page-attprofile .sidebar {
 /* Foundation */
 .inner_banner_foundation {
   background-size: cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/foundation_header.jpg) no-repeat scroll top left/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/foundation_header_new.jpg) no-repeat scroll top left/cover;
   width: 100%;
-  height: 600px; }
+  height: 255px; }
   .inner_banner_foundation .inner_content_foundation {
     text-align: center;
     width: 100%;
     max-width: 950px;
     float: right;
     position: relative;
-    top: 50%;
+    top: 52%;
     margin-right: 9%;
     transform: translateY(-50%); }
     .inner_banner_foundation .inner_content_foundation span.sub_header {
-      font-size: 26px;
+      font-size: 21px;
       font-family: "Butler-Medium";
-      letter-spacing: 37px;
+      letter-spacing: 32px;
       color: #fff;
       text-transform: uppercase;
       display: block;
-      margin-bottom: 15px; }
+      margin-bottom: 2px; }
     .inner_banner_foundation .inner_content_foundation span.large_header {
       color: #cf622d;
-      font-size: 166px;
+      font-size: 132px;
       font-family: "Helvetica Neue LT W01_77 Bd Cn";
       text-transform: uppercase;
       letter-spacing: 9px; }
@@ -3380,6 +3407,15 @@ body.page-template-page-videos .inner_page_content {
           left: 0; }
         .video_wrapper .single_video_wrapper .play_overlay .play_inner_overlay img.play_reg_hover {
           display: none; }
+
+body.page-template-page-staff .sidebar span.sub_header, body.page-template-page-staff .sidebar span.sub_header, body.page-template-page-thankyou .sidebar span.sub_header {
+  display: none; }
+
+body.page-template-page-staff span.sidebar_line, body.page-template-page-staff span.sidebar_line, body.page-template-page-thankyou span.sidebar_line {
+  display: none; }
+
+body.page-template-page-staff .keep_up, body.page-template-page-staff .keep_up, body.page-template-page-thankyou .keep_up {
+  margin-top: 0; }
 
 @media screen and (max-width: 1830px) {
   /* About */
@@ -4413,20 +4449,21 @@ body.page-template-page-videos .inner_page_content {
   .inner_banner_foundation {
     margin-top: 50px;
     background-size: cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)), url(images/foundation_header.jpg) no-repeat scroll top left/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)), url(images/foundation_header_new.jpg) no-repeat scroll top left/cover;
     width: 100%;
-    height: 600px;
+    height: 255px;
     margin-top: 111px; }
     .inner_banner_foundation .inner_content_foundation {
       max-width: 100%;
       float: none;
       margin-right: 0%;
-      padding: 0 20px; }
+      padding: 0 20px;
+      top: 53%; }
       .inner_banner_foundation .inner_content_foundation span.sub_header {
-        font-size: 22px;
+        font-size: 20px;
         letter-spacing: 32px; }
       .inner_banner_foundation .inner_content_foundation span.large_header {
-        font-size: 145px; }
+        font-size: 115px; }
   /* Inner Case Results */
   body.page-template-page-results .inner_main_wrapper {
     margin-bottom: 75px; }
@@ -4588,9 +4625,8 @@ body.page-template-page-videos .inner_page_content {
 @media screen and (max-width: 876px) {
   /* Foundation */
   .inner_banner_foundation {
-    height: 400px; }
+    /* 	height:400px; */ }
     .inner_banner_foundation .inner_content_foundation span.sub_header {
-      font-size: 23px;
       letter-spacing: 25px;
       line-height: 30px; }
     .inner_banner_foundation .inner_content_foundation span.large_header {
@@ -4614,7 +4650,31 @@ body.page-template-page-videos .inner_page_content {
       padding-right: 0px; }
   /* Videos */
   .video_wrapper .single_video_wrapper {
-    width: 100%; } }
+    width: 100%; }
+  .alignleft,
+  img.alignleft {
+    display: block;
+    float: none;
+    margin-right: 0px;
+    margin-top: 4px; }
+  .alignright,
+  img.alignright {
+    display: block;
+    float: none;
+    margin-left: 0px;
+    margin-top: 4px; }
+  .aligncenter,
+  img.aligncenter {
+    clear: none;
+    display: block;
+    margin-left: 0;
+    margin-right: 0; }
+  img.alignleft,
+  img.alignright,
+  img.aligncenter {
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto; } }
 
 /* Media Query */
 @media screen and (max-width: 800px) {
