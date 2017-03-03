@@ -15,12 +15,13 @@ get_header(); ?>
 		
 		<a href="tel:866.735.2792" class="mobile_tel_banner">866.735.2792</a><!-- mobile_tel -->
 		
-		<div class="play_button_wrapper">
+	
 		
 		
 <script src="//fast.wistia.com/embed/medias/iqptxo13jy.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_iqptxo13jy popover=true popoverContent=link" style="display:inline">
 
-
+		<div class="play_button_wrapper">
+	
 
 		<a class="play_button" href="#">
 			
@@ -30,7 +31,7 @@ get_header(); ?>
 			
 		</a><!-- play_button -->
 
-</div><!-- play_button_wrapper -->
+		</div><!-- play_button_wrapper -->
 
 
 </span>

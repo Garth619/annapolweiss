@@ -584,8 +584,9 @@ function my_jquery_enqueue() {
      wp_enqueue_style( 'styles', get_stylesheet_uri(), '', 6, 'all' ); 
 
      // Load my javascripts
-     wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom.js',
-     array('jquery'), '', true );
+     wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), '', true );
+     
+     
  }
  
  add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
@@ -712,6 +713,5 @@ function is_tree($pid) {      // $pid = The ID of the page we're looking for pag
 	else 
                return false;  // we're elsewhere
 };
-
 
 
