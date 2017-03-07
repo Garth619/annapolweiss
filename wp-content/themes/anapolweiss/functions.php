@@ -702,12 +702,15 @@ function custom_upload_mimes ( $existing_mimes=array() ) {
 }
 
 
+
+
 if( function_exists('acf_add_options_page') ) {
 
 	acf_add_options_page('Header and Footer');
 	
 
 }
+
 
 
 // Parent Child
@@ -721,5 +724,9 @@ function is_tree($pid) {      // $pid = The ID of the page we're looking for pag
 	else 
                return false;  // we're elsewhere
 };
+
+
+
+
 
 

@@ -13,7 +13,7 @@ get_header(); ?>
 	
 	<div class="inner_main_content">
 		
-		<a href="tel:866.735.2792" class="mobile_tel_banner">866.735.2792</a><!-- mobile_tel -->
+		<a href="tel:866.735.2792" class="mobile_tel_banner"><?php the_field( 'phone_number','option'); ?></a><!-- mobile_tel -->
 		
 		<div class="play_button_wrapper">
 		
