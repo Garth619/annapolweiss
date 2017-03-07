@@ -25,19 +25,23 @@ get_header(); ?>
 		
 		<div class="content">
 			
-			<p class="intro">At Anapol Weiss, we are committed to providing the best counsel, advocacy and service to our clients.  We are committed to understanding your unique needs and serving as a resource and partner.  We are dedicated to obtaining justice for those who have been injured or wronged while maintaining the highest standards of personal and professional integrity.  We promise to be accessible, efficient, responsive and transparent and will continue our long tradition of working hard for the benefit of you, our client.</p>
+			
+			<?php the_field( 'about_intro' ); ?>
 			
 			
-			<h2>Who We are</h2>
-			<span class="aboutus_greyline"></span><!-- greyline -->
+			<?php if(get_field('about_content')): ?>
+			 
+				<?php while(has_sub_field('about_content')): ?>
+			 
+					<h2><?php the_sub_field( 'title' ); ?></h2>
+					
+					<span class="aboutus_greyline"></span><!-- greyline -->
 			
-			<p><strong>For more than 35 years, the attorneys at Anapol Weiss have had this guiding principle:</strong><br/>
-We passionately believe it is our responsibility to stand up for those who have been harmed by someone else’s negligence, whether that someone is a single individual or a multibillion-dollar corporation.</p>
-
-			<h2>What drives our firm</h2>
-			<span class="aboutus_greyline"></span><!-- greyline -->
-			
-			<p>Our commitment to giving every victim a voice is at the heart of all we do. We are dedicated to obtaining justice for those who have been injured or wronged, speaking out for them, and getting their voices heard.</p>
+					<?php the_sub_field( 'content' ); ?>
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
 		</div><!-- content -->
 		
@@ -51,48 +55,22 @@ We passionately believe it is our responsibility to stand up for those who have 
 			<div  class="inner_about_slider">
 				
 				
-				<div class="inner_about_slides">
+				<?php if(get_field('about_inner_page_slider')): ?>
+				 
+					<?php while(has_sub_field('about_inner_page_slider')): ?>
+				 
+						<div class="inner_about_slides">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_8.jpg"/>
+							<img src="<?php the_sub_field( 'image' ); ?>"/>
 					
-				</div><!-- inner_about_slides -->
+						</div><!-- inner_about_slides -->
+				    
+					<?php endwhile; ?>
+				 
+				<?php endif; ?>
 				
-				<div class="inner_about_slides">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_9.jpg"/>
-					
-				</div><!-- inner_about_slides -->
 				
-				<div class="inner_about_slides">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_10.jpg"/>
-					
-				</div><!-- inner_about_slides -->
-				
-				<div class="inner_about_slides">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_11.jpg"/>
-					
-				</div><!-- inner_about_slides -->
-				
-				<div class="inner_about_slides">
-					
-				<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_12.jpg"/>
-					
-				</div><!-- inner_about_slides -->
-				
-				<div class="inner_about_slides">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_13.jpg"/>
-					
-				</div><!-- inner_about_slides -->
-				
-				<div class="inner_about_slides">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_14.jpg"/>
-					
-				</div><!-- inner_about_slides -->
-				
+								
 				
 				<div class="inner_about_buttons">
 				
@@ -119,7 +97,7 @@ We passionately believe it is our responsibility to stand up for those who have 
 			
 			<div class="inner_about_caption">
 				
-				<span class="inner_about_caption_title">Our Team</span><!-- inner_about_caption_title -->
+				<span class="inner_about_caption_title"><?php the_field( 'about_us_slider_caption' ); ?></span><!-- inner_about_caption_title -->
 				<span class="inner_about_line"></span><!-- inner_about_greyline -->
 				
 			</div><!-- inner_about_caption -->
@@ -139,10 +117,10 @@ We passionately believe it is our responsibility to stand up for those who have 
 
 <div id="inner_about_wave_trigger" class="inner_about_quote">
 	
-	<span class="client_review_title">Client Review</span><!-- client_review -->
+	<span class="client_review_title"><?php the_field( 'client_review_title' ); ?></span><!-- client_review -->
 	<span class="client_review_line"></span><!-- client_review_line -->
 	
-	<span class="inner_about_quote">“Your accomplishments are not simply attributed to <span class="orange">expert leadership</span> and <span class="orange">hard-working employees</span>, but <span class="orange">you truly care</span> about the person behind the case.”</span><!-- inner_about_quote -->
+	<span class="inner_about_quote"><?php the_field( 'client_review_quote' ); ?></span><!-- inner_about_quote -->
 	
 </div><!-- inner_about_quote -->
 
@@ -162,7 +140,7 @@ We passionately believe it is our responsibility to stand up for those who have 
 	
 	<div class="membership_title">
 		
-		<span class="members">memberships <span class="orange">&</span> Associations</span></span>
+		<span class="members"><?php the_field( 'members_title' ); ?></span>
 		<span class="membership_line"></span><!-- membership_line -->
 		
 	</div><!-- membership_title -->
@@ -175,40 +153,40 @@ We passionately believe it is our responsibility to stand up for those who have 
 			
 			<div class="single_member member_one">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/about_logo_1.png"/>
+				<img src="<?php the_field( 'membership1_image' ); ?>"/>
 				<span class="member_greyline"></span><!-- member_greyline -->
-				<span class="single_member_title">Pound Civil Justice Institute</span><!-- single_member_title -->
-				<span class="single_member_content">Anapol Weiss is a Sustaining Fellow of the Pound Civil Justice Institute, an organization dedicated to ensuring access to justice for all citizens. Pound “… works to give lawyers, judges, legal educators and the public a balanced view of the issues affecting the U.S. civil justice system.”</span>
+				<span class="single_member_title"><?php the_field( 'membership1_title' ); ?></span><!-- single_member_title -->
+				<span class="single_member_content"><?php the_field( 'membership_1_content' ); ?></span>
 				
 			</div><!-- single_member -->
 			
 			<div class="single_member member_two">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/about_logo_2.png"/>
+				<img src="<?php the_field( 'membership2_image' ); ?>"/>
 				<span class="member_greyline"></span><!-- member_greyline -->
-				<span class="single_member_title">Civil Justice Foundation</span><!-- single_member_title -->
-				<span class="single_member_content">Anapol Weiss proudly supports the Civil Justice Foundation, a national organization that strengthens the relationship between trial attorneys and consumer advocacy groups in order to safeguard justice for all Americans. The Foundation is devoted to protecting the rights, health and well-being of the injured by providing grants to organizations fighting to preserve justice across the country.</span>
+				<span class="single_member_title"><?php the_field( 'membership2_title' ); ?></span><!-- single_member_title -->
+				<span class="single_member_content"><?php the_field( 'membership_2_content' ); ?></span>
 				
 			</div><!-- single_member -->
 			
 			<div class="single_member member_three">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/about_logo_3.png"/>
+				<img src="<?php the_field( 'membership3_image' ); ?>"/>
 				<span class="member_greyline"></span><!-- member_greyline -->
-				<span class="single_member_title">End Distracted Driving</span><!-- single_member_title -->
-				<span class="single_member_content">Anapol Weiss Shareholder Joel Feldman founded End Distracted Driving (EndDD) after his daughter was killed by a distracted driver in 2009. EndDD’s mission is “… to preserve life and promote safety on a large scale through advocacy, education, and action.” The organization uses a scientifically-based presentation that has been given by hundreds of volunteered lawyers and other professionals. These distracted driving presentations have been seen by more than 275,000 people in the U.S. and in Canada.</span>
+				<span class="single_member_title"><?php the_field( 'membership3_title' ); ?></span><!-- single_member_title -->
+				<span class="single_member_content"><?php the_field( 'membership_3_content' ); ?></span>
 				
 				
-				<a class="visit_site" href="" target="_blank">Visit Site</a>
+				<a class="visit_site" href="<?php the_field( 'membership_3_visit_link' ); ?>" target="_blank"><?php the_field( 'membership_3_visit_site' ); ?></a>
 				
 			</div><!-- single_member -->
 			
 			<div class="single_member member_four">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/about_logo_4.png"/>
+				<img src="<?php the_field( 'membership4_image' ); ?>"/>
 				<span class="member_greyline"></span><!-- member_greyline -->
-				<span class="single_member_title">Casey Anderson Feldman<br/>1988-2009</span><!-- single_member_title -->
-				<span class="single_member_content">Joel Feldman and his wife Dianne Anderson founded the Casey Feldman Memorial Foundation in memory of their daughter. The Foundation’s mission is to support individuals, groups and institutions whose interests and goals align with those of Casey.</span>
+				<span class="single_member_title"><?php the_field( 'membership4_title' ); ?></span><!-- single_member_title -->
+				<span class="single_member_content"><?php the_field( 'membership_4_content' ); ?></span>
 				
 			</div><!-- single_member -->
 			

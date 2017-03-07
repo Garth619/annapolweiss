@@ -191,10 +191,19 @@ get_header(); ?>
 			<span class="social_title">social</span><!-- socail_title -->
 		
 			<ul>
-				<li><a href="https://www.facebook.com/AnapolWeiss" target="_blank">Facebook</a></li>
-				<li><a href="" target="_blank">Google+</a></li>
-				<li><a href="https://www.linkedin.com/company/anapol-weiss" target="_blank">Linkedin</a></li>
-				<li><a href="https://twitter.com/AnapolWeiss" target="_blank">Twitter</a></li>
+				
+				
+				
+				<?php if(get_field('social_media_links')): ?>
+				 
+					<?php while(has_sub_field('social_media_links')): ?>
+				 
+						<li><a href="<?php the_sub_field( 'link' ); ?>" target="_blank"><?php the_sub_field( 'title' ); ?></a></li>
+				    
+					<?php endwhile; ?>
+				 
+				<?php endif; ?>
+
 			</ul>
 		
 		</div><!-- social_inner -->
