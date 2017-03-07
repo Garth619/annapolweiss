@@ -37,12 +37,6 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<!--
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory');?>/fonts/butler-and-newscycle/stylesheet.css" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory');?>/fonts/helvetica/demo.css" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory');?>/fonts/news-cycle-bold/stylesheet.css" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory');?>/fonts/butler_new/stylesheet.css" />
--->
 
 
 
@@ -75,7 +69,7 @@
 			
 			<div class="mobile_header">
 				
-				<a class="mobile_tel" href="">866.735.2792</a><!-- mobile_tel -->
+				<a class="mobile_tel" href="tel:<?php the_field( 'phone_number','option'); ?>"><?php the_field( 'phone_number','option'); ?></a><!-- mobile_tel -->
 				
 				<div class="mobile_menu">
 					

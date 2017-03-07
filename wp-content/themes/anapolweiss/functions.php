@@ -702,6 +702,14 @@ function custom_upload_mimes ( $existing_mimes=array() ) {
 }
 
 
+if( function_exists('acf_add_options_page') ) {
+
+	acf_add_options_page('Header and Footer');
+	
+
+}
+
+
 // Parent Child
 
 

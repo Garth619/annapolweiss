@@ -37,11 +37,11 @@ get_header(); ?>
 		
 
 		
-		<span class="subheader">good people</span><!-- subheader -->
+		<span class="subheader"><?php the_field( 'main_banner_sub_title' ); ?></span><!-- subheader -->
 		
-		<span id="selling_points_trigger" class="largeheader">Great Lawyers</span><!-- large_header -->
+		<span id="selling_points_trigger" class="largeheader"><?php the_field( 'main_banner_large_title' ); ?></span><!-- large_header -->
 		
-		<a class="white_button consulation" href="#free_consultation">Start Your free consultation</a>
+		<a class="white_button consulation" href="#free_consultation"><?php the_field( 'free_consultation_button_verbiage' ); ?></a>
 		
 		<div class="mouse_scroll_wrapper">
 			
@@ -70,7 +70,7 @@ get_header(); ?>
 
 <section class="mobile_consultation">
 	
-	<a href="#free_consultation">start your free consultation</a>
+	<a href="#free_consultation"><?php the_field( 'free_consultation_button_verbiage' ); ?></a>
 	
 </section><!-- mobile_consultation -->
 
@@ -551,55 +551,30 @@ get_header(); ?>
 				
 				<div class="slider_caption">
 					
-					<span class="slider_caption_title">Our Team</span><!-- slider_caption_title -->
+					<span class="slider_caption_title"><?php the_field( 'our_approach_slider_caption' ); ?></span><!-- slider_caption_title -->
 					<span class="caption_line"></span><!-- caption_line -->
 				
 				</div><!-- slider_caption -->
 				
 				<div class="about_slide_inner">
-				
-					<div class="about_slide">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_1.jpg"/>
 					
-					</div><!-- about_slide -->
+					<?php if(get_field('our_approach_slider')): ?>
+					 
+						<?php while(has_sub_field('our_approach_slider')): ?>
+					 
+							<div class="about_slide">
 					
-					<div class="about_slide">
+								<img src="<?php the_sub_field( 'slide' ); ?>"/>
 					
-						<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_2.jpg"/>
+							</div><!-- about_slide -->
 					
-					</div><!-- about_slide -->
+			
+					    <?php endwhile; ?>
+					 
+					<?php endif; ?>
 					
-					<div class="about_slide">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_3.jpg"/>
-					
-					</div><!-- about_slide -->
-					
-					<div class="about_slide">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_4.jpg"/>
-					
-					</div><!-- about_slide -->
-					
-					<div class="about_slide">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_5.jpg"/>
-					
-					</div><!-- about_slide -->
-					
-					<div class="about_slide">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_6.jpg"/>
-					
-					</div><!-- about_slide -->
-					
-					<div class="about_slide">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/about-slides/content_slide_7.jpg"/>
-					
-					</div><!-- about_slide -->
-					
+
 					<div id="team_trigger" class="about_arrows_count">
 					
 					<div class="about_arrow_left">
@@ -609,7 +584,7 @@ get_header(); ?>
 						
 					</div><!-- about_arrow_left -->
 					
-					<div class="about_counter"><span>1/8</span></div><!-- about_counter -->
+					<div class="about_counter"><span></span></div><!-- about_counter -->
 					
 					
 					<div class="about_arrow_right">
@@ -636,8 +611,8 @@ get_header(); ?>
 		
 		<div class="second_about_title">
 			
-			<span class="sub_header">personal injury law</span><!-- sub_header -->
-			<span class="large_header">Our Approach</span><!-- large_header -->
+			<span class="sub_header"><?php the_field( 'our_approach_sub_header' ); ?></span><!-- sub_header -->
+			<span class="large_header"><?php the_field( 'our_approach_large_header' ); ?></span><!-- large_header -->
 			<span class="about_content_orangeline"></span><!-- about_content_orangeline -->
 			
 		</div><!-- second_about_title -->
@@ -647,25 +622,17 @@ get_header(); ?>
 			
 			<div class="col">
 				
-				<span class="col_title">why choose anapol weiss?</span><!-- col_title -->
+				<span class="col_title"><?php the_field( 'our_approach_content_header' ); ?></span><!-- col_title -->
 				<span class="col_greyline"></span><!-- col_greyline -->
 				
-				<p>Since 1977, Anapol Weiss has maintained a reputation of excellence in the legal community in Philadelphia and across the country. Our firm operates under a one-firm, one-mission principle: to deliver excellence in support for those we serve. Whether we’re going up against an individual or a large, public corporation, we use the same level of diligence.</p>
-
-<p>If you search for a personal injury attorney online, several results will pop up. However, not all firms offer the same level of support and guidance. At Anapol Weiss, we look at the big picture in every case. We want to give you the best opportunity for maximum recovery in the future, but we’re also focused enacting change. When you partner with our team, you may play a key role in preventing similar incidents in the future. When individuals and companies recognize the consequences of negligence, they take preventative actions. Many of our attorneys have initiated groundbreaking changes in company policies and laws for the safety of employees, customers, and the general public. </p>
-				
+				<?php the_field( 'our_approach_col1' ); ?>
+								
 			</div><!-- col -->
 			
 			<div class="col">
 				
-				<p>If you or someone you love suffered at the hands of another, explore your options. Long-term medical care, lost income and future wages, and the emotional and physical devastation of an injury can change lives forever. Criminal prosecution only goes so far, may not apply in certain cases and can never deliver fair compensation. The attorneys at Anapol Weiss will protect your right to recovery through financial compensation and fight for justice at every step. Allow us to serve as your legal representation after a preventable accident. We will work hard to deliver the best possible outcome.</p>
+				<?php the_field( 'our_approach_col2' ); ?>
 
-<p>In addition to our headquarters in Philadelphia, PA, our clients can reach us in Harrisburg, PA, Cherry Hill, NJ, and in Scottsdale, AZ. With strategic office locations around the country, our firm handles both local and nationwide cases. After any serious injury, talk to one of our attorneys to learn more about your legal right to take action.</p>
-
-<p><strong>For a private consultation, reach out to our attorneys in Philadelphia, PA and across the country today.</strong></p>
-
-				
-				
 			</div><!-- col -->
 			
 			
@@ -685,10 +652,7 @@ get_header(); ?>
 	
 	<div class="team_title">
 		
-		<span class="top_header">A team with</span><!-- top_header -->
-		<span class="middle_header"><span class="orange">experience</span></span><!-- middle_header -->
-		<span class="bottom_header">and vision</span><!-- bottom_header -->
-		<span class="team_orangeline"></span><!-- team_orangeline -->
+		<?php the_field( 'our_team_title' ); ?>
 		
 	</div><!-- team_title -->
 	
@@ -814,7 +778,7 @@ get_header(); ?>
 			 
 				<?php while(has_sub_field('meet_the_team_slider')): ?>
 			 
-<!-- 					<?php the_sub_field('');?> -->
+
 
 
 						
@@ -894,9 +858,9 @@ get_header(); ?>
 	
 	<div class="inner_test_content">
 		
-		<img class="test_logo" src="<?php bloginfo('template_directory');?>/images/test_logo.png"/>
+		<img class="test_logo" src="<?php the_field( 'large_quote_logo' ); ?>"/>
 		<span class="test_orangeline"><span class="inner_quote_line"></span></span><!-- test_orangeline -->
-		<span id="get_started_trigger" class="testimonial_quote">“The firm goes <span class="orange">the extra mile</span> for their clients”</span><!-- testimonial_quote -->
+		<span id="get_started_trigger" class="testimonial_quote"><?php the_field( 'large_quote' ); ?></span><!-- testimonial_quote -->
 		
 	</div><!-- inner_test_content -->
 	

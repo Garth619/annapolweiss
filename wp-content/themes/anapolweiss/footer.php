@@ -8,9 +8,9 @@
 		
 		<div id="footer_wave_trigger" class="get_started_title_wrapper">
 			
-			<span class="sub_header">Free Case Evaluation</span><!-- sub_header -->
-			<span class="large_header">get started today</span><!-- large_header -->
-			<span class="info_required">*information required</span><!-- large_header -->
+			<span class="sub_header"><?php the_field( 'get_started_sub_title','option'); ?></span><!-- sub_header -->
+			<span class="large_header"><?php the_field( 'get_started_large_title','option'); ?></span><!-- large_header -->
+			<span class="info_required"><?php the_field( 'info_required','option'); ?></span><!-- large_header -->
 			<span class="get_started_orangeline"></span><!-- get_started_orangeline -->
 			
 		</div><!-- get_started_title_wrapper -->
@@ -216,7 +216,7 @@
 
 <div class="bottom_footer">
 	
-	<span class="copyright"><?php echo date("Y"); ?> Anapol Weiss. All Rights Reserved &nbsp;|&nbsp; <a class="footer_google" href="" tagret="_blank">Google +</a></span>
+	<span class="copyright"><?php echo date("Y"); ?> <?php the_field( 'copyright_text','option' ); ?> &nbsp;|&nbsp; <a class="footer_google" href="" tagret="_blank">Google +</a></span>
 	<a href="jttps://ilawyermarketing.com" targte="_blank"><img class="ilawyer_logo" src="<?php bloginfo('template_directory');?>/images/ilawyer_logo.png"/></a>
 	
 </div><!-- bottom_footer -->
