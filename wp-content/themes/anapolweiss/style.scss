@@ -16,6 +16,7 @@ Author: iLawyer Marketing (Garrett Cullen)
     box-sizing: border-box;
 
 
+
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
@@ -278,7 +279,7 @@ $slick-opacity-not-active: 0.25 !default;
                 content: $slick-dot-character;
                 width: 20px;
                 height: 20px;
-                font-family: $slick-font-family;
+                font-family: arial;
                 font-size: $slick-dot-size;
                 line-height: 20px;
                 text-align: center;
@@ -286,6 +287,7 @@ $slick-opacity-not-active: 0.25 !default;
                 opacity: $slick-opacity-not-active;
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
+                font-size: 16px;
             }
         }
         &.slick-active button:before {

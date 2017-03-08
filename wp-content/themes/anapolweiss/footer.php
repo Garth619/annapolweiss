@@ -224,7 +224,7 @@
 <div class="bottom_footer">
 	
 	<span class="copyright"><?php echo date("Y"); ?> <?php the_field( 'copyright_text','option' ); ?> &nbsp;|&nbsp; <a class="footer_google" href="<?php the_field( 'google_plus_next_to_the_copyright','option'); ?>" tagret="_blank">Google +</a></span>
-	<a href="jttps://ilawyermarketing.com" targte="_blank"><img class="ilawyer_logo" src="<?php bloginfo('template_directory');?>/images/ilawyer_logo.png"/></a>
+	<a href="https://ilawyermarketing.com" target="_blank"><img class="ilawyer_logo" src="<?php bloginfo('template_directory');?>/images/ilawyer_logo.png"/></a>
 	
 </div><!-- bottom_footer -->
 
