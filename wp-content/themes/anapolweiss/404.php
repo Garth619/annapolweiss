@@ -27,10 +27,17 @@ get_header(); ?>
 		
 		<h1>Not Found</h1>
 		
+		<div class="content">
+			
+			
+			The page you were looking for appears to have been moved, deleted or does not exist. You could go back to where you were or head straight to our home page..
+			
+			
+		</div><!-- content -->
 		
 	</div><!-- inner_page_content -->
 	
-
+	<?php include('sidebar-blog.php');?>
 	
 	
 </div><!-- inner_main_container -->

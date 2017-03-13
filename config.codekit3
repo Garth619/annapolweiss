@@ -21,12 +21,6 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
-	"\/anapol-migrate-20170301073338.sql.gz": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/anapol-migrate-20170301073338.sql.gz",
-		"oF": 0
-		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -2839,11 +2833,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-admin\/js\/common-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-admin\/js\/common-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/wp-admin\/js\/common.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/wp-admin\/js\/common-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-admin\/js\/common.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-admin\/js\/common.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2884,11 +2896,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-admin\/js\/customize-controls-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-admin\/js\/customize-controls-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/wp-admin\/js\/customize-controls.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/wp-admin\/js\/customize-controls-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-admin\/js\/customize-controls.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-admin\/js\/customize-controls.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2902,11 +2932,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-admin\/js\/customize-nav-menus-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-admin\/js\/customize-nav-menus-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/wp-admin\/js\/customize-nav-menus.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/wp-admin\/js\/customize-nav-menus-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-admin\/js\/customize-nav-menus.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-admin\/js\/customize-nav-menus.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2992,11 +3040,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-admin\/js\/editor-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-admin\/js\/editor-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/wp-admin\/js\/editor.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/wp-admin\/js\/editor-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-admin\/js\/editor.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-admin\/js\/editor.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3352,11 +3418,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-admin\/js\/tags-box-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-admin\/js\/tags-box-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/wp-admin\/js\/tags-box.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/wp-admin\/js\/tags-box-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-admin\/js\/tags-box.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-admin\/js\/tags-box.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -5005,6 +5089,12 @@
 		"oAP": "\/wp-content\/plugins\/advanced-custom-fields-pro\/core\/fields.php",
 		"oF": 0
 		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/core\/form.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/advanced-custom-fields-pro\/core\/form.php",
+		"oF": 0
+		},
 	"\/wp-content\/plugins\/advanced-custom-fields-pro\/core\/input.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -5769,7 +5859,7 @@
 		},
 	"\/wp-content\/plugins\/akismet\/_inc\/img\/logo-full-2x.png": {
 		"ft": 32768,
-		"iS": 4970,
+		"iS": 7570,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/akismet\/_inc\/img\/logo-full-2x.png",
 		"oF": 0,
@@ -5851,12 +5941,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/akismet\/views\/stats.php",
-		"oF": 0
-		},
-	"\/wp-content\/plugins\/akismet\/views\/strict.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/plugins\/akismet\/views\/strict.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/akismet\/wrapper.php": {
@@ -14777,12 +14861,6 @@
 		"oAP": "\/wp-content\/plugins\/gravityforms\/xml.php",
 		"oF": 0
 		},
-	"\/wp-content\/plugins\/hello.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/plugins\/hello.php",
-		"oF": 0
-		},
 	"\/wp-content\/plugins\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -23538,7 +23616,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/js\/custom-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/wp-content\/themes\/anapolweiss\/js\/jquery-match-height-master\/.eslintrc": {
@@ -29123,6 +29201,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-includes\/js\/customize-preview-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-includes\/js\/customize-preview-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/wp-includes\/js\/customize-preview-nav-menus.js": {
 		"ft": 64,
 		"mi": 1,
@@ -29168,11 +29255,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-includes\/js\/customize-preview.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-includes\/js\/customize-preview.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/wp-includes\/js\/customize-preview.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/wp-includes\/js\/customize-preview.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-includes\/js\/customize-selective-refresh-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-includes\/js\/customize-selective-refresh-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -29186,6 +29291,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-includes\/js\/customize-selective-refresh.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-includes\/js\/customize-selective-refresh.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/wp-includes\/js\/customize-selective-refresh.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -29195,11 +29309,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-includes\/js\/customize-views-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-includes\/js\/customize-views-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/wp-includes\/js\/customize-views.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/wp-includes\/js\/customize-views-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-includes\/js\/customize-views.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-includes\/js\/customize-views.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -29932,11 +30064,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-includes\/js\/media-views-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-includes\/js\/media-views-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/wp-includes\/js\/media-views.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/wp-includes\/js\/media-views-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-includes\/js\/media-views.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-includes\/js\/media-views.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -30633,11 +30783,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-includes\/js\/tinymce\/plugins\/wpeditimage\/plugin-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-includes\/js\/tinymce\/plugins\/wpeditimage\/plugin-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/wp-includes\/js\/tinymce\/plugins\/wpeditimage\/plugin.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/wp-includes\/js\/tinymce\/plugins\/wpeditimage\/plugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-includes\/js\/tinymce\/plugins\/wpeditimage\/plugin.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-includes\/js\/tinymce\/plugins\/wpeditimage\/plugin.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -31236,11 +31404,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-includes\/js\/wp-api-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-includes\/js\/wp-api-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/wp-includes\/js\/wp-api.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/wp-includes\/js\/wp-api-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-includes\/js\/wp-api.min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-includes\/js\/wp-api.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
