@@ -2431,16 +2431,27 @@ body.page-template-page-foundation .about_orange_box {
     font-size: 15px;
     font-family: "NewsCycle";
     line-height: 20px;
-    margin-top: 230px;
     margin-bottom: 50px;
     max-width: 315px; }
   body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .inner_about_caption {
     right: -279px;
-    top: 328px; }
+    top: 562px; }
   body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .inner_about_slider {
     margin-top: 0; }
-    body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .inner_about_slider .inner_about_slides img {
-      display: block; }
+    body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .inner_about_slider .inner_about_slides {
+      position: relative;
+      padding-top: 365px; }
+      body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .inner_about_slider .inner_about_slides .caption {
+        position: absolute;
+        bottom: 490px;
+        left: 0;
+        color: #fff;
+        font-size: 15px;
+        font-family: "NewsCycle";
+        line-height: 20px;
+        max-width: 315px; }
+      body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .inner_about_slider .inner_about_slides img {
+        display: block; }
 
 /* About */
 .inner_main_wrapper_no_sidebar {
@@ -4115,10 +4126,18 @@ body.page-template-page-staff .keep_up, body.page-template-page-staff .keep_up, 
 	}
 */
   /* Foundation */
+  body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .inner_about_caption {
+    top: 382px !important; }
+  body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .inner_about_slider .inner_about_slides .caption {
+    top: 83px; }
+  body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .inner_about_slider .inner_about_slides {
+    padding-top: 265px; }
+  body.page-template-page-foundation .inner_main_wrapper_no_sidebar {
+    padding-bottom: 270px; }
   body.page-template-page-foundation .inner_main_wrapper_no_sidebar .inner_page_content_about > h1 {
     padding-right: 10px; }
   body.page-template-page-foundation .about_orange_box {
-    height: 600px;
+    height: 550px;
     padding-left: 0; }
     body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .orange_caption {
       margin-top: 140px; }
@@ -4151,7 +4170,7 @@ body.page-template-page-staff .keep_up, body.page-template-page-staff .keep_up, 
     padding-left: 0; }
     .about_orange_box .inner_about_slider_wrapper {
       max-width: 483px;
-      margin: 80px auto 0;
+      margin: 0px auto 0;
       opacity: 1;
       visibility: visible;
       right: 0; }
@@ -5715,7 +5734,7 @@ body.page-template-page-staff .keep_up, body.page-template-page-staff .keep_up, 
     top: 130px; }
   /* Foundation */
   body.page-template-page-foundation .about_orange_box {
-    height: 500px;
+    height: 560px;
     margin-bottom: 115px; }
     body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper {
       padding-left: 10px; }
@@ -5734,12 +5753,16 @@ body.page-template-page-staff .keep_up, body.page-template-page-staff .keep_up, 
 /* Media Query */
 @media screen and (max-width: 600px) {
   /* Foundation */
-  body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper {
-    padding-left: 0; }
-    body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .orange_caption {
-      padding-left: 20px; }
-    body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .inner_about_caption {
-      display: none; }
+  body.page-template-page-foundation .about_orange_box {
+    height: 400px; }
+    body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper {
+      padding-left: 0; }
+      body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .orange_caption {
+        padding-left: 20px; }
+      body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .inner_about_caption {
+        display: none; }
+      body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .inner_about_slider .inner_about_slides .caption {
+        left: 10px; }
   /* Inner Case Results */
   .case_results_button_wrapper .inner_case_wrapper a.case_button {
     width: 100%; }
@@ -5802,3 +5825,5 @@ body.page-template-page-staff .keep_up, body.page-template-page-staff .keep_up, 
     background-size: cover; } }
 
 /* Media Query */
+
+/*# sourceMappingURL=style.css.map */

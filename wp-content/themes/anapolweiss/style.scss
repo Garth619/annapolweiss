@@ -3453,13 +3453,13 @@ footer {
 				font-size:15px;
 				font-family: $newscycle;
 				line-height: 20px;
-				margin-top:230px;
+
 				margin-bottom: 50px;
 				max-width: 315px;
 			}
 			.inner_about_caption {
 				 right: -279px;
-				 top: 328px;
+				 top: 562px;
 				span.inner_about_caption_title {
 					
 				}
@@ -3468,11 +3468,22 @@ footer {
 				}
 			}
 			.inner_about_slider {
-				margin-top:0;
 				
+			margin-top:0;
 				
 				.inner_about_slides {
-					
+					position: relative;
+					padding-top: 365px;
+					.caption {
+						position: absolute;
+						bottom: 490px;
+						left:0;
+						color:#fff;
+						font-size:15px;
+						font-family: $newscycle;
+						line-height: 20px;
+						max-width: 315px;
+					}
 					img {
 						display: block;
 					
@@ -7980,7 +7991,25 @@ footer {
 		
 	/* Foundation */
 	
+	body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .inner_about_caption {
+		top: 382px !important;
+	}
 	
+	body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .inner_about_slider .inner_about_slides .caption {
+		top: 83px;
+	}
+	
+	
+	body.page-template-page-foundation .about_orange_box .inner_about_slider_wrapper .inner_about_slider .inner_about_slides {
+		padding-top: 265px;
+	}
+	
+	
+	body.page-template-page-foundation .inner_main_wrapper_no_sidebar {
+		padding-bottom: 270px;
+	}
+	
+
 	
 	body.page-template-page-foundation {
 	
@@ -8011,9 +8040,13 @@ footer {
 	}
 	
 	
+		
+	
+	
+	
 	
 	.about_orange_box {
-		height:600px;
+		height:550px;
 		padding-left:0;
 		.inner_about_slider_wrapper {
 			.orange_caption {
@@ -8130,7 +8163,7 @@ footer {
 		padding-left:0;
 		.inner_about_slider_wrapper {
 			max-width: 483px;
-			 margin:80px auto 0;
+			 margin:0px auto 0;
 			 opacity: 1;
 			 visibility: visible;
 			 right:0;
@@ -14545,7 +14578,7 @@ body.page-template-page-contact {
 	
 	
 	.about_orange_box {
-		height:500px;
+		height:560px;
 		 margin-bottom: 115px;
 		.inner_about_slider_wrapper {
 			padding-left:10px;
@@ -14767,7 +14800,7 @@ body.page-template-page-results {
 	
 	
 	.about_orange_box {
-		
+		height:400px;
 		.inner_about_slider_wrapper {
 			padding-left:0;
 			.orange_caption {
@@ -14787,7 +14820,9 @@ body.page-template-page-results {
 				
 				
 				.inner_about_slides {
-					
+					.caption {
+						left:10px
+					}
 					img {
 						
 					}

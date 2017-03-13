@@ -66,7 +66,7 @@ get_header(); ?>
 		
 		<div class="inner_about_slider_wrapper">
 			
-			<div class="orange_caption"><?php the_field( 'foundstion_slider_caption' ); ?></div><!-- orange_caption -->
+<!-- 			<div class="orange_caption"><?php the_field( 'foundstion_slider_caption' ); ?></div> -->
 			
 			<div class="inner_about_slider">
 				
@@ -77,9 +77,15 @@ get_header(); ?>
 				 
 						<div class="inner_about_slides">
 					
-					<img src="<?php the_sub_field( 'slides' ); ?>"/>
+							
+							<div class="caption"><?php the_sub_field( 'caption' ); ?></div>
+							
+							
+							<img src="<?php the_sub_field( 'slides' ); ?>"/>
+							
+							
 					
-				</div><!-- inner_about_slides -->
+							</div><!-- inner_about_slides -->
 				    
 					<?php endwhile; ?>
 				 

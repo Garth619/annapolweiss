@@ -635,6 +635,7 @@ register_nav_menus(array(
     'car_accidents_sidebar' => 'Car Accidents Sidebar',
     'medical_malpractice_sidebar' => 'Medical Malpractice Sidebar',
     'mass_torts_sidebar' => 'Mass Torts Sidebar',
+    'class_actions_sidebar' => 'Class Actions Sidebar',
     
 ));
 

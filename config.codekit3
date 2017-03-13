@@ -24750,7 +24750,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/style.css",
 		"oF": 0,
@@ -25729,6 +25729,38 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/uploads\/2017\/02\/emily-ashe-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5579,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/02\/emily-ashe-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/02\/emily-ashe-278x300.jpg": {
+		"ft": 16384,
+		"iS": 14313,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/02\/emily-ashe-278x300.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/02\/emily-ashe-630x198.jpg": {
+		"ft": 16384,
+		"iS": 17202,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/02\/emily-ashe-630x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/02\/emily-ashe.jpg": {
+		"ft": 16384,
+		"iS": 288625,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/02\/emily-ashe.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/uploads\/2017\/02\/emily_ashe-150x150.jpg": {
 		"ft": 16384,
 		"iS": 5131,
@@ -26193,6 +26225,12 @@
 		"oAP": "\/wp-content\/uploads\/2017\/02\/Mr._Gregory_S._Spizer.vcf",
 		"oF": 0
 		},
+	"\/wp-content\/uploads\/2017\/02\/Mr._James_R._Ronca.vcf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2017\/02\/Mr._James_R._Ronca.vcf",
+		"oF": 0
+		},
 	"\/wp-content\/uploads\/2017\/02\/Mr._Joel_D._Feldman.vcf": {
 		"ft": 8192,
 		"oA": 2,
@@ -26209,6 +26247,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/uploads\/2017\/02\/Mr._Joshua_C._Cohan.vcf",
+		"oF": 0
+		},
+	"\/wp-content\/uploads\/2017\/02\/Mr._Larry_E._Coben.vcf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2017\/02\/Mr._Larry_E._Coben.vcf",
+		"oF": 0
+		},
+	"\/wp-content\/uploads\/2017\/02\/Mr._Lawrence_R._Cohan.vcf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2017\/02\/Mr._Lawrence_R._Cohan.vcf",
 		"oF": 0
 		},
 	"\/wp-content\/uploads\/2017\/02\/Mr._Ryan_D._Hurd.vcf": {
@@ -26233,6 +26283,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/uploads\/2017\/02\/Mr._Stephen_J._Pokiniewski_Jr..vcf",
+		"oF": 0
+		},
+	"\/wp-content\/uploads\/2017\/02\/Mr._Thomas_R._Anapol.vcf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2017\/02\/Mr._Thomas_R._Anapol.vcf",
 		"oF": 0
 		},
 	"\/wp-content\/uploads\/2017\/02\/Ms._Adrianne_Walwoord_Webb.vcf": {
@@ -26752,6 +26808,38 @@
 		"iS": 441865,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/03\/clay_flaherty.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/03\/emily-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5928,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/emily-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/03\/emily-278x300.jpg": {
+		"ft": 16384,
+		"iS": 15454,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/emily-278x300.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/03\/emily-631x198.jpg": {
+		"ft": 16384,
+		"iS": 18861,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/emily-631x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/03\/emily.jpg": {
+		"ft": 16384,
+		"iS": 93581,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/emily.jpg",
 		"oF": 0,
 		"opt": 0
 		},

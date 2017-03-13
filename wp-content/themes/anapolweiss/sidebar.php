@@ -41,6 +41,14 @@
 
 <?php } ?>
 
+<!-- Class Actions sidebar -->
+
+<?php if ( 269 == $post->post_parent || is_page(269) ) { ?>
+
+	<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'class_actions_sidebar' ) ); ?>
+
+<?php } ?>
+
 	
 	<div class="keep_up">
 		
