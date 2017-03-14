@@ -22795,6 +22795,26 @@
 		"oAP": "\/wp-content\/themes\/anapolweiss\/header.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/anapolweiss\/ie-only-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/ie-only-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/themes\/anapolweiss\/ie-only.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/anapolweiss\/ie-only-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/wp-content\/themes\/anapolweiss\/images\/about-slides\/content_img_1.jpg": {
 		"ft": 16384,
 		"iS": 91979,
@@ -25289,7 +25309,7 @@
 		},
 	"\/wp-content\/uploads\/2017\/02\/content_img_1.jpg": {
 		"ft": 16384,
-		"iS": 119523,
+		"iS": 92820,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/02\/content_img_1.jpg",
 		"oF": 0,
