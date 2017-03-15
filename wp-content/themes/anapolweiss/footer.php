@@ -245,7 +245,7 @@ jQuery(document).ready(function(){
 // Banners
 
 
-var bgArray = ['internal_header_img1.jpg', 'internal_header_img2.jpg', 'internal_header_img3.jpg', 'internal_header_img4.jpg','internal_header_img5.jpg', 'internal_header_img6.jpg','internal_header_img7.jpg'];
+var bgArray = ['internal_header_img1.jpg', 'internal_header_img2.jpg','internal_header_img4.jpg','internal_header_img5.jpg', 'internal_header_img6.jpg','internal_header_img7.jpg'];
   var bg = bgArray[Math.floor(Math.random() * bgArray.length)];
   var path = '<?php bloginfo('template_directory');?>/images/banners/';
   var imageUrl = path + bg;
