@@ -983,10 +983,9 @@ jQuery('.single_video_wrapper').mouseleave(function(){
 });
 
 
-// Hide wave svgs for i.e. 
 
 
-// https://codepen.io/gapcode/pen/vEJNZN
+
 
 
 

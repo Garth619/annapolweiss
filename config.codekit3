@@ -22795,26 +22795,6 @@
 		"oAP": "\/wp-content\/themes\/anapolweiss\/header.php",
 		"oF": 0
 		},
-	"\/wp-content\/themes\/anapolweiss\/ie-only-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/anapolweiss\/ie-only-min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/wp-content\/themes\/anapolweiss\/ie-only.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/anapolweiss\/ie-only-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/wp-content\/themes\/anapolweiss\/images\/about-slides\/content_img_1.jpg": {
 		"ft": 16384,
 		"iS": 91979,
@@ -23636,7 +23616,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/js\/custom-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/wp-content\/themes\/anapolweiss\/js\/jquery-match-height-master\/.eslintrc": {
@@ -24852,7 +24832,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/anapolweiss\/style.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/wp-content\/themes\/anapolweiss\/svgtest.html": {
