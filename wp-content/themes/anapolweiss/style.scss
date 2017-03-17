@@ -3289,6 +3289,22 @@ footer {
 	}
 	
 	
+	body.page-template-page-aboutus, body.page-template-page-foundation {
+	
+		.inner_page_orangeline {
+	
+			span.line {
+				top:110px;
+			}
+			
+	}
+	
+	}
+	
+	
+	
+	
+	
 	/* Profile Grid */
 	
 	
@@ -4067,7 +4083,7 @@ footer {
 	.sidebar {
 		width:40%;
 		float:right;
-		margin-top:130px;
+		margin-top:20px;
 		padding-left:55px;
 		max-width:470px;
 		padding-right:30px;
@@ -4769,12 +4785,12 @@ ol.commentlist {
 					> a {
 						color: $orange;
 						text-decoration: none;
-						border-bottom: 1px solid #d4d4d4;
+						border-bottom: 3px solid #d4d4d4;
 						margin-bottom: 25px;
 						padding-bottom: 22px;
 						display: block;
 						width:100%;
-						padding-left:20px;
+						padding-left:10px;
 						transition: all .2s ease-in-out;
 						&:hover {
 							color:$bluedark;
@@ -5299,6 +5315,13 @@ body.page-template-page-staff, body.page-template-page-staff, body.page-template
 		margin-top:0;
 	}
 }
+
+
+
+
+
+
+
 
 
 	
@@ -11295,7 +11318,7 @@ body.page-template-page-videos {
 	body.page-template-page-foundation {
 		
 		.inner_page_orangeline {
-			top:10px;
+			top:0px;
 		}
 	
 	.inner_main_wrapper_no_sidebar {
@@ -12602,7 +12625,7 @@ header {
 	body.page-template-page-foundation {
 		
 		.inner_page_orangeline {
-			top:170px;
+			top:90px;
 		}
 	
 	.inner_main_wrapper_no_sidebar {
@@ -14638,7 +14661,10 @@ body.page-template-page-contact {
 
 	}
 	
-
+	
+	body.page-template-page-foundation .inner_page_orangeline span.line {
+    top: 20px;
+}
 
 	
 /* Inner Case Results */
@@ -15409,7 +15435,7 @@ body.page-template-page-results {
    width: 100%;
    display: block;
    font-size: 14px;
-   color: #fff;
+   color: #fff !important;
    border-radius: 6px;
    background-color: #0c3f59 ; /* change */
    text-align: center;
