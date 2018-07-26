@@ -514,7 +514,20 @@ header, section, nav, footer {
 }
 
 
+.wistia_click_to_play {
+   width: 100% !important;
+   height: 100% !important;
+ }
+
+.wistia_click_to_play div div {
+	display: none !important;
+}
+
+
 /* Content */
+
+
+
 
 
 .content {
@@ -875,12 +888,13 @@ header {
 				.play_button_wrapper {
 					display: inline-block;
 				}
-				a.play_button {
+				.play_button {
 					display: block;
 					position: relative;
 					width:153px;
 					margin:0 auto;
 					height: 153px;
+					cursor:pointer;
 					img {
 						position: absolute;
 						top:0;

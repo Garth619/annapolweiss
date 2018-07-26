@@ -15,22 +15,15 @@ get_header(); ?>
 		
 		<a href="tel:866.735.2792" class="mobile_tel_banner"><?php the_field( 'phone_number','option'); ?></a><!-- mobile_tel -->
 		
-		<div class="play_button_wrapper">
-		
-<!--
-		
-<script src="//fast.wistia.com/embed/medias/iqptxo13jy.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_iqptxo13jy popover=true popoverContent=link" style="display:inline">
--->
-
-	
-
-		<a class="play_button" href="#">
+		<div class="play_button_wrapper wistia_embed wistia_async_iqptxo13jy popover=true popoverContent=html">
+			
+		<span class="play_button">
 			
 			<img class="play_reg" src="<?php bloginfo('template_directory');?>/images/video_play_button.png"/>
 			<img class="play_hover" src="<?php bloginfo('template_directory');?>/images/video_play_button_hover.png"/>
 			
 			
-		</a><!-- play_button -->
+		</span><!-- play_button -->
 
 </div><!-- play_button_wrapper -->
 
