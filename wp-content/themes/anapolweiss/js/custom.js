@@ -355,13 +355,43 @@ jQuery('.locations_mobile_next_wrapper').mouseleave(function(){
 
 
 
-jQuery('.cases_grid_mobile').slick({
+
+
+/*
+
+
+function casegridMobile() {
+	
+	jQuery('.cases_grid_mobile').slick({
   	slidesToShow: 1,
 		slidesToScroll: 1,
 		arrows:false,
 		dots:false,
 
 });
+	
+	
+}
+
+
+
+jQuery('#lazy_cases_mobile').lazyload({
+    load: casegridMobile,
+  });
+  
+*/
+  
+  
+
+
+
+
+
+
+
+
+
+
 
 
 // Stats
@@ -460,7 +490,7 @@ jQuery('.about_slide_inner').slick({
 
 
 
-
+function aboutslides() {
 
 
     var $status = jQuery('.about_counter span');
@@ -483,6 +513,16 @@ jQuery('.about_slide_inner').slick({
 				prevArrow:".about_arrow_left",
 				nextArrow:".about_arrow_right"
     });
+    
+    
+  }
+    
+
+   
+ jQuery('#about_lazy').lazyload({
+    load: aboutslides,
+  });
+
 
 
 
@@ -737,13 +777,13 @@ function checkWidth() {
        
        jQuery('.cases_grid.desktop .single_case').mouseenter(function(){
 	       
-	      jQuery(this).find('.hover_case').fadeIn();
+	      jQuery(this).find('.hover_case').addClass('fade');
 	       
 	     });
 	     
 	     jQuery('.cases_grid.desktop .single_case').mouseleave(function(){
 	       
-	      jQuery(this).find('.hover_case').fadeOut();
+	      jQuery(this).find('.hover_case').removeClass('fade');
 	       
 	     });
     		
@@ -984,7 +1024,13 @@ jQuery('.single_video_wrapper').mouseleave(function(){
 
 
 
+ jQuery(function() {
+	jQuery('.lazy').Lazy();
+});
 
+
+	
+jQuery('#lazy_slick').lazyload();
 
 
 

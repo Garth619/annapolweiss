@@ -17,8 +17,10 @@ get_header(); ?>
 		
 		<div class="play_button_wrapper">
 		
+<!--
 		
 <script src="//fast.wistia.com/embed/medias/iqptxo13jy.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_iqptxo13jy popover=true popoverContent=link" style="display:inline">
+-->
 
 	
 
@@ -58,7 +60,7 @@ get_header(); ?>
 		
 	</div><!-- inner_main_content -->
 	
-	<video src="<?php bloginfo('template_directory');?>/images/videobg.mp4" loop autoplay></video>
+<!-- 	<video src="<?php bloginfo('template_directory');?>/images/videobg.mp4" loop autoplay></video> -->
 	
 	<div class="video_overlay">
 		
@@ -246,7 +248,7 @@ get_header(); ?>
 			
 			</div><!-- about_title -->
 			
-			<img class="content_img" src="<?php the_field( 'about_image' ); ?>"/>
+			<img class="content_img lazy" data-src="<?php the_field( 'about_image' ); ?>"/>
 			
 		</div><!-- about_left -->
 		<div class="about_right">
@@ -308,10 +310,11 @@ get_header(); ?>
 </div><!-- featured_title_wrapper -->
 
 
+<div id="lazy_cases_mobile">
 
 
 
-
+<!--
 <div class="cases_grid_mobile">
 	
 
@@ -327,18 +330,18 @@ get_header(); ?>
 		
 					<div class="regular_case">
 				
-					<span class="case_number"><?php the_sub_field( 'number_amount' ); ?></span><!-- case_number -->
-					<span class="case_dollar_amount"><?php the_sub_field( 'dollar_title' ); ?></span><!-- case_dollar_amount -->
-					<span class="case_greyline"></span><!-- case_greyline -->
-					<span class="case_category"><?php the_sub_field( 'case_type' ); ?></span><!-- case_category -->
+					<span class="case_number"><?php the_sub_field( 'number_amount' ); ?></span>
+					<span class="case_dollar_amount"><?php the_sub_field( 'dollar_title' ); ?></span>
+					<span class="case_greyline"></span>
+					<span class="case_category"><?php the_sub_field( 'case_type' ); ?></span>
 				
 					<div class="img_wrapper">
 				
 						<img class="case_arrow" src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
 				
-					</div><!-- img_wrapper -->
+					</div>
 				
-				</div><!-- regular_case -->
+				</div>
 		
 				<a>
 		
@@ -352,15 +355,15 @@ get_header(); ?>
 						
 							<span><?php the_sub_field( 'case_result_summary_content' ); ?></span>
 					
-						</div><!-- hover_case_content -->
+						</div>
 					
-					</div><!-- hover_case_inner -->
+					</div>
 				
-				</div><!-- hover_case -->
+				</div>
 		
 			</a>
 		
-		</div><!-- single_case -->
+		</div>
 
 			
 		    
@@ -369,7 +372,14 @@ get_header(); ?>
 		<?php endif; ?>
 		
 				
-</div><!-- cases_grid -->
+</div>
+-->
+
+</div><!-- cases_grid_mobile -->
+
+
+
+
 
 
 
@@ -386,18 +396,18 @@ get_header(); ?>
 		
 				<div class="regular_case">
 				
-					<span class="case_number"><?php the_sub_field( 'number_amount' ); ?></span><!-- case_number -->
-					<span class="case_dollar_amount"><?php the_sub_field( 'dollar_title' ); ?></span><!-- case_dollar_amount -->
-					<span class="case_greyline"><span class="inner_line"></span></span><!-- case_greyline -->
-					<span class="case_category"><?php the_sub_field( 'case_type' ); ?></span><!-- case_category -->
+					<span class="case_number"><?php the_sub_field( 'number_amount' ); ?></span>
+					<span class="case_dollar_amount"><?php the_sub_field( 'dollar_title' ); ?></span>
+					<span class="case_greyline"><span class="inner_line"></span></span>
+					<span class="case_category"><?php the_sub_field( 'case_type' ); ?></span>
 				
 					<div class="img_wrapper">
 				
-						<img class="case_arrow" src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
+						<img class="case_arrow lazy" data-src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
 				
-					</div><!-- img_wrapper -->
+					</div>
 				
-				</div><!-- regular_case -->
+				</div>
 		
 				<a>
 		
@@ -407,19 +417,19 @@ get_header(); ?>
 					
 						<div class="hover_case_content">
 					
-							<img src="<?php the_sub_field( 'case_result_logo' ); ?>"/>
+							<img class="lazy" data-src="<?php the_sub_field( 'case_result_logo' ); ?>"/>
 						
 							<span><?php the_sub_field( 'case_result_summary_content' ); ?></span>
 					
-						</div><!-- hover_case_content -->
+						</div>
 					
-					</div><!-- hover_case_inner -->
+					</div>
 				
-				</div><!-- hover_case -->
+				</div>
 		
 			</a>
 		
-		</div><!-- single_case -->
+		</div>
 			
 	    
 		<?php endwhile; ?>
@@ -429,7 +439,10 @@ get_header(); ?>
 	
 	
 		
-</div><!-- cases_grid -->
+</div>
+
+
+
 	
 	<div style="clear:both"></div>
 	
@@ -547,14 +560,20 @@ get_header(); ?>
 			</div><!-- about_orange_box -->
 			
 			
+			<div id="about_lazy">
+			
+			
+<!--
 			<div id="arrows_animation_trigger" class="about_slider_wrapper">
 				
 				<div class="slider_caption">
 					
-					<span class="slider_caption_title"><?php the_field( 'our_approach_slider_caption' ); ?></span><!-- slider_caption_title -->
-					<span class="caption_line"></span><!-- caption_line -->
+					<span class="slider_caption_title"><?php the_field( 'our_approach_slider_caption' ); ?></span>
+					<span class="caption_line"></span>
 				
-				</div><!-- slider_caption -->
+				</div>
+				
+				
 				
 				<div class="about_slide_inner">
 					
@@ -567,7 +586,7 @@ get_header(); ?>
 					
 								<img src="<?php the_sub_field( 'slide' ); ?>"/>
 					
-							</div><!-- about_slide -->
+							</div>
 					
 			
 					    <?php endwhile; ?>
@@ -582,9 +601,9 @@ get_header(); ?>
 						<img class="about_arrow_left_img" src="<?php bloginfo('template_directory');?>/images/content_left_arrow.png"/>
 						<img class="about_arrow_left_hover" src="<?php bloginfo('template_directory');?>/images/content_left_arrow_orange.png"/>
 						
-					</div><!-- about_arrow_left -->
+					</div>
 					
-					<div class="about_counter"><span></span></div><!-- about_counter -->
+					<div class="about_counter"><span></span></div>
 					
 					
 					<div class="about_arrow_right">
@@ -592,15 +611,18 @@ get_header(); ?>
 						<img class="about_arrow_right_img" src="<?php bloginfo('template_directory');?>/images/content_right_arrow.png"/>
 						<img class="about_arrow_right_hover" src="<?php bloginfo('template_directory');?>/images/content_right_arrow_orange.png"/>
 						
-					</div><!-- about_arrow_right -->
+					</div>
 					
-				</div><!-- about_arrows_count -->
+				</div>
 				
-				</div><!-- about_slide_inner -->
+				</div>
 				
 				
 				
-			</div><!-- about_slider_wrapper -->
+			</div>
+-->
+			
+			</div><!-- about lazy loader -->
 			
 		</div><!-- about_left_inner -->
 		
@@ -853,7 +875,7 @@ get_header(); ?>
 	
 </section><!-- team -->
 
-<section class="large_quote">
+<section class="large_quote lazy" data-src="<?php bloginfo('template_directory');?>/images/test_bg.jpg">
 	
 	
 	<div class="inner_test_content">
