@@ -581,7 +581,7 @@ function my_jquery_enqueue() {
 
  function load_my_styles_scripts() {
      // Load my stylesheet
-     wp_enqueue_style( 'styles', get_stylesheet_uri(), '', 6, 'all' ); 
+     //wp_enqueue_style( 'styles', get_stylesheet_uri(), '', 6, 'all' ); 
 
      // Load my javascripts
      wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), '', true );
@@ -725,6 +725,36 @@ function is_tree($pid) {      // $pid = The ID of the page we're looking for pag
 	else 
                return false;  // we're elsewhere
 };
+
+
+
+
+/*
+add_action( 'wp_head', 'internal_css_print' );
+function internal_css_print() {
+   echo '<style>';
+   
+   include_once get_template_directory() . '/style.css';
+  
+   echo '</style>';
+}
+*/
+
+
+
+add_action( 'wp_head', 'merge_include_css' );
+function merge_include_css() {
+    $theme = wp_get_theme();
+    $styles = '';
+
+    $styles = file_get_contents( get_stylesheet_directory().'/style.css' );
+    $styles = str_replace( "images", "/wp-content/themes/$theme->template/images", $styles );
+    $styles = str_replace( "fonts", "/wp-content/themes/$theme->template/fonts", $styles );
+
+    echo '<style>';
+    echo $styles;
+    echo '</style>';
+}
 
 
 

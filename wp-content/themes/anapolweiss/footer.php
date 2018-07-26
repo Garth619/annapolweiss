@@ -224,7 +224,7 @@
 <div class="bottom_footer">
 	
 	<span class="copyright"><?php echo date("Y"); ?> <?php the_field( 'copyright_text','option' ); ?> &nbsp;|&nbsp; <a class="footer_google" href="<?php the_field( 'google_plus_next_to_the_copyright','option'); ?>" tagret="_blank">Google +</a></span>
-	<a href="https://ilawyermarketing.com" target="_blank"><img class="ilawyer_logo" src="<?php bloginfo('template_directory');?>/images/ilawyer_logo.png"/></a>
+	<a href="https://ilawyermarketing.com" target="_blank"><img class="ilawyer_logo lazy" data-src="<?php bloginfo('template_directory');?>/images/ilawyer_logo.png"/></a>
 	
 </div><!-- bottom_footer -->
 
@@ -306,92 +306,11 @@ jQuery(document).ready(function(){
 	    
     });
 
-    
-    
-    
-    
-   
-    
-    
+
    
     
   }
 })
-
-
-
-
-
-// About
-
-	var waypoint = new Waypoint({
-  element: document.getElementById('about_waypoint'),
-  handler: function(direction) {
-    
-    
-    
-    jQuery('section.about span.header_line').addClass('fadein');
-    jQuery('section.about img.content_img').addClass('fadein');
-    jQuery('section.about .greyline').addClass('fadein');
-    
-  }
-})
-
-
-
-// Wavy One
-
-
-
-	var waypointwave = new Waypoint({
-  element: document.getElementById('wavy_one_trigger'),
-  handler: function(direction) {
-    
-    
-    
-    jQuery('.wavy_one').addClass('fadein');
-
-
-    
-  }
-})
-
-
-// Featured Line
-
-
-
-	var waypointfeaturedline = new Waypoint({
-  element: document.getElementById('featured_line_trigger'),
-  handler: function(direction) {
-    
-    
-    
-   
-    jQuery('span.featured_orange_line').addClass('fadein');
-
-    
-  }
-})
-
-
-// Grid Line Trigger
-
-
-var waypointwave = new Waypoint({
-  element: document.getElementById('grid_line_trigger'),
-  handler: function(direction) {
-    
-    
-    
-
-    jQuery('span.case_greyline').addClass('fadein');
-
-    
-  }
-})
-
-
 
 
 // Wavy Blog
@@ -415,78 +334,6 @@ var waypointwave = new Waypoint({
   }
 })
 
-
-
-
-
-
-
-// Second About
-
-
-var waypointsecondabout = new Waypoint({
-  element: document.getElementById('second_about_trigger'),
-  handler: function(direction) {
-    
-    
-    
-    jQuery('.about_orange_box').addClass('fadein');
-    jQuery('.about_slider_wrapper').addClass('fadein');
-    jQuery('.about_content_orangeline').addClass('fadein');
-    
-
-    
-  }
-})
-
-
-
-// Second About Arrows Animation
-
-var waypointsecondaboutarrows = new Waypoint({
-  element: document.getElementById('arrows_animation_trigger'),
-  handler: function(direction) {
-    
-    
-    
-    jQuery('.about_orange_box').addClass('fadein');
-    jQuery('.about_arrows_count').addClass('fadein');
-    
-
-    
-  }
-})
-
-
-
-// Team
-
-var waypointteam = new Waypoint({
-  element: document.getElementById('team_trigger'),
-  handler: function(direction) {
-    
-    
-    
-    jQuery('span.team_orangeline').addClass('fadein');
-
-    
-  }
-})
-
-
-// Quote
-
-var waypointquote = new Waypoint({
-  element: document.getElementById('quote_line_trigger'),
-  handler: function(direction) {
-    
-    
-    
-    jQuery('span.inner_quote_line').addClass('fadein');
-
-    
-  }
-})
 
 
 
@@ -713,9 +560,5 @@ var waypointinnerpage = new Waypoint({
 
 
 <?php endif;?>
-
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery-lazyload-any/src/jquery.lazyload-any-min.js"></script>
-
 </body>
 </html>

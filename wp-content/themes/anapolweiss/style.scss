@@ -1347,7 +1347,8 @@ header {
 				}
 				span.header_line {
 					display:block;
-					width:0%;
+					width:60%;
+// 					width:0%;
 					height:2px;
 					background: $orange;
 					position:absolute;
@@ -1367,7 +1368,8 @@ header {
 				position: relative;
 				float:right;
 				z-index:5;
-				left:-1000px;
+				left:0px;
+// 				left:-1000px;
 				width:100%;
 				float:right;
 				-webkit-transition: all 1500ms cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -2185,7 +2187,8 @@ section.blog {
 				height:678px;
 				width:100%;
 				position: relative;
-				top:180px;
+				top:0;
+// 				top:180px;
 				transition: all 1s ease-in-out;
 				
 
@@ -2213,9 +2216,14 @@ section.blog {
 	float:right;
 	max-width:567px;
 	position: relative;
+	opacity: 1;
+	visibility: visible;
+	left:0px;
+/*
 	opacity: 0;
 	visibility: hidden;
 	left:-800px;
+*/
 	-webkit-transition: all 1300ms cubic-bezier(0.165, 0.84, 0.44, 1);
 	  transition:         all 1300ms cubic-bezier(0.165, 0.84, 0.44, 1);
 	.slider_caption {
@@ -2242,9 +2250,10 @@ section.blog {
 		}
 	}	
 	.about_slide_inner {
+		width:567px;
 		.about_slide {
 			width:100%;
-			display: block;
+			display: block !important;
 			img {
 				max-width: 100%;
 				height:auto;
@@ -2371,8 +2380,12 @@ section.blog {
 	flex-direction: row;
 	align-items: center;
 	margin-top:20px;
+	opacity: 1;
+	visibility: visible;
+/*
 	opacity: 0;
 	visibility: hidden;
+*/
 	transition: all .4s ease-in-out;
 	.about_arrow_left {
 		
@@ -2459,7 +2472,8 @@ section.blog {
 			position: absolute;
 			top:125px;
 			left:0;
-			width:0px;
+			width:240px;
+// 			width:0px;
 			height:2px;
 			background: $orange;
 			transition: all 1s ease-in-out;
@@ -2754,7 +2768,8 @@ section.blog {
 			margin:30px auto 40px;
 			span.inner_quote_line {
 				width:1px;
-				height:0px;
+				height:75px;
+// 				height:0px;
 				background: $orange;
 				display: block;
 				transition: all .6s ease-in-out;

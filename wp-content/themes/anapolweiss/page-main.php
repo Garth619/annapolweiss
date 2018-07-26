@@ -35,7 +35,7 @@ get_header(); ?>
 </div><!-- play_button_wrapper -->
 
 
-</span>
+<!-- </span> -->
 		
 
 		
@@ -220,15 +220,15 @@ get_header(); ?>
 			
 			<div class="stat_left">
 				
-				<img class="stat_left_regular" src="<?php bloginfo('template_directory');?>/images/content_left_arrow.png"/>
-				<img class="stat_left_hover" src="<?php bloginfo('template_directory');?>/images/content_left_arrow_orange.png"/>
+				<img class="stat_left_regular lazy" data-src="<?php bloginfo('template_directory');?>/images/content_left_arrow.png"/>
+				<img class="stat_left_hover lazy" data-src="<?php bloginfo('template_directory');?>/images/content_left_arrow_orange.png"/>
 				
 			</div><!-- stat_left -->
 			
 			<div class="stat_right">
 				
-				<img class="stat_right_regular" src="<?php bloginfo('template_directory');?>/images/content_right_arrow.png"/>
-				<img class="stat_right_hover" src="<?php bloginfo('template_directory');?>/images/content_right_arrow_orange.png"/>
+				<img class="stat_right_regular lazy" data-src="<?php bloginfo('template_directory');?>/images/content_right_arrow.png"/>
+				<img class="stat_right_hover lazy" data-src="<?php bloginfo('template_directory');?>/images/content_right_arrow_orange.png"/>
 				
 			</div><!-- stat_left -->
 			
@@ -522,7 +522,7 @@ get_header(); ?>
 				<div class="next_wrapper">
 					
 					<span>View More</span>
-					<img src="<?php bloginfo('template_directory');?>/images/blog_white_arrow.png"/>
+					<img class="lazy" data-src="<?php bloginfo('template_directory');?>/images/blog_white_arrow.png"/>
 				
 				</div><!-- next_wrapper -->
 			
@@ -680,8 +680,9 @@ get_header(); ?>
 	
 	
 	
+	<div id="team_lazy">
 	
-	
+<!--
 <div class="team_slider">
 	
 	<div class="top_slide_row">
@@ -702,13 +703,13 @@ get_header(); ?>
 					
 					
 				
-				</div><!-- button_arrow -->
+				</div><
 				 
 				 Prev
 		
-			</div><!-- team_back -->
+			</div>
 		
-			<span class="divider"></span><!-- divider -->
+			<span class="divider"></span>
 		
 			<div class="team_next">
 		
@@ -722,13 +723,13 @@ get_header(); ?>
 					
 					
 				
-				</div><!-- button_arrow -->
+				</div>
 		
-			</div><!-- team_next -->
+			</div>
 		
-		</div><!-- team_buttons -->
+		</div>
 	
-	</div><!-- team_button_outer -->
+	</div>
 	
 	
 	<div class="slider_thumbs_wrapper">
@@ -744,7 +745,7 @@ get_header(); ?>
 
 						if( $post_object ): 
 
-						// override $post
+						
 						$post = $post_object;
 						setup_postdata( $post ); ?>
     
@@ -754,23 +755,23 @@ get_header(); ?>
 				
 								<img src="<?php the_field( 'my_profile_image' ); ?>"/>
 				
-							</div><!-- img_wrapper -->
+							</div>
 			
 							<div class="thumb_overlay">
 				
 								<div class="thumb_title_wrapper">
 				
 									<span class="thumb_orange_line"></span>
-									<span class="thumb_title"><?php the_title();?></span><!-- thumb_title -->
+									<span class="thumb_title"><?php the_title();?></span>
 				
-								</div><!-- thumb_title_wrapper -->
+								</div>
 				
-						</div><!-- thumb_overlay -->
+						</div>
 			
-					</div><!-- single_thumb -->
+					</div>
     
     
-					<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+					<?php wp_reset_postdata();?>
 					<?php endif; ?>
 			
 			
@@ -780,11 +781,11 @@ get_header(); ?>
 		<?php endif; ?>
 		
 		
-	</div><!-- slider_thumbs_wrapper -->
+	</div>
 	
 	
 	
-	</div><!-- top_slide_row -->
+	</div>
 	
 	
 	
@@ -808,7 +809,7 @@ get_header(); ?>
 
 						if( $post_object ): 
 
-						// override $post
+						
 						$post = $post_object;
 						setup_postdata( $post ); ?>
 						
@@ -820,26 +821,26 @@ get_header(); ?>
 					
 									<img src="<?php the_field( 'my_profile_image' ); ?>"/>
 					
-								</div><!-- main_slide_left -->
+								</div>
 				
 							<div class="main_slide_right">
 					
-								<span class="slide_title"><?php the_title();?></span><!-- slide_title -->
-								<span class="slide_position"><?php the_field( 'position' ); ?></span><!-- slide_position -->
+								<span class="slide_title"><?php the_title();?></span>
+								<span class="slide_position"><?php the_field( 'position' ); ?></span>
 					
 								<div class="slide_content">
 						
-									<span class="slide_content_title"><?php the_sub_field('bio_question');?></span><!-- slide_content_title -->
+									<span class="slide_content_title"><?php the_sub_field('bio_question');?></span>
 						
 									<p><?php the_sub_field('bio_answer');?></p>
 						
-								</div><!-- slide_content -->
+								</div>
 					
-								<a id="quote_line_trigger" href="<?php the_permalink();?>" class="view_profile">View Profile</a><!-- view_profile -->
+								<a id="quote_line_trigger" href="<?php the_permalink();?>" class="view_profile">View Profile</a>
 					
-						</div><!-- main_slide_right -->
+						</div>
 				
-			</div><!-- single_main_slide -->
+			</div>
     
 						    
     
@@ -861,16 +862,24 @@ get_header(); ?>
 		
 				<span class="counter_inner"></span>
 		
-		</div><!-- team_counter -->
+		</div>
 		
 
-		</div><!-- slide_main_inner -->
+		</div>
 		
 		
-		</div><!-- team_slider -->
 		
 		
-	</div><!-- slide_main_wrapper -->
+		
+	</div>
+	
+	</div>
+-->
+
+
+<!-- team_slider -->
+
+</div><!-- team_lazy -->
 	
 	
 </section><!-- team -->
@@ -880,7 +889,7 @@ get_header(); ?>
 	
 	<div class="inner_test_content">
 		
-		<img class="test_logo" src="<?php the_field( 'large_quote_logo' ); ?>"/>
+		<img class="test_logo lazy" data-src="<?php the_field( 'large_quote_logo' ); ?>"/>
 		<span class="test_orangeline"><span class="inner_quote_line"></span></span><!-- test_orangeline -->
 		<span id="get_started_trigger" class="testimonial_quote"><?php the_field( 'large_quote' ); ?></span><!-- testimonial_quote -->
 		
