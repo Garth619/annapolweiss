@@ -137,11 +137,12 @@
 			
 			<span class="my_posted_info">Posted By <span class="orange"><?php the_author(); ?></span> on this <span class="orange"><?php $pfx_date = get_the_date(); ?><?php echo $pfx_date ;?></span>  at  <?php the_time(); ?>  </span>
 			
-			<div class="my_share">
-				
-				<?php echo do_shortcode('[ssba]'); ?>
-				
-			</div><!-- my_share -->
+			<div class="my_share" style="border-bottom:none;">
+						
+						<?php // echo do_shortcode('[ssba]'); ?>
+						
+					</div><!-- my_share -->
+
 			
 
 	
