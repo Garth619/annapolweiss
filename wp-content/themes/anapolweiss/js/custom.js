@@ -338,48 +338,6 @@ jQuery('.locations_mobile_next_wrapper').mouseleave(function(){
 
 
 
-// Featured Cases
-
-
-
-
-
-/*
-
-
-function casegridMobile() {
-	
-	jQuery('.cases_grid_mobile').slick({
-  	slidesToShow: 1,
-		slidesToScroll: 1,
-		arrows:false,
-		dots:false,
-
-});
-	
-	
-}
-
-
-
-jQuery('#lazy_cases_mobile').lazyload({
-    load: casegridMobile,
-  });
-  
-*/
-  
-  
-
-
-
-
-
-
-
-
-
-
-
 
 // Stats
 
@@ -796,7 +754,18 @@ function checkWidth() {
 };
 
 
-checkWidth();
+// checkWidth();
+
+
+
+
+jQuery('#lazy_cases').lazyload({
+	
+	load:checkWidth,
+});
+
+
+
 
 
 // Case Results Mobile
@@ -804,6 +773,24 @@ checkWidth();
 
 
 
+// Featured Cases
+
+
+
+
+
+
+
+
+function casegridMobile() {
+	
+	jQuery('.cases_grid_mobile').slick({
+  	slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows:false,
+		dots:false,
+
+});
 
 
 
@@ -821,6 +808,20 @@ jQuery('.cases_grid_mobile .hover_case').click(function(){
 	
 	
 });
+	
+	
+}
+
+
+
+jQuery('#lazy_cases_mobile').lazyload({
+    load: casegridMobile,
+  });
+  
+
+
+
+
 
 
 
@@ -1012,7 +1013,7 @@ jQuery('.single_video_wrapper').mouseleave(function(){
 
 
 	
-jQuery('#lazy_slick').lazyload();
+
 
 
 

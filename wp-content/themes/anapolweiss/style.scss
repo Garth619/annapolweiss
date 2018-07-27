@@ -603,7 +603,6 @@ img.aligncenter {
 
 
 
-
 /* Header */
 
 
@@ -887,6 +886,18 @@ header {
 				}
 				.play_button_wrapper {
 					display: inline-block;
+					position: relative;
+				}
+				.wistia_overlay_main {
+					position: absolute;
+					top:0;
+					left:0;
+					width:100%;
+					height:100%;
+					cursor: pointer;
+// 					background: red;
+					z-index:1;
+					
 				}
 				.play_button {
 					display: block;
@@ -7178,6 +7189,10 @@ body.page-template-page-results {
 	}
 	
 	
+	.about_slider_wrapper .about_slide_inner {
+		width:100%;
+	}
+	
 	
 	
 	
@@ -11701,6 +11716,10 @@ img.aligncenter {
 
 
 
+
+
+
+
 @media screen and (max-width: 770px) {
 	
 	
@@ -12988,7 +13007,12 @@ body.page-template-page-results {
 @media screen and (max-width: 675px) {
 	
 	
-	
+	.about .about_inner .about_left img.content_img {
+		opacity: 0;
+		visibility: hidden;
+		position: absolute;top:0;
+		left:-1000px;
+	}
 	
 	.inner_page_content {
 			
@@ -13254,7 +13278,7 @@ background:url(images/tablet_header_bg.jpg) top center;
 					font-family: $butlermedium;
 					margin-bottom:60px;
 			}
-				a.play_button {
+				.play_button {
 					width:125px;
 					height:125px;
 					img {

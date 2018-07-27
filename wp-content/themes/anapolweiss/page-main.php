@@ -15,7 +15,13 @@ get_header(); ?>
 		
 		<a href="tel:866.735.2792" class="mobile_tel_banner"><?php the_field( 'phone_number','option'); ?></a><!-- mobile_tel -->
 		
-		<div class="play_button_wrapper wistia_embed wistia_async_iqptxo13jy popover=true popoverContent=html">
+		<div class="play_button_wrapper">
+			
+			<div class="wistia_overlay_main wistia_embed wistia_async_iqptxo13jy popover=true popoverContent=html">
+				
+				
+				
+			</div><!-- wistia_overlay_main -->
 			
 		<span class="play_button">
 			
@@ -28,7 +34,7 @@ get_header(); ?>
 </div><!-- play_button_wrapper -->
 
 
-<!-- </span> -->
+
 		
 
 		
@@ -372,10 +378,11 @@ get_header(); ?>
 
 
 
+<div id="lazy_cases">
 
 
 
-
+<!--
 <div class="cases_grid desktop">
 	
 	
@@ -396,7 +403,7 @@ get_header(); ?>
 				
 					<div class="img_wrapper">
 				
-						<img class="case_arrow lazy" data-src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
+						<img class="case_arrow" src="<?php bloginfo('template_directory');?>/images/results_orange_arrow.png"/>
 				
 					</div>
 				
@@ -410,7 +417,7 @@ get_header(); ?>
 					
 						<div class="hover_case_content">
 					
-							<img class="lazy" data-src="<?php the_sub_field( 'case_result_logo' ); ?>"/>
+							<img src="<?php the_sub_field( 'case_result_logo' ); ?>"/>
 						
 							<span><?php the_sub_field( 'case_result_summary_content' ); ?></span>
 					
@@ -433,6 +440,10 @@ get_header(); ?>
 	
 		
 </div>
+-->
+
+
+</div><!-- lazy_cases -->
 
 
 
